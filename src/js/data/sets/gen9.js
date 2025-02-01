@@ -854,8 +854,8 @@ var SETDEX_SV = {
 		"Youngster Josh": {
 			"ability": "Sturdy",
 			"evs": {
-				"atk": 100,
-				"spd": 100
+				"at": 100,
+				"sp": 100
 			},
 			"index": 0,
 			"item": "Berry Juice",
@@ -1451,9 +1451,9 @@ var SETDEX_SV = {
 		"Fisherman Ivan": {
 			"ability": "Adaptability",
 			"evs": {
-				"atk": 252,
-				"spa": 4,
-				"spe": 252
+				"at": 252,
+				"sa": 4,
+				"sp": 252
 			},
 			"index": 0,
 			"item": "Mystic Water",
@@ -2674,8 +2674,8 @@ var SETDEX_SV = {
 		"Fisherman Ivan": {
 			"ability": "Rough Skin",
 			"evs": {
-				"atk": 252,
-				"spd": 252
+				"at": 252,
+				"sd": 252
 			},
 			"index": 1,
 			"item": "",
@@ -3685,8 +3685,8 @@ var SETDEX_SV = {
 		"Fisherman Ivan": {
 			"ability": "Adaptability",
 			"evs": {
-				"atk": 252,
-				"spd": 236
+				"at": 252,
+				"sd": 236
 			},
 			"index": 2,
 			"item": "",
@@ -3758,9 +3758,9 @@ var SETDEX_SV = {
 		"Hiker Marc": {
 			"ability": "Sheer Force",
 			"evs": {
-				"atk": 100,
-				"spd": 16,
-				"spe": 100
+				"at": 100,
+				"sd": 16,
+				"sp": 100
 			},
 			"index": 2,
 			"item": "Salac Berry",
@@ -5052,8 +5052,8 @@ var SETDEX_SV = {
 		"Youngster Tommy": {
 			"ability": "Sturdy",
 			"evs": {
-				"atk": 8,
-				"def": 100,
+				"at": 8,
+				"df": 100,
 				"hp": 100
 			},
 			"index": 0,
@@ -5617,10 +5617,10 @@ var SETDEX_SV = {
 		"Rich Boy Winston 1": {
 			"ability": "Own Tempo",
 			"evs": {
-				"def": 252,
+				"df": 252,
 				"hp": 8,
-				"spa": 12,
-				"spd": 236
+				"sa": 12,
+				"sd": 236
 			},
 			"index": 0,
 			"item": "Eviolite",
@@ -5761,9 +5761,9 @@ var SETDEX_SV = {
 		"Rich Boy Winston 1": {
 			"ability": "Fur Coat",
 			"evs": {
-				"atk": 252,
-				"spd": 12,
-				"spe": 236
+				"at": 252,
+				"sd": 12,
+				"sp": 236
 			},
 			"index": 1,
 			"item": "Leftovers",
@@ -7944,9 +7944,9 @@ var SETDEX_SV = {
 		"Leader Brawly 1": {
 			"ability": "Guts",
 			"evs": {
-				"atk": 150,
+				"at": 150,
 				"hp": 4,
-				"spe": 50
+				"sp": 50
 			},
 			"index": 2,
 			"item": "Flame Orb",
@@ -11630,8 +11630,8 @@ var SETDEX_SV = {
 		"Leader Brawly 1": {
 			"ability": "Inner Focus",
 			"evs": {
-				"spa": 50,
-				"spe": 150
+				"sa": 50,
+				"sp": 150
 			},
 			"index": 4,
 			"item": "Wise Glasses",
@@ -13217,7 +13217,7 @@ var SETDEX_SV = {
 		"Fisherman Darian": {
 			"ability": "Swift Swim",
 			"evs": {
-				"atk": 252
+				"at": 252
 			},
 			"index": 5,
 			"item": "Choice Band",
@@ -16819,8 +16819,8 @@ var SETDEX_SV = {
 		"Leader Roxanne 1": {
 			"ability": "Shields Down",
 			"evs": {
-				"atk": 150,
-				"spe": 150
+				"at": 150,
+				"sp": 150
 			},
 			"index": 5,
 			"item": "Charti Berry",
@@ -17076,7 +17076,7 @@ var SETDEX_SV = {
 		"Leader Brawly 1": {
 			"ability": "Iron Fist",
 			"evs": {
-				"spe": 150
+				"sp": 150
 			},
 			"index": 0,
 			"item": "Focus Sash",
@@ -17278,9 +17278,9 @@ var SETDEX_SV = {
 		"School Kid Karen 1": {
 			"ability": "Hustle",
 			"evs": {
-				"atk": 252,
-				"spd": 236,
-				"spe": 20
+				"at": 252,
+				"sd": 236,
+				"sp": 20
 			},
 			"index": 0,
 			"item": "Scope Lens",
@@ -17306,10 +17306,10 @@ var SETDEX_SV = {
 		"School Kid Karen 1": {
 			"ability": "Hustle",
 			"evs": {
-				"atk": 244,
-				"def": 12,
-				"spd": 236,
-				"spe": 16
+				"at": 244,
+				"df": 12,
+				"sd": 236,
+				"sp": 16
 			},
 			"index": 1,
 			"item": "Scope Lens",
@@ -17783,10 +17783,10 @@ var SETDEX_SV = {
 		"Youngster Josh": {
 			"ability": "Sturdy",
 			"evs": {
-				"atk": 100,
+				"at": 100,
 				"hp": 12,
-				"spd": 100,
-				"spe": 12
+				"sd": 100,
+				"sp": 12
 			},
 			"index": 1,
 			"item": "Eviolite",
@@ -20906,9 +20906,9 @@ var SETDEX_SV = {
 		"Youngster Josh": {
 			"ability": "Keen Eye",
 			"evs": {
-				"atk": 100,
-				"def": 32,
-				"spd": 100
+				"at": 100,
+				"df": 32,
+				"sd": 100
 			},
 			"index": 2,
 			"item": "Hard Stone",
@@ -20934,9 +20934,9 @@ var SETDEX_SV = {
 		"Youngster Tommy": {
 			"ability": "Sand Force",
 			"evs": {
-				"atk": 100,
-				"def": 24,
-				"spd": 100
+				"at": 100,
+				"df": 24,
+				"sd": 100
 			},
 			"index": 2,
 			"item": "Rock Gem",
@@ -26165,9 +26165,9 @@ var SETDEX_SV = {
 		"Hiker Marc": {
 			"ability": "Sturdy",
 			"evs": {
-				"atk": 100,
-				"spd": 100,
-				"spe": 12
+				"at": 100,
+				"sd": 100,
+				"sp": 12
 			},
 			"index": 0,
 			"item": "Covert Cloak",
