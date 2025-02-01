@@ -874,6 +874,7 @@ $(".set-selector").change(function () {
 			pokeObj.find(".gender").val("");
 		} else pokeObj.find(".gender").parent().show();
 
+
 		// Check if this is the opposing side selector
 		if ($(this).closest(".poke-info").attr("id") === "p2") {
 			// Get the trainer's Pokemon
