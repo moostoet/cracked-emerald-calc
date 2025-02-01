@@ -7943,11 +7943,6 @@ var SETDEX_SV = {
 		},
 		"Leader Brawly 1": {
 			"ability": "Guts",
-			"evs": {
-				"at": 150,
-				"hp": 4,
-				"sp": 50
-			},
 			"index": 2,
 			"item": "Flame Orb",
 			"ivs": {
@@ -11629,10 +11624,6 @@ var SETDEX_SV = {
 	"Lucario": {
 		"Leader Brawly 1": {
 			"ability": "Inner Focus",
-			"evs": {
-				"sa": 50,
-				"sp": 150
-			},
 			"index": 4,
 			"item": "Wise Glasses",
 			"ivs": {
