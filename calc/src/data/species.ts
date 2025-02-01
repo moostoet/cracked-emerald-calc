@@ -1286,7 +1286,7 @@ const GSC_PATCH: {[name: string]: DeepPartial<SpeciesData>} = {
     weightkg: 75,
   },
   Quilava: {
-    types: ['Fire'],
+    types: ['Fire', 'Ground'],
     bs: {hp: 58, at: 64, df: 58, sa: 80, sd: 65, sp: 80},
     weightkg: 19,
     nfe: true,
@@ -1381,7 +1381,7 @@ const GSC_PATCH: {[name: string]: DeepPartial<SpeciesData>} = {
     weightkg: 400,
   },
   Sudowoodo: {
-    types: ['Rock'],
+    types: ['Rock', 'Grass'],
     bs: {hp: 70, at: 100, df: 115, sa: 30, sd: 65, sp: 30},
     weightkg: 38,
   },
@@ -1432,7 +1432,7 @@ const GSC_PATCH: {[name: string]: DeepPartial<SpeciesData>} = {
     nfe: true,
   },
   Typhlosion: {
-    types: ['Fire'],
+    types: ['Fire', 'Ground'],
     bs: {hp: 78, at: 84, df: 78, sa: 109, sd: 85, sp: 100},
     weightkg: 79.5,
   },
@@ -8043,7 +8043,7 @@ const SS_PATCH: {[name: string]: DeepPartial<SpeciesData>} = {
     nfe: true,
   },
   Grapploct: {
-    types: ['Fighting'],
+    types: ['Fighting', 'Poison'],
     bs: {hp: 80, at: 118, df: 90, sa: 70, sd: 80, sp: 42},
     weightkg: 39,
     abilities: {0: 'Limber'},
