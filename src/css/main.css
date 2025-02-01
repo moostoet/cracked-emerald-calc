@@ -175,6 +175,21 @@ th {
 .main-title-text {
     top: -10px;
 }
+
+.opposite-pok {
+    margin: 5px;
+    cursor: pointer;
+}
+
+.trainer-pok-list-opposing {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
 .big-text {
     text-align: left;
     font-weight: bold;
