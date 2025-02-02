@@ -16809,10 +16809,6 @@ var SETDEX_SV = {
 	"Minior": {
 		"Leader Roxanne 1": {
 			"ability": "Shields Down",
-			"evs": {
-				"at": 150,
-				"sp": 150
-			},
 			"index": 5,
 			"item": "Charti Berry",
 			"ivs": {
