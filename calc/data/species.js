@@ -1,7 +1,7 @@
 "use strict";
 var __generator = (this && this.__generator) || function (thisArg, body) {
-    var _ = { label: 0, sent: function() { if (t[0] & 1) throw t[1]; return t[1]; }, trys: [], ops: [] }, f, y, t, g;
-    return g = { next: verb(0), "throw": verb(1), "return": verb(2) }, typeof Symbol === "function" && (g[Symbol.iterator] = function() { return this; }), g;
+    var _ = { label: 0, sent: function () { if (t[0] & 1) throw t[1]; return t[1]; }, trys: [], ops: [] }, f, y, t, g;
+    return g = { next: verb(0), "throw": verb(1), "return": verb(2) }, typeof Symbol === "function" && (g[Symbol.iterator] = function () { return this; }), g;
     function verb(n) { return function (v) { return step([n, v]); }; }
     function step(op) {
         if (f) throw new TypeError("Generator is already executing.");
@@ -51,7 +51,7 @@ var __spreadArray = (this && this.__spreadArray) || function (to, from, pack) {
     }
     return to.concat(ar || Array.prototype.slice.call(from));
 };
-var __values = (this && this.__values) || function(o) {
+var __values = (this && this.__values) || function (o) {
     var s = typeof Symbol === "function" && Symbol.iterator, m = s && o[s], i = 0;
     if (m) return m.call(o);
     if (o && typeof o.length === "number") return {
@@ -257,8 +257,8 @@ var RBY = {
         weightkg: 15
     },
     Fearow: {
-        types: ['Normal', 'Flying'],
-        bs: { hp: 65, at: 90, df: 65, sp: 100, sl: 61 },
+        types: ['Flying'],
+        bs: { hp: 70, at: 103, df: 65, sp: 100, sl: 61 },
         weightkg: 38
     },
     Flareon: { types: ['Fire'], bs: { hp: 65, at: 130, df: 60, sp: 65, sl: 110 }, weightkg: 25 },
@@ -566,14 +566,14 @@ var RBY = {
         weightkg: 210
     },
     Paras: {
-        types: ['Bug', 'Grass'],
+        types: ['Bug'],
         bs: { hp: 35, at: 70, df: 55, sp: 25, sl: 55 },
         weightkg: 5.4,
         nfe: true
     },
     Parasect: {
-        types: ['Bug', 'Grass'],
-        bs: { hp: 60, at: 95, df: 80, sp: 30, sl: 80 },
+        types: ['Bug', 'Ghost'],
+        bs: { hp: 110, at: 115, df: 90, sp: 30, sl: 80 },
         weightkg: 29.5
     },
     Persian: { types: ['Normal'], bs: { hp: 65, at: 70, df: 60, sp: 115, sl: 65 }, weightkg: 32 },
@@ -940,7 +940,7 @@ var GSC_PATCH = {
     Omastar: { bs: { sa: 115, sd: 70 } },
     Onix: { bs: { sa: 30, sd: 45 }, nfe: true },
     Paras: { bs: { sa: 45, sd: 55 } },
-    Parasect: { bs: { sa: 60, sd: 80 } },
+    Parasect: { bs: { sa: 50, sd: 90 } },
     Persian: { bs: { sa: 65, sd: 65 } },
     Pidgeot: { bs: { sa: 70, sd: 70 } },
     Pidgeotto: { bs: { sa: 50, sd: 50 } },
@@ -3163,7 +3163,7 @@ var DPP_PATCH = {
         abilities: { 0: 'Rock Head' }
     },
     Floatzel: {
-        types: ['Water'],
+        types: ['Water', 'Fighting'],
         bs: { hp: 85, at: 105, df: 55, sa: 85, sd: 50, sp: 115 },
         weightkg: 33.5,
         abilities: { 0: 'Swift Swim' }

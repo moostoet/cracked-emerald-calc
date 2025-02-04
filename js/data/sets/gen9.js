@@ -855,7 +855,7 @@ var SETDEX_SV = {
 			"ability": "Sturdy",
 			"evs": {
 				"at": 100,
-				"sp": 100
+				"sd": 100
 			},
 			"index": 0,
 			"item": "Berry Juice",
@@ -909,6 +909,27 @@ var SETDEX_SV = {
 			"level": 40,
 			"moves": [],
 			"nature": ""
+		},
+		"Beauty Johanna": {
+			"ability": "Huge Power",
+			"index": 1,
+			"item": "Sitrus Berry",
+			"ivs": {
+				"at": 31,
+				"df": 31,
+				"hp": 31,
+				"sa": 31,
+				"sd": 31,
+				"sp": 31
+			},
+			"level": 23,
+			"moves": [
+				"Aqua Jet",
+				"Body Slam",
+				"Brick Break",
+				"Draining Kiss"
+			],
+			"nature": "Brave"
 		},
 		"Cooltrainer Alexa": {
 			"ability": "",
@@ -1037,38 +1058,6 @@ var SETDEX_SV = {
 				"sp": 12
 			},
 			"level": 35,
-			"moves": [],
-			"nature": ""
-		},
-		"Tuber F Lola 1": {
-			"ability": "",
-			"index": 1,
-			"item": "",
-			"ivs": {
-				"at": 1,
-				"df": 1,
-				"hp": 1,
-				"sa": 1,
-				"sd": 1,
-				"sp": 1
-			},
-			"level": 12,
-			"moves": [],
-			"nature": ""
-		},
-		"Tuber M Simon": {
-			"ability": "",
-			"index": 0,
-			"item": "",
-			"ivs": {
-				"at": 0,
-				"df": 0,
-				"hp": 0,
-				"sa": 0,
-				"sd": 0,
-				"sp": 0
-			},
-			"level": 12,
 			"moves": [],
 			"nature": ""
 		}
@@ -1789,6 +1778,29 @@ var SETDEX_SV = {
 			"level": 39,
 			"moves": [],
 			"nature": ""
+		}
+	},
+	"Bibarel": {
+		"Tuber M Simon": {
+			"ability": "Simple",
+			"index": 0,
+			"item": "White Herb",
+			"ivs": {
+				"at": 31,
+				"df": 31,
+				"hp": 31,
+				"sa": 31,
+				"sd": 31,
+				"sp": 31
+			},
+			"level": 23,
+			"moves": [
+				"Aqua Jet",
+				"Bulk Up",
+				"Facade",
+				"Quick Attack"
+			],
+			"nature": "Jolly"
 		}
 	},
 	"Blissey": {
@@ -2693,6 +2705,27 @@ var SETDEX_SV = {
 				"Bite",
 				"Super Fang",
 				"Poison Fang"
+			],
+			"nature": "Adamant"
+		},
+		"Sailor Edmond": {
+			"ability": "Speed Boost",
+			"index": 1,
+			"item": "Expert Belt",
+			"ivs": {
+				"at": 31,
+				"df": 31,
+				"hp": 31,
+				"sa": 31,
+				"sd": 31,
+				"sp": 31
+			},
+			"level": 24,
+			"moves": [
+				"Crunch",
+				"Waterfall",
+				"Ice Fang",
+				"Protect"
 			],
 			"nature": "Adamant"
 		},
@@ -3708,6 +3741,29 @@ var SETDEX_SV = {
 			"nature": "Adamant"
 		}
 	},
+	"Corsola": {
+		"Tuber M Chandler": {
+			"ability": "Rough Skin",
+			"index": 1,
+			"item": "Rocky Helmet",
+			"ivs": {
+				"at": 0,
+				"df": 31,
+				"hp": 31,
+				"sa": 31,
+				"sd": 31,
+				"sp": 31
+			},
+			"level": 0,
+			"moves": [
+				"Ancient Power",
+				"Shore Up",
+				"Water Pulse",
+				"Aqua Ring"
+			],
+			"nature": "Calm"
+		}
+	},
 	"Corsola-Galar": {
 		"Leader Roxanne 1": {
 			"ability": "Cursed Body",
@@ -3729,6 +3785,29 @@ var SETDEX_SV = {
 				"Night Shade"
 			],
 			"nature": "Calm"
+		}
+	},
+	"Crabrawler": {
+		"Tuber F Lola 1": {
+			"ability": "Iron Fist",
+			"index": 1,
+			"item": "Eviolite",
+			"ivs": {
+				"at": 31,
+				"df": 31,
+				"hp": 31,
+				"sa": 31,
+				"sd": 31,
+				"sp": 31
+			},
+			"level": 24,
+			"moves": [
+				"Crabhammer",
+				"Ice Punch",
+				"Drain Punch",
+				"Thunder Punch"
+			],
+			"nature": "Adamant"
 		}
 	},
 	"Cradily": {
@@ -4321,6 +4400,29 @@ var SETDEX_SV = {
 			"nature": ""
 		}
 	},
+	"Dewott": {
+		"Sailor Huey": {
+			"ability": "Torrent",
+			"index": 1,
+			"item": "Scope Lens",
+			"ivs": {
+				"at": 31,
+				"df": 31,
+				"hp": 31,
+				"sa": 31,
+				"sd": 31,
+				"sp": 31
+			},
+			"level": 24,
+			"moves": [
+				"Brick Break",
+				"Knock Off",
+				"Razor Shell",
+				"X-Scissor"
+			],
+			"nature": ""
+		}
+	},
 	"Dewpider": {
 		"Bug Catcher Lyle": {
 			"ability": "Water Bubble",
@@ -4713,6 +4815,29 @@ var SETDEX_SV = {
 				"Thunderbolt",
 				"Protect",
 				"Ice Beam"
+			],
+			"nature": ""
+		}
+	},
+	"Drednaw": {
+		"Tuber M Ricky 1": {
+			"ability": "Swift Swim",
+			"index": 1,
+			"item": "Muscle Band",
+			"ivs": {
+				"at": 31,
+				"df": 31,
+				"hp": 31,
+				"sa": 31,
+				"sd": 31,
+				"sp": 31
+			},
+			"level": 23,
+			"moves": [
+				"Razor Shell",
+				"Rock Slide",
+				"Jaw Lock",
+				"Protect"
 			],
 			"nature": ""
 		}
@@ -6515,22 +6640,6 @@ var SETDEX_SV = {
 			"moves": [],
 			"nature": ""
 		},
-		"Beauty Johanna": {
-			"ability": "",
-			"index": 0,
-			"item": "",
-			"ivs": {
-				"at": 0,
-				"df": 0,
-				"hp": 0,
-				"sa": 0,
-				"sd": 0,
-				"sp": 0
-			},
-			"level": 13,
-			"moves": [],
-			"nature": ""
-		},
 		"Fisherman Claude": {
 			"ability": "",
 			"index": 1,
@@ -7105,6 +7214,29 @@ var SETDEX_SV = {
 				"Rock Throw"
 			],
 			"nature": ""
+		}
+	},
+	"Greedent (M)": {
+		"Tuber M Simon": {
+			"ability": "Cheek Pouch",
+			"index": 1,
+			"item": "Sitrus Berry",
+			"ivs": {
+				"at": 31,
+				"df": 31,
+				"hp": 31,
+				"sa": 31,
+				"sd": 31,
+				"sp": 31
+			},
+			"level": 23,
+			"moves": [
+				"Stuff Cheeks",
+				"Stockpile",
+				"Spit Up",
+				"Knock Off"
+			],
+			"nature": "Lax"
 		}
 	},
 	"Groudon": {
@@ -8353,6 +8485,27 @@ var SETDEX_SV = {
 				"Bulk Up"
 			],
 			"nature": ""
+		},
+		"Sailor Edmond": {
+			"ability": "Unburden",
+			"index": 0,
+			"item": "Normal Gem",
+			"ivs": {
+				"at": 31,
+				"df": 31,
+				"hp": 31,
+				"sa": 31,
+				"sd": 31,
+				"sp": 31
+			},
+			"level": 23,
+			"moves": [
+				"Fake Out",
+				"High Jump Kick",
+				"Rock Slide",
+				"Poison Jab"
+			],
+			"nature": "Adamant"
 		}
 	},
 	"Hitmontop": {
@@ -9898,6 +10051,29 @@ var SETDEX_SV = {
 			"nature": "Careful"
 		}
 	},
+	"Krokorok": {
+		"Sailor Huey": {
+			"ability": "Intimidate",
+			"index": 0,
+			"item": "Passho Berry",
+			"ivs": {
+				"at": 31,
+				"df": 31,
+				"hp": 31,
+				"sa": 31,
+				"sd": 31,
+				"sp": 31
+			},
+			"level": 24,
+			"moves": [
+				"Crunch",
+				"Stomping Tantrum",
+				"Thunder Fang",
+				"Fire Fang"
+			],
+			"nature": "Jolly"
+		}
+	},
 	"Kubfu": {
 		"Battle Girl Jocelyn": {
 			"ability": "Inner Focus",
@@ -10171,6 +10347,29 @@ var SETDEX_SV = {
 				"Bug Bite"
 			],
 			"nature": "Adamant"
+		}
+	},
+	"Liepard": {
+		"Beauty Johanna": {
+			"ability": "Prankster",
+			"index": 0,
+			"item": "Black Glasses",
+			"ivs": {
+				"at": 31,
+				"df": 31,
+				"hp": 31,
+				"sa": 31,
+				"sd": 31,
+				"sp": 31
+			},
+			"level": 23,
+			"moves": [
+				"Thunder Wave",
+				"Dark Pulse",
+				"Copycat",
+				"Encore"
+			],
+			"nature": "Timid"
 		}
 	},
 	"Lileep": {
@@ -13005,38 +13204,6 @@ var SETDEX_SV = {
 			"moves": [],
 			"nature": ""
 		},
-		"Sailor Dwayne": {
-			"ability": "",
-			"index": 1,
-			"item": "",
-			"ivs": {
-				"at": 0,
-				"df": 0,
-				"hp": 0,
-				"sa": 0,
-				"sd": 0,
-				"sp": 0
-			},
-			"level": 11,
-			"moves": [],
-			"nature": ""
-		},
-		"Sailor Huey": {
-			"ability": "",
-			"index": 1,
-			"item": "",
-			"ivs": {
-				"at": 1,
-				"df": 1,
-				"hp": 1,
-				"sa": 1,
-				"sd": 1,
-				"sp": 1
-			},
-			"level": 12,
-			"moves": [],
-			"nature": ""
-		},
 		"Sailor Leonard": {
 			"ability": "",
 			"index": 0,
@@ -13355,6 +13522,27 @@ var SETDEX_SV = {
 			"level": 27,
 			"moves": [],
 			"nature": ""
+		},
+		"Sailor Edmond": {
+			"ability": "Sturdy",
+			"index": 2,
+			"item": "Magnet",
+			"ivs": {
+				"at": 0,
+				"df": 31,
+				"hp": 31,
+				"sa": 31,
+				"sd": 31,
+				"sp": 31
+			},
+			"level": 24,
+			"moves": [
+				"Thunder Wave",
+				"Thunderbolt",
+				"Volt Switch",
+				"Flash Cannon"
+			],
+			"nature": "Modest"
 		},
 		"Triathlete Abigail 1": {
 			"ability": "",
@@ -14787,6 +14975,52 @@ var SETDEX_SV = {
 			"nature": ""
 		}
 	},
+	"Mantine": {
+		"Tuber M Chandler": {
+			"ability": "Water Absorb",
+			"index": 0,
+			"item": "Leftovers",
+			"ivs": {
+				"at": 0,
+				"df": 31,
+				"hp": 31,
+				"sa": 31,
+				"sd": 31,
+				"sp": 31
+			},
+			"level": 24,
+			"moves": [
+				"Tailwind",
+				"Protect",
+				"Air Slash",
+				"Surf"
+			],
+			"nature": "Modest"
+		}
+	},
+	"Maractus": {
+		"Tuber F Lola 1": {
+			"ability": "Water Absorb",
+			"index": 0,
+			"item": "Miracle Seed",
+			"ivs": {
+				"at": 31,
+				"df": 31,
+				"hp": 31,
+				"sa": 31,
+				"sd": 31,
+				"sp": 31
+			},
+			"level": 24,
+			"moves": [
+				"Giga Drain",
+				"Spikes",
+				"Endeavor",
+				"Sucker Punch"
+			],
+			"nature": "Sassy"
+		}
+	},
 	"Mareep": {
 		"Leader Wattson 2": {
 			"ability": "",
@@ -15168,22 +15402,6 @@ var SETDEX_SV = {
 			"moves": [],
 			"nature": ""
 		},
-		"Tuber F Hailey": {
-			"ability": "",
-			"index": 0,
-			"item": "",
-			"ivs": {
-				"at": 0,
-				"df": 0,
-				"hp": 0,
-				"sa": 0,
-				"sd": 0,
-				"sp": 0
-			},
-			"level": 13,
-			"moves": [],
-			"nature": ""
-		},
 		"Tuber F Jani": {
 			"ability": "",
 			"index": 0,
@@ -15261,22 +15479,6 @@ var SETDEX_SV = {
 				"sp": 0
 			},
 			"level": 26,
-			"moves": [],
-			"nature": ""
-		},
-		"Tuber M Simon": {
-			"ability": "",
-			"index": 1,
-			"item": "",
-			"ivs": {
-				"at": 0,
-				"df": 0,
-				"hp": 0,
-				"sa": 0,
-				"sd": 0,
-				"sp": 0
-			},
-			"level": 12,
 			"moves": [],
 			"nature": ""
 		},
@@ -16804,6 +17006,29 @@ var SETDEX_SV = {
 				"Toxic"
 			],
 			"nature": ""
+		}
+	},
+	"Miltank": {
+		"Sailor Dwayne": {
+			"ability": "Thick Fat",
+			"index": 1,
+			"item": "Leftovers",
+			"ivs": {
+				"at": 31,
+				"df": 31,
+				"hp": 31,
+				"sa": 31,
+				"sd": 31,
+				"sp": 31
+			},
+			"level": 23,
+			"moves": [
+				"Rollout",
+				"Milk Drink",
+				"Counter",
+				"Seismic Toss"
+			],
+			"nature": "Impish"
 		}
 	},
 	"Minior": {
@@ -19555,6 +19780,27 @@ var SETDEX_SV = {
 			"level": 43,
 			"moves": [],
 			"nature": ""
+		},
+		"Tuber M Ricky 1": {
+			"ability": "Drizzle",
+			"index": 0,
+			"item": "Damp Rock",
+			"ivs": {
+				"at": 0,
+				"df": 31,
+				"hp": 31,
+				"sa": 31,
+				"sd": 31,
+				"sp": 31
+			},
+			"level": 23,
+			"moves": [
+				"Air Cutter",
+				"Roost",
+				"Protect",
+				"Surf"
+			],
+			"nature": ""
 		}
 	},
 	"Phanpy": {
@@ -20420,6 +20666,29 @@ var SETDEX_SV = {
 				"Take Down"
 			],
 			"nature": "Modest"
+		}
+	},
+	"Quagsire": {
+		"Tuber F Hailey": {
+			"ability": "Water Absorb",
+			"index": 0,
+			"item": "Leftovers",
+			"ivs": {
+				"at": 31,
+				"df": 31,
+				"hp": 31,
+				"sa": 31,
+				"sd": 31,
+				"sp": 31
+			},
+			"level": 23,
+			"moves": [
+				"Earthquake",
+				"Waterfall",
+				"Yawn",
+				"Recover"
+			],
+			"nature": ""
 		}
 	},
 	"Quaxly": {
@@ -27104,6 +27373,27 @@ var SETDEX_SV = {
 				"Earthquake"
 			],
 			"nature": ""
+		},
+		"Sailor Dwayne": {
+			"ability": "Intimidate",
+			"index": 0,
+			"item": "Silk Scarf",
+			"ivs": {
+				"at": 31,
+				"df": 31,
+				"hp": 31,
+				"sa": 31,
+				"sd": 31,
+				"sp": 31
+			},
+			"level": 23,
+			"moves": [
+				"Facade",
+				"Rock Slide",
+				"Trailblaze",
+				"Pursuit"
+			],
+			"nature": "Jolly"
 		}
 	},
 	"Tentacool": {
@@ -27299,22 +27589,6 @@ var SETDEX_SV = {
 			"moves": [],
 			"nature": ""
 		},
-		"Sailor Dwayne": {
-			"ability": "",
-			"index": 2,
-			"item": "",
-			"ivs": {
-				"at": 0,
-				"df": 0,
-				"hp": 0,
-				"sa": 0,
-				"sd": 0,
-				"sp": 0
-			},
-			"level": 11,
-			"moves": [],
-			"nature": ""
-		},
 		"Sailor Ernest 2": {
 			"ability": "",
 			"index": 1,
@@ -27504,22 +27778,6 @@ var SETDEX_SV = {
 				"sp": 0
 			},
 			"level": 33,
-			"moves": [],
-			"nature": ""
-		},
-		"Tuber M Chandler": {
-			"ability": "",
-			"index": 1,
-			"item": "",
-			"ivs": {
-				"at": 0,
-				"df": 0,
-				"hp": 0,
-				"sa": 0,
-				"sd": 0,
-				"sp": 0
-			},
-			"level": 12,
 			"moves": [],
 			"nature": ""
 		}
@@ -27836,6 +28094,29 @@ var SETDEX_SV = {
 				"Knock Off"
 			],
 			"nature": "Adamant"
+		}
+	},
+	"Togedemaru": {
+		"Tuber F Hailey": {
+			"ability": "Lightning Rod",
+			"index": 1,
+			"item": "Magnet",
+			"ivs": {
+				"at": 31,
+				"df": 31,
+				"hp": 31,
+				"sa": 31,
+				"sd": 31,
+				"sp": 31
+			},
+			"level": 23,
+			"moves": [
+				"Zing Zap",
+				"Iron Head",
+				"Magnet Rise",
+				"Nuzzle"
+			],
+			"nature": ""
 		}
 	},
 	"Torkoal": {
@@ -30007,38 +30288,6 @@ var SETDEX_SV = {
 			"moves": [],
 			"nature": ""
 		},
-		"Sailor Dwayne": {
-			"ability": "",
-			"index": 0,
-			"item": "",
-			"ivs": {
-				"at": 0,
-				"df": 0,
-				"hp": 0,
-				"sa": 0,
-				"sd": 0,
-				"sp": 0
-			},
-			"level": 11,
-			"moves": [],
-			"nature": ""
-		},
-		"Sailor Edmond": {
-			"ability": "",
-			"index": 0,
-			"item": "",
-			"ivs": {
-				"at": 0,
-				"df": 0,
-				"hp": 0,
-				"sa": 0,
-				"sd": 0,
-				"sp": 0
-			},
-			"level": 13,
-			"moves": [],
-			"nature": ""
-		},
 		"Sailor Ernest 1": {
 			"ability": "",
 			"index": 0,
@@ -30068,22 +30317,6 @@ var SETDEX_SV = {
 				"sp": 1
 			},
 			"level": 36,
-			"moves": [],
-			"nature": ""
-		},
-		"Sailor Huey": {
-			"ability": "",
-			"index": 0,
-			"item": "",
-			"ivs": {
-				"at": 1,
-				"df": 1,
-				"hp": 1,
-				"sa": 1,
-				"sd": 1,
-				"sp": 1
-			},
-			"level": 12,
 			"moves": [],
 			"nature": ""
 		},
@@ -30975,27 +31208,6 @@ var SETDEX_SV = {
 				"Tail Whip",
 				"Headbutt",
 				"Odor Sleuth"
-			],
-			"nature": ""
-		},
-		"Tuber M Ricky 1": {
-			"ability": "",
-			"index": 0,
-			"item": "",
-			"ivs": {
-				"at": 1,
-				"df": 1,
-				"hp": 1,
-				"sa": 1,
-				"sd": 1,
-				"sp": 1
-			},
-			"level": 13,
-			"moves": [
-				"Sand Attack",
-				"Headbutt",
-				"Tail Whip",
-				"Surf"
 			],
 			"nature": ""
 		},
