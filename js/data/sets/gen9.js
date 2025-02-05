@@ -19252,27 +19252,6 @@ var SETDEX_SV = {
 			],
 			"nature": ""
 		},
-		"Fisherman Elliot 1": {
-			"ability": "Drizzle",
-			"index": 0,
-			"item": "Damp Rock",
-			"ivs": {
-				"at": 31,
-				"df": 31,
-				"hp": 31,
-				"sa": 31,
-				"sd": 31,
-				"sp": 31
-			},
-			"level": 23,
-			"moves": [
-				"Roost",
-				"U-turn",
-				"Air Cutter",
-				"Brine"
-			],
-			"nature": "Bold"
-		},
 		"Hiker Mike 1": {
 			"ability": "",
 			"index": 0,
@@ -20155,6 +20134,27 @@ var SETDEX_SV = {
 		}
 	},
 	"Politoed": {
+		"Fisherman Elliot 1": {
+			"ability": "Water Absorb",
+			"index": 0,
+			"item": "Damp Rock",
+			"ivs": {
+				"at": 0,
+				"df": 31,
+				"hp": 31,
+				"sa": 31,
+				"sd": 31,
+				"sp": 31
+			},
+			"level": 23,
+			"moves": [
+				"Water Pulse",
+				"Ice Beam",
+				"Hypnosis",
+				"Encore"
+			],
+			"nature": "Bold"
+		},
 		"Leader Juan 5": {
 			"ability": "",
 			"index": 2,
@@ -30560,7 +30560,7 @@ var SETDEX_SV = {
 			},
 			"level": 25,
 			"moves": [
-				"Water Gun",
+				"Scald",
 				"U-turn",
 				"Rest",
 				"Sleep Talk"
