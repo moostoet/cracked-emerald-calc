@@ -3754,7 +3754,7 @@ var SETDEX_SV = {
 				"sd": 31,
 				"sp": 31
 			},
-			"level": 0,
+			"level": 24,
 			"moves": [
 				"Ancient Power",
 				"Shore Up",
@@ -7216,7 +7216,7 @@ var SETDEX_SV = {
 			"nature": ""
 		}
 	},
-	"Greedent (M)": {
+	"Greedent": {
 		"Tuber M Simon": {
 			"ability": "Cheek Pouch",
 			"index": 1,
