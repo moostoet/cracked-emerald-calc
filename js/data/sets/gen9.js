@@ -2356,6 +2356,27 @@ var SETDEX_SV = {
 		"level": 39,
 		"moves": [],
 		"nature": ""
+	  },
+	  "Team Aqua Grunt Museum 1": {
+		"ability": "Technician",
+		"index": 1,
+		"item": "Kings Rock",
+		"ivs": {
+		  "at": 31,
+		  "df": 31,
+		  "hp": 31,
+		  "sa": 31,
+		  "sd": 31,
+		  "sp": 31
+		},
+		"level": 30,
+		"moves": [
+		  "Bullet Seed",
+		  "Hidden Power",
+		  "Drain Punch",
+		  "Lunge"
+		],
+		"nature": "Adamant"
 	  }
 	},
 	"Camerupt": {
@@ -3029,38 +3050,6 @@ var SETDEX_SV = {
 		"moves": [],
 		"nature": ""
 	  },
-	  "Team Aqua Grunt Museum 1": {
-		"ability": "",
-		"index": 0,
-		"item": "",
-		"ivs": {
-		  "at": 0,
-		  "df": 0,
-		  "hp": 0,
-		  "sa": 0,
-		  "sd": 0,
-		  "sp": 0
-		},
-		"level": 15,
-		"moves": [],
-		"nature": ""
-	  },
-	  "Team Aqua Grunt Museum 2": {
-		"ability": "",
-		"index": 1,
-		"item": "",
-		"ivs": {
-		  "at": 0,
-		  "df": 0,
-		  "hp": 0,
-		  "sa": 0,
-		  "sd": 0,
-		  "sp": 0
-		},
-		"level": 14,
-		"moves": [],
-		"nature": ""
-	  },
 	  "Team Aqua Grunt Seafloor Cavern 2": {
 		"ability": "",
 		"index": 0,
@@ -3598,6 +3587,29 @@ var SETDEX_SV = {
 		"nature": ""
 	  }
 	},
+	"Cloyster": {
+	  "Team Aqua Grunt Museum 2": {
+		"ability": "Skill Link",
+		"index": 1,
+		"item": "White Herb",
+		"ivs": {
+		  "at": 31,
+		  "df": 31,
+		  "hp": 31,
+		  "sa": 31,
+		  "sd": 31,
+		  "sp": 31
+		},
+		"level": 30,
+		"moves": [
+		  "Icicle Spear",
+		  "Shell Smash",
+		  "Razor Shell",
+		  "Poison Jab"
+		],
+		"nature": "Adamant"
+	  }
+	},
 	"Combusken": {
 	  "Rival Brendan Lilycove Treecko": {
 		"ability": "",
@@ -4058,22 +4070,6 @@ var SETDEX_SV = {
 	},
 	"Crobat": {
 	  "Aqua Leader Archie": {
-		"ability": "",
-		"index": 1,
-		"item": "",
-		"ivs": {
-		  "at": 18,
-		  "df": 18,
-		  "hp": 18,
-		  "sa": 18,
-		  "sd": 18,
-		  "sp": 18
-		},
-		"level": 41,
-		"moves": [],
-		"nature": ""
-	  },
-	  "Aqua Leader Archie Oceanic": {
 		"ability": "",
 		"index": 1,
 		"item": "",
@@ -5259,6 +5255,29 @@ var SETDEX_SV = {
 		  "Rock Tomb"
 		],
 		"nature": "Impish"
+	  }
+	},
+	"Eelektross": {
+	  "Aqua Leader Archie Oceanic": {
+		"ability": "Levitate",
+		"index": 1,
+		"item": "Leftovers",
+		"ivs": {
+		  "at": 31,
+		  "df": 31,
+		  "hp": 31,
+		  "sa": 31,
+		  "sd": 31,
+		  "sp": 31
+		},
+		"level": 30,
+		"moves": [
+		  "Coil",
+		  "Supercell Slam",
+		  "Drain Punch",
+		  "Crunch"
+		],
+		"nature": "Adamant"
 	  }
 	},
 	"Electabuzz": {
@@ -11037,6 +11056,29 @@ var SETDEX_SV = {
 		"nature": ""
 	  }
 	},
+	"Lokix": {
+	  "Team Aqua Grunt Museum 2": {
+		"ability": "Tinted Lens",
+		"index": 0,
+		"item": "Bug Gem",
+		"ivs": {
+		  "at": 31,
+		  "df": 31,
+		  "hp": 31,
+		  "sa": 31,
+		  "sd": 31,
+		  "sp": 31
+		},
+		"level": 30,
+		"moves": [
+		  "First Impression",
+		  "Knock Off",
+		  "Leech Life",
+		  "Brick Break"
+		],
+		"nature": ""
+	  }
+	},
 	"Lombre": {
 	  "Beauty Olivia": {
 		"ability": "",
@@ -16655,22 +16697,6 @@ var SETDEX_SV = {
 		"moves": [],
 		"nature": ""
 	  },
-	  "Aqua Leader Archie Oceanic": {
-		"ability": "",
-		"index": 0,
-		"item": "",
-		"ivs": {
-		  "at": 18,
-		  "df": 18,
-		  "hp": 18,
-		  "sa": 18,
-		  "sd": 18,
-		  "sp": 18
-		},
-		"level": 41,
-		"moves": [],
-		"nature": ""
-	  },
 	  "Elite Four Sidney": {
 		"ability": "",
 		"index": 0,
@@ -19877,6 +19903,29 @@ var SETDEX_SV = {
 		  "Surf"
 		],
 		"nature": ""
+	  }
+	},
+	"Perrserker": {
+	  "Aqua Leader Archie Oceanic": {
+		"ability": "Steely Spirit",
+		"index": 0,
+		"item": "Iron Ball",
+		"ivs": {
+		  "at": 31,
+		  "df": 31,
+		  "hp": 31,
+		  "sa": 31,
+		  "sd": 31,
+		  "sp": 0
+		},
+		"level": 30,
+		"moves": [
+		  "Gyro Ball",
+		  "Play Rough",
+		  "Swords Dance",
+		  "Knock Off"
+		],
+		"nature": "Brave"
 	  }
 	},
 	"Phanpy": {
@@ -23312,20 +23361,25 @@ var SETDEX_SV = {
 		"nature": ""
 	  },
 	  "Aqua Leader Archie Oceanic": {
-		"ability": "",
+		"ability": "Speed Boost",
 		"index": 2,
-		"item": "",
+		"item": "Liechi Berry",
 		"ivs": {
-		  "at": 18,
-		  "df": 18,
-		  "hp": 18,
-		  "sa": 18,
-		  "sd": 18,
-		  "sp": 18
+		  "at": 31,
+		  "df": 31,
+		  "hp": 31,
+		  "sa": 31,
+		  "sd": 31,
+		  "sp": 31
 		},
-		"level": 43,
-		"moves": [],
-		"nature": ""
+		"level": 31,
+		"moves": [
+		  "Tidal Bore",
+		  "Psychic Fangs",
+		  "Bite",
+		  "Ice Fang"
+		],
+		"nature": "Adamant"
 	  },
 	  "Beauty Tiffany": {
 		"ability": "",
@@ -28163,6 +28217,27 @@ var SETDEX_SV = {
 		"level": 33,
 		"moves": [],
 		"nature": ""
+	  },
+	  "Team Aqua Grunt Museum 1": {
+		"ability": "Liquid Ooze",
+		"index": 0,
+		"item": "Black Sludge",
+		"ivs": {
+		  "at": 0,
+		  "df": 31,
+		  "hp": 31,
+		  "sa": 31,
+		  "sd": 31,
+		  "sp": 31
+		},
+		"level": 30,
+		"moves": [
+		  "Scald",
+		  "Sludge Bomb",
+		  "Hex",
+		  "Giga Drain"
+		],
+		"nature": "Jolly"
 	  }
 	},
 	"Throh": {
@@ -31575,22 +31650,6 @@ var SETDEX_SV = {
 		  "sp": 0
 		},
 		"level": 30,
-		"moves": [],
-		"nature": ""
-	  },
-	  "Team Aqua Grunt Museum 2": {
-		"ability": "",
-		"index": 0,
-		"item": "",
-		"ivs": {
-		  "at": 0,
-		  "df": 0,
-		  "hp": 0,
-		  "sa": 0,
-		  "sd": 0,
-		  "sp": 0
-		},
-		"level": 14,
 		"moves": [],
 		"nature": ""
 	  },
