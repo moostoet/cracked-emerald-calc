@@ -9822,6 +9822,12 @@ var SV_PATCH = {
         weightkg: 16.5,
         abilities: { 0: 'Insomnia' }
     },
+    'Spinda-Drunken': {
+        types: ['Normal', 'Fighting'],
+        bs: { hp: 83, at: 113, df: 107, sa: 59, sd: 83, sp: 83 },
+        weightkg: 5,
+        abilities: { 0: 'Jumbled' }
+    },
     Sprigatito: {
         types: ['Grass'],
         bs: { hp: 40, at: 61, df: 54, sa: 45, sd: 45, sp: 65 },

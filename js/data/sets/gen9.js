@@ -942,22 +942,6 @@ var SETDEX_SV = {
 				"Bulldoze"
 			],
 			"nature": "Adamant"
-		},
-		"Youngster Timmy": {
-			"ability": "",
-			"index": 0,
-			"item": "",
-			"ivs": {
-				"at": 0,
-				"df": 0,
-				"hp": 0,
-				"sa": 0,
-				"sd": 0,
-				"sp": 0
-			},
-			"level": 15,
-			"moves": [],
-			"nature": ""
 		}
 	},
 	"Azumarill": {
@@ -1868,6 +1852,94 @@ var SETDEX_SV = {
 				"Quick Attack"
 			],
 			"nature": "Jolly"
+		}
+	},
+	"Bisharp": {
+		"Rival Brendan Route 110 Treecko": {
+			"ability": "Defiant",
+			"index": 2,
+			"item": "Eviolite",
+			"ivs": {
+				"at": 31,
+				"df": 31,
+				"hp": 31,
+				"sa": 31,
+				"sd": 31,
+				"sp": 31
+			},
+			"level": 35,
+			"moves": [
+				"Night Slash",
+				"Iron Head",
+				"Low Kick",
+				"Psycho Cut"
+			],
+			"nature": "Adamant"
+		},
+		"Rival May Route 110 Treecko": {
+			"ability": "Defiant",
+			"index": 2,
+			"item": "Eviolite",
+			"ivs": {
+				"at": 31,
+				"df": 31,
+				"hp": 31,
+				"sa": 31,
+				"sd": 31,
+				"sp": 31
+			},
+			"level": 35,
+			"moves": [
+				"Night Slash",
+				"Iron Head",
+				"Low Kick",
+				"Psycho Cut"
+			],
+			"nature": "Adamant"
+		}
+	},
+	"Blaziken": {
+		"Rival Brendan Route 110 Mudkip": {
+			"ability": "Speed Boost",
+			"index": 1,
+			"item": "Throat Spray",
+			"ivs": {
+				"at": 0,
+				"df": 31,
+				"hp": 31,
+				"sa": 31,
+				"sd": 31,
+				"sp": 31
+			},
+			"level": 34,
+			"moves": [
+				"Roar",
+				"Fire Blast",
+				"Aura Sphere",
+				"Scorching Sands"
+			],
+			"nature": "Modest"
+		},
+		"Rival May Route 110 Mudkip": {
+			"ability": "Speed Boost",
+			"index": 1,
+			"item": "Throat Spray",
+			"ivs": {
+				"at": 0,
+				"df": 31,
+				"hp": 31,
+				"sa": 31,
+				"sd": 31,
+				"sp": 31
+			},
+			"level": 34,
+			"moves": [
+				"Roar",
+				"Fire Blast",
+				"Aura Sphere",
+				"Scorching Sands"
+			],
+			"nature": "Modest"
 		}
 	},
 	"Blissey": {
@@ -3674,22 +3746,6 @@ var SETDEX_SV = {
 			"moves": [],
 			"nature": ""
 		},
-		"Rival Brendan Route 110 Treecko": {
-			"ability": "",
-			"index": 2,
-			"item": "",
-			"ivs": {
-				"at": 12,
-				"df": 12,
-				"hp": 12,
-				"sa": 12,
-				"sd": 12,
-				"sp": 12
-			},
-			"level": 20,
-			"moves": [],
-			"nature": ""
-		},
 		"Rival Brendan Route 119 Treecko": {
 			"ability": "",
 			"index": 2,
@@ -3740,22 +3796,6 @@ var SETDEX_SV = {
 				"sp": 24
 			},
 			"level": 34,
-			"moves": [],
-			"nature": ""
-		},
-		"Rival May Route 110 Treecko": {
-			"ability": "",
-			"index": 2,
-			"item": "",
-			"ivs": {
-				"at": 12,
-				"df": 12,
-				"hp": 12,
-				"sa": 12,
-				"sd": 12,
-				"sp": 12
-			},
-			"level": 20,
 			"moves": [],
 			"nature": ""
 		},
@@ -3934,6 +3974,29 @@ var SETDEX_SV = {
 				"Confuse Ray"
 			],
 			"nature": ""
+		}
+	},
+	"Cramorant": {
+		"Pokefan Isabel 1": {
+			"ability": "Gulp Missile",
+			"index": 0,
+			"item": "Assault Vest",
+			"ivs": {
+				"at": 31,
+				"df": 31,
+				"hp": 31,
+				"sa": 31,
+				"sd": 31,
+				"sp": 31
+			},
+			"level": 32,
+			"moves": [
+				"Dive",
+				"Drill Peck",
+				"Superpower",
+				"Throat Chop"
+			],
+			"nature": "Jolly"
 		}
 	},
 	"Cranidos": {
@@ -4691,6 +4754,27 @@ var SETDEX_SV = {
 			"level": 37,
 			"moves": [],
 			"nature": ""
+		},
+		"Youngster Timmy": {
+			"ability": "Early Bird",
+			"index": 0,
+			"item": "Life Orb",
+			"ivs": {
+				"at": 31,
+				"df": 31,
+				"hp": 31,
+				"sa": 31,
+				"sd": 31,
+				"sp": 31
+			},
+			"level": 32,
+			"moves": [
+				"Return",
+				"Drill Peck",
+				"Drill Run",
+				"Steel Wing"
+			],
+			"nature": "Jolly"
 		}
 	},
 	"Doduo": {
@@ -5598,22 +5682,6 @@ var SETDEX_SV = {
 			"level": 25,
 			"moves": [],
 			"nature": ""
-		},
-		"Youngster Timmy": {
-			"ability": "",
-			"index": 1,
-			"item": "",
-			"ivs": {
-				"at": 0,
-				"df": 0,
-				"hp": 0,
-				"sa": 0,
-				"sd": 0,
-				"sp": 0
-			},
-			"level": 13,
-			"moves": [],
-			"nature": ""
 		}
 	},
 	"Electrode": {
@@ -6411,6 +6479,50 @@ var SETDEX_SV = {
 			"nature": ""
 		}
 	},
+	"Gholdengo": {
+		"Rival Brendan Route 110 Mudkip": {
+			"ability": "Good as Gold",
+			"index": 2,
+			"item": "Wise Glasses",
+			"ivs": {
+				"at": 0,
+				"df": 31,
+				"hp": 31,
+				"sa": 31,
+				"sd": 31,
+				"sp": 31
+			},
+			"level": 35,
+			"moves": [
+				"Flash Cannon",
+				"Shadow Ball",
+				"Recover",
+				"Confuse Ray"
+			],
+			"nature": "Modest"
+		},
+		"Rival May Route 110 Mudkip": {
+			"ability": "Good as Gold",
+			"index": 2,
+			"item": "Wise Glasses",
+			"ivs": {
+				"at": 0,
+				"df": 31,
+				"hp": 31,
+				"sa": 31,
+				"sd": 31,
+				"sp": 31
+			},
+			"level": 35,
+			"moves": [
+				"Flash Cannon",
+				"Shadow Ball",
+				"Recover",
+				"Confuse Ray"
+			],
+			"nature": "Modest"
+		}
+	},
 	"Girafarig": {
 		"Gentleman Clifford": {
 			"ability": "",
@@ -6549,6 +6661,50 @@ var SETDEX_SV = {
 				"Spikes"
 			],
 			"nature": "Modest"
+		}
+	},
+	"Gliscor": {
+		"Rival Brendan Route 110 Torchic": {
+			"ability": "Poison Heal",
+			"index": 2,
+			"item": "Toxic Orb",
+			"ivs": {
+				"at": 31,
+				"df": 31,
+				"hp": 31,
+				"sa": 31,
+				"sd": 31,
+				"sp": 31
+			},
+			"level": 34,
+			"moves": [
+				"Roost",
+				"Dig",
+				"Fly",
+				"Protect"
+			],
+			"nature": "Adamant"
+		},
+		"Rival May Route 110 Torchic": {
+			"ability": "Poison Heal",
+			"index": 2,
+			"item": "Toxic Orb",
+			"ivs": {
+				"at": 31,
+				"df": 31,
+				"hp": 31,
+				"sa": 31,
+				"sd": 31,
+				"sp": 31
+			},
+			"level": 34,
+			"moves": [
+				"Roost",
+				"Dig",
+				"Fly",
+				"Protect"
+			],
+			"nature": "Adamant"
 		}
 	},
 	"Gloom": {
@@ -7446,22 +7602,6 @@ var SETDEX_SV = {
 			"moves": [],
 			"nature": ""
 		},
-		"Rival Brendan Route 110 Mudkip": {
-			"ability": "",
-			"index": 2,
-			"item": "",
-			"ivs": {
-				"at": 12,
-				"df": 12,
-				"hp": 12,
-				"sa": 12,
-				"sd": 12,
-				"sp": 12
-			},
-			"level": 20,
-			"moves": [],
-			"nature": ""
-		},
 		"Rival Brendan Route 119 Mudkip": {
 			"ability": "",
 			"index": 2,
@@ -7512,22 +7652,6 @@ var SETDEX_SV = {
 				"sp": 24
 			},
 			"level": 34,
-			"moves": [],
-			"nature": ""
-		},
-		"Rival May Route 110 Mudkip": {
-			"ability": "",
-			"index": 2,
-			"item": "",
-			"ivs": {
-				"at": 12,
-				"df": 12,
-				"hp": 12,
-				"sa": 12,
-				"sd": 12,
-				"sp": 12
-			},
-			"level": 20,
 			"moves": [],
 			"nature": ""
 		},
@@ -8259,7 +8383,7 @@ var SETDEX_SV = {
 			},
 			"level": 25,
 			"moves": [
-				"Facade",
+				"Fake Out",
 				"Drain Punch",
 				"Knock Off",
 				"Bullet Punch"
@@ -8787,6 +8911,50 @@ var SETDEX_SV = {
 				"Triple Kick"
 			],
 			"nature": ""
+		}
+	},
+	"Honchkrow": {
+		"Rival Brendan Route 110 Mudkip": {
+			"ability": "Super Luck",
+			"index": 3,
+			"item": "Scope Lens",
+			"ivs": {
+				"at": 31,
+				"df": 31,
+				"hp": 31,
+				"sa": 31,
+				"sd": 31,
+				"sp": 31
+			},
+			"level": 35,
+			"moves": [
+				"Night Slash",
+				"Drill Peck",
+				"Roost",
+				"Superpower"
+			],
+			"nature": "Adamant"
+		},
+		"Rival May Route 110 Mudkip": {
+			"ability": "Super Luck",
+			"index": 3,
+			"item": "Scope Lens",
+			"ivs": {
+				"at": 31,
+				"df": 31,
+				"hp": 31,
+				"sa": 31,
+				"sd": 31,
+				"sp": 31
+			},
+			"level": 35,
+			"moves": [
+				"Night Slash",
+				"Drill Peck",
+				"Roost",
+				"Superpower"
+			],
+			"nature": "Adamant"
 		}
 	},
 	"Hoothoot": {
@@ -11489,38 +11657,6 @@ var SETDEX_SV = {
 			"moves": [],
 			"nature": ""
 		},
-		"Rival Brendan Route 110 Torchic": {
-			"ability": "",
-			"index": 0,
-			"item": "",
-			"ivs": {
-				"at": 6,
-				"df": 6,
-				"hp": 6,
-				"sa": 6,
-				"sd": 6,
-				"sp": 6
-			},
-			"level": 18,
-			"moves": [],
-			"nature": ""
-		},
-		"Rival Brendan Route 110 Treecko": {
-			"ability": "",
-			"index": 1,
-			"item": "",
-			"ivs": {
-				"at": 6,
-				"df": 6,
-				"hp": 6,
-				"sa": 6,
-				"sd": 6,
-				"sp": 6
-			},
-			"level": 18,
-			"moves": [],
-			"nature": ""
-		},
 		"Rival Brendan Route 119 Torchic": {
 			"ability": "",
 			"index": 0,
@@ -11550,38 +11686,6 @@ var SETDEX_SV = {
 				"sp": 12
 			},
 			"level": 29,
-			"moves": [],
-			"nature": ""
-		},
-		"Rival May Route 110 Torchic": {
-			"ability": "",
-			"index": 0,
-			"item": "",
-			"ivs": {
-				"at": 6,
-				"df": 6,
-				"hp": 6,
-				"sa": 6,
-				"sd": 6,
-				"sp": 6
-			},
-			"level": 18,
-			"moves": [],
-			"nature": ""
-		},
-		"Rival May Route 110 Treecko": {
-			"ability": "",
-			"index": 1,
-			"item": "",
-			"ivs": {
-				"at": 6,
-				"df": 6,
-				"hp": 6,
-				"sa": 6,
-				"sd": 6,
-				"sp": 6
-			},
-			"level": 18,
 			"moves": [],
 			"nature": ""
 		},
@@ -11653,6 +11757,29 @@ var SETDEX_SV = {
 				"Icy Wind"
 			],
 			"nature": "Mild"
+		}
+	},
+	"Lopunny": {
+		"Youngster Timmy": {
+			"ability": "Iron Fist",
+			"index": 1,
+			"item": "Life Orb",
+			"ivs": {
+				"at": 31,
+				"df": 31,
+				"hp": 31,
+				"sa": 31,
+				"sd": 31,
+				"sp": 31
+			},
+			"level": 32,
+			"moves": [
+				"Drain Punch",
+				"Dizzy Punch",
+				"Ice Punch",
+				"Thunder Punch"
+			],
+			"nature": "Jolly"
 		}
 	},
 	"Lotad": {
@@ -14374,6 +14501,50 @@ var SETDEX_SV = {
 			"nature": ""
 		}
 	},
+	"Magnezone": {
+		"Rival Brendan Route 110 Torchic": {
+			"ability": "Magnet Pull",
+			"index": 3,
+			"item": "Air Balloon",
+			"ivs": {
+				"at": 0,
+				"df": 31,
+				"hp": 31,
+				"sa": 31,
+				"sd": 31,
+				"sp": 31
+			},
+			"level": 35,
+			"moves": [
+				"Flash Cannon",
+				"Volt Switch",
+				"Body Press",
+				"Tri Attack"
+			],
+			"nature": "Modest"
+		},
+		"Rival May Route 110 Torchic": {
+			"ability": "Magnet Pull",
+			"index": 3,
+			"item": "Air Balloon",
+			"ivs": {
+				"at": 0,
+				"df": 31,
+				"hp": 31,
+				"sa": 31,
+				"sd": 31,
+				"sp": 31
+			},
+			"level": 35,
+			"moves": [
+				"Flash Cannon",
+				"Volt Switch",
+				"Body Press",
+				"Tri Attack"
+			],
+			"nature": "Modest"
+		}
+	},
 	"Makuhita": {
 		"Battle Girl Callie": {
 			"ability": "",
@@ -15755,22 +15926,6 @@ var SETDEX_SV = {
 			"moves": [],
 			"nature": ""
 		},
-		"Rival Brendan Route 110 Torchic": {
-			"ability": "",
-			"index": 2,
-			"item": "",
-			"ivs": {
-				"at": 12,
-				"df": 12,
-				"hp": 12,
-				"sa": 12,
-				"sd": 12,
-				"sp": 12
-			},
-			"level": 20,
-			"moves": [],
-			"nature": ""
-		},
 		"Rival Brendan Route 119 Torchic": {
 			"ability": "",
 			"index": 2,
@@ -15821,22 +15976,6 @@ var SETDEX_SV = {
 				"sp": 24
 			},
 			"level": 34,
-			"moves": [],
-			"nature": ""
-		},
-		"Rival May Route 110 Torchic": {
-			"ability": "",
-			"index": 2,
-			"item": "",
-			"ivs": {
-				"at": 12,
-				"df": 12,
-				"hp": 12,
-				"sa": 12,
-				"sd": 12,
-				"sp": 12
-			},
-			"level": 20,
 			"moves": [],
 			"nature": ""
 		},
@@ -17294,22 +17433,6 @@ var SETDEX_SV = {
 		}
 	},
 	"Minun": {
-		"Pokefan Isabel 1": {
-			"ability": "",
-			"index": 1,
-			"item": "Oran Berry",
-			"ivs": {
-				"at": 0,
-				"df": 0,
-				"hp": 0,
-				"sa": 0,
-				"sd": 0,
-				"sp": 0
-			},
-			"level": 14,
-			"moves": [],
-			"nature": ""
-		},
 		"Pokefan Isabel 2": {
 			"ability": "",
 			"index": 1,
@@ -17371,22 +17494,6 @@ var SETDEX_SV = {
 				"sp": 4
 			},
 			"level": 35,
-			"moves": [],
-			"nature": ""
-		},
-		"Pokefan Kaleb": {
-			"ability": "",
-			"index": 0,
-			"item": "Oran Berry",
-			"ivs": {
-				"at": 0,
-				"df": 0,
-				"hp": 0,
-				"sa": 0,
-				"sd": 0,
-				"sp": 0
-			},
-			"level": 14,
 			"moves": [],
 			"nature": ""
 		},
@@ -19341,29 +19448,6 @@ var SETDEX_SV = {
 			"nature": "Brave"
 		}
 	},
-	"Pawmo": {
-		"Leader Brawly 1": {
-			"ability": "Iron Fist",
-			"index": 1,
-			"item": "Punching Glove",
-			"ivs": {
-				"at": 31,
-				"df": 31,
-				"hp": 31,
-				"sa": 31,
-				"sd": 31,
-				"sp": 31
-			},
-			"level": 25,
-			"moves": [
-				"Knock Off",
-				"Thunder Punch",
-				"Drain Punch",
-				"Ice Punch"
-			],
-			"nature": "Adamant"
-		}
-	},
 	"Pelipper": {
 		"Bird Keeper Alberto": {
 			"ability": "",
@@ -20189,22 +20273,6 @@ var SETDEX_SV = {
 		}
 	},
 	"Plusle": {
-		"Pokefan Isabel 1": {
-			"ability": "",
-			"index": 0,
-			"item": "Oran Berry",
-			"ivs": {
-				"at": 0,
-				"df": 0,
-				"hp": 0,
-				"sa": 0,
-				"sd": 0,
-				"sp": 0
-			},
-			"level": 14,
-			"moves": [],
-			"nature": ""
-		},
 		"Pokefan Isabel 2": {
 			"ability": "",
 			"index": 0,
@@ -20266,22 +20334,6 @@ var SETDEX_SV = {
 				"sp": 4
 			},
 			"level": 35,
-			"moves": [],
-			"nature": ""
-		},
-		"Pokefan Kaleb": {
-			"ability": "",
-			"index": 1,
-			"item": "Oran Berry",
-			"ivs": {
-				"at": 0,
-				"df": 0,
-				"hp": 0,
-				"sa": 0,
-				"sd": 0,
-				"sp": 0
-			},
-			"level": 14,
 			"moves": [],
 			"nature": ""
 		},
@@ -20420,7 +20472,7 @@ var SETDEX_SV = {
 	},
 	"Politoed": {
 		"Fisherman Elliot 1": {
-			"ability": "Water Absorb",
+			"ability": "Drizzle",
 			"index": 0,
 			"item": "Damp Rock",
 			"ivs": {
@@ -20976,6 +21028,50 @@ var SETDEX_SV = {
 			"nature": ""
 		}
 	},
+	"Quaquaval": {
+		"Rival Brendan Route 110 Torchic": {
+			"ability": "Dazzling",
+			"index": 4,
+			"item": "Expert Belt",
+			"ivs": {
+				"at": 31,
+				"df": 31,
+				"hp": 31,
+				"sa": 31,
+				"sd": 31,
+				"sp": 31
+			},
+			"level": 36,
+			"moves": [
+				"Aqua Step",
+				"Brick Break",
+				"Knock Off",
+				"Ice Spinner"
+			],
+			"nature": "Jolly"
+		},
+		"Rival May Route 110 Torchic": {
+			"ability": "Dazzling",
+			"index": 4,
+			"item": "Expert Belt",
+			"ivs": {
+				"at": 31,
+				"df": 31,
+				"hp": 31,
+				"sa": 31,
+				"sd": 31,
+				"sp": 31
+			},
+			"level": 36,
+			"moves": [
+				"Aqua Step",
+				"Brick Break",
+				"Knock Off",
+				"Ice Spinner"
+			],
+			"nature": "Jolly"
+		}
+	},
 	"Quaxly": {
 		"Rival Brendan Route 103 Torchic": {
 			"ability": "Dazzling",
@@ -21169,6 +21265,27 @@ var SETDEX_SV = {
 				"Protect"
 			],
 			"nature": ""
+		},
+		"Pokefan Kaleb": {
+			"ability": "Lightning Rod",
+			"index": 0,
+			"item": "Air Balloon",
+			"ivs": {
+				"at": 31,
+				"df": 31,
+				"hp": 31,
+				"sa": 31,
+				"sd": 31,
+				"sp": 31
+			},
+			"level": 32,
+			"moves": [
+				"Thunder Punch",
+				"Focus Punch",
+				"Substitute",
+				"Iron Tail"
+			],
+			"nature": "Jolly"
 		}
 	},
 	"Ralts": {
@@ -22983,6 +23100,50 @@ var SETDEX_SV = {
 			"nature": "Modest"
 		}
 	},
+	"Sceptile": {
+		"Rival Brendan Route 110 Torchic": {
+			"ability": "Technician",
+			"index": 1,
+			"item": "Miracle Seed",
+			"ivs": {
+				"at": 31,
+				"df": 31,
+				"hp": 31,
+				"sa": 31,
+				"sd": 31,
+				"sp": 31
+			},
+			"level": 34,
+			"moves": [
+				"Dragon Breath",
+				"Magical Leaf",
+				"Vacuum Wave",
+				"Iron Tail"
+			],
+			"nature": "Hasty"
+		},
+		"Rival May Route 110 Torchic": {
+			"ability": "Technician",
+			"index": 1,
+			"item": "Miracle Seed",
+			"ivs": {
+				"at": 31,
+				"df": 31,
+				"hp": 31,
+				"sa": 31,
+				"sd": 31,
+				"sp": 31
+			},
+			"level": 34,
+			"moves": [
+				"Dragon Breath",
+				"Magical Leaf",
+				"Vacuum Wave",
+				"Iron Tail"
+			],
+			"nature": "Hasty"
+		}
+	},
 	"Scraggy": {
 		"Sailor Brenden": {
 			"ability": "Moxie",
@@ -23304,6 +23465,50 @@ var SETDEX_SV = {
 			"level": 28,
 			"moves": [],
 			"nature": ""
+		}
+	},
+	"Serperior": {
+		"Rival Brendan Route 110 Mudkip": {
+			"ability": "Noble Aura",
+			"index": 4,
+			"item": "Assault Vest",
+			"ivs": {
+				"at": 0,
+				"df": 31,
+				"hp": 31,
+				"sa": 31,
+				"sd": 31,
+				"sp": 31
+			},
+			"level": 36,
+			"moves": [
+				"Calm Mind",
+				"Giga Drain",
+				"Thunderbolt",
+				"Earth Power"
+			],
+			"nature": "Jolly"
+		},
+		"Rival May Route 110 Mudkip": {
+			"ability": "Noble Aura",
+			"index": 4,
+			"item": "Assault Vest",
+			"ivs": {
+				"at": 0,
+				"df": 31,
+				"hp": 31,
+				"sa": 31,
+				"sd": 31,
+				"sp": 31
+			},
+			"level": 36,
+			"moves": [
+				"Calm Mind",
+				"Giga Drain",
+				"Thunderbolt",
+				"Earth Power"
+			],
+			"nature": "Jolly"
 		}
 	},
 	"Servine": {
@@ -25328,38 +25533,6 @@ var SETDEX_SV = {
 			"moves": [],
 			"nature": ""
 		},
-		"Rival Brendan Route 110 Mudkip": {
-			"ability": "",
-			"index": 0,
-			"item": "",
-			"ivs": {
-				"at": 6,
-				"df": 6,
-				"hp": 6,
-				"sa": 6,
-				"sd": 6,
-				"sp": 6
-			},
-			"level": 18,
-			"moves": [],
-			"nature": ""
-		},
-		"Rival Brendan Route 110 Torchic": {
-			"ability": "",
-			"index": 1,
-			"item": "",
-			"ivs": {
-				"at": 6,
-				"df": 6,
-				"hp": 6,
-				"sa": 6,
-				"sd": 6,
-				"sp": 6
-			},
-			"level": 18,
-			"moves": [],
-			"nature": ""
-		},
 		"Rival Brendan Route 119 Mudkip": {
 			"ability": "",
 			"index": 0,
@@ -25421,38 +25594,6 @@ var SETDEX_SV = {
 				"sp": 18
 			},
 			"level": 32,
-			"moves": [],
-			"nature": ""
-		},
-		"Rival May Route 110 Mudkip": {
-			"ability": "",
-			"index": 1,
-			"item": "",
-			"ivs": {
-				"at": 6,
-				"df": 6,
-				"hp": 6,
-				"sa": 6,
-				"sd": 6,
-				"sp": 6
-			},
-			"level": 18,
-			"moves": [],
-			"nature": ""
-		},
-		"Rival May Route 110 Torchic": {
-			"ability": "",
-			"index": 1,
-			"item": "",
-			"ivs": {
-				"at": 6,
-				"df": 6,
-				"hp": 6,
-				"sa": 6,
-				"sd": 6,
-				"sp": 6
-			},
-			"level": 18,
 			"moves": [],
 			"nature": ""
 		},
@@ -26152,6 +26293,29 @@ var SETDEX_SV = {
 			"nature": ""
 		}
 	},
+	"Spinda-Drunken": {
+		"Leader Brawly 1": {
+			"ability": "Jumbled",
+			"index": 1,
+			"item": "Lum Berry",
+			"ivs": {
+				"at": 31,
+				"df": 31,
+				"hp": 31,
+				"sa": 31,
+				"sd": 31,
+				"sp": 31
+			},
+			"level": 25,
+			"moves": [
+				"Dynamic Punch",
+				"Mega Kick",
+				"Sing",
+				"Stone Edge"
+			],
+			"nature": "Adamant"
+		}
+	},
 	"Spoink": {
 		"Gentleman Nate": {
 			"ability": "",
@@ -26248,6 +26412,50 @@ var SETDEX_SV = {
 			"level": 18,
 			"moves": [],
 			"nature": ""
+		}
+	},
+	"Staraptor": {
+		"Rival Brendan Route 110 Treecko": {
+			"ability": "Reckless",
+			"index": 3,
+			"item": "Sitrus Berry",
+			"ivs": {
+				"at": 31,
+				"df": 31,
+				"hp": 31,
+				"sa": 31,
+				"sd": 31,
+				"sp": 31
+			},
+			"level": 35,
+			"moves": [
+				"Submission",
+				"Acrobatics",
+				"Pursuit",
+				"U-turn"
+			],
+			"nature": "Jolly"
+		},
+		"Rival May Route 110 Treecko": {
+			"ability": "Reckless",
+			"index": 3,
+			"item": "Sitrus Berry",
+			"ivs": {
+				"at": 31,
+				"df": 31,
+				"hp": 31,
+				"sa": 31,
+				"sd": 31,
+				"sp": 31
+			},
+			"level": 35,
+			"moves": [
+				"Submission",
+				"Acrobatics",
+				"Pursuit",
+				"U-turn"
+			],
+			"nature": "Jolly"
 		}
 	},
 	"Staravia": {
@@ -27157,6 +27365,50 @@ var SETDEX_SV = {
 				"Aerial Ace"
 			],
 			"nature": ""
+		}
+	},
+	"Swampert": {
+		"Rival Brendan Route 110 Treecko": {
+			"ability": "Storm Drain",
+			"index": 1,
+			"item": "Leftovers",
+			"ivs": {
+				"at": 31,
+				"df": 31,
+				"hp": 31,
+				"sa": 31,
+				"sd": 31,
+				"sp": 31
+			},
+			"level": 34,
+			"moves": [
+				"Flip Turn",
+				"Earthquake",
+				"Rock Slide",
+				"Waterfall"
+			],
+			"nature": "Adamant"
+		},
+		"Rival May Route 110 Treecko": {
+			"ability": "Storm Drain",
+			"index": 1,
+			"item": "Leftovers",
+			"ivs": {
+				"at": 31,
+				"df": 31,
+				"hp": 31,
+				"sa": 31,
+				"sd": 31,
+				"sp": 31
+			},
+			"level": 34,
+			"moves": [
+				"Flip Turn",
+				"Earthquake",
+				"Rock Slide",
+				"Waterfall"
+			],
+			"nature": "Adamant"
 		}
 	},
 	"Swellow": {
@@ -29034,6 +29286,50 @@ var SETDEX_SV = {
 			"nature": ""
 		}
 	},
+	"Typhlosion": {
+		"Rival Brendan Route 110 Treecko": {
+			"ability": "Adaptability",
+			"index": 4,
+			"item": "Expert Belt",
+			"ivs": {
+				"at": 31,
+				"df": 31,
+				"hp": 31,
+				"sa": 31,
+				"sd": 31,
+				"sp": 31
+			},
+			"level": 36,
+			"moves": [
+				"Heat Wave",
+				"Extrasensory",
+				"Scorching Sands",
+				"Thunder Punch"
+			],
+			"nature": "Hasty"
+		},
+		"Rival May Route 110 Treecko": {
+			"ability": "Adaptability",
+			"index": 4,
+			"item": "Expert Belt",
+			"ivs": {
+				"at": 31,
+				"df": 31,
+				"hp": 31,
+				"sa": 31,
+				"sd": 31,
+				"sp": 31
+			},
+			"level": 36,
+			"moves": [
+				"Heat Wave",
+				"Extrasensory",
+				"Scorching Sands",
+				"Thunder Punch"
+			],
+			"nature": "Hasty"
+		}
+	},
 	"Vigoroth": {
 		"Cooltrainer Berke": {
 			"ability": "",
@@ -29139,6 +29435,69 @@ var SETDEX_SV = {
 			],
 			"nature": ""
 		},
+		"Rival Brendan Route 110 Mudkip": {
+			"ability": "Vital Spirit",
+			"index": 0,
+			"item": "Life Orb",
+			"ivs": {
+				"at": 31,
+				"df": 31,
+				"hp": 31,
+				"sa": 31,
+				"sd": 31,
+				"sp": 31
+			},
+			"level": 34,
+			"moves": [
+				"Return",
+				"Drain Punch",
+				"Play Rough",
+				"Poison Jab"
+			],
+			"nature": "Jolly"
+		},
+		"Rival Brendan Route 110 Torchic": {
+			"ability": "Vital Spirit",
+			"index": 0,
+			"item": "Life Orb",
+			"ivs": {
+				"at": 31,
+				"df": 31,
+				"hp": 31,
+				"sa": 31,
+				"sd": 31,
+				"sp": 31
+			},
+			"level": 34,
+			"moves": [
+				"Return",
+				"Drain Punch",
+				"Play Rough",
+				"Poison Jab"
+			],
+			"nature": "Jolly"
+		},
+		"Rival Brendan Route 110 Treecko": {
+			"ability": "Vital Spirit",
+			"index": 0,
+			"item": "Life Orb",
+			"ivs": {
+				"at": 31,
+				"df": 31,
+				"hp": 31,
+				"sa": 31,
+				"sd": 31,
+				"sp": 31
+			},
+			"level": 34,
+			"moves": [
+				"Return",
+				"Drain Punch",
+				"Play Rough",
+				"Poison Jab"
+			],
+			"nature": "Jolly"
+		},
 		"Rival Brendan Rustboro Mudkip": {
 			"ability": "Vital Spirit",
 			"index": 1,
@@ -29199,6 +29558,69 @@ var SETDEX_SV = {
 				"Brick Break",
 				"Yawn",
 				"Rock Slide"
+			],
+			"nature": "Jolly"
+		},
+		"Rival May Route 110 Mudkip": {
+			"ability": "Vital Spirit",
+			"index": 0,
+			"item": "Life Orb",
+			"ivs": {
+				"at": 31,
+				"df": 31,
+				"hp": 31,
+				"sa": 31,
+				"sd": 31,
+				"sp": 31
+			},
+			"level": 34,
+			"moves": [
+				"Return",
+				"Drain Punch",
+				"Play Rough",
+				"Poison Jab"
+			],
+			"nature": "Jolly"
+		},
+		"Rival May Route 110 Torchic": {
+			"ability": "Vital Spirit",
+			"index": 0,
+			"item": "Life Orb",
+			"ivs": {
+				"at": 31,
+				"df": 31,
+				"hp": 31,
+				"sa": 31,
+				"sd": 31,
+				"sp": 31
+			},
+			"level": 34,
+			"moves": [
+				"Return",
+				"Drain Punch",
+				"Play Rough",
+				"Poison Jab"
+			],
+			"nature": "Jolly"
+		},
+		"Rival May Route 110 Treecko": {
+			"ability": "Vital Spirit",
+			"index": 0,
+			"item": "Life Orb",
+			"ivs": {
+				"at": 31,
+				"df": 31,
+				"hp": 31,
+				"sa": 31,
+				"sd": 31,
+				"sp": 31
+			},
+			"level": 34,
+			"moves": [
+				"Return",
+				"Drain Punch",
+				"Play Rough",
+				"Poison Jab"
 			],
 			"nature": "Jolly"
 		},
@@ -30649,70 +31071,6 @@ var SETDEX_SV = {
 				"sp": 1
 			},
 			"level": 25,
-			"moves": [],
-			"nature": ""
-		},
-		"Rival Brendan Route 110 Mudkip": {
-			"ability": "",
-			"index": 1,
-			"item": "",
-			"ivs": {
-				"at": 6,
-				"df": 6,
-				"hp": 6,
-				"sa": 6,
-				"sd": 6,
-				"sp": 6
-			},
-			"level": 18,
-			"moves": [],
-			"nature": ""
-		},
-		"Rival Brendan Route 110 Treecko": {
-			"ability": "",
-			"index": 0,
-			"item": "",
-			"ivs": {
-				"at": 6,
-				"df": 6,
-				"hp": 6,
-				"sa": 6,
-				"sd": 6,
-				"sp": 6
-			},
-			"level": 18,
-			"moves": [],
-			"nature": ""
-		},
-		"Rival May Route 110 Mudkip": {
-			"ability": "",
-			"index": 0,
-			"item": "",
-			"ivs": {
-				"at": 6,
-				"df": 6,
-				"hp": 6,
-				"sa": 6,
-				"sd": 6,
-				"sp": 6
-			},
-			"level": 18,
-			"moves": [],
-			"nature": ""
-		},
-		"Rival May Route 110 Treecko": {
-			"ability": "",
-			"index": 0,
-			"item": "",
-			"ivs": {
-				"at": 6,
-				"df": 6,
-				"hp": 6,
-				"sa": 6,
-				"sd": 6,
-				"sp": 6
-			},
-			"level": 18,
 			"moves": [],
 			"nature": ""
 		},
