@@ -4,37 +4,37 @@ var SETDEX_SV = {
 			"ability": "",
 			"index": 0,
 			"item": "",
-			"ivs": {
-				"at": 0,
-				"df": 0,
-				"hp": 0,
-				"sa": 0,
-				"sd": 0,
-				"sp": 0
-			},
 			"level": 15,
 			"moves": [
 				"Hidden Power"
 			],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 0,
+				"at": 0,
+				"df": 0,
+				"sa": 0,
+				"sd": 0,
+				"sp": 0
+			}
 		},
 		"Psychic Jaclyn": {
 			"ability": "",
 			"index": 0,
 			"item": "",
-			"ivs": {
-				"at": 0,
-				"df": 0,
-				"hp": 0,
-				"sa": 0,
-				"sd": 0,
-				"sp": 0
-			},
 			"level": 16,
 			"moves": [
 				"Hidden Power"
 			],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 0,
+				"at": 0,
+				"df": 0,
+				"sa": 0,
+				"sd": 0,
+				"sp": 0
+			}
 		}
 	},
 	"Absol": {
@@ -42,46 +42,38 @@ var SETDEX_SV = {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 27,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 27,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Cooltrainer Halle": {
 			"ability": "",
 			"index": 1,
 			"item": "",
+			"level": 43,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 43,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Elite Four Sidney": {
 			"ability": "",
 			"index": 4,
 			"item": "Sitrus Berry",
-			"ivs": {
-				"at": 31,
-				"df": 31,
-				"hp": 31,
-				"sa": 31,
-				"sd": 31,
-				"sp": 31
-			},
 			"level": 49,
 			"moves": [
 				"Aerial Ace",
@@ -89,7 +81,15 @@ var SETDEX_SV = {
 				"Swords Dance",
 				"Slash"
 			],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 31,
+				"at": 31,
+				"df": 31,
+				"sa": 31,
+				"sd": 31,
+				"sp": 31
+			}
 		}
 	},
 	"Aerodactyl": {
@@ -97,14 +97,6 @@ var SETDEX_SV = {
 			"ability": "",
 			"index": 0,
 			"item": "",
-			"ivs": {
-				"at": 31,
-				"df": 31,
-				"hp": 31,
-				"sa": 31,
-				"sd": 31,
-				"sp": 31
-			},
 			"level": 47,
 			"moves": [
 				"Rock Slide",
@@ -112,7 +104,28 @@ var SETDEX_SV = {
 				"Supersonic",
 				"Protect"
 			],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 31,
+				"at": 31,
+				"df": 31,
+				"sa": 31,
+				"sd": 31,
+				"sp": 31
+			}
+		},
+		"Team Aqua Grunt Oceanic Right": {
+			"ability": "Unnerve",
+			"index": 0,
+			"item": "Damp Rock",
+			"level": 28,
+			"moves": [
+				"Rain Dance",
+				"Aqua Tail",
+				"Rock Slide",
+				"Dual Wingbeat"
+			],
+			"nature": "Jolly"
 		}
 	},
 	"Aggron": {
@@ -120,30 +133,22 @@ var SETDEX_SV = {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 35,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 4,
 				"at": 4,
 				"df": 4,
-				"hp": 4,
 				"sa": 4,
 				"sd": 4,
 				"sp": 4
-			},
-			"level": 35,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Rival Steven": {
 			"ability": "",
 			"index": 2,
 			"item": "",
-			"ivs": {
-				"at": 31,
-				"df": 31,
-				"hp": 31,
-				"sa": 31,
-				"sd": 31,
-				"sp": 31
-			},
 			"level": 76,
 			"moves": [
 				"Thunder",
@@ -151,7 +156,30 @@ var SETDEX_SV = {
 				"Solar Beam",
 				"Dragon Claw"
 			],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 31,
+				"at": 31,
+				"df": 31,
+				"sa": 31,
+				"sd": 31,
+				"sp": 31
+			}
+		}
+	},
+	"Aipom": {
+		"Gentleman Wilson School": {
+			"ability": "Skill Link",
+			"index": 1,
+			"item": "Kings Rock",
+			"level": 17,
+			"moves": [
+				"Fake Out",
+				"Power-Up Punch",
+				"Double Slap",
+				"Aerial Ace"
+			],
+			"nature": "Jolly"
 		}
 	},
 	"Alakazam": {
@@ -159,33 +187,33 @@ var SETDEX_SV = {
 			"ability": "",
 			"index": 1,
 			"item": "",
+			"level": 45,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 4,
 				"at": 4,
 				"df": 4,
-				"hp": 4,
 				"sa": 4,
 				"sd": 4,
 				"sp": 4
-			},
-			"level": 45,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Psychic Jacki 5": {
 			"ability": "",
 			"index": 1,
 			"item": "",
+			"level": 43,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 4,
 				"at": 4,
 				"df": 4,
-				"hp": 4,
 				"sa": 4,
 				"sd": 4,
 				"sp": 4
-			},
-			"level": 43,
-			"moves": [],
-			"nature": ""
+			}
 		}
 	},
 	"Altaria": {
@@ -193,142 +221,214 @@ var SETDEX_SV = {
 			"ability": "",
 			"index": 1,
 			"item": "",
+			"level": 35,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 2,
 				"at": 2,
 				"df": 2,
-				"hp": 2,
 				"sa": 2,
 				"sd": 2,
 				"sp": 2
-			},
-			"level": 35,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Bird Keeper Robert 4": {
 			"ability": "",
 			"index": 1,
 			"item": "",
+			"level": 38,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 3,
 				"at": 3,
 				"df": 3,
-				"hp": 3,
 				"sa": 3,
 				"sd": 3,
 				"sp": 3
-			},
-			"level": 38,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Bird Keeper Robert 5": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 41,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 4,
 				"at": 4,
 				"df": 4,
-				"hp": 4,
 				"sa": 4,
 				"sd": 4,
 				"sp": 4
-			},
-			"level": 41,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Dragon Tamer Nicolas 1": {
 			"ability": "",
-			"index": 1,
+			"index": 0,
 			"item": "",
+			"level": 37,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 12,
 				"at": 12,
 				"df": 12,
-				"hp": 12,
 				"sa": 12,
 				"sd": 12,
 				"sp": 12
-			},
+			}
+		},
+		"Dragon Tamer Nicolas 1 (2)": {
+			"ability": "",
+			"index": 1,
+			"item": "",
 			"level": 37,
 			"moves": [],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 12,
+				"at": 12,
+				"df": 12,
+				"sa": 12,
+				"sd": 12,
+				"sp": 12
+			}
 		},
 		"Dragon Tamer Nicolas 2": {
 			"ability": "",
-			"index": 1,
+			"index": 0,
 			"item": "",
+			"level": 41,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 13,
 				"at": 13,
 				"df": 13,
-				"hp": 13,
 				"sa": 13,
 				"sd": 13,
 				"sp": 13
-			},
+			}
+		},
+		"Dragon Tamer Nicolas 2 (2)": {
+			"ability": "",
+			"index": 1,
+			"item": "",
 			"level": 41,
 			"moves": [],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 13,
+				"at": 13,
+				"df": 13,
+				"sa": 13,
+				"sd": 13,
+				"sp": 13
+			}
 		},
 		"Dragon Tamer Nicolas 3": {
 			"ability": "",
-			"index": 1,
+			"index": 0,
 			"item": "",
+			"level": 44,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 14,
 				"at": 14,
 				"df": 14,
-				"hp": 14,
 				"sa": 14,
 				"sd": 14,
 				"sp": 14
-			},
-			"level": 44,
-			"moves": [],
-			"nature": ""
+			}
 		},
-		"Dragon Tamer Nicolas 4": {
-			"ability": "",
-			"index": 2,
-			"item": "",
-			"ivs": {
-				"at": 15,
-				"df": 15,
-				"hp": 15,
-				"sa": 15,
-				"sd": 15,
-				"sp": 15
-			},
-			"level": 46,
-			"moves": [],
-			"nature": ""
-		},
-		"Dragon Tamer Nicolas 5": {
+		"Dragon Tamer Nicolas 3 (2)": {
 			"ability": "",
 			"index": 1,
 			"item": "",
+			"level": 44,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 14,
+				"at": 14,
+				"df": 14,
+				"sa": 14,
+				"sd": 14,
+				"sp": 14
+			}
+		},
+		"Dragon Tamer Nicolas 4": {
+			"ability": "",
+			"index": 1,
+			"item": "",
+			"level": 46,
+			"moves": [],
+			"nature": "",
+			"ivs": {
+				"hp": 15,
+				"at": 15,
+				"df": 15,
+				"sa": 15,
+				"sd": 15,
+				"sp": 15
+			}
+		},
+		"Dragon Tamer Nicolas 4 (2)": {
+			"ability": "",
+			"index": 2,
+			"item": "",
+			"level": 46,
+			"moves": [],
+			"nature": "",
+			"ivs": {
+				"hp": 15,
+				"at": 15,
+				"df": 15,
+				"sa": 15,
+				"sd": 15,
+				"sp": 15
+			}
+		},
+		"Dragon Tamer Nicolas 5": {
+			"ability": "",
+			"index": 0,
+			"item": "",
+			"level": 49,
+			"moves": [],
+			"nature": "",
+			"ivs": {
+				"hp": 17,
 				"at": 17,
 				"df": 17,
-				"hp": 17,
 				"sa": 17,
 				"sd": 17,
 				"sp": 17
-			},
+			}
+		},
+		"Dragon Tamer Nicolas 5 (2)": {
+			"ability": "",
+			"index": 1,
+			"item": "",
 			"level": 49,
 			"moves": [],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 17,
+				"at": 17,
+				"df": 17,
+				"sa": 17,
+				"sd": 17,
+				"sp": 17
+			}
 		},
 		"Elite Four Drake": {
 			"ability": "",
 			"index": 1,
 			"item": "",
-			"ivs": {
-				"at": 30,
-				"df": 30,
-				"hp": 30,
-				"sa": 30,
-				"sd": 30,
-				"sp": 30
-			},
 			"level": 54,
 			"moves": [
 				"Double Edge",
@@ -336,20 +436,20 @@ var SETDEX_SV = {
 				"Dragon Dance",
 				"Aerial Ace"
 			],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 30,
+				"at": 30,
+				"df": 30,
+				"sa": 30,
+				"sd": 30,
+				"sp": 30
+			}
 		},
 		"Leader Winona 1": {
 			"ability": "",
 			"index": 4,
 			"item": "Oran Berry",
-			"ivs": {
-				"at": 31,
-				"df": 31,
-				"hp": 31,
-				"sa": 31,
-				"sd": 31,
-				"sp": 31
-			},
 			"level": 33,
 			"moves": [
 				"Earthquake",
@@ -357,20 +457,20 @@ var SETDEX_SV = {
 				"Dragon Dance",
 				"Aerial Ace"
 			],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 31,
+				"at": 31,
+				"df": 31,
+				"sa": 31,
+				"sd": 31,
+				"sp": 31
+			}
 		},
 		"Leader Winona 2": {
 			"ability": "",
 			"index": 4,
 			"item": "Chesto Berry",
-			"ivs": {
-				"at": 31,
-				"df": 31,
-				"hp": 31,
-				"sa": 31,
-				"sd": 31,
-				"sp": 31
-			},
 			"level": 45,
 			"moves": [
 				"Aerial Ace",
@@ -378,20 +478,20 @@ var SETDEX_SV = {
 				"Dragon Dance",
 				"Earthquake"
 			],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 31,
+				"at": 31,
+				"df": 31,
+				"sa": 31,
+				"sd": 31,
+				"sp": 31
+			}
 		},
 		"Leader Winona 3": {
 			"ability": "",
 			"index": 5,
 			"item": "Chesto Berry",
-			"ivs": {
-				"at": 31,
-				"df": 31,
-				"hp": 31,
-				"sa": 31,
-				"sd": 31,
-				"sp": 31
-			},
 			"level": 50,
 			"moves": [
 				"Aerial Ace",
@@ -399,20 +499,20 @@ var SETDEX_SV = {
 				"Dragon Dance",
 				"Earthquake"
 			],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 31,
+				"at": 31,
+				"df": 31,
+				"sa": 31,
+				"sd": 31,
+				"sp": 31
+			}
 		},
 		"Leader Winona 4": {
 			"ability": "",
 			"index": 5,
 			"item": "Chesto Berry",
-			"ivs": {
-				"at": 31,
-				"df": 31,
-				"hp": 31,
-				"sa": 31,
-				"sd": 31,
-				"sp": 31
-			},
 			"level": 55,
 			"moves": [
 				"Aerial Ace",
@@ -420,20 +520,20 @@ var SETDEX_SV = {
 				"Dragon Dance",
 				"Earthquake"
 			],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 31,
+				"at": 31,
+				"df": 31,
+				"sa": 31,
+				"sd": 31,
+				"sp": 31
+			}
 		},
 		"Leader Winona 5": {
 			"ability": "",
 			"index": 5,
 			"item": "Chesto Berry",
-			"ivs": {
-				"at": 31,
-				"df": 31,
-				"hp": 31,
-				"sa": 31,
-				"sd": 31,
-				"sp": 31
-			},
 			"level": 60,
 			"moves": [
 				"Sky Attack",
@@ -441,36 +541,36 @@ var SETDEX_SV = {
 				"Dragon Dance",
 				"Earthquake"
 			],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 31,
+				"at": 31,
+				"df": 31,
+				"sa": 31,
+				"sd": 31,
+				"sp": 31
+			}
 		},
 		"Picnicker Diana 5": {
 			"ability": "",
 			"index": 2,
 			"item": "",
+			"level": 40,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 4,
 				"at": 4,
 				"df": 4,
-				"hp": 4,
 				"sa": 4,
 				"sd": 4,
 				"sp": 4
-			},
-			"level": 40,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Rival Wally Vr 1": {
 			"ability": "",
 			"index": 0,
 			"item": "",
-			"ivs": {
-				"at": 18,
-				"df": 18,
-				"hp": 18,
-				"sa": 18,
-				"sd": 18,
-				"sp": 18
-			},
 			"level": 44,
 			"moves": [
 				"Aerial Ace",
@@ -478,20 +578,20 @@ var SETDEX_SV = {
 				"Dragon Breath",
 				"Dragon Dance"
 			],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 18,
+				"at": 18,
+				"df": 18,
+				"sa": 18,
+				"sd": 18,
+				"sp": 18
+			}
 		},
 		"Rival Wally Vr 2": {
 			"ability": "",
 			"index": 0,
 			"item": "",
-			"ivs": {
-				"at": 18,
-				"df": 18,
-				"hp": 18,
-				"sa": 18,
-				"sd": 18,
-				"sp": 18
-			},
 			"level": 47,
 			"moves": [
 				"Aerial Ace",
@@ -499,20 +599,20 @@ var SETDEX_SV = {
 				"Dragon Breath",
 				"Dragon Dance"
 			],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 18,
+				"at": 18,
+				"df": 18,
+				"sa": 18,
+				"sd": 18,
+				"sp": 18
+			}
 		},
 		"Rival Wally Vr 3": {
 			"ability": "",
 			"index": 0,
 			"item": "",
-			"ivs": {
-				"at": 18,
-				"df": 18,
-				"hp": 18,
-				"sa": 18,
-				"sd": 18,
-				"sp": 18
-			},
 			"level": 50,
 			"moves": [
 				"Aerial Ace",
@@ -520,20 +620,20 @@ var SETDEX_SV = {
 				"Dragon Breath",
 				"Dragon Dance"
 			],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 18,
+				"at": 18,
+				"df": 18,
+				"sa": 18,
+				"sd": 18,
+				"sp": 18
+			}
 		},
 		"Rival Wally Vr 4": {
 			"ability": "",
 			"index": 0,
 			"item": "",
-			"ivs": {
-				"at": 18,
-				"df": 18,
-				"hp": 18,
-				"sa": 18,
-				"sd": 18,
-				"sp": 18
-			},
 			"level": 53,
 			"moves": [
 				"Aerial Ace",
@@ -541,20 +641,20 @@ var SETDEX_SV = {
 				"Dragon Breath",
 				"Dragon Dance"
 			],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 18,
+				"at": 18,
+				"df": 18,
+				"sa": 18,
+				"sd": 18,
+				"sp": 18
+			}
 		},
 		"Rival Wally Vr 5": {
 			"ability": "",
 			"index": 0,
 			"item": "",
-			"ivs": {
-				"at": 18,
-				"df": 18,
-				"hp": 18,
-				"sa": 18,
-				"sd": 18,
-				"sp": 18
-			},
 			"level": 56,
 			"moves": [
 				"Aerial Ace",
@@ -562,7 +662,15 @@ var SETDEX_SV = {
 				"Dragon Breath",
 				"Dragon Dance"
 			],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 18,
+				"at": 18,
+				"df": 18,
+				"sa": 18,
+				"sd": 18,
+				"sp": 18
+			}
 		}
 	},
 	"Amaura": {
@@ -570,14 +678,6 @@ var SETDEX_SV = {
 			"ability": "Refrigerate",
 			"index": 3,
 			"item": "Metronome",
-			"ivs": {
-				"at": 0,
-				"df": 31,
-				"hp": 31,
-				"sa": 31,
-				"sd": 31,
-				"sp": 31
-			},
 			"level": 18,
 			"moves": [
 				"Echoed Voice",
@@ -585,7 +685,10 @@ var SETDEX_SV = {
 				"Mud Shot",
 				"Charge Beam"
 			],
-			"nature": "Modest"
+			"nature": "Modest",
+			"ivs": {
+				"at": 0
+			}
 		}
 	},
 	"Ampharos": {
@@ -593,14 +696,6 @@ var SETDEX_SV = {
 			"ability": "",
 			"index": 1,
 			"item": "",
-			"ivs": {
-				"at": 31,
-				"df": 31,
-				"hp": 31,
-				"sa": 31,
-				"sd": 31,
-				"sp": 31
-			},
 			"level": 46,
 			"moves": [
 				"Thunder",
@@ -608,20 +703,20 @@ var SETDEX_SV = {
 				"Thunder Wave",
 				"Light Screen"
 			],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 31,
+				"at": 31,
+				"df": 31,
+				"sa": 31,
+				"sd": 31,
+				"sp": 31
+			}
 		},
 		"Leader Wattson 5": {
 			"ability": "",
 			"index": 2,
 			"item": "",
-			"ivs": {
-				"at": 31,
-				"df": 31,
-				"hp": 31,
-				"sa": 31,
-				"sd": 31,
-				"sp": 31
-			},
 			"level": 51,
 			"moves": [
 				"Thunder",
@@ -629,7 +724,15 @@ var SETDEX_SV = {
 				"Thunder Wave",
 				"Light Screen"
 			],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 31,
+				"at": 31,
+				"df": 31,
+				"sa": 31,
+				"sd": 31,
+				"sp": 31
+			}
 		}
 	},
 	"Anorith": {
@@ -637,19 +740,11 @@ var SETDEX_SV = {
 			"ability": "Battle Armor",
 			"index": 2,
 			"item": "Salac Berry",
-			"ivs": {
-				"at": 31,
-				"df": 31,
-				"hp": 31,
-				"sa": 31,
-				"sd": 31,
-				"sp": 31
-			},
 			"level": 18,
 			"moves": [
 				"Bug Bite",
 				"Aqua Jet",
-				"Rock Blast",
+				"Rock Throw",
 				"Hone Claws"
 			],
 			"nature": "Jolly"
@@ -660,14 +755,6 @@ var SETDEX_SV = {
 			"ability": "",
 			"index": 0,
 			"item": "",
-			"ivs": {
-				"at": 31,
-				"df": 31,
-				"hp": 31,
-				"sa": 31,
-				"sd": 31,
-				"sp": 31
-			},
 			"level": 51,
 			"moves": [
 				"Helping Hand",
@@ -675,7 +762,15 @@ var SETDEX_SV = {
 				"Sunny Day",
 				"Roar"
 			],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 31,
+				"at": 31,
+				"df": 31,
+				"sa": 31,
+				"sd": 31,
+				"sp": 31
+			}
 		}
 	},
 	"Archen": {
@@ -683,14 +778,6 @@ var SETDEX_SV = {
 			"ability": "Defeatist",
 			"index": 0,
 			"item": "Clear Amulet",
-			"ivs": {
-				"at": 31,
-				"df": 31,
-				"hp": 31,
-				"sa": 31,
-				"sd": 31,
-				"sp": 31
-			},
 			"level": 17,
 			"moves": [
 				"Dual Wingbeat",
@@ -699,19 +786,26 @@ var SETDEX_SV = {
 			"nature": "Jolly"
 		}
 	},
+	"Arctovish": {
+		"Team Aqua Grunt Oceanic Right": {
+			"ability": "Water Absorb",
+			"index": 1,
+			"item": "Muscle Band",
+			"level": 28,
+			"moves": [
+				"Fishious Rend",
+				"Crunch",
+				"Body Slam",
+				"Avalanche"
+			],
+			"nature": "Adamant"
+		}
+	},
 	"Armaldo": {
 		"Rival Steven": {
 			"ability": "",
 			"index": 4,
 			"item": "",
-			"ivs": {
-				"at": 31,
-				"df": 31,
-				"hp": 31,
-				"sa": 31,
-				"sd": 31,
-				"sp": 31
-			},
 			"level": 76,
 			"moves": [
 				"Water Pulse",
@@ -719,7 +813,15 @@ var SETDEX_SV = {
 				"Aerial Ace",
 				"Slash"
 			],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 31,
+				"at": 31,
+				"df": 31,
+				"sa": 31,
+				"sd": 31,
+				"sp": 31
+			}
 		}
 	},
 	"Aron": {
@@ -727,146 +829,150 @@ var SETDEX_SV = {
 			"ability": "",
 			"index": 2,
 			"item": "",
+			"level": 11,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 11,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Pkmn Breeder Isaac 2": {
 			"ability": "",
 			"index": 2,
 			"item": "",
+			"level": 22,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 1,
 				"at": 1,
 				"df": 1,
-				"hp": 1,
 				"sa": 1,
 				"sd": 1,
 				"sp": 1
-			},
-			"level": 22,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Pkmn Breeder Isaac 3": {
 			"ability": "",
 			"index": 2,
 			"item": "",
+			"level": 25,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 2,
 				"at": 2,
 				"df": 2,
-				"hp": 2,
 				"sa": 2,
 				"sd": 2,
 				"sp": 2
-			},
-			"level": 25,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Pkmn Breeder Isaac 4": {
 			"ability": "",
 			"index": 2,
 			"item": "",
+			"level": 28,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 3,
 				"at": 3,
 				"df": 3,
-				"hp": 3,
 				"sa": 3,
 				"sd": 3,
 				"sp": 3
-			},
-			"level": 28,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Pokemaniac Steve 1": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 19,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 19,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Pokemaniac Wyatt": {
 			"ability": "",
-			"index": 1,
+			"index": 0,
 			"item": "",
+			"level": 18,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
+			}
+		},
+		"Pokemaniac Wyatt (2)": {
+			"ability": "",
+			"index": 1,
+			"item": "",
 			"level": 18,
 			"moves": [],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 0,
+				"at": 0,
+				"df": 0,
+				"sa": 0,
+				"sd": 0,
+				"sp": 0
+			}
 		},
 		"Youngster Deandre": {
 			"ability": "",
 			"index": 1,
 			"item": "",
+			"level": 14,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 14,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Youngster Dillon": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 19,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 19,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Youngster Josh": {
 			"ability": "Sturdy",
-			"evs": {
-				"at": 100,
-				"sp": 100
-			},
 			"index": 0,
 			"item": "Berry Juice",
-			"ivs": {
-				"at": 31,
-				"df": 31,
-				"hp": 31,
-				"sa": 31,
-				"sd": 31,
-				"sp": 31
-			},
 			"level": 15,
 			"moves": [
 				"Metal Claw",
@@ -874,23 +980,27 @@ var SETDEX_SV = {
 				"Curse",
 				"Bulldoze"
 			],
-			"nature": "Adamant"
+			"nature": "Adamant",
+			"evs": {
+				"at": 100,
+				"sd": 100
+			}
 		},
 		"Youngster Timmy": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 15,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 15,
-			"moves": [],
-			"nature": ""
+			}
 		}
 	},
 	"Azumarill": {
@@ -898,129 +1008,158 @@ var SETDEX_SV = {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 40,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 18,
 				"at": 18,
 				"df": 18,
-				"hp": 18,
 				"sa": 18,
 				"sd": 18,
 				"sp": 18
-			},
-			"level": 40,
-			"moves": [],
-			"nature": ""
+			}
+		},
+		"Beauty Johanna": {
+			"ability": "Huge Power",
+			"index": 1,
+			"item": "Sitrus Berry",
+			"level": 23,
+			"moves": [
+				"Aqua Jet",
+				"Body Slam",
+				"Brick Break",
+				"Draining Kiss"
+			],
+			"nature": "Brave"
 		},
 		"Cooltrainer Alexa": {
 			"ability": "",
 			"index": 1,
 			"item": "",
+			"level": 34,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 12,
 				"at": 12,
 				"df": 12,
-				"hp": 12,
 				"sa": 12,
 				"sd": 12,
 				"sp": 12
-			},
-			"level": 34,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Pkmn Breeder Lydia 5": {
 			"ability": "",
 			"index": 2,
 			"item": "",
+			"level": 31,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 4,
 				"at": 4,
 				"df": 4,
-				"hp": 4,
 				"sa": 4,
 				"sd": 4,
 				"sp": 4
-			},
-			"level": 31,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Pokefan Bethany": {
 			"ability": "",
 			"index": 2,
 			"item": "Oran Berry",
+			"level": 39,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 12,
 				"at": 12,
 				"df": 12,
-				"hp": 12,
 				"sa": 12,
 				"sd": 12,
 				"sp": 12
-			},
-			"level": 39,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Rich Boy Garret": {
 			"ability": "",
 			"index": 0,
 			"item": "Nugget",
+			"level": 45,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 45,
-			"moves": [],
-			"nature": ""
+			}
 		},
-		"Sis And Bro Reli And Ian": {
+		"Sis And Bro Reli & Ian Reli And Ian": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 35,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 35,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Swimmer F Dana": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 34,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 34,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Tuber F Lola 5": {
 			"ability": "",
-			"index": 1,
+			"index": 0,
 			"item": "",
+			"level": 35,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 4,
 				"at": 4,
 				"df": 4,
-				"hp": 4,
 				"sa": 4,
 				"sd": 4,
 				"sp": 4
-			},
+			}
+		},
+		"Tuber F Lola 5 (2)": {
+			"ability": "",
+			"index": 1,
+			"item": "",
 			"level": 35,
 			"moves": [],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 4,
+				"at": 4,
+				"df": 4,
+				"sa": 4,
+				"sd": 4,
+				"sp": 4
+			}
 		}
 	},
 	"Azurill": {
@@ -1028,49 +1167,17 @@ var SETDEX_SV = {
 			"ability": "",
 			"index": 0,
 			"item": "Oran Berry",
+			"level": 35,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 12,
 				"at": 12,
 				"df": 12,
-				"hp": 12,
 				"sa": 12,
 				"sd": 12,
 				"sp": 12
-			},
-			"level": 35,
-			"moves": [],
-			"nature": ""
-		},
-		"Tuber F Lola 1": {
-			"ability": "",
-			"index": 1,
-			"item": "",
-			"ivs": {
-				"at": 1,
-				"df": 1,
-				"hp": 1,
-				"sa": 1,
-				"sd": 1,
-				"sp": 1
-			},
-			"level": 12,
-			"moves": [],
-			"nature": ""
-		},
-		"Tuber M Simon": {
-			"ability": "",
-			"index": 0,
-			"item": "",
-			"ivs": {
-				"at": 0,
-				"df": 0,
-				"hp": 0,
-				"sa": 0,
-				"sd": 0,
-				"sp": 0
-			},
-			"level": 12,
-			"moves": [],
-			"nature": ""
+			}
 		}
 	},
 	"Bagon": {
@@ -1078,14 +1185,6 @@ var SETDEX_SV = {
 			"ability": "",
 			"index": 0,
 			"item": "",
-			"ivs": {
-				"at": 31,
-				"df": 31,
-				"hp": 31,
-				"sa": 31,
-				"sd": 31,
-				"sp": 31
-			},
 			"level": 34,
 			"moves": [
 				"Dragon Breath",
@@ -1093,38 +1192,38 @@ var SETDEX_SV = {
 				"Focus Energy",
 				"Ember"
 			],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 31,
+				"at": 31,
+				"df": 31,
+				"sa": 31,
+				"sd": 31,
+				"sp": 31
+			}
 		},
 		"Dragon Tamer Nicolas 4": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 46,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 15,
 				"at": 15,
 				"df": 15,
-				"hp": 15,
 				"sa": 15,
 				"sd": 15,
 				"sp": 15
-			},
-			"level": 46,
-			"moves": [],
-			"nature": ""
+			}
 		}
 	},
 	"Baltoy": {
 		"Camper Beau": {
 			"ability": "",
-			"index": 2,
+			"index": 0,
 			"item": "",
-			"ivs": {
-				"at": 0,
-				"df": 0,
-				"hp": 0,
-				"sa": 0,
-				"sd": 0,
-				"sp": 0
-			},
 			"level": 21,
 			"moves": [
 				"Rapid Spin",
@@ -1132,52 +1231,73 @@ var SETDEX_SV = {
 				"Psybeam",
 				"Rock Tomb"
 			],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 0,
+				"at": 0,
+				"df": 0,
+				"sa": 0,
+				"sd": 0,
+				"sp": 0
+			}
+		},
+		"Camper Beau (2)": {
+			"ability": "",
+			"index": 2,
+			"item": "",
+			"level": 21,
+			"moves": [
+				"Rapid Spin",
+				"Mud Slap",
+				"Psybeam",
+				"Rock Tomb"
+			],
+			"nature": "",
+			"ivs": {
+				"hp": 0,
+				"at": 0,
+				"df": 0,
+				"sa": 0,
+				"sd": 0,
+				"sp": 0
+			}
 		},
 		"Camper Lawrence": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 18,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 18,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Hiker Eric": {
 			"ability": "",
 			"index": 1,
 			"item": "",
+			"level": 20,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 20,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Picnicker Heidi": {
 			"ability": "",
 			"index": 1,
 			"item": "",
-			"ivs": {
-				"at": 0,
-				"df": 0,
-				"hp": 0,
-				"sa": 0,
-				"sd": 0,
-				"sp": 0
-			},
 			"level": 22,
 			"moves": [
 				"Rapid Spin",
@@ -1185,20 +1305,20 @@ var SETDEX_SV = {
 				"Psybeam",
 				"Rock Tomb"
 			],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 0,
+				"at": 0,
+				"df": 0,
+				"sa": 0,
+				"sd": 0,
+				"sp": 0
+			}
 		},
 		"Ruin Maniac Chip": {
 			"ability": "",
 			"index": 0,
 			"item": "",
-			"ivs": {
-				"at": 6,
-				"df": 6,
-				"hp": 6,
-				"sa": 6,
-				"sd": 6,
-				"sp": 6
-			},
 			"level": 27,
 			"moves": [
 				"Psybeam",
@@ -1206,118 +1326,139 @@ var SETDEX_SV = {
 				"Sandstorm",
 				"Ancient Power"
 			],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 6,
+				"at": 6,
+				"df": 6,
+				"sa": 6,
+				"sd": 6,
+				"sp": 6
+			}
 		},
 		"Team Magma Grunt Magma Hideout 11": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 29,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 29,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Team Magma Grunt Magma Hideout 16": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 29,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 29,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Team Magma Grunt Magma Hideout 4": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 28,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 28,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Team Magma Grunt Magma Hideout 5": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 28,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 28,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Team Magma Grunt Space Center 4": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 32,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 32,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Team Magma Grunt Space Center 7": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 32,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 32,
-			"moves": [],
-			"nature": ""
+			}
 		}
 	},
 	"Banette": {
 		"Elite Four Phoebe": {
 			"ability": "",
-			"index": 3,
+			"index": 1,
 			"item": "",
+			"level": 49,
+			"moves": [
+				"Shadow Ball",
+				"Grudge",
+				"Will O Wisp",
+				"Feint Attack"
+			],
+			"nature": "",
 			"ivs": {
+				"hp": 30,
 				"at": 30,
 				"df": 30,
-				"hp": 30,
 				"sa": 30,
 				"sd": 30,
 				"sp": 30
-			},
+			}
+		},
+		"Elite Four Phoebe (2)": {
+			"ability": "",
+			"index": 3,
+			"item": "",
 			"level": 49,
 			"moves": [
 				"Shadow Ball",
@@ -1325,55 +1466,63 @@ var SETDEX_SV = {
 				"Thunderbolt",
 				"Facade"
 			],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 30,
+				"at": 30,
+				"df": 30,
+				"sa": 30,
+				"sd": 30,
+				"sp": 30
+			}
 		},
 		"Hex Maniac Patricia": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 41,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 41,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Psychic Alvaro": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 41,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 41,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"School Kid Jerry 5": {
 			"ability": "",
 			"index": 1,
 			"item": "",
+			"level": 34,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 6,
 				"at": 6,
 				"df": 6,
-				"hp": 6,
 				"sa": 6,
 				"sd": 6,
 				"sp": 6
-			},
-			"level": 34,
-			"moves": [],
-			"nature": ""
+			}
 		}
 	},
 	"Barboach": {
@@ -1381,30 +1530,22 @@ var SETDEX_SV = {
 			"ability": "",
 			"index": 2,
 			"item": "",
+			"level": 18,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 18,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Fisherman Darian": {
 			"ability": "Hydration",
 			"index": 4,
 			"item": "",
-			"ivs": {
-				"at": 0,
-				"df": 31,
-				"hp": 31,
-				"sa": 31,
-				"sd": 31,
-				"sp": 31
-			},
 			"level": 14,
 			"moves": [
 				"Rain Dance",
@@ -1412,59 +1553,49 @@ var SETDEX_SV = {
 				"Water Pulse",
 				"Icy Wind"
 			],
-			"nature": "Modest"
+			"nature": "Modest",
+			"ivs": {
+				"at": 0
+			}
 		},
 		"Fisherman Kai": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 19,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 19,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Fisherman Nolan": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 19,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 19,
-			"moves": [],
-			"nature": ""
+			}
 		}
 	},
 	"Basculin-Blue-Striped": {
 		"Fisherman Ivan": {
 			"ability": "Adaptability",
-			"evs": {
-				"at": 252,
-				"sa": 4,
-				"sp": 252
-			},
 			"index": 0,
 			"item": "Mystic Water",
-			"ivs": {
-				"at": 31,
-				"df": 31,
-				"hp": 31,
-				"sa": 31,
-				"sd": 31,
-				"sp": 31
-			},
 			"level": 15,
 			"moves": [
 				"Aqua Jet",
@@ -1472,7 +1603,12 @@ var SETDEX_SV = {
 				"Bite",
 				"Ice Fang"
 			],
-			"nature": "Naive"
+			"nature": "Naive",
+			"evs": {
+				"at": 252,
+				"sa": 4,
+				"sp": 252
+			}
 		}
 	},
 	"Basculin-White-Striped": {
@@ -1480,14 +1616,6 @@ var SETDEX_SV = {
 			"ability": "Mold Breaker",
 			"index": 1,
 			"item": "",
-			"ivs": {
-				"at": 31,
-				"df": 31,
-				"hp": 31,
-				"sa": 31,
-				"sd": 31,
-				"sp": 31
-			},
 			"level": 11,
 			"moves": [
 				"Aqua Jet",
@@ -1501,14 +1629,6 @@ var SETDEX_SV = {
 			"ability": "Rivalry",
 			"index": 3,
 			"item": "Chesto Berry",
-			"ivs": {
-				"at": 31,
-				"df": 31,
-				"hp": 31,
-				"sa": 31,
-				"sd": 31,
-				"sp": 31
-			},
 			"level": 14,
 			"moves": [
 				"Aerial Ace",
@@ -1522,110 +1642,102 @@ var SETDEX_SV = {
 			"ability": "",
 			"index": 1,
 			"item": "",
+			"level": 29,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 29,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Bug Maniac Derek": {
 			"ability": "",
 			"index": 1,
 			"item": "",
+			"level": 16,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 18,
 				"at": 18,
 				"df": 18,
-				"hp": 18,
 				"sa": 18,
 				"sd": 18,
 				"sp": 18
-			},
-			"level": 16,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Bug Maniac Donald": {
 			"ability": "",
 			"index": 2,
 			"item": "",
+			"level": 24,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 12,
 				"at": 12,
 				"df": 12,
-				"hp": 12,
 				"sa": 12,
 				"sd": 12,
 				"sp": 12
-			},
-			"level": 24,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Bug Maniac Jeffrey 5": {
 			"ability": "",
 			"index": 4,
 			"item": "",
+			"level": 38,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 4,
 				"at": 4,
 				"df": 4,
-				"hp": 4,
 				"sa": 4,
 				"sd": 4,
 				"sp": 4
-			},
-			"level": 38,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"School Kid Georgia": {
 			"ability": "",
 			"index": 1,
 			"item": "",
+			"level": 16,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 1,
 				"at": 1,
 				"df": 1,
-				"hp": 1,
 				"sa": 1,
 				"sd": 1,
 				"sp": 1
-			},
-			"level": 16,
-			"moves": [],
-			"nature": ""
+			}
 		},
-		"Twins Miu And Yuki": {
+		"Twins Miu & Yuki Miu And Yuki": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 26,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 26,
-			"moves": [],
-			"nature": ""
+			}
 		},
-		"Young Couple Mel And Paul": {
+		"Young Couple Mel & Paul Mel And Paul": {
 			"ability": "",
 			"index": 1,
 			"item": "",
-			"ivs": {
-				"at": 0,
-				"df": 0,
-				"hp": 0,
-				"sa": 0,
-				"sd": 0,
-				"sp": 0
-			},
 			"level": 27,
 			"moves": [
 				"Gust",
@@ -1633,7 +1745,15 @@ var SETDEX_SV = {
 				"Attract",
 				"Stun Spore"
 			],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 0,
+				"at": 0,
+				"df": 0,
+				"sa": 0,
+				"sd": 0,
+				"sp": 0
+			}
 		}
 	},
 	"Beedrill": {
@@ -1641,14 +1761,6 @@ var SETDEX_SV = {
 			"ability": "Adaptability",
 			"index": 0,
 			"item": "Scope Lens",
-			"ivs": {
-				"at": 31,
-				"df": 31,
-				"hp": 31,
-				"sa": 31,
-				"sd": 31,
-				"sp": 31
-			},
 			"level": 14,
 			"moves": [
 				"Poison Sting",
@@ -1664,113 +1776,113 @@ var SETDEX_SV = {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 5,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 5,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Dome Ace Tucker": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 5,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 5,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Factory Head Noland": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 5,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 5,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Palace Maven Spenser": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 5,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 5,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Pike Queen Lucy": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 5,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 5,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Pyramid King Brandon": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 5,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 5,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Salon Maiden Anabel": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 5,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 5,
-			"moves": [],
-			"nature": ""
+			}
 		}
 	},
 	"Bellossom": {
@@ -1778,17 +1890,94 @@ var SETDEX_SV = {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 39,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 10,
 				"at": 10,
 				"df": 10,
-				"hp": 10,
 				"sa": 10,
 				"sd": 10,
 				"sp": 10
-			},
-			"level": 39,
-			"moves": [],
-			"nature": ""
+			}
+		}
+	},
+	"Bibarel": {
+		"Tuber M Simon": {
+			"ability": "Simple",
+			"index": 0,
+			"item": "White Herb",
+			"level": 23,
+			"moves": [
+				"Aqua Jet",
+				"Bulk Up",
+				"Facade",
+				"Quick Attack"
+			],
+			"nature": "Jolly"
+		}
+	},
+	"Bisharp": {
+		"Rival Brendan Route 110 Treecko": {
+			"ability": "Defiant",
+			"index": 2,
+			"item": "Eviolite",
+			"level": 35,
+			"moves": [
+				"Night Slash",
+				"Iron Head",
+				"Low Kick",
+				"Psycho Cut"
+			],
+			"nature": "Adamant"
+		},
+		"Rival May Route 110 Treecko": {
+			"ability": "Defiant",
+			"index": 2,
+			"item": "Eviolite",
+			"level": 35,
+			"moves": [
+				"Night Slash",
+				"Iron Head",
+				"Low Kick",
+				"Psycho Cut"
+			],
+			"nature": "Adamant"
+		}
+	},
+	"Blaziken": {
+		"Rival Brendan Route 110 Mudkip": {
+			"ability": "Speed Boost",
+			"index": 1,
+			"item": "Throat Spray",
+			"level": 34,
+			"moves": [
+				"Roar",
+				"Fire Blast",
+				"Aura Sphere",
+				"Scorching Sands"
+			],
+			"nature": "Modest",
+			"ivs": {
+				"at": 0
+			}
+		},
+		"Rival May Route 110 Mudkip": {
+			"ability": "Speed Boost",
+			"index": 1,
+			"item": "Throat Spray",
+			"level": 34,
+			"moves": [
+				"Roar",
+				"Fire Blast",
+				"Aura Sphere",
+				"Scorching Sands"
+			],
+			"nature": "Modest",
+			"ivs": {
+				"at": 0
+			}
 		}
 	},
 	"Blissey": {
@@ -1796,14 +1985,6 @@ var SETDEX_SV = {
 			"ability": "",
 			"index": 1,
 			"item": "",
-			"ivs": {
-				"at": 31,
-				"df": 31,
-				"hp": 31,
-				"sa": 31,
-				"sd": 31,
-				"sp": 31
-			},
 			"level": 52,
 			"moves": [
 				"Light Screen",
@@ -1811,20 +1992,20 @@ var SETDEX_SV = {
 				"Skill Swap",
 				"Focus Punch"
 			],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 31,
+				"at": 31,
+				"df": 31,
+				"sa": 31,
+				"sd": 31,
+				"sp": 31
+			}
 		},
 		"Leader Norman 5": {
 			"ability": "",
 			"index": 1,
 			"item": "",
-			"ivs": {
-				"at": 31,
-				"df": 31,
-				"hp": 31,
-				"sa": 31,
-				"sd": 31,
-				"sp": 31
-			},
 			"level": 57,
 			"moves": [
 				"Protect",
@@ -1832,7 +2013,15 @@ var SETDEX_SV = {
 				"Skill Swap",
 				"Focus Punch"
 			],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 31,
+				"at": 31,
+				"df": 31,
+				"sa": 31,
+				"sd": 31,
+				"sp": 31
+			}
 		}
 	},
 	"Breloom": {
@@ -1840,46 +2029,38 @@ var SETDEX_SV = {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 34,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 4,
 				"at": 4,
 				"df": 4,
-				"hp": 4,
 				"sa": 4,
 				"sd": 4,
 				"sp": 4
-			},
-			"level": 34,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Battle Girl Paula": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 27,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 12,
 				"at": 12,
 				"df": 12,
-				"hp": 12,
 				"sa": 12,
 				"sd": 12,
 				"sp": 12
-			},
-			"level": 27,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Black Belt Cristian": {
 			"ability": "Technician",
 			"index": 0,
 			"item": "Miracle Seed",
-			"ivs": {
-				"at": 31,
-				"df": 31,
-				"hp": 31,
-				"sa": 31,
-				"sd": 31,
-				"sp": 31
-			},
 			"level": 24,
 			"moves": [
 				"Mach Punch",
@@ -1893,273 +2074,292 @@ var SETDEX_SV = {
 			"ability": "",
 			"index": 1,
 			"item": "",
+			"level": 33,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 33,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Lass Haley 3": {
 			"ability": "",
 			"index": 1,
 			"item": "",
+			"level": 29,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 2,
 				"at": 2,
 				"df": 2,
-				"hp": 2,
 				"sa": 2,
 				"sd": 2,
 				"sp": 2
-			},
-			"level": 29,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Lass Haley 4": {
 			"ability": "",
 			"index": 1,
 			"item": "",
+			"level": 32,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 3,
 				"at": 3,
 				"df": 3,
-				"hp": 3,
 				"sa": 3,
 				"sd": 3,
 				"sp": 3
-			},
-			"level": 32,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Lass Haley 5": {
 			"ability": "",
 			"index": 2,
 			"item": "",
+			"level": 34,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 4,
 				"at": 4,
 				"df": 4,
-				"hp": 4,
 				"sa": 4,
 				"sd": 4,
 				"sp": 4
-			},
-			"level": 34,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Picnicker Diana 3": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 28,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 2,
 				"at": 2,
 				"df": 2,
-				"hp": 2,
 				"sa": 2,
 				"sd": 2,
 				"sp": 2
-			},
-			"level": 28,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Picnicker Diana 4": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 31,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 3,
 				"at": 3,
 				"df": 3,
-				"hp": 3,
 				"sa": 3,
 				"sd": 3,
 				"sp": 3
-			},
-			"level": 31,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Picnicker Diana 5": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 40,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 4,
 				"at": 4,
 				"df": 4,
-				"hp": 4,
 				"sa": 4,
 				"sd": 4,
 				"sp": 4
-			},
-			"level": 40,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Pkmn Breeder Lydia 3": {
 			"ability": "",
 			"index": 1,
 			"item": "",
+			"level": 25,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 2,
 				"at": 2,
 				"df": 2,
-				"hp": 2,
 				"sa": 2,
 				"sd": 2,
 				"sp": 2
-			},
-			"level": 25,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Pkmn Breeder Lydia 4": {
 			"ability": "",
 			"index": 1,
 			"item": "",
+			"level": 28,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 3,
 				"at": 3,
 				"df": 3,
-				"hp": 3,
 				"sa": 3,
 				"sd": 3,
 				"sp": 3
-			},
-			"level": 28,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Pkmn Breeder Lydia 5": {
 			"ability": "",
 			"index": 1,
 			"item": "",
+			"level": 31,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 4,
 				"at": 4,
 				"df": 4,
-				"hp": 4,
 				"sa": 4,
 				"sd": 4,
 				"sp": 4
-			},
-			"level": 31,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Pkmn Ranger Jackson 1": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 27,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 6,
 				"at": 6,
 				"df": 6,
-				"hp": 6,
 				"sa": 6,
 				"sd": 6,
 				"sp": 6
-			},
-			"level": 27,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Pkmn Ranger Jackson 2": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 31,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 7,
 				"at": 7,
 				"df": 7,
-				"hp": 7,
 				"sa": 7,
 				"sd": 7,
 				"sp": 7
-			},
-			"level": 31,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Pkmn Ranger Jackson 3": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 34,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 8,
 				"at": 8,
 				"df": 8,
-				"hp": 8,
 				"sa": 8,
 				"sd": 8,
 				"sp": 8
-			},
-			"level": 34,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Pkmn Ranger Jackson 4": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 37,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 9,
 				"at": 9,
 				"df": 9,
-				"hp": 9,
 				"sa": 9,
 				"sd": 9,
 				"sp": 9
-			},
-			"level": 37,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Pkmn Ranger Jackson 5": {
 			"ability": "",
 			"index": 1,
 			"item": "",
+			"level": 39,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 10,
 				"at": 10,
 				"df": 10,
-				"hp": 10,
 				"sa": 10,
 				"sd": 10,
 				"sp": 10
-			},
-			"level": 39,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"School Kid Karen 4": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 32,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 4,
 				"at": 4,
 				"df": 4,
-				"hp": 4,
 				"sa": 4,
 				"sd": 4,
 				"sp": 4
-			},
-			"level": 32,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"School Kid Karen 5": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 35,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 6,
 				"at": 6,
 				"df": 6,
-				"hp": 6,
 				"sa": 6,
 				"sd": 6,
 				"sp": 6
-			},
-			"level": 35,
-			"moves": [],
-			"nature": ""
+			}
+		}
+	},
+	"Bronzor": {
+		"School Kid Ollie School": {
+			"ability": "Levitate",
+			"index": 0,
+			"item": "Eviolite",
+			"level": 16,
+			"moves": [
+				"Trick Room",
+				"Extrasensory",
+				"Hypnosis",
+				"Gyro Ball"
+			],
+			"nature": "Sassy",
+			"ivs": {
+				"at": 0,
+				"sp": 0
+			}
 		}
 	},
 	"Buizel": {
@@ -2167,14 +2367,6 @@ var SETDEX_SV = {
 			"ability": "Technician",
 			"index": 0,
 			"item": "Mystic Water",
-			"ivs": {
-				"at": 31,
-				"df": 31,
-				"hp": 31,
-				"sa": 31,
-				"sd": 31,
-				"sp": 31
-			},
 			"level": 23,
 			"moves": [
 				"Aqua Jet",
@@ -2188,14 +2380,6 @@ var SETDEX_SV = {
 			"ability": "Swift Swim",
 			"index": 0,
 			"item": "Damp Rock",
-			"ivs": {
-				"at": 31,
-				"df": 31,
-				"hp": 31,
-				"sa": 31,
-				"sd": 31,
-				"sp": 31
-			},
 			"level": 16,
 			"moves": [
 				"Rain Dance",
@@ -2211,17 +2395,17 @@ var SETDEX_SV = {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 5,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 5,
-			"moves": [],
-			"nature": ""
+			}
 		}
 	},
 	"Butterfree": {
@@ -2229,14 +2413,6 @@ var SETDEX_SV = {
 			"ability": "Tinted Lens",
 			"index": 1,
 			"item": "",
-			"ivs": {
-				"at": 0,
-				"df": 31,
-				"hp": 31,
-				"sa": 31,
-				"sd": 31,
-				"sp": 31
-			},
 			"level": 14,
 			"moves": [
 				"Gust",
@@ -2244,7 +2420,10 @@ var SETDEX_SV = {
 				"Stun Spore",
 				"Mega Drain"
 			],
-			"nature": "Timid"
+			"nature": "Timid",
+			"ivs": {
+				"at": 0
+			}
 		}
 	},
 	"Cacturne": {
@@ -2252,30 +2431,22 @@ var SETDEX_SV = {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 43,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 12,
 				"at": 12,
 				"df": 12,
-				"hp": 12,
 				"sa": 12,
 				"sd": 12,
 				"sp": 12
-			},
-			"level": 43,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Elite Four Sidney": {
 			"ability": "",
 			"index": 2,
 			"item": "",
-			"ivs": {
-				"at": 30,
-				"df": 30,
-				"hp": 30,
-				"sa": 30,
-				"sd": 30,
-				"sp": 30
-			},
 			"level": 46,
 			"moves": [
 				"Leech Seed",
@@ -2283,23 +2454,31 @@ var SETDEX_SV = {
 				"Needle Arm",
 				"Cotton Spore"
 			],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 30,
+				"at": 30,
+				"df": 30,
+				"sa": 30,
+				"sd": 30,
+				"sp": 30
+			}
 		},
 		"Pkmn Ranger Sebastian": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 39,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 6,
 				"at": 6,
 				"df": 6,
-				"hp": 6,
 				"sa": 6,
 				"sd": 6,
 				"sp": 6
-			},
-			"level": 39,
-			"moves": [],
-			"nature": ""
+			}
 		}
 	},
 	"Camerupt": {
@@ -2307,62 +2486,54 @@ var SETDEX_SV = {
 			"ability": "",
 			"index": 1,
 			"item": "",
+			"level": 34,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 17,
 				"at": 17,
 				"df": 17,
-				"hp": 17,
 				"sa": 17,
 				"sd": 17,
 				"sp": 17
-			},
-			"level": 34,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Cooltrainer Darcy": {
 			"ability": "",
 			"index": 1,
 			"item": "",
+			"level": 33,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 33,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Hiker Sawyer 5": {
 			"ability": "",
 			"index": 1,
 			"item": "",
+			"level": 33,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 4,
 				"at": 4,
 				"df": 4,
-				"hp": 4,
 				"sa": 4,
 				"sd": 4,
 				"sp": 4
-			},
-			"level": 33,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Leader Flannery 1": {
 			"ability": "",
 			"index": 2,
 			"item": "",
-			"ivs": {
-				"at": 30,
-				"df": 30,
-				"hp": 30,
-				"sa": 30,
-				"sd": 30,
-				"sp": 30
-			},
 			"level": 26,
 			"moves": [
 				"Overheat",
@@ -2370,20 +2541,20 @@ var SETDEX_SV = {
 				"Sunny Day",
 				"Attract"
 			],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 30,
+				"at": 30,
+				"df": 30,
+				"sa": 30,
+				"sd": 30,
+				"sp": 30
+			}
 		},
 		"Leader Flannery 2": {
 			"ability": "",
 			"index": 2,
 			"item": "White Herb",
-			"ivs": {
-				"at": 31,
-				"df": 31,
-				"hp": 31,
-				"sa": 31,
-				"sd": 31,
-				"sp": 31
-			},
 			"level": 38,
 			"moves": [
 				"Overheat",
@@ -2391,20 +2562,20 @@ var SETDEX_SV = {
 				"Earthquake",
 				"Attract"
 			],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 31,
+				"at": 31,
+				"df": 31,
+				"sa": 31,
+				"sd": 31,
+				"sp": 31
+			}
 		},
 		"Leader Flannery 3": {
 			"ability": "",
 			"index": 3,
 			"item": "White Herb",
-			"ivs": {
-				"at": 31,
-				"df": 31,
-				"hp": 31,
-				"sa": 31,
-				"sd": 31,
-				"sp": 31
-			},
 			"level": 43,
 			"moves": [
 				"Overheat",
@@ -2412,20 +2583,20 @@ var SETDEX_SV = {
 				"Earthquake",
 				"Attract"
 			],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 31,
+				"at": 31,
+				"df": 31,
+				"sa": 31,
+				"sd": 31,
+				"sp": 31
+			}
 		},
 		"Leader Flannery 4": {
 			"ability": "",
 			"index": 4,
 			"item": "White Herb",
-			"ivs": {
-				"at": 31,
-				"df": 31,
-				"hp": 31,
-				"sa": 31,
-				"sd": 31,
-				"sp": 31
-			},
 			"level": 48,
 			"moves": [
 				"Overheat",
@@ -2433,20 +2604,20 @@ var SETDEX_SV = {
 				"Earthquake",
 				"Attract"
 			],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 31,
+				"at": 31,
+				"df": 31,
+				"sa": 31,
+				"sd": 31,
+				"sp": 31
+			}
 		},
 		"Leader Flannery 5": {
 			"ability": "",
 			"index": 4,
 			"item": "White Herb",
-			"ivs": {
-				"at": 31,
-				"df": 31,
-				"hp": 31,
-				"sa": 31,
-				"sd": 31,
-				"sp": 31
-			},
 			"level": 53,
 			"moves": [
 				"Overheat",
@@ -2454,100 +2625,100 @@ var SETDEX_SV = {
 				"Earthquake",
 				"Attract"
 			],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 31,
+				"at": 31,
+				"df": 31,
+				"sa": 31,
+				"sd": 31,
+				"sp": 31
+			}
 		},
 		"Magma Admin Tabitha Magma Hideout": {
 			"ability": "",
 			"index": 3,
 			"item": "",
+			"level": 33,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 9,
 				"at": 9,
 				"df": 9,
-				"hp": 9,
 				"sa": 9,
 				"sd": 9,
 				"sp": 9
-			},
-			"level": 33,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Magma Admin Tabitha Mossdeep": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 36,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 12,
 				"at": 12,
 				"df": 12,
-				"hp": 12,
 				"sa": 12,
 				"sd": 12,
 				"sp": 12
-			},
-			"level": 36,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Magma Leader Maxie Magma Hideout": {
 			"ability": "",
 			"index": 2,
 			"item": "",
+			"level": 39,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 18,
 				"at": 18,
 				"df": 18,
-				"hp": 18,
 				"sa": 18,
 				"sd": 18,
 				"sp": 18
-			},
-			"level": 39,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Magma Leader Maxie Mossdeep": {
 			"ability": "",
 			"index": 2,
 			"item": "",
+			"level": 44,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 18,
 				"at": 18,
 				"df": 18,
-				"hp": 18,
 				"sa": 18,
 				"sd": 18,
 				"sp": 18
-			},
-			"level": 44,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Magma Leader Maxie Mt Chimney": {
 			"ability": "",
 			"index": 2,
 			"item": "",
+			"level": 25,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 18,
 				"at": 18,
 				"df": 18,
-				"hp": 18,
 				"sa": 18,
 				"sd": 18,
 				"sp": 18
-			},
-			"level": 25,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Parasol Lady Madeline 5": {
 			"ability": "",
 			"index": 1,
 			"item": "",
-			"ivs": {
-				"at": 4,
-				"df": 4,
-				"hp": 4,
-				"sa": 4,
-				"sd": 4,
-				"sp": 4
-			},
 			"level": 37,
 			"moves": [
 				"Flamethrower",
@@ -2555,7 +2726,15 @@ var SETDEX_SV = {
 				"Earthquake",
 				"Sunny Day"
 			],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 4,
+				"at": 4,
+				"df": 4,
+				"sa": 4,
+				"sd": 4,
+				"sp": 4
+			}
 		}
 	},
 	"Carvanha": {
@@ -2563,130 +2742,118 @@ var SETDEX_SV = {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 28,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 6,
 				"at": 6,
 				"df": 6,
-				"hp": 6,
 				"sa": 6,
 				"sd": 6,
 				"sp": 6
-			},
-			"level": 28,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Beauty Tiffany": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 39,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 12,
 				"at": 12,
 				"df": 12,
-				"hp": 12,
 				"sa": 12,
 				"sd": 12,
 				"sp": 12
-			},
-			"level": 39,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Fisherman Barny": {
 			"ability": "",
 			"index": 1,
 			"item": "",
+			"level": 25,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 25,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Fisherman Chris": {
 			"ability": "",
 			"index": 3,
 			"item": "",
+			"level": 23,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 23,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Fisherman Elliot 3": {
 			"ability": "",
 			"index": 1,
 			"item": "",
+			"level": 26,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 2,
 				"at": 2,
 				"df": 2,
-				"hp": 2,
 				"sa": 2,
 				"sd": 2,
 				"sp": 2
-			},
-			"level": 26,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Fisherman Elliot 4": {
 			"ability": "",
 			"index": 1,
 			"item": "",
+			"level": 30,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 3,
 				"at": 3,
 				"df": 3,
-				"hp": 3,
 				"sa": 3,
 				"sd": 3,
 				"sp": 3
-			},
-			"level": 30,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Fisherman Henry": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 31,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 31,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Fisherman Ivan": {
 			"ability": "Rough Skin",
-			"evs": {
-				"at": 252,
-				"sd": 252
-			},
 			"index": 1,
 			"item": "",
-			"ivs": {
-				"at": 31,
-				"df": 31,
-				"hp": 31,
-				"sa": 31,
-				"sd": 31,
-				"sp": 31
-			},
 			"level": 15,
 			"moves": [
 				"Aqua Jet",
@@ -2694,375 +2861,376 @@ var SETDEX_SV = {
 				"Super Fang",
 				"Poison Fang"
 			],
+			"nature": "Adamant",
+			"evs": {
+				"at": 252,
+				"sd": 252
+			}
+		},
+		"Sailor Edmond": {
+			"ability": "Speed Boost",
+			"index": 1,
+			"item": "Expert Belt",
+			"level": 24,
+			"moves": [
+				"Crunch",
+				"Waterfall",
+				"Ice Fang",
+				"Protect"
+			],
 			"nature": "Adamant"
 		},
-		"Sis And Bro Lila And Roy 1": {
+		"Sis And Bro Lila & Roy Lila And Roy 1": {
 			"ability": "",
 			"index": 1,
 			"item": "",
-			"ivs": {
-				"at": 0,
-				"df": 0,
-				"hp": 0,
-				"sa": 0,
-				"sd": 0,
-				"sp": 0
-			},
 			"level": 33,
 			"moves": [],
-			"nature": ""
-		},
-		"Sis And Bro Lila And Roy 2": {
-			"ability": "",
-			"index": 1,
-			"item": "",
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
+			}
+		},
+		"Sis And Bro Lila & Roy Lila And Roy 2": {
+			"ability": "",
+			"index": 1,
+			"item": "",
 			"level": 40,
 			"moves": [],
-			"nature": ""
-		},
-		"Sis And Bro Lila And Roy 3": {
-			"ability": "",
-			"index": 1,
-			"item": "",
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
+			}
+		},
+		"Sis And Bro Lila & Roy Lila And Roy 3": {
+			"ability": "",
+			"index": 1,
+			"item": "",
 			"level": 43,
 			"moves": [],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 0,
+				"at": 0,
+				"df": 0,
+				"sa": 0,
+				"sd": 0,
+				"sp": 0
+			}
 		},
 		"Swimmer M David": {
 			"ability": "",
 			"index": 1,
 			"item": "",
+			"level": 25,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 25,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Swimmer M Dean": {
 			"ability": "",
-			"index": 2,
+			"index": 0,
 			"item": "",
+			"level": 31,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
+			}
+		},
+		"Swimmer M Dean (2)": {
+			"ability": "",
+			"index": 2,
+			"item": "",
 			"level": 31,
 			"moves": [],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 0,
+				"at": 0,
+				"df": 0,
+				"sa": 0,
+				"sd": 0,
+				"sp": 0
+			}
 		},
 		"Swimmer M Leonardo": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 34,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 34,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Swimmer M Luis": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 26,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 26,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Swimmer M Matthew": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 26,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 26,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Swimmer M Roland": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 34,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 34,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Swimmer M Tony 1": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 26,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 26,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Team Aqua Grunt Aqua Hideout 2": {
 			"ability": "",
 			"index": 1,
 			"item": "",
+			"level": 31,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 31,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Team Aqua Grunt Aqua Hideout 4": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 32,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 32,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Team Aqua Grunt Aqua Hideout 5": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 32,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 32,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Team Aqua Grunt Aqua Hideout 8": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 32,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 32,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Team Aqua Grunt Mt Pyre 2": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 32,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 32,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Team Aqua Grunt Mt Pyre 3": {
 			"ability": "",
 			"index": 1,
 			"item": "",
-			"ivs": {
-				"at": 0,
-				"df": 0,
-				"hp": 0,
-				"sa": 0,
-				"sd": 0,
-				"sp": 0
-			},
 			"level": 30,
 			"moves": [],
-			"nature": ""
-		},
-		"Team Aqua Grunt Museum 1": {
-			"ability": "",
-			"index": 0,
-			"item": "",
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 15,
-			"moves": [],
-			"nature": ""
-		},
-		"Team Aqua Grunt Museum 2": {
-			"ability": "",
-			"index": 1,
-			"item": "",
-			"ivs": {
-				"at": 0,
-				"df": 0,
-				"hp": 0,
-				"sa": 0,
-				"sd": 0,
-				"sp": 0
-			},
-			"level": 14,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Team Aqua Grunt Seafloor Cavern 2": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 36,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 36,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Team Aqua Grunt Seafloor Cavern 4": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 36,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 36,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Team Aqua Grunt Weather Inst 2": {
 			"ability": "",
 			"index": 1,
 			"item": "",
+			"level": 27,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 27,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Team Aqua Grunt Weather Inst 3": {
 			"ability": "",
 			"index": 2,
 			"item": "",
+			"level": 26,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 26,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Team Aqua Grunt Weather Inst 4": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 28,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 28,
-			"moves": [],
-			"nature": ""
+			}
 		}
 	},
 	"Cascoon": {
@@ -3070,37 +3238,37 @@ var SETDEX_SV = {
 			"ability": "Poison Touch",
 			"index": 2,
 			"item": "",
-			"ivs": {
-				"at": 0,
-				"df": 0,
-				"hp": 0,
-				"sa": 0,
-				"sd": 0,
-				"sp": 0
-			},
 			"level": 9,
 			"moves": [
 				"Bug Bite",
 				"Poison Sting",
 				"Electroweb"
 			],
-			"nature": "Serious"
+			"nature": "Serious",
+			"ivs": {
+				"hp": 0,
+				"at": 0,
+				"df": 0,
+				"sa": 0,
+				"sd": 0,
+				"sp": 0
+			}
 		},
 		"Bug Maniac Taylor": {
 			"ability": "",
 			"index": 1,
 			"item": "",
+			"level": 27,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 12,
 				"at": 12,
 				"df": 12,
-				"hp": 12,
 				"sa": 12,
 				"sd": 12,
 				"sp": 12
-			},
-			"level": 27,
-			"moves": [],
-			"nature": ""
+			}
 		}
 	},
 	"Castform": {
@@ -3108,14 +3276,6 @@ var SETDEX_SV = {
 			"ability": "",
 			"index": 0,
 			"item": "",
-			"ivs": {
-				"at": 6,
-				"df": 6,
-				"hp": 6,
-				"sa": 6,
-				"sd": 6,
-				"sp": 6
-			},
 			"level": 30,
 			"moves": [
 				"Rain Dance",
@@ -3123,20 +3283,20 @@ var SETDEX_SV = {
 				"Thunder",
 				"Water Pulse"
 			],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 6,
+				"at": 6,
+				"df": 6,
+				"sa": 6,
+				"sd": 6,
+				"sp": 6
+			}
 		},
 		"Parasol Lady Kayley": {
 			"ability": "",
 			"index": 0,
 			"item": "",
-			"ivs": {
-				"at": 0,
-				"df": 0,
-				"hp": 0,
-				"sa": 0,
-				"sd": 0,
-				"sp": 0
-			},
 			"level": 31,
 			"moves": [
 				"Sunny Day",
@@ -3144,7 +3304,15 @@ var SETDEX_SV = {
 				"Flamethrower",
 				"Solar Beam"
 			],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 0,
+				"at": 0,
+				"df": 0,
+				"sa": 0,
+				"sd": 0,
+				"sp": 0
+			}
 		}
 	},
 	"Chansey": {
@@ -3152,14 +3320,6 @@ var SETDEX_SV = {
 			"ability": "",
 			"index": 0,
 			"item": "",
-			"ivs": {
-				"at": 31,
-				"df": 31,
-				"hp": 31,
-				"sa": 31,
-				"sd": 31,
-				"sp": 31
-			},
 			"level": 42,
 			"moves": [
 				"Light Screen",
@@ -3167,20 +3327,20 @@ var SETDEX_SV = {
 				"Skill Swap",
 				"Focus Punch"
 			],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 31,
+				"at": 31,
+				"df": 31,
+				"sa": 31,
+				"sd": 31,
+				"sp": 31
+			}
 		},
 		"Leader Norman 3": {
 			"ability": "",
 			"index": 1,
 			"item": "",
-			"ivs": {
-				"at": 31,
-				"df": 31,
-				"hp": 31,
-				"sa": 31,
-				"sd": 31,
-				"sp": 31
-			},
 			"level": 47,
 			"moves": [
 				"Light Screen",
@@ -3188,7 +3348,15 @@ var SETDEX_SV = {
 				"Skill Swap",
 				"Focus Punch"
 			],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 31,
+				"at": 31,
+				"df": 31,
+				"sa": 31,
+				"sd": 31,
+				"sp": 31
+			}
 		}
 	},
 	"Charmander": {
@@ -3196,17 +3364,17 @@ var SETDEX_SV = {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 5,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 5,
-			"moves": [],
-			"nature": ""
+			}
 		}
 	},
 	"Cherubi": {
@@ -3214,14 +3382,6 @@ var SETDEX_SV = {
 			"ability": "Chlorophyll",
 			"index": 2,
 			"item": "",
-			"ivs": {
-				"at": 0,
-				"df": 31,
-				"hp": 31,
-				"sa": 31,
-				"sd": 31,
-				"sp": 31
-			},
 			"level": 11,
 			"moves": [
 				"Draining Kiss",
@@ -3229,7 +3389,10 @@ var SETDEX_SV = {
 				"Growth",
 				"Sunny Day"
 			],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"at": 0
+			}
 		}
 	},
 	"Chimecho": {
@@ -3237,17 +3400,17 @@ var SETDEX_SV = {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 41,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 41,
-			"moves": [],
-			"nature": ""
+			}
 		}
 	},
 	"Chinchou": {
@@ -3255,65 +3418,65 @@ var SETDEX_SV = {
 			"ability": "",
 			"index": 0,
 			"item": "",
-			"ivs": {
-				"at": 0,
-				"df": 0,
-				"hp": 0,
-				"sa": 0,
-				"sd": 0,
-				"sp": 0
-			},
 			"level": 33,
 			"moves": [],
-			"nature": ""
-		},
-		"Sis And Bro Lila And Roy 1": {
-			"ability": "",
-			"index": 0,
-			"item": "",
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
+			}
+		},
+		"Sis And Bro Lila & Roy Lila And Roy 1": {
+			"ability": "",
+			"index": 0,
+			"item": "",
 			"level": 34,
 			"moves": [],
-			"nature": ""
-		},
-		"Sis And Bro Lila And Roy 2": {
-			"ability": "",
-			"index": 0,
-			"item": "",
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
+			}
+		},
+		"Sis And Bro Lila & Roy Lila And Roy 2": {
+			"ability": "",
+			"index": 0,
+			"item": "",
 			"level": 42,
 			"moves": [],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 0,
+				"at": 0,
+				"df": 0,
+				"sa": 0,
+				"sd": 0,
+				"sp": 0
+			}
 		},
 		"Swimmer F Tisha": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 34,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 34,
-			"moves": [],
-			"nature": ""
+			}
 		}
 	},
 	"Clamperl": {
@@ -3321,14 +3484,6 @@ var SETDEX_SV = {
 			"ability": "",
 			"index": 0,
 			"item": "",
-			"ivs": {
-				"at": 12,
-				"df": 12,
-				"hp": 12,
-				"sa": 12,
-				"sd": 12,
-				"sp": 12
-			},
 			"level": 35,
 			"moves": [
 				"Iron Defense",
@@ -3336,7 +3491,15 @@ var SETDEX_SV = {
 				"Rain Dance",
 				"Water Pulse"
 			],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 12,
+				"at": 12,
+				"df": 12,
+				"sa": 12,
+				"sd": 12,
+				"sp": 12
+			}
 		}
 	},
 	"Claydol": {
@@ -3344,68 +3507,60 @@ var SETDEX_SV = {
 			"ability": "",
 			"index": 0,
 			"item": "",
-			"ivs": {
-				"at": 0,
-				"df": 0,
-				"hp": 0,
-				"sa": 0,
-				"sd": 0,
-				"sp": 0
-			},
 			"level": 43,
 			"moves": [
 				"Skill Swap",
 				"Earthquake"
 			],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 0,
+				"at": 0,
+				"df": 0,
+				"sa": 0,
+				"sd": 0,
+				"sp": 0
+			}
 		},
 		"Cooltrainer Felix": {
 			"ability": "",
 			"index": 1,
 			"item": "",
-			"ivs": {
-				"at": 0,
-				"df": 0,
-				"hp": 0,
-				"sa": 0,
-				"sd": 0,
-				"sp": 0
-			},
 			"level": 43,
 			"moves": [
 				"Skill Swap",
 				"Earthquake"
 			],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 0,
+				"at": 0,
+				"df": 0,
+				"sa": 0,
+				"sd": 0,
+				"sp": 0
+			}
 		},
 		"Cooltrainer Shannon": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 45,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 12,
 				"at": 12,
 				"df": 12,
-				"hp": 12,
 				"sa": 12,
 				"sd": 12,
 				"sp": 12
-			},
-			"level": 45,
-			"moves": [],
-			"nature": ""
+			}
 		},
-		"Leader Tate And Liza 1": {
+		"Leader Tate&liza Tate And Liza 1": {
 			"ability": "",
 			"index": 0,
 			"item": "",
-			"ivs": {
-				"at": 30,
-				"df": 30,
-				"hp": 30,
-				"sa": 30,
-				"sd": 30,
-				"sp": 30
-			},
 			"level": 41,
 			"moves": [
 				"Earthquake",
@@ -3413,20 +3568,20 @@ var SETDEX_SV = {
 				"Psychic",
 				"Light Screen"
 			],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 30,
+				"at": 30,
+				"df": 30,
+				"sa": 30,
+				"sd": 30,
+				"sp": 30
+			}
 		},
-		"Leader Tate And Liza 2": {
+		"Leader Tate&liza Tate And Liza 2": {
 			"ability": "",
 			"index": 1,
 			"item": "",
-			"ivs": {
-				"at": 31,
-				"df": 31,
-				"hp": 31,
-				"sa": 31,
-				"sd": 31,
-				"sp": 31
-			},
 			"level": 49,
 			"moves": [
 				"Earthquake",
@@ -3434,20 +3589,20 @@ var SETDEX_SV = {
 				"Psychic",
 				"Light Screen"
 			],
-			"nature": ""
-		},
-		"Leader Tate And Liza 3": {
-			"ability": "",
-			"index": 2,
-			"item": "",
+			"nature": "",
 			"ivs": {
+				"hp": 31,
 				"at": 31,
 				"df": 31,
-				"hp": 31,
 				"sa": 31,
 				"sd": 31,
 				"sp": 31
-			},
+			}
+		},
+		"Leader Tate&liza Tate And Liza 3": {
+			"ability": "",
+			"index": 2,
+			"item": "",
 			"level": 54,
 			"moves": [
 				"Earthquake",
@@ -3455,20 +3610,20 @@ var SETDEX_SV = {
 				"Psychic",
 				"Light Screen"
 			],
-			"nature": ""
-		},
-		"Leader Tate And Liza 4": {
-			"ability": "",
-			"index": 1,
-			"item": "",
+			"nature": "",
 			"ivs": {
+				"hp": 31,
 				"at": 31,
 				"df": 31,
-				"hp": 31,
 				"sa": 31,
 				"sd": 31,
 				"sp": 31
-			},
+			}
+		},
+		"Leader Tate&liza Tate And Liza 4": {
+			"ability": "",
+			"index": 1,
+			"item": "",
 			"level": 59,
 			"moves": [
 				"Earthquake",
@@ -3476,20 +3631,20 @@ var SETDEX_SV = {
 				"Psychic",
 				"Light Screen"
 			],
-			"nature": ""
-		},
-		"Leader Tate And Liza 5": {
-			"ability": "",
-			"index": 1,
-			"item": "",
+			"nature": "",
 			"ivs": {
+				"hp": 31,
 				"at": 31,
 				"df": 31,
-				"hp": 31,
 				"sa": 31,
 				"sd": 31,
 				"sp": 31
-			},
+			}
+		},
+		"Leader Tate&liza Tate And Liza 5": {
+			"ability": "",
+			"index": 1,
+			"item": "",
 			"level": 64,
 			"moves": [
 				"Earthquake",
@@ -3497,20 +3652,20 @@ var SETDEX_SV = {
 				"Psychic",
 				"Light Screen"
 			],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 31,
+				"at": 31,
+				"df": 31,
+				"sa": 31,
+				"sd": 31,
+				"sp": 31
+			}
 		},
 		"Rival Steven": {
 			"ability": "",
 			"index": 1,
 			"item": "",
-			"ivs": {
-				"at": 31,
-				"df": 31,
-				"hp": 31,
-				"sa": 31,
-				"sd": 31,
-				"sp": 31
-			},
 			"level": 75,
 			"moves": [
 				"Reflect",
@@ -3518,7 +3673,47 @@ var SETDEX_SV = {
 				"Ancient Power",
 				"Earthquake"
 			],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 31,
+				"at": 31,
+				"df": 31,
+				"sa": 31,
+				"sd": 31,
+				"sp": 31
+			}
+		}
+	},
+	"Clobbopus": {
+		"School Kid Ollie School": {
+			"ability": "Technician",
+			"index": 2,
+			"item": "Black Belt",
+			"level": 16,
+			"moves": [
+				"Power-Up Punch",
+				"Payback",
+				"Bulk Up"
+			],
+			"nature": "Adamant",
+			"ivs": {
+				"sp": 0
+			}
+		}
+	},
+	"Cloyster": {
+		"Team Aqua Grunt Museum 2": {
+			"ability": "Skill Link",
+			"index": 0,
+			"item": "White Herb",
+			"level": 30,
+			"moves": [
+				"Icicle Spear",
+				"Shell Smash",
+				"Razor Shell",
+				"Poison Jab"
+			],
+			"nature": "Adamant"
 		}
 	},
 	"Combusken": {
@@ -3526,62 +3721,38 @@ var SETDEX_SV = {
 			"ability": "",
 			"index": 3,
 			"item": "",
+			"level": 34,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 24,
 				"at": 24,
 				"df": 24,
-				"hp": 24,
 				"sa": 24,
 				"sd": 24,
 				"sp": 24
-			},
-			"level": 34,
-			"moves": [],
-			"nature": ""
-		},
-		"Rival Brendan Route 110 Treecko": {
-			"ability": "",
-			"index": 2,
-			"item": "",
-			"ivs": {
-				"at": 12,
-				"df": 12,
-				"hp": 12,
-				"sa": 12,
-				"sd": 12,
-				"sp": 12
-			},
-			"level": 20,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Rival Brendan Route 119 Treecko": {
 			"ability": "",
 			"index": 2,
 			"item": "",
+			"level": 31,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 18,
 				"at": 18,
 				"df": 18,
-				"hp": 18,
 				"sa": 18,
 				"sd": 18,
 				"sp": 18
-			},
-			"level": 31,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Rival Brendan Rustboro Mudkip": {
 			"ability": "Speed Boost",
 			"index": 0,
 			"item": "Muscle Band",
-			"ivs": {
-				"at": 31,
-				"df": 31,
-				"hp": 31,
-				"sa": 31,
-				"sd": 31,
-				"sp": 31
-			},
 			"level": 21,
 			"moves": [
 				"Protect",
@@ -3595,62 +3766,38 @@ var SETDEX_SV = {
 			"ability": "",
 			"index": 3,
 			"item": "",
+			"level": 34,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 24,
 				"at": 24,
 				"df": 24,
-				"hp": 24,
 				"sa": 24,
 				"sd": 24,
 				"sp": 24
-			},
-			"level": 34,
-			"moves": [],
-			"nature": ""
-		},
-		"Rival May Route 110 Treecko": {
-			"ability": "",
-			"index": 2,
-			"item": "",
-			"ivs": {
-				"at": 12,
-				"df": 12,
-				"hp": 12,
-				"sa": 12,
-				"sd": 12,
-				"sp": 12
-			},
-			"level": 20,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Rival May Route 119 Treecko": {
 			"ability": "",
 			"index": 2,
 			"item": "",
+			"level": 31,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 18,
 				"at": 18,
 				"df": 18,
-				"hp": 18,
 				"sa": 18,
 				"sd": 18,
 				"sp": 18
-			},
-			"level": 31,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Rival May Rustboro Mudkip": {
 			"ability": "Speed Boost",
 			"index": 0,
 			"item": "Muscle Band",
-			"ivs": {
-				"at": 31,
-				"df": 31,
-				"hp": 31,
-				"sa": 31,
-				"sd": 31,
-				"sp": 31
-			},
 			"level": 21,
 			"moves": [
 				"Protect",
@@ -3666,38 +3813,26 @@ var SETDEX_SV = {
 			"ability": "",
 			"index": 1,
 			"item": "",
-			"ivs": {
-				"at": 12,
-				"df": 12,
-				"hp": 12,
-				"sa": 12,
-				"sd": 12,
-				"sp": 12
-			},
 			"level": 37,
 			"moves": [
 				"Taunt",
 				"Crabhammer",
 				"Water Pulse"
 			],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 12,
+				"at": 12,
+				"df": 12,
+				"sa": 12,
+				"sd": 12,
+				"sp": 12
+			}
 		},
 		"Fisherman Ivan": {
 			"ability": "Adaptability",
-			"evs": {
-				"at": 252,
-				"sd": 236
-			},
 			"index": 2,
 			"item": "",
-			"ivs": {
-				"at": 31,
-				"df": 31,
-				"hp": 31,
-				"sa": 31,
-				"sd": 31,
-				"sp": 31
-			},
 			"level": 15,
 			"moves": [
 				"Scald",
@@ -3705,7 +3840,29 @@ var SETDEX_SV = {
 				"Aqua Jet",
 				"Slash"
 			],
-			"nature": "Adamant"
+			"nature": "Adamant",
+			"evs": {
+				"at": 252,
+				"sd": 236
+			}
+		}
+	},
+	"Corsola": {
+		"Tuber M Chandler": {
+			"ability": "Rough Skin",
+			"index": 1,
+			"item": "Rocky Helmet",
+			"level": 24,
+			"moves": [
+				"Ancient Power",
+				"Shore Up",
+				"Water Pulse",
+				"Aqua Ring"
+			],
+			"nature": "Calm",
+			"ivs": {
+				"at": 0
+			}
 		}
 	},
 	"Corsola-Galar": {
@@ -3713,14 +3870,6 @@ var SETDEX_SV = {
 			"ability": "Cursed Body",
 			"index": 4,
 			"item": "",
-			"ivs": {
-				"at": 0,
-				"df": 31,
-				"hp": 31,
-				"sa": 31,
-				"sd": 31,
-				"sp": 31
-			},
 			"level": 18,
 			"moves": [
 				"Whirlpool",
@@ -3728,7 +3877,25 @@ var SETDEX_SV = {
 				"Will-O-Wisp",
 				"Night Shade"
 			],
-			"nature": "Calm"
+			"nature": "Calm",
+			"ivs": {
+				"at": 0
+			}
+		}
+	},
+	"Crabrawler": {
+		"Tuber F Lola 1": {
+			"ability": "Iron Fist",
+			"index": 1,
+			"item": "Eviolite",
+			"level": 24,
+			"moves": [
+				"Crabhammer",
+				"Ice Punch",
+				"Drain Punch",
+				"Thunder Punch"
+			],
+			"nature": "Adamant"
 		}
 	},
 	"Cradily": {
@@ -3736,14 +3903,6 @@ var SETDEX_SV = {
 			"ability": "",
 			"index": 3,
 			"item": "",
-			"ivs": {
-				"at": 31,
-				"df": 31,
-				"hp": 31,
-				"sa": 31,
-				"sd": 31,
-				"sp": 31
-			},
 			"level": 76,
 			"moves": [
 				"Giga Drain",
@@ -3751,27 +3910,22 @@ var SETDEX_SV = {
 				"Ingrain",
 				"Confuse Ray"
 			],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 31,
+				"at": 31,
+				"df": 31,
+				"sa": 31,
+				"sd": 31,
+				"sp": 31
+			}
 		}
 	},
 	"Cranidos": {
 		"Hiker Marc": {
 			"ability": "Sheer Force",
-			"evs": {
-				"at": 100,
-				"sd": 16,
-				"sp": 100
-			},
 			"index": 2,
 			"item": "Salac Berry",
-			"ivs": {
-				"at": 31,
-				"df": 31,
-				"hp": 31,
-				"sa": 31,
-				"sd": 31,
-				"sp": 31
-			},
 			"level": 17,
 			"moves": [
 				"Rock Tomb",
@@ -3779,7 +3933,12 @@ var SETDEX_SV = {
 				"Pursuit",
 				"Fire Punch"
 			],
-			"nature": "Jolly"
+			"nature": "Jolly",
+			"evs": {
+				"at": 100,
+				"sd": 16,
+				"sp": 100
+			}
 		}
 	},
 	"Crawdaunt": {
@@ -3787,14 +3946,6 @@ var SETDEX_SV = {
 			"ability": "",
 			"index": 3,
 			"item": "",
-			"ivs": {
-				"at": 30,
-				"df": 30,
-				"hp": 30,
-				"sa": 30,
-				"sd": 30,
-				"sp": 30
-			},
 			"level": 48,
 			"moves": [
 				"Surf",
@@ -3802,20 +3953,20 @@ var SETDEX_SV = {
 				"Strength",
 				"Facade"
 			],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 30,
+				"at": 30,
+				"df": 30,
+				"sa": 30,
+				"sd": 30,
+				"sp": 30
+			}
 		},
 		"Leader Juan 1": {
 			"ability": "",
 			"index": 3,
 			"item": "",
-			"ivs": {
-				"at": 24,
-				"df": 24,
-				"hp": 24,
-				"sa": 24,
-				"sd": 24,
-				"sp": 24
-			},
 			"level": 43,
 			"moves": [
 				"Water Pulse",
@@ -3823,20 +3974,20 @@ var SETDEX_SV = {
 				"Taunt",
 				"Leer"
 			],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 24,
+				"at": 24,
+				"df": 24,
+				"sa": 24,
+				"sd": 24,
+				"sp": 24
+			}
 		},
 		"Leader Juan 2": {
 			"ability": "",
 			"index": 3,
 			"item": "Chesto Berry",
-			"ivs": {
-				"at": 31,
-				"df": 31,
-				"hp": 31,
-				"sa": 31,
-				"sd": 31,
-				"sp": 31
-			},
 			"level": 48,
 			"moves": [
 				"Rest",
@@ -3844,20 +3995,20 @@ var SETDEX_SV = {
 				"Taunt",
 				"Double Team"
 			],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 31,
+				"at": 31,
+				"df": 31,
+				"sa": 31,
+				"sd": 31,
+				"sp": 31
+			}
 		},
 		"Leader Juan 3": {
 			"ability": "",
 			"index": 3,
 			"item": "Chesto Berry",
-			"ivs": {
-				"at": 31,
-				"df": 31,
-				"hp": 31,
-				"sa": 31,
-				"sd": 31,
-				"sp": 31
-			},
 			"level": 53,
 			"moves": [
 				"Rest",
@@ -3865,20 +4016,20 @@ var SETDEX_SV = {
 				"Taunt",
 				"Double Team"
 			],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 31,
+				"at": 31,
+				"df": 31,
+				"sa": 31,
+				"sd": 31,
+				"sp": 31
+			}
 		},
 		"Leader Juan 4": {
 			"ability": "",
 			"index": 4,
 			"item": "Chesto Berry",
-			"ivs": {
-				"at": 31,
-				"df": 31,
-				"hp": 31,
-				"sa": 31,
-				"sd": 31,
-				"sp": 31
-			},
 			"level": 58,
 			"moves": [
 				"Rest",
@@ -3886,20 +4037,20 @@ var SETDEX_SV = {
 				"Taunt",
 				"Double Team"
 			],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 31,
+				"at": 31,
+				"df": 31,
+				"sa": 31,
+				"sd": 31,
+				"sp": 31
+			}
 		},
 		"Leader Juan 5": {
 			"ability": "",
 			"index": 4,
 			"item": "Chesto Berry",
-			"ivs": {
-				"at": 31,
-				"df": 31,
-				"hp": 31,
-				"sa": 31,
-				"sd": 31,
-				"sp": 31
-			},
 			"level": 63,
 			"moves": [
 				"Rest",
@@ -3907,7 +4058,15 @@ var SETDEX_SV = {
 				"Taunt",
 				"Double Team"
 			],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 31,
+				"at": 31,
+				"df": 31,
+				"sa": 31,
+				"sd": 31,
+				"sp": 31
+			}
 		}
 	},
 	"Croagunk": {
@@ -3915,14 +4074,6 @@ var SETDEX_SV = {
 			"ability": "Dry Skin",
 			"index": 1,
 			"item": "Focus Sash",
-			"ivs": {
-				"at": 31,
-				"df": 31,
-				"hp": 31,
-				"sa": 31,
-				"sd": 31,
-				"sp": 31
-			},
 			"level": 24,
 			"moves": [
 				"Fake Out",
@@ -3938,49 +4089,49 @@ var SETDEX_SV = {
 			"ability": "",
 			"index": 1,
 			"item": "",
+			"level": 41,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 18,
 				"at": 18,
 				"df": 18,
-				"hp": 18,
 				"sa": 18,
 				"sd": 18,
 				"sp": 18
-			},
-			"level": 41,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Magma Leader Maxie Magma Hideout": {
 			"ability": "",
 			"index": 1,
 			"item": "",
+			"level": 38,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 18,
 				"at": 18,
 				"df": 18,
-				"hp": 18,
 				"sa": 18,
 				"sd": 18,
 				"sp": 18
-			},
-			"level": 38,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Magma Leader Maxie Mossdeep": {
 			"ability": "",
 			"index": 1,
 			"item": "",
+			"level": 43,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 18,
 				"at": 18,
 				"df": 18,
-				"hp": 18,
 				"sa": 18,
 				"sd": 18,
 				"sp": 18
-			},
-			"level": 43,
-			"moves": [],
-			"nature": ""
+			}
 		}
 	},
 	"Croconaw": {
@@ -3988,14 +4139,6 @@ var SETDEX_SV = {
 			"ability": "Sheer Force",
 			"index": 2,
 			"item": "Sitrus Berry",
-			"ivs": {
-				"at": 31,
-				"df": 31,
-				"hp": 31,
-				"sa": 31,
-				"sd": 31,
-				"sp": 31
-			},
 			"level": 21,
 			"moves": [
 				"Ice Fang",
@@ -4006,44 +4149,59 @@ var SETDEX_SV = {
 			"nature": "Adamant"
 		}
 	},
+	"Cubchoo": {
+		"Rich Boy Harry School": {
+			"ability": "Slush Rush",
+			"index": 2,
+			"item": "Assault Vest",
+			"level": 16,
+			"moves": [
+				"Ice Fang",
+				"Aerial Ace",
+				"Brine",
+				"Power-Up Punch"
+			],
+			"nature": "Lonely"
+		}
+	},
 	"Cyndaquil": {
 		"Rival Brendan Route 103 Treecko": {
 			"ability": "Adaptability",
 			"index": 0,
 			"item": "",
-			"ivs": {
-				"at": 0,
-				"df": 0,
-				"hp": 0,
-				"sa": 0,
-				"sd": 0,
-				"sp": 0
-			},
 			"level": 6,
 			"moves": [
 				"Smokescreen",
 				"Tackle"
 			],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 0,
+				"at": 0,
+				"df": 0,
+				"sa": 0,
+				"sd": 0,
+				"sp": 0
+			}
 		},
 		"Rival May Route 103 Treecko": {
 			"ability": "Adaptability",
 			"index": 0,
 			"item": "",
-			"ivs": {
-				"at": 0,
-				"df": 0,
-				"hp": 0,
-				"sa": 0,
-				"sd": 0,
-				"sp": 0
-			},
 			"level": 6,
 			"moves": [
 				"Smokescreen",
 				"Tackle"
 			],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 0,
+				"at": 0,
+				"df": 0,
+				"sa": 0,
+				"sd": 0,
+				"sp": 0
+			}
 		}
 	},
 	"Delcatty": {
@@ -4051,113 +4209,105 @@ var SETDEX_SV = {
 			"ability": "",
 			"index": 0,
 			"item": "",
-			"ivs": {
-				"at": 31,
-				"df": 31,
-				"hp": 31,
-				"sa": 31,
-				"sd": 31,
-				"sp": 31
-			},
 			"level": 26,
 			"moves": [
 				"Feint Attack",
 				"Shock Wave"
 			],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 31,
+				"at": 31,
+				"df": 31,
+				"sa": 31,
+				"sd": 31,
+				"sp": 31
+			}
 		},
 		"Pkmn Breeder Gabrielle 4": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 35,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 3,
 				"at": 3,
 				"df": 3,
-				"hp": 3,
 				"sa": 3,
 				"sd": 3,
 				"sp": 3
-			},
-			"level": 35,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Pkmn Breeder Gabrielle 5": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 37,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 4,
 				"at": 4,
 				"df": 4,
-				"hp": 4,
 				"sa": 4,
 				"sd": 4,
 				"sp": 4
-			},
-			"level": 37,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Pkmn Breeder Lydia 3": {
 			"ability": "",
 			"index": 4,
 			"item": "",
+			"level": 25,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 2,
 				"at": 2,
 				"df": 2,
-				"hp": 2,
 				"sa": 2,
 				"sd": 2,
 				"sp": 2
-			},
-			"level": 25,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Pkmn Breeder Lydia 4": {
 			"ability": "",
 			"index": 4,
 			"item": "",
+			"level": 28,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 3,
 				"at": 3,
 				"df": 3,
-				"hp": 3,
 				"sa": 3,
 				"sd": 3,
 				"sp": 3
-			},
-			"level": 28,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Pkmn Breeder Lydia 5": {
 			"ability": "",
 			"index": 4,
 			"item": "",
+			"level": 31,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 4,
 				"at": 4,
 				"df": 4,
-				"hp": 4,
 				"sa": 4,
 				"sd": 4,
 				"sp": 4
-			},
-			"level": 31,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Pokefan Colton": {
 			"ability": "",
 			"index": 5,
 			"item": "Oran Berry",
-			"ivs": {
-				"at": 0,
-				"df": 0,
-				"hp": 0,
-				"sa": 0,
-				"sd": 0,
-				"sp": 0
-			},
 			"level": 42,
 			"moves": [
 				"Assist",
@@ -4165,52 +4315,52 @@ var SETDEX_SV = {
 				"Feint Attack",
 				"Heal Bell"
 			],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 0,
+				"at": 0,
+				"df": 0,
+				"sa": 0,
+				"sd": 0,
+				"sp": 0
+			}
 		},
 		"Pokefan Miguel 4": {
 			"ability": "",
 			"index": 0,
 			"item": "Oran Berry",
+			"level": 35,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 35,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Pokefan Miguel 5": {
 			"ability": "",
 			"index": 0,
 			"item": "Sitrus Berry",
+			"level": 38,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 38,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Rival Wally Vr 1": {
 			"ability": "",
 			"index": 1,
 			"item": "",
-			"ivs": {
-				"at": 18,
-				"df": 18,
-				"hp": 18,
-				"sa": 18,
-				"sd": 18,
-				"sp": 18
-			},
 			"level": 43,
 			"moves": [
 				"Sing",
@@ -4218,20 +4368,20 @@ var SETDEX_SV = {
 				"Charm",
 				"Feint Attack"
 			],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 18,
+				"at": 18,
+				"df": 18,
+				"sa": 18,
+				"sd": 18,
+				"sp": 18
+			}
 		},
 		"Rival Wally Vr 2": {
 			"ability": "",
 			"index": 1,
 			"item": "",
-			"ivs": {
-				"at": 18,
-				"df": 18,
-				"hp": 18,
-				"sa": 18,
-				"sd": 18,
-				"sp": 18
-			},
 			"level": 46,
 			"moves": [
 				"Sing",
@@ -4239,20 +4389,20 @@ var SETDEX_SV = {
 				"Charm",
 				"Feint Attack"
 			],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 18,
+				"at": 18,
+				"df": 18,
+				"sa": 18,
+				"sd": 18,
+				"sp": 18
+			}
 		},
 		"Rival Wally Vr 3": {
 			"ability": "",
 			"index": 1,
 			"item": "",
-			"ivs": {
-				"at": 18,
-				"df": 18,
-				"hp": 18,
-				"sa": 18,
-				"sd": 18,
-				"sp": 18
-			},
 			"level": 49,
 			"moves": [
 				"Sing",
@@ -4260,20 +4410,20 @@ var SETDEX_SV = {
 				"Charm",
 				"Feint Attack"
 			],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 18,
+				"at": 18,
+				"df": 18,
+				"sa": 18,
+				"sd": 18,
+				"sp": 18
+			}
 		},
 		"Rival Wally Vr 4": {
 			"ability": "",
 			"index": 1,
 			"item": "",
-			"ivs": {
-				"at": 18,
-				"df": 18,
-				"hp": 18,
-				"sa": 18,
-				"sd": 18,
-				"sp": 18
-			},
 			"level": 52,
 			"moves": [
 				"Sing",
@@ -4281,20 +4431,20 @@ var SETDEX_SV = {
 				"Charm",
 				"Feint Attack"
 			],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 18,
+				"at": 18,
+				"df": 18,
+				"sa": 18,
+				"sd": 18,
+				"sp": 18
+			}
 		},
 		"Rival Wally Vr 5": {
 			"ability": "",
 			"index": 1,
 			"item": "",
-			"ivs": {
-				"at": 18,
-				"df": 18,
-				"hp": 18,
-				"sa": 18,
-				"sd": 18,
-				"sp": 18
-			},
 			"level": 55,
 			"moves": [
 				"Sing",
@@ -4302,22 +4452,45 @@ var SETDEX_SV = {
 				"Charm",
 				"Feint Attack"
 			],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 18,
+				"at": 18,
+				"df": 18,
+				"sa": 18,
+				"sd": 18,
+				"sp": 18
+			}
 		},
-		"Young Couple Dez And Luke": {
+		"Young Couple Dez & Luke Dez And Luke": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 31,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 31,
-			"moves": [],
+			}
+		}
+	},
+	"Dewott": {
+		"Sailor Huey": {
+			"ability": "Torrent",
+			"index": 1,
+			"item": "Scope Lens",
+			"level": 24,
+			"moves": [
+				"Brick Break",
+				"Knock Off",
+				"Razor Shell",
+				"X-Scissor"
+			],
 			"nature": ""
 		}
 	},
@@ -4326,14 +4499,6 @@ var SETDEX_SV = {
 			"ability": "Water Bubble",
 			"index": 0,
 			"item": "Wave Incense",
-			"ivs": {
-				"at": 31,
-				"df": 31,
-				"hp": 31,
-				"sa": 31,
-				"sd": 31,
-				"sp": 31
-			},
 			"level": 14,
 			"moves": [
 				"Bubble Beam",
@@ -4344,102 +4509,120 @@ var SETDEX_SV = {
 			"nature": "Mild"
 		}
 	},
+	"Dhelmise": {
+		"Team Aqua Grunt Museum 1": {
+			"ability": "Steelworker",
+			"index": 1,
+			"item": "Colbur Berry",
+			"level": 30,
+			"moves": [
+				"Gyro Ball",
+				"Poltergeist",
+				"Power Whip",
+				"Liquidation"
+			],
+			"nature": "Brave",
+			"ivs": {
+				"sp": 0
+			}
+		}
+	},
 	"Dodrio": {
 		"Cooltrainer Vito": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 42,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 12,
 				"at": 12,
 				"df": 12,
-				"hp": 12,
 				"sa": 12,
 				"sd": 12,
 				"sp": 12
-			},
-			"level": 42,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Triathlete Dylan 4": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 34,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 3,
 				"at": 3,
 				"df": 3,
-				"hp": 3,
 				"sa": 3,
 				"sd": 3,
 				"sp": 3
-			},
-			"level": 34,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Triathlete Dylan 5": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 37,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 4,
 				"at": 4,
 				"df": 4,
-				"hp": 4,
 				"sa": 4,
 				"sd": 4,
 				"sp": 4
-			},
-			"level": 37,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Triathlete Kyra": {
 			"ability": "",
 			"index": 1,
 			"item": "",
+			"level": 26,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 26,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Triathlete Maria 4": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 34,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 3,
 				"at": 3,
 				"df": 3,
-				"hp": 3,
 				"sa": 3,
 				"sd": 3,
 				"sp": 3
-			},
-			"level": 34,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Triathlete Maria 5": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 37,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 4,
 				"at": 4,
 				"df": 4,
-				"hp": 4,
 				"sa": 4,
 				"sd": 4,
 				"sp": 4
-			},
-			"level": 37,
-			"moves": [],
-			"nature": ""
+			}
 		}
 	},
 	"Doduo": {
@@ -4447,161 +4630,161 @@ var SETDEX_SV = {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 29,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 18,
 				"at": 18,
 				"df": 18,
-				"hp": 18,
 				"sa": 18,
 				"sd": 18,
 				"sp": 18
-			},
-			"level": 29,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Bird Keeper Jared": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 27,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 12,
 				"at": 12,
 				"df": 12,
-				"hp": 12,
 				"sa": 12,
 				"sd": 12,
 				"sp": 12
-			},
-			"level": 27,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Triathlete Dylan 1": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 17,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 17,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Triathlete Dylan 2": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 28,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 1,
 				"at": 1,
 				"df": 1,
-				"hp": 1,
 				"sa": 1,
 				"sd": 1,
 				"sp": 1
-			},
-			"level": 28,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Triathlete Dylan 3": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 31,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 2,
 				"at": 2,
 				"df": 2,
-				"hp": 2,
 				"sa": 2,
 				"sd": 2,
 				"sp": 2
-			},
-			"level": 31,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Triathlete Kyra": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 26,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 26,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Triathlete Maria 1": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 17,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 17,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Triathlete Maria 2": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 28,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 1,
 				"at": 1,
 				"df": 1,
-				"hp": 1,
 				"sa": 1,
 				"sd": 1,
 				"sp": 1
-			},
-			"level": 28,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Triathlete Maria 3": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 31,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 2,
 				"at": 2,
 				"df": 2,
-				"hp": 2,
 				"sa": 2,
 				"sd": 2,
 				"sp": 2
-			},
-			"level": 31,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Triathlete Melina": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 17,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 17,
-			"moves": [],
-			"nature": ""
+			}
 		}
 	},
 	"Dolliv": {
@@ -4609,14 +4792,6 @@ var SETDEX_SV = {
 			"ability": "Harvest",
 			"index": 0,
 			"item": "Salac Berry",
-			"ivs": {
-				"at": 0,
-				"df": 31,
-				"hp": 31,
-				"sa": 31,
-				"sd": 31,
-				"sp": 31
-			},
 			"level": 16,
 			"moves": [
 				"Giga Drain",
@@ -4624,7 +4799,10 @@ var SETDEX_SV = {
 				"Leech Seed",
 				"Protect"
 			],
-			"nature": "Calm"
+			"nature": "Calm",
+			"ivs": {
+				"at": 0
+			}
 		}
 	},
 	"Dragonair": {
@@ -4632,14 +4810,6 @@ var SETDEX_SV = {
 			"ability": "",
 			"index": 2,
 			"item": "Sitrus Berry",
-			"ivs": {
-				"at": 31,
-				"df": 31,
-				"hp": 31,
-				"sa": 31,
-				"sd": 31,
-				"sp": 31
-			},
 			"level": 45,
 			"moves": [
 				"Thunder Wave",
@@ -4647,20 +4817,20 @@ var SETDEX_SV = {
 				"Protect",
 				"Ice Beam"
 			],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 31,
+				"at": 31,
+				"df": 31,
+				"sa": 31,
+				"sd": 31,
+				"sp": 31
+			}
 		},
 		"Leader Winona 4": {
 			"ability": "",
 			"index": 2,
 			"item": "Sitrus Berry",
-			"ivs": {
-				"at": 31,
-				"df": 31,
-				"hp": 31,
-				"sa": 31,
-				"sd": 31,
-				"sp": 31
-			},
 			"level": 50,
 			"moves": [
 				"Thunder Wave",
@@ -4668,7 +4838,15 @@ var SETDEX_SV = {
 				"Protect",
 				"Ice Beam"
 			],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 31,
+				"at": 31,
+				"df": 31,
+				"sa": 31,
+				"sd": 31,
+				"sp": 31
+			}
 		}
 	},
 	"Dragonite": {
@@ -4676,14 +4854,6 @@ var SETDEX_SV = {
 			"ability": "",
 			"index": 3,
 			"item": "Sitrus Berry",
-			"ivs": {
-				"at": 31,
-				"df": 31,
-				"hp": 31,
-				"sa": 31,
-				"sd": 31,
-				"sp": 31
-			},
 			"level": 55,
 			"moves": [
 				"Hyper Beam",
@@ -4691,7 +4861,15 @@ var SETDEX_SV = {
 				"Earthquake",
 				"Ice Beam"
 			],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 31,
+				"at": 31,
+				"df": 31,
+				"sa": 31,
+				"sd": 31,
+				"sp": 31
+			}
 		}
 	},
 	"Dratini": {
@@ -4699,20 +4877,35 @@ var SETDEX_SV = {
 			"ability": "",
 			"index": 0,
 			"item": "Sitrus Berry",
-			"ivs": {
-				"at": 31,
-				"df": 31,
-				"hp": 31,
-				"sa": 31,
-				"sd": 31,
-				"sp": 31
-			},
 			"level": 40,
 			"moves": [
 				"Thunder Wave",
 				"Thunderbolt",
 				"Protect",
 				"Ice Beam"
+			],
+			"nature": "",
+			"ivs": {
+				"hp": 31,
+				"at": 31,
+				"df": 31,
+				"sa": 31,
+				"sd": 31,
+				"sp": 31
+			}
+		}
+	},
+	"Drednaw": {
+		"Tuber M Ricky 1": {
+			"ability": "Swift Swim",
+			"index": 1,
+			"item": "Muscle Band",
+			"level": 23,
+			"moves": [
+				"Razor Shell",
+				"Rock Slide",
+				"Jaw Lock",
+				"Protect"
 			],
 			"nature": ""
 		}
@@ -4722,14 +4915,6 @@ var SETDEX_SV = {
 			"ability": "Torrent",
 			"index": 2,
 			"item": "Wise Glasses",
-			"ivs": {
-				"at": 31,
-				"df": 31,
-				"hp": 31,
-				"sa": 31,
-				"sd": 31,
-				"sp": 31
-			},
 			"level": 16,
 			"moves": [
 				"Water Pulse",
@@ -4741,18 +4926,10 @@ var SETDEX_SV = {
 		}
 	},
 	"Drowzee": {
-		"Leader Tate And Liza 3": {
+		"Leader Tate&liza Tate And Liza 3": {
 			"ability": "",
 			"index": 0,
 			"item": "",
-			"ivs": {
-				"at": 31,
-				"df": 31,
-				"hp": 31,
-				"sa": 31,
-				"sd": 31,
-				"sp": 31
-			},
 			"level": 53,
 			"moves": [
 				"Hypnosis",
@@ -4760,7 +4937,15 @@ var SETDEX_SV = {
 				"Headbutt",
 				"Protect"
 			],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 31,
+				"at": 31,
+				"df": 31,
+				"sa": 31,
+				"sd": 31,
+				"sp": 31
+			}
 		}
 	},
 	"Dusclops": {
@@ -4768,14 +4953,6 @@ var SETDEX_SV = {
 			"ability": "",
 			"index": 1,
 			"item": "",
-			"ivs": {
-				"at": 12,
-				"df": 12,
-				"hp": 12,
-				"sa": 12,
-				"sd": 12,
-				"sp": 12
-			},
 			"level": 43,
 			"moves": [
 				"Skill Swap",
@@ -4783,20 +4960,41 @@ var SETDEX_SV = {
 				"Will O Wisp",
 				"Toxic"
 			],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 12,
+				"at": 12,
+				"df": 12,
+				"sa": 12,
+				"sd": 12,
+				"sp": 12
+			}
 		},
 		"Elite Four Phoebe": {
 			"ability": "",
+			"index": 0,
+			"item": "",
+			"level": 48,
+			"moves": [
+				"Shadow Punch",
+				"Confuse Ray",
+				"Curse",
+				"Protect"
+			],
+			"nature": "",
+			"ivs": {
+				"hp": 30,
+				"at": 30,
+				"df": 30,
+				"sa": 30,
+				"sd": 30,
+				"sp": 30
+			}
+		},
+		"Elite Four Phoebe (2)": {
+			"ability": "",
 			"index": 4,
 			"item": "Sitrus Berry",
-			"ivs": {
-				"at": 31,
-				"df": 31,
-				"hp": 31,
-				"sa": 31,
-				"sd": 31,
-				"sp": 31
-			},
 			"level": 51,
 			"moves": [
 				"Shadow Ball",
@@ -4804,7 +5002,15 @@ var SETDEX_SV = {
 				"Rock Slide",
 				"Earthquake"
 			],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 31,
+				"at": 31,
+				"df": 31,
+				"sa": 31,
+				"sd": 31,
+				"sp": 31
+			}
 		}
 	},
 	"Duskull": {
@@ -4812,68 +5018,68 @@ var SETDEX_SV = {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 30,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 30,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Hex Maniac Tammy": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 29,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 29,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Hex Maniac Valerie 5": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 42,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 4,
 				"at": 4,
 				"df": 4,
-				"hp": 4,
 				"sa": 4,
 				"sd": 4,
 				"sp": 4
-			},
-			"level": 42,
-			"moves": [],
-			"nature": ""
+			}
 		},
-		"Twins Gina And Mia 2": {
+		"Twins Gina & Mia Gina And Mia 2": {
 			"ability": "",
 			"index": 0,
 			"item": "",
-			"ivs": {
-				"at": 0,
-				"df": 0,
-				"hp": 0,
-				"sa": 0,
-				"sd": 0,
-				"sp": 0
-			},
 			"level": 10,
 			"moves": [
 				"Night Shade",
 				"Disable"
 			],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 0,
+				"at": 0,
+				"df": 0,
+				"sa": 0,
+				"sd": 0,
+				"sp": 0
+			}
 		}
 	},
 	"Dustox": {
@@ -4881,14 +5087,6 @@ var SETDEX_SV = {
 			"ability": "Shield Dust",
 			"index": 2,
 			"item": "",
-			"ivs": {
-				"at": 0,
-				"df": 31,
-				"hp": 31,
-				"sa": 31,
-				"sd": 31,
-				"sp": 31
-			},
 			"level": 14,
 			"moves": [
 				"Venoshock",
@@ -4896,148 +5094,143 @@ var SETDEX_SV = {
 				"Poison Powder",
 				"Moonlight"
 			],
-			"nature": "Modest"
+			"nature": "Modest",
+			"ivs": {
+				"at": 0
+			}
 		},
 		"Bug Catcher James 3": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 29,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 2,
 				"at": 2,
 				"df": 2,
-				"hp": 2,
 				"sa": 2,
 				"sd": 2,
 				"sp": 2
-			},
-			"level": 29,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Bug Catcher James 4": {
 			"ability": "",
 			"index": 1,
 			"item": "",
+			"level": 31,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 3,
 				"at": 3,
 				"df": 3,
-				"hp": 3,
 				"sa": 3,
 				"sd": 3,
 				"sp": 3
-			},
-			"level": 31,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Bug Catcher James 5": {
 			"ability": "",
 			"index": 2,
 			"item": "",
+			"level": 33,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 4,
 				"at": 4,
 				"df": 4,
-				"hp": 4,
 				"sa": 4,
 				"sd": 4,
 				"sp": 4
-			},
-			"level": 33,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Bug Maniac Cale": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 29,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 29,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Bug Maniac Derek": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 16,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 18,
 				"at": 18,
 				"df": 18,
-				"hp": 18,
 				"sa": 18,
 				"sd": 18,
 				"sp": 18
-			},
-			"level": 16,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Bug Maniac Jeffrey 5": {
 			"ability": "",
 			"index": 1,
 			"item": "",
+			"level": 38,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 4,
 				"at": 4,
 				"df": 4,
-				"hp": 4,
 				"sa": 4,
 				"sd": 4,
 				"sp": 4
-			},
-			"level": 38,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Bug Maniac Taylor": {
 			"ability": "",
 			"index": 2,
 			"item": "",
+			"level": 27,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 12,
 				"at": 12,
 				"df": 12,
-				"hp": 12,
 				"sa": 12,
 				"sd": 12,
 				"sp": 12
-			},
-			"level": 27,
-			"moves": [],
-			"nature": ""
+			}
 		},
-		"Twins Miu And Yuki": {
+		"Twins Miu & Yuki Miu And Yuki": {
 			"ability": "",
 			"index": 1,
 			"item": "",
+			"level": 26,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 26,
-			"moves": [],
-			"nature": ""
+			}
 		},
-		"Young Couple Mel And Paul": {
+		"Young Couple Mel & Paul Mel And Paul": {
 			"ability": "",
 			"index": 0,
 			"item": "",
-			"ivs": {
-				"at": 0,
-				"df": 0,
-				"hp": 0,
-				"sa": 0,
-				"sd": 0,
-				"sp": 0
-			},
 			"level": 27,
 			"moves": [
 				"Gust",
@@ -5045,27 +5238,22 @@ var SETDEX_SV = {
 				"Toxic",
 				"Protect"
 			],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 0,
+				"at": 0,
+				"df": 0,
+				"sa": 0,
+				"sd": 0,
+				"sp": 0
+			}
 		}
 	},
 	"Dwebble": {
 		"Youngster Tommy": {
 			"ability": "Sturdy",
-			"evs": {
-				"at": 8,
-				"df": 100,
-				"hp": 100
-			},
 			"index": 0,
 			"item": "Custap Berry",
-			"ivs": {
-				"at": 31,
-				"df": 31,
-				"hp": 31,
-				"sa": 31,
-				"sd": 31,
-				"sp": 31
-			},
 			"level": 16,
 			"moves": [
 				"Stealth Rock",
@@ -5073,7 +5261,27 @@ var SETDEX_SV = {
 				"Endure",
 				"Rock Tomb"
 			],
-			"nature": "Impish"
+			"nature": "Impish",
+			"evs": {
+				"hp": 100,
+				"at": 8,
+				"df": 100
+			}
+		}
+	},
+	"Eelektross": {
+		"Aqua Leader Archie Oceanic": {
+			"ability": "Levitate",
+			"index": 1,
+			"item": "Leftovers",
+			"level": 30,
+			"moves": [
+				"Coil",
+				"Supercell Slam",
+				"Drain Punch",
+				"Crunch"
+			],
+			"nature": "Adamant"
 		}
 	},
 	"Electabuzz": {
@@ -5081,14 +5289,6 @@ var SETDEX_SV = {
 			"ability": "",
 			"index": 0,
 			"item": "",
-			"ivs": {
-				"at": 31,
-				"df": 31,
-				"hp": 31,
-				"sa": 31,
-				"sd": 31,
-				"sp": 31
-			},
 			"level": 50,
 			"moves": [
 				"Swift",
@@ -5096,7 +5296,15 @@ var SETDEX_SV = {
 				"Thunder Punch",
 				"Light Screen"
 			],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 31,
+				"at": 31,
+				"df": 31,
+				"sa": 31,
+				"sd": 31,
+				"sp": 31
+			}
 		}
 	},
 	"Electrike": {
@@ -5104,110 +5312,118 @@ var SETDEX_SV = {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 17,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 12,
 				"at": 12,
 				"df": 12,
-				"hp": 12,
 				"sa": 12,
 				"sd": 12,
 				"sp": 12
-			},
-			"level": 17,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Cooltrainer Wilton 2": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 26,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 13,
 				"at": 13,
 				"df": 13,
-				"hp": 13,
 				"sa": 13,
 				"sd": 13,
 				"sp": 13
-			},
-			"level": 26,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Guitarist Fernando 1": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 30,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 30,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Guitarist Fernando 2": {
 			"ability": "",
-			"index": 1,
+			"index": 0,
 			"item": "",
+			"level": 35,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 1,
 				"at": 1,
 				"df": 1,
-				"hp": 1,
 				"sa": 1,
 				"sd": 1,
 				"sp": 1
-			},
+			}
+		},
+		"Guitarist Fernando 2 (2)": {
+			"ability": "",
+			"index": 1,
+			"item": "",
 			"level": 35,
 			"moves": [],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 1,
+				"at": 1,
+				"df": 1,
+				"sa": 1,
+				"sd": 1,
+				"sp": 1
+			}
 		},
 		"Guitarist Fernando 3": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 37,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 2,
 				"at": 2,
 				"df": 2,
-				"hp": 2,
 				"sa": 2,
 				"sd": 2,
 				"sp": 2
-			},
-			"level": 37,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Guitarist Joseph": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 14,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 14,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Guitarist Kirk": {
 			"ability": "",
 			"index": 0,
 			"item": "",
-			"ivs": {
-				"at": 12,
-				"df": 12,
-				"hp": 12,
-				"sa": 12,
-				"sd": 12,
-				"sp": 12
-			},
 			"level": 17,
 			"moves": [
 				"Quick Attack",
@@ -5215,20 +5431,20 @@ var SETDEX_SV = {
 				"Spark",
 				"Leer"
 			],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 12,
+				"at": 12,
+				"df": 12,
+				"sa": 12,
+				"sd": 12,
+				"sp": 12
+			}
 		},
 		"Leader Wattson 1": {
 			"ability": "",
 			"index": 1,
 			"item": "",
-			"ivs": {
-				"at": 24,
-				"df": 24,
-				"hp": 24,
-				"sa": 24,
-				"sd": 24,
-				"sp": 24
-			},
 			"level": 20,
 			"moves": [
 				"Shock Wave",
@@ -5236,87 +5452,95 @@ var SETDEX_SV = {
 				"Quick Attack",
 				"Howl"
 			],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 24,
+				"at": 24,
+				"df": 24,
+				"sa": 24,
+				"sd": 24,
+				"sp": 24
+			}
 		},
 		"Pkmn Breeder Myles": {
 			"ability": "",
 			"index": 4,
 			"item": "",
+			"level": 25,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 1,
 				"at": 1,
 				"df": 1,
-				"hp": 1,
 				"sa": 1,
 				"sd": 1,
 				"sp": 1
-			},
-			"level": 25,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Pkmn Breeder Pat": {
 			"ability": "",
 			"index": 2,
 			"item": "",
+			"level": 25,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 1,
 				"at": 1,
 				"df": 1,
-				"hp": 1,
 				"sa": 1,
 				"sd": 1,
 				"sp": 1
-			},
-			"level": 25,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Youngster Deandre": {
 			"ability": "",
 			"index": 2,
 			"item": "",
+			"level": 14,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 14,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Youngster Demetrius": {
 			"ability": "",
 			"index": 1,
 			"item": "",
+			"level": 25,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 25,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Youngster Timmy": {
 			"ability": "",
 			"index": 1,
 			"item": "",
+			"level": 13,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 13,
-			"moves": [],
-			"nature": ""
+			}
 		}
 	},
 	"Electrode": {
@@ -5324,30 +5548,22 @@ var SETDEX_SV = {
 			"ability": "",
 			"index": 2,
 			"item": "",
+			"level": 42,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 12,
 				"at": 12,
 				"df": 12,
-				"hp": 12,
 				"sa": 12,
 				"sd": 12,
 				"sp": 12
-			},
-			"level": 42,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Leader Wattson 2": {
 			"ability": "",
 			"index": 1,
 			"item": "",
-			"ivs": {
-				"at": 31,
-				"df": 31,
-				"hp": 31,
-				"sa": 31,
-				"sd": 31,
-				"sp": 31
-			},
 			"level": 36,
 			"moves": [
 				"Rollout",
@@ -5355,20 +5571,20 @@ var SETDEX_SV = {
 				"Explosion",
 				"Rain Dance"
 			],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 31,
+				"at": 31,
+				"df": 31,
+				"sa": 31,
+				"sd": 31,
+				"sp": 31
+			}
 		},
 		"Leader Wattson 3": {
 			"ability": "",
 			"index": 2,
 			"item": "",
-			"ivs": {
-				"at": 31,
-				"df": 31,
-				"hp": 31,
-				"sa": 31,
-				"sd": 31,
-				"sp": 31
-			},
 			"level": 41,
 			"moves": [
 				"Rollout",
@@ -5376,20 +5592,20 @@ var SETDEX_SV = {
 				"Explosion",
 				"Rain Dance"
 			],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 31,
+				"at": 31,
+				"df": 31,
+				"sa": 31,
+				"sd": 31,
+				"sp": 31
+			}
 		},
 		"Leader Wattson 4": {
 			"ability": "",
 			"index": 2,
 			"item": "",
-			"ivs": {
-				"at": 31,
-				"df": 31,
-				"hp": 31,
-				"sa": 31,
-				"sd": 31,
-				"sp": 31
-			},
 			"level": 46,
 			"moves": [
 				"Rollout",
@@ -5397,20 +5613,20 @@ var SETDEX_SV = {
 				"Explosion",
 				"Rain Dance"
 			],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 31,
+				"at": 31,
+				"df": 31,
+				"sa": 31,
+				"sd": 31,
+				"sp": 31
+			}
 		},
 		"Leader Wattson 5": {
 			"ability": "",
 			"index": 3,
 			"item": "",
-			"ivs": {
-				"at": 31,
-				"df": 31,
-				"hp": 31,
-				"sa": 31,
-				"sd": 31,
-				"sp": 31
-			},
 			"level": 53,
 			"moves": [
 				"Rollout",
@@ -5418,7 +5634,15 @@ var SETDEX_SV = {
 				"Explosion",
 				"Rain Dance"
 			],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 31,
+				"at": 31,
+				"df": 31,
+				"sa": 31,
+				"sd": 31,
+				"sp": 31
+			}
 		}
 	},
 	"Exeggcute": {
@@ -5426,21 +5650,16 @@ var SETDEX_SV = {
 			"ability": "Harvest",
 			"index": 1,
 			"item": "Berry Juice",
-			"ivs": {
-				"at": 0,
-				"df": 31,
-				"hp": 31,
-				"sa": 31,
-				"sd": 31,
-				"sp": 31
-			},
 			"level": 11,
 			"moves": [
 				"Leech Seed",
 				"Mega Drain",
 				"Confusion"
 			],
-			"nature": "Relaxed"
+			"nature": "Relaxed",
+			"ivs": {
+				"at": 0
+			}
 		}
 	},
 	"Exploud": {
@@ -5448,62 +5667,54 @@ var SETDEX_SV = {
 			"ability": "",
 			"index": 1,
 			"item": "",
+			"level": 41,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 17,
 				"at": 17,
 				"df": 17,
-				"hp": 17,
 				"sa": 17,
 				"sd": 17,
 				"sp": 17
-			},
-			"level": 41,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Guitarist Dalton 5": {
 			"ability": "",
 			"index": 1,
 			"item": "",
+			"level": 34,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 4,
 				"at": 4,
 				"df": 4,
-				"hp": 4,
 				"sa": 4,
 				"sd": 4,
 				"sp": 4
-			},
-			"level": 34,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Guitarist Fernando 5": {
 			"ability": "",
 			"index": 2,
 			"item": "",
+			"level": 41,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 4,
 				"at": 4,
 				"df": 4,
-				"hp": 4,
 				"sa": 4,
 				"sd": 4,
 				"sp": 4
-			},
-			"level": 41,
-			"moves": [],
-			"nature": ""
+			}
 		},
-		"Interviewer Gabby And Ty 6": {
+		"Interviewer Gabby & Ty Gabby And Ty 6": {
 			"ability": "",
 			"index": 1,
 			"item": "",
-			"ivs": {
-				"at": 30,
-				"df": 30,
-				"hp": 30,
-				"sa": 30,
-				"sd": 30,
-				"sp": 30
-			},
 			"level": 39,
 			"moves": [
 				"Astonish",
@@ -5511,23 +5722,31 @@ var SETDEX_SV = {
 				"Supersonic",
 				"Hyper Voice"
 			],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 30,
+				"at": 30,
+				"df": 30,
+				"sa": 30,
+				"sd": 30,
+				"sp": 30
+			}
 		},
 		"School Kid Karen 5": {
 			"ability": "",
 			"index": 1,
 			"item": "",
+			"level": 35,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 6,
 				"at": 6,
 				"df": 6,
-				"hp": 6,
 				"sa": 6,
 				"sd": 6,
 				"sp": 6
-			},
-			"level": 35,
-			"moves": [],
-			"nature": ""
+			}
 		}
 	},
 	"Farfetch’d-Galar": {
@@ -5535,14 +5754,6 @@ var SETDEX_SV = {
 			"ability": "Steadfast",
 			"index": 1,
 			"item": "Quick Claw",
-			"ivs": {
-				"at": 31,
-				"df": 31,
-				"hp": 31,
-				"sa": 31,
-				"sd": 31,
-				"sp": 31
-			},
 			"level": 18,
 			"moves": [
 				"Brutal Swing",
@@ -5558,30 +5769,22 @@ var SETDEX_SV = {
 			"ability": "",
 			"index": 2,
 			"item": "",
+			"level": 26,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 26,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Fisherman Darian": {
 			"ability": "Adaptability",
 			"index": 3,
 			"item": "",
-			"ivs": {
-				"at": 0,
-				"df": 31,
-				"hp": 31,
-				"sa": 31,
-				"sd": 31,
-				"sp": 31
-			},
 			"level": 13,
 			"moves": [
 				"Brine",
@@ -5589,20 +5792,15 @@ var SETDEX_SV = {
 				"Confuse Ray",
 				"Splash"
 			],
-			"nature": "Timid"
+			"nature": "Timid",
+			"ivs": {
+				"at": 0
+			}
 		},
 		"Pokefan Annika": {
 			"ability": "",
-			"index": 1,
+			"index": 0,
 			"item": "Oran Berry",
-			"ivs": {
-				"at": 12,
-				"df": 12,
-				"hp": 12,
-				"sa": 12,
-				"sd": 12,
-				"sp": 12
-			},
 			"level": 39,
 			"moves": [
 				"Flail",
@@ -5610,28 +5808,43 @@ var SETDEX_SV = {
 				"Return",
 				"Attract"
 			],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 12,
+				"at": 12,
+				"df": 12,
+				"sa": 12,
+				"sd": 12,
+				"sp": 12
+			}
+		},
+		"Pokefan Annika (2)": {
+			"ability": "",
+			"index": 1,
+			"item": "Oran Berry",
+			"level": 39,
+			"moves": [
+				"Flail",
+				"Water Pulse",
+				"Return",
+				"Attract"
+			],
+			"nature": "",
+			"ivs": {
+				"hp": 12,
+				"at": 12,
+				"df": 12,
+				"sa": 12,
+				"sd": 12,
+				"sp": 12
+			}
 		}
 	},
 	"Fidough": {
 		"Rich Boy Winston 1": {
 			"ability": "Own Tempo",
-			"evs": {
-				"df": 252,
-				"hp": 8,
-				"sa": 12,
-				"sd": 236
-			},
 			"index": 0,
 			"item": "Eviolite",
-			"ivs": {
-				"at": 0,
-				"df": 31,
-				"hp": 31,
-				"sa": 31,
-				"sd": 31,
-				"sp": 31
-			},
 			"level": 15,
 			"moves": [
 				"Roar",
@@ -5639,7 +5852,16 @@ var SETDEX_SV = {
 				"Protect",
 				"Dazzling Gleam"
 			],
-			"nature": "Bold"
+			"nature": "Bold",
+			"evs": {
+				"hp": 8,
+				"df": 252,
+				"sa": 12,
+				"sd": 236
+			},
+			"ivs": {
+				"at": 0
+			}
 		}
 	},
 	"Finneon": {
@@ -5647,14 +5869,6 @@ var SETDEX_SV = {
 			"ability": "Swift Swim",
 			"index": 2,
 			"item": "Damp Rock",
-			"ivs": {
-				"at": 31,
-				"df": 31,
-				"hp": 31,
-				"sa": 31,
-				"sd": 31,
-				"sp": 31
-			},
 			"level": 12,
 			"moves": [
 				"Rain Dance",
@@ -5670,14 +5884,6 @@ var SETDEX_SV = {
 			"ability": "",
 			"index": 1,
 			"item": "",
-			"ivs": {
-				"at": 31,
-				"df": 31,
-				"hp": 31,
-				"sa": 31,
-				"sd": 31,
-				"sp": 31
-			},
 			"level": 41,
 			"moves": [
 				"Thunder",
@@ -5685,7 +5891,15 @@ var SETDEX_SV = {
 				"Thunder Wave",
 				"Light Screen"
 			],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 31,
+				"at": 31,
+				"df": 31,
+				"sa": 31,
+				"sd": 31,
+				"sp": 31
+			}
 		}
 	},
 	"Floatzel": {
@@ -5693,14 +5907,6 @@ var SETDEX_SV = {
 			"ability": "Technician",
 			"index": 5,
 			"item": "White Herb",
-			"ivs": {
-				"at": 31,
-				"df": 31,
-				"hp": 31,
-				"sa": 31,
-				"sd": 31,
-				"sp": 31
-			},
 			"level": 27,
 			"moves": [
 				"Jet Punch",
@@ -5716,14 +5922,6 @@ var SETDEX_SV = {
 			"ability": "Symbiosis",
 			"index": 0,
 			"item": "Petaya Berry",
-			"ivs": {
-				"at": 0,
-				"df": 31,
-				"hp": 31,
-				"sa": 31,
-				"sd": 31,
-				"sp": 31
-			},
 			"level": 14,
 			"moves": [
 				"Draining Kiss",
@@ -5731,7 +5929,10 @@ var SETDEX_SV = {
 				"Aromatherapy",
 				"Tearful Look"
 			],
-			"nature": "Calm"
+			"nature": "Calm",
+			"ivs": {
+				"at": 0
+			}
 		}
 	},
 	"Flygon": {
@@ -5739,14 +5940,6 @@ var SETDEX_SV = {
 			"ability": "",
 			"index": 3,
 			"item": "",
-			"ivs": {
-				"at": 30,
-				"df": 30,
-				"hp": 30,
-				"sa": 30,
-				"sd": 30,
-				"sp": 30
-			},
 			"level": 53,
 			"moves": [
 				"Flamethrower",
@@ -5754,27 +5947,22 @@ var SETDEX_SV = {
 				"Dragon Breath",
 				"Earthquake"
 			],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 30,
+				"at": 30,
+				"df": 30,
+				"sa": 30,
+				"sd": 30,
+				"sp": 30
+			}
 		}
 	},
 	"Furfrou-Dandy": {
 		"Rich Boy Winston 1": {
 			"ability": "Fur Coat",
-			"evs": {
-				"at": 252,
-				"sd": 12,
-				"sp": 236
-			},
 			"index": 1,
 			"item": "Leftovers",
-			"ivs": {
-				"at": 31,
-				"df": 31,
-				"hp": 31,
-				"sa": 31,
-				"sd": 31,
-				"sp": 31
-			},
 			"level": 15,
 			"moves": [
 				"Thunder Wave",
@@ -5782,7 +5970,12 @@ var SETDEX_SV = {
 				"Rock Smash",
 				"Baby-Doll Eyes"
 			],
-			"nature": "Jolly"
+			"nature": "Jolly",
+			"evs": {
+				"at": 252,
+				"sd": 12,
+				"sp": 236
+			}
 		}
 	},
 	"Gardevoir": {
@@ -5790,14 +5983,6 @@ var SETDEX_SV = {
 			"ability": "",
 			"index": 0,
 			"item": "",
-			"ivs": {
-				"at": 12,
-				"df": 12,
-				"hp": 12,
-				"sa": 12,
-				"sd": 12,
-				"sp": 12
-			},
 			"level": 43,
 			"moves": [
 				"Skill Swap",
@@ -5805,20 +5990,20 @@ var SETDEX_SV = {
 				"Thunderbolt",
 				"Calm Mind"
 			],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 12,
+				"at": 12,
+				"df": 12,
+				"sa": 12,
+				"sd": 12,
+				"sp": 12
+			}
 		},
 		"Rival Wally Vr 1": {
 			"ability": "",
 			"index": 4,
 			"item": "",
-			"ivs": {
-				"at": 30,
-				"df": 30,
-				"hp": 30,
-				"sa": 30,
-				"sd": 30,
-				"sp": 30
-			},
 			"level": 45,
 			"moves": [
 				"Double Team",
@@ -5826,20 +6011,20 @@ var SETDEX_SV = {
 				"Psychic",
 				"Future Sight"
 			],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 30,
+				"at": 30,
+				"df": 30,
+				"sa": 30,
+				"sd": 30,
+				"sp": 30
+			}
 		},
 		"Rival Wally Vr 2": {
 			"ability": "",
 			"index": 4,
 			"item": "",
-			"ivs": {
-				"at": 30,
-				"df": 30,
-				"hp": 30,
-				"sa": 30,
-				"sd": 30,
-				"sp": 30
-			},
 			"level": 48,
 			"moves": [
 				"Double Team",
@@ -5847,20 +6032,20 @@ var SETDEX_SV = {
 				"Psychic",
 				"Future Sight"
 			],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 30,
+				"at": 30,
+				"df": 30,
+				"sa": 30,
+				"sd": 30,
+				"sp": 30
+			}
 		},
 		"Rival Wally Vr 3": {
 			"ability": "",
 			"index": 4,
 			"item": "",
-			"ivs": {
-				"at": 30,
-				"df": 30,
-				"hp": 30,
-				"sa": 30,
-				"sd": 30,
-				"sp": 30
-			},
 			"level": 51,
 			"moves": [
 				"Double Team",
@@ -5868,20 +6053,20 @@ var SETDEX_SV = {
 				"Psychic",
 				"Future Sight"
 			],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 30,
+				"at": 30,
+				"df": 30,
+				"sa": 30,
+				"sd": 30,
+				"sp": 30
+			}
 		},
 		"Rival Wally Vr 4": {
 			"ability": "",
 			"index": 4,
 			"item": "",
-			"ivs": {
-				"at": 30,
-				"df": 30,
-				"hp": 30,
-				"sa": 30,
-				"sd": 30,
-				"sp": 30
-			},
 			"level": 54,
 			"moves": [
 				"Double Team",
@@ -5889,20 +6074,20 @@ var SETDEX_SV = {
 				"Psychic",
 				"Future Sight"
 			],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 30,
+				"at": 30,
+				"df": 30,
+				"sa": 30,
+				"sd": 30,
+				"sp": 30
+			}
 		},
 		"Rival Wally Vr 5": {
 			"ability": "",
 			"index": 4,
 			"item": "",
-			"ivs": {
-				"at": 30,
-				"df": 30,
-				"hp": 30,
-				"sa": 30,
-				"sd": 30,
-				"sp": 30
-			},
 			"level": 57,
 			"moves": [
 				"Double Team",
@@ -5910,7 +6095,15 @@ var SETDEX_SV = {
 				"Psychic",
 				"Future Sight"
 			],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 30,
+				"at": 30,
+				"df": 30,
+				"sa": 30,
+				"sd": 30,
+				"sp": 30
+			}
 		}
 	},
 	"Geodude": {
@@ -5918,177 +6111,273 @@ var SETDEX_SV = {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 22,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 22,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Hiker Eric": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 20,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 20,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Hiker Lenny": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 18,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 18,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Hiker Lucas 1": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 18,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 18,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Hiker Mike 2": {
 			"ability": "",
-			"index": 1,
+			"index": 0,
 			"item": "",
+			"level": 16,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
+			}
+		},
+		"Hiker Mike 2 (2)": {
+			"ability": "",
+			"index": 1,
+			"item": "",
 			"level": 16,
 			"moves": [],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 0,
+				"at": 0,
+				"df": 0,
+				"sa": 0,
+				"sd": 0,
+				"sp": 0
+			}
 		},
 		"Hiker Sawyer 1": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 21,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 21,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Hiker Sawyer 2": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 26,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 1,
 				"at": 1,
 				"df": 1,
-				"hp": 1,
 				"sa": 1,
 				"sd": 1,
 				"sp": 1
-			},
-			"level": 26,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Hiker Trent 1": {
 			"ability": "",
-			"index": 2,
+			"index": 0,
 			"item": "",
+			"level": 16,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 16,
-			"moves": [],
-			"nature": ""
+			}
 		},
-		"Hiker Trent 2": {
-			"ability": "",
-			"index": 2,
-			"item": "",
-			"ivs": {
-				"at": 1,
-				"df": 1,
-				"hp": 1,
-				"sa": 1,
-				"sd": 1,
-				"sp": 1
-			},
-			"level": 24,
-			"moves": [],
-			"nature": ""
-		},
-		"Hiker Trent 3": {
+		"Hiker Trent 1 (2)": {
 			"ability": "",
 			"index": 1,
 			"item": "",
+			"level": 17,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
+				"at": 0,
+				"df": 0,
+				"sa": 0,
+				"sd": 0,
+				"sp": 0
+			}
+		},
+		"Hiker Trent 1 (3)": {
+			"ability": "",
+			"index": 2,
+			"item": "",
+			"level": 16,
+			"moves": [],
+			"nature": "",
+			"ivs": {
+				"hp": 0,
+				"at": 0,
+				"df": 0,
+				"sa": 0,
+				"sd": 0,
+				"sp": 0
+			}
+		},
+		"Hiker Trent 2": {
+			"ability": "",
+			"index": 0,
+			"item": "",
+			"level": 24,
+			"moves": [],
+			"nature": "",
+			"ivs": {
+				"hp": 1,
+				"at": 1,
+				"df": 1,
+				"sa": 1,
+				"sd": 1,
+				"sp": 1
+			}
+		},
+		"Hiker Trent 2 (2)": {
+			"ability": "",
+			"index": 1,
+			"item": "",
+			"level": 24,
+			"moves": [],
+			"nature": "",
+			"ivs": {
+				"hp": 1,
+				"at": 1,
+				"df": 1,
+				"sa": 1,
+				"sd": 1,
+				"sp": 1
+			}
+		},
+		"Hiker Trent 2 (3)": {
+			"ability": "",
+			"index": 2,
+			"item": "",
+			"level": 24,
+			"moves": [],
+			"nature": "",
+			"ivs": {
+				"hp": 1,
+				"at": 1,
+				"df": 1,
+				"sa": 1,
+				"sd": 1,
+				"sp": 1
+			}
+		},
+		"Hiker Trent 3": {
+			"ability": "",
+			"index": 0,
+			"item": "",
+			"level": 27,
+			"moves": [],
+			"nature": "",
+			"ivs": {
+				"hp": 2,
 				"at": 2,
 				"df": 2,
-				"hp": 2,
 				"sa": 2,
 				"sd": 2,
 				"sp": 2
-			},
+			}
+		},
+		"Hiker Trent 3 (2)": {
+			"ability": "",
+			"index": 1,
+			"item": "",
 			"level": 27,
 			"moves": [],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 2,
+				"at": 2,
+				"df": 2,
+				"sa": 2,
+				"sd": 2,
+				"sp": 2
+			}
 		},
 		"Hiker Trent 4": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 30,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 3,
 				"at": 3,
 				"df": 3,
-				"hp": 3,
 				"sa": 3,
 				"sd": 3,
 				"sp": 3
-			},
-			"level": 30,
-			"moves": [],
-			"nature": ""
+			}
 		}
 	},
 	"Geodude-Alola": {
@@ -6096,14 +6385,6 @@ var SETDEX_SV = {
 			"ability": "Galvanize",
 			"index": 1,
 			"item": "Muscle Band",
-			"ivs": {
-				"at": 31,
-				"df": 31,
-				"hp": 31,
-				"sa": 31,
-				"sd": 31,
-				"sp": 31
-			},
 			"level": 15,
 			"moves": [
 				"Bulldoze",
@@ -6114,69 +6395,116 @@ var SETDEX_SV = {
 			"nature": ""
 		}
 	},
+	"Gholdengo": {
+		"Rival Brendan Route 110 Mudkip": {
+			"ability": "Good as Gold",
+			"index": 2,
+			"item": "Wise Glasses",
+			"level": 35,
+			"moves": [
+				"Flash Cannon",
+				"Shadow Ball",
+				"Recover",
+				"Confuse Ray"
+			],
+			"nature": "Modest",
+			"ivs": {
+				"at": 0
+			}
+		},
+		"Rival May Route 110 Mudkip": {
+			"ability": "Good as Gold",
+			"index": 2,
+			"item": "Wise Glasses",
+			"level": 35,
+			"moves": [
+				"Flash Cannon",
+				"Shadow Ball",
+				"Recover",
+				"Confuse Ray"
+			],
+			"nature": "Modest",
+			"ivs": {
+				"at": 0
+			}
+		}
+	},
 	"Girafarig": {
 		"Gentleman Clifford": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 36,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 36,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Psychic Blake": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 36,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 12,
 				"at": 12,
 				"df": 12,
-				"hp": 12,
 				"sa": 12,
 				"sd": 12,
 				"sp": 12
-			},
-			"level": 36,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Psychic Terry": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 37,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 37,
-			"moves": [],
-			"nature": ""
+			}
 		}
 	},
 	"Glalie": {
 		"Elite Four Glacia": {
 			"ability": "",
-			"index": 3,
+			"index": 1,
 			"item": "",
+			"level": 50,
+			"moves": [
+				"Light Screen",
+				"Crunch",
+				"Icy Wind",
+				"Ice Beam"
+			],
+			"nature": "",
 			"ivs": {
+				"hp": 30,
 				"at": 30,
 				"df": 30,
-				"hp": 30,
 				"sa": 30,
 				"sd": 30,
 				"sp": 30
-			},
+			}
+		},
+		"Elite Four Glacia (2)": {
+			"ability": "",
+			"index": 3,
+			"item": "",
 			"level": 52,
 			"moves": [
 				"Shadow Ball",
@@ -6184,7 +6512,15 @@ var SETDEX_SV = {
 				"Hail",
 				"Ice Beam"
 			],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 30,
+				"at": 30,
+				"df": 30,
+				"sa": 30,
+				"sd": 30,
+				"sp": 30
+			}
 		}
 	},
 	"Gligar": {
@@ -6192,14 +6528,6 @@ var SETDEX_SV = {
 			"ability": "Hyper Cutter",
 			"index": 2,
 			"item": "Eviolite",
-			"ivs": {
-				"at": 31,
-				"df": 31,
-				"hp": 31,
-				"sa": 31,
-				"sd": 31,
-				"sp": 31
-			},
 			"level": 22,
 			"moves": [
 				"Aerial Ace",
@@ -6213,18 +6541,10 @@ var SETDEX_SV = {
 			"ability": "Hyper Cutter",
 			"index": 2,
 			"item": "Eviolite",
-			"ivs": {
-				"at": 31,
-				"df": 31,
-				"hp": 31,
-				"sa": 31,
-				"sd": 31,
-				"sp": 31
-			},
 			"level": 22,
 			"moves": [
 				"Aerial Ace",
-				"Roost",
+				"Bug Bite",
 				"Bulldoze",
 				"U-turn"
 			],
@@ -6236,14 +6556,6 @@ var SETDEX_SV = {
 			"ability": "Toxic Debris",
 			"index": 0,
 			"item": "Focus Sash",
-			"ivs": {
-				"at": 0,
-				"df": 31,
-				"hp": 31,
-				"sa": 31,
-				"sd": 31,
-				"sp": 31
-			},
 			"level": 17,
 			"moves": [
 				"Stealth Rock",
@@ -6251,7 +6563,38 @@ var SETDEX_SV = {
 				"Mud Shot",
 				"Spikes"
 			],
-			"nature": "Modest"
+			"nature": "Modest",
+			"ivs": {
+				"at": 0
+			}
+		}
+	},
+	"Gliscor": {
+		"Rival Brendan Route 110 Torchic": {
+			"ability": "Poison Heal",
+			"index": 2,
+			"item": "Toxic Orb",
+			"level": 34,
+			"moves": [
+				"Roost",
+				"Dig",
+				"Fly",
+				"Protect"
+			],
+			"nature": "Adamant"
+		},
+		"Rival May Route 110 Torchic": {
+			"ability": "Poison Heal",
+			"index": 2,
+			"item": "Toxic Orb",
+			"level": 34,
+			"moves": [
+				"Roost",
+				"Dig",
+				"Fly",
+				"Protect"
+			],
+			"nature": "Adamant"
 		}
 	},
 	"Gloom": {
@@ -6259,193 +6602,193 @@ var SETDEX_SV = {
 			"ability": "",
 			"index": 1,
 			"item": "",
+			"level": 28,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 2,
 				"at": 2,
 				"df": 2,
-				"hp": 2,
 				"sa": 2,
 				"sd": 2,
 				"sp": 2
-			},
-			"level": 28,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Aroma Lady Rose 4": {
 			"ability": "",
 			"index": 1,
 			"item": "",
+			"level": 31,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 3,
 				"at": 3,
 				"df": 3,
-				"hp": 3,
 				"sa": 3,
 				"sd": 3,
 				"sp": 3
-			},
-			"level": 31,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Aroma Lady Rose 5": {
 			"ability": "",
 			"index": 1,
 			"item": "",
+			"level": 34,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 4,
 				"at": 4,
 				"df": 4,
-				"hp": 4,
 				"sa": 4,
 				"sd": 4,
 				"sp": 4
-			},
-			"level": 34,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Aroma Lady Violet": {
 			"ability": "",
 			"index": 1,
 			"item": "",
+			"level": 26,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 26,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Cooltrainer Alexa": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 34,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 12,
 				"at": 12,
 				"df": 12,
-				"hp": 12,
 				"sa": 12,
 				"sd": 12,
 				"sp": 12
-			},
-			"level": 34,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Picnicker Diana 2": {
 			"ability": "",
 			"index": 1,
 			"item": "",
+			"level": 25,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 1,
 				"at": 1,
 				"df": 1,
-				"hp": 1,
 				"sa": 1,
 				"sd": 1,
 				"sp": 1
-			},
-			"level": 25,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Picnicker Diana 3": {
 			"ability": "",
 			"index": 1,
 			"item": "",
+			"level": 28,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 2,
 				"at": 2,
 				"df": 2,
-				"hp": 2,
 				"sa": 2,
 				"sd": 2,
 				"sp": 2
-			},
-			"level": 28,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Picnicker Diana 4": {
 			"ability": "",
 			"index": 1,
 			"item": "",
+			"level": 31,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 3,
 				"at": 3,
 				"df": 3,
-				"hp": 3,
 				"sa": 3,
 				"sd": 3,
 				"sp": 3
-			},
-			"level": 31,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Pkmn Ranger Catherine 1": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 26,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 6,
 				"at": 6,
 				"df": 6,
-				"hp": 6,
 				"sa": 6,
 				"sd": 6,
 				"sp": 6
-			},
-			"level": 26,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Pkmn Ranger Catherine 2": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 30,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 7,
 				"at": 7,
 				"df": 7,
-				"hp": 7,
 				"sa": 7,
 				"sd": 7,
 				"sp": 7
-			},
-			"level": 30,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Pkmn Ranger Catherine 3": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 33,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 8,
 				"at": 8,
 				"df": 8,
-				"hp": 8,
 				"sa": 8,
 				"sd": 8,
 				"sp": 8
-			},
-			"level": 33,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Pkmn Ranger Catherine 4": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 36,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 9,
 				"at": 9,
 				"df": 9,
-				"hp": 9,
 				"sa": 9,
 				"sd": 9,
 				"sp": 9
-			},
-			"level": 36,
-			"moves": [],
-			"nature": ""
+			}
 		}
 	},
 	"Golbat": {
@@ -6453,49 +6796,49 @@ var SETDEX_SV = {
 			"ability": "",
 			"index": 1,
 			"item": "",
+			"level": 34,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 6,
 				"at": 6,
 				"df": 6,
-				"hp": 6,
 				"sa": 6,
 				"sd": 6,
 				"sp": 6
-			},
-			"level": 34,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Magma Admin Tabitha Mossdeep": {
 			"ability": "",
 			"index": 2,
 			"item": "",
+			"level": 40,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 12,
 				"at": 12,
 				"df": 12,
-				"hp": 12,
 				"sa": 12,
 				"sd": 12,
 				"sp": 12
-			},
-			"level": 40,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Team Aqua Grunt Seafloor Cavern 5": {
 			"ability": "",
 			"index": 1,
 			"item": "",
+			"level": 35,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 6,
 				"at": 6,
 				"df": 6,
-				"hp": 6,
 				"sa": 6,
 				"sd": 6,
 				"sp": 6
-			},
-			"level": 35,
-			"moves": [],
-			"nature": ""
+			}
 		}
 	},
 	"Goldeen": {
@@ -6503,62 +6846,38 @@ var SETDEX_SV = {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 40,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 12,
 				"at": 12,
 				"df": 12,
-				"hp": 12,
 				"sa": 12,
 				"sd": 12,
 				"sp": 12
-			},
-			"level": 40,
-			"moves": [],
-			"nature": ""
-		},
-		"Beauty Johanna": {
-			"ability": "",
-			"index": 0,
-			"item": "",
-			"ivs": {
-				"at": 0,
-				"df": 0,
-				"hp": 0,
-				"sa": 0,
-				"sd": 0,
-				"sp": 0
-			},
-			"level": 13,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Fisherman Claude": {
 			"ability": "",
 			"index": 1,
 			"item": "",
+			"level": 17,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 17,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Fisherman Darian": {
 			"ability": "Swift Swim",
 			"index": 1,
 			"item": "Mystic Water",
-			"ivs": {
-				"at": 31,
-				"df": 31,
-				"hp": 31,
-				"sa": 31,
-				"sd": 31,
-				"sp": 31
-			},
 			"level": 11,
 			"moves": [
 				"Water Pulse",
@@ -6571,209 +6890,225 @@ var SETDEX_SV = {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 39,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 12,
 				"at": 12,
 				"df": 12,
-				"hp": 12,
 				"sa": 12,
 				"sd": 12,
 				"sp": 12
-			},
-			"level": 39,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Parasol Lady Rachel": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 26,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 26,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Pkmn Breeder Lydia 1": {
 			"ability": "",
 			"index": 5,
 			"item": "",
+			"level": 11,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 11,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Pkmn Breeder Lydia 2": {
 			"ability": "",
 			"index": 5,
 			"item": "",
+			"level": 22,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 1,
 				"at": 1,
 				"df": 1,
-				"hp": 1,
 				"sa": 1,
 				"sd": 1,
 				"sp": 1
-			},
-			"level": 22,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Pkmn Breeder Lydia 3": {
 			"ability": "",
 			"index": 5,
 			"item": "",
+			"level": 25,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 2,
 				"at": 2,
 				"df": 2,
-				"hp": 2,
 				"sa": 2,
 				"sd": 2,
 				"sp": 2
-			},
-			"level": 25,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Pkmn Breeder Lydia 4": {
 			"ability": "",
 			"index": 5,
 			"item": "",
+			"level": 28,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 3,
 				"at": 3,
 				"df": 3,
-				"hp": 3,
 				"sa": 3,
 				"sd": 3,
 				"sp": 3
-			},
-			"level": 28,
-			"moves": [],
-			"nature": ""
+			}
 		},
-		"Sis And Bro Lisa And Ray": {
+		"Sis And Bro Lisa & Ray Lisa And Ray": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 27,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 27,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Swimmer F Alice": {
 			"ability": "",
-			"index": 2,
+			"index": 0,
 			"item": "",
+			"level": 24,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
+			}
+		},
+		"Swimmer F Alice (2)": {
+			"ability": "",
+			"index": 2,
+			"item": "",
 			"level": 24,
 			"moves": [],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 0,
+				"at": 0,
+				"df": 0,
+				"sa": 0,
+				"sd": 0,
+				"sp": 0
+			}
 		},
 		"Swimmer F Beth": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 26,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 26,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Swimmer F Brenda": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 34,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 34,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Swimmer F Denise": {
 			"ability": "",
 			"index": 1,
 			"item": "",
+			"level": 25,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 25,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Swimmer F Katie": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 33,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 33,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Swimmer F Missy": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 26,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 26,
-			"moves": [],
-			"nature": ""
+			}
 		}
 	},
 	"Golduck": {
@@ -6781,14 +7116,6 @@ var SETDEX_SV = {
 			"ability": "",
 			"index": 1,
 			"item": "",
-			"ivs": {
-				"at": 4,
-				"df": 4,
-				"hp": 4,
-				"sa": 4,
-				"sd": 4,
-				"sp": 4
-			},
 			"level": 41,
 			"moves": [
 				"Fury Swipes",
@@ -6796,7 +7123,15 @@ var SETDEX_SV = {
 				"Confusion",
 				"Psych Up"
 			],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 4,
+				"at": 4,
+				"df": 4,
+				"sa": 4,
+				"sd": 4,
+				"sp": 4
+			}
 		}
 	},
 	"Golem": {
@@ -6804,46 +7139,38 @@ var SETDEX_SV = {
 			"ability": "",
 			"index": 2,
 			"item": "",
+			"level": 33,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 4,
 				"at": 4,
 				"df": 4,
-				"hp": 4,
 				"sa": 4,
 				"sd": 4,
 				"sp": 4
-			},
-			"level": 33,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Hiker Trent 5": {
 			"ability": "",
 			"index": 3,
 			"item": "",
+			"level": 33,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 4,
 				"at": 4,
 				"df": 4,
-				"hp": 4,
 				"sa": 4,
 				"sd": 4,
 				"sp": 4
-			},
-			"level": 33,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Leader Roxanne 2": {
 			"ability": "",
 			"index": 0,
 			"item": "",
-			"ivs": {
-				"at": 31,
-				"df": 31,
-				"hp": 31,
-				"sa": 31,
-				"sd": 31,
-				"sp": 31
-			},
 			"level": 32,
 			"moves": [
 				"Protect",
@@ -6851,20 +7178,20 @@ var SETDEX_SV = {
 				"Magnitude",
 				"Explosion"
 			],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 31,
+				"at": 31,
+				"df": 31,
+				"sa": 31,
+				"sd": 31,
+				"sp": 31
+			}
 		},
 		"Leader Roxanne 3": {
 			"ability": "",
 			"index": 1,
 			"item": "",
-			"ivs": {
-				"at": 31,
-				"df": 31,
-				"hp": 31,
-				"sa": 31,
-				"sd": 31,
-				"sp": 31
-			},
 			"level": 37,
 			"moves": [
 				"Protect",
@@ -6872,20 +7199,20 @@ var SETDEX_SV = {
 				"Magnitude",
 				"Explosion"
 			],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 31,
+				"at": 31,
+				"df": 31,
+				"sa": 31,
+				"sd": 31,
+				"sp": 31
+			}
 		},
 		"Leader Roxanne 4": {
 			"ability": "",
 			"index": 1,
 			"item": "",
-			"ivs": {
-				"at": 31,
-				"df": 31,
-				"hp": 31,
-				"sa": 31,
-				"sd": 31,
-				"sp": 31
-			},
 			"level": 42,
 			"moves": [
 				"Protect",
@@ -6893,20 +7220,20 @@ var SETDEX_SV = {
 				"Earthquake",
 				"Explosion"
 			],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 31,
+				"at": 31,
+				"df": 31,
+				"sa": 31,
+				"sd": 31,
+				"sp": 31
+			}
 		},
 		"Leader Roxanne 5": {
 			"ability": "",
 			"index": 1,
 			"item": "",
-			"ivs": {
-				"at": 31,
-				"df": 31,
-				"hp": 31,
-				"sa": 31,
-				"sd": 31,
-				"sp": 31
-			},
 			"level": 47,
 			"moves": [
 				"Focus Punch",
@@ -6914,7 +7241,15 @@ var SETDEX_SV = {
 				"Earthquake",
 				"Explosion"
 			],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 31,
+				"at": 31,
+				"df": 31,
+				"sa": 31,
+				"sd": 31,
+				"sp": 31
+			}
 		}
 	},
 	"Grapploct": {
@@ -6922,14 +7257,6 @@ var SETDEX_SV = {
 			"ability": "Merciless",
 			"index": 3,
 			"item": "Assault Vest",
-			"ivs": {
-				"at": 31,
-				"df": 31,
-				"hp": 31,
-				"sa": 31,
-				"sd": 31,
-				"sp": 31
-			},
 			"level": 26,
 			"moves": [
 				"Sucker Punch",
@@ -6945,158 +7272,230 @@ var SETDEX_SV = {
 			"ability": "",
 			"index": 1,
 			"item": "",
+			"level": 42,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 12,
 				"at": 12,
 				"df": 12,
-				"hp": 12,
 				"sa": 12,
 				"sd": 12,
 				"sp": 12
-			},
-			"level": 42,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Cooltrainer Warren": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 33,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 12,
 				"at": 12,
 				"df": 12,
-				"hp": 12,
 				"sa": 12,
 				"sd": 12,
 				"sp": 12
-			},
-			"level": 33,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Hiker Alan": {
 			"ability": "",
 			"index": 2,
 			"item": "",
+			"level": 22,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 22,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Hiker Sawyer 3": {
 			"ability": "",
 			"index": 2,
 			"item": "",
+			"level": 28,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 2,
 				"at": 2,
 				"df": 2,
-				"hp": 2,
 				"sa": 2,
 				"sd": 2,
 				"sp": 2
-			},
-			"level": 28,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Hiker Sawyer 4": {
 			"ability": "",
 			"index": 2,
 			"item": "",
+			"level": 30,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 3,
 				"at": 3,
 				"df": 3,
-				"hp": 3,
 				"sa": 3,
 				"sd": 3,
 				"sp": 3
-			},
-			"level": 30,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Hiker Trent 2": {
 			"ability": "",
 			"index": 3,
 			"item": "",
+			"level": 24,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 1,
 				"at": 1,
 				"df": 1,
-				"hp": 1,
 				"sa": 1,
 				"sd": 1,
 				"sp": 1
-			},
-			"level": 24,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Hiker Trent 3": {
 			"ability": "",
-			"index": 3,
+			"index": 2,
 			"item": "",
+			"level": 27,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 2,
 				"at": 2,
 				"df": 2,
-				"hp": 2,
 				"sa": 2,
 				"sd": 2,
 				"sp": 2
-			},
-			"level": 27,
-			"moves": [],
-			"nature": ""
+			}
 		},
-		"Hiker Trent 4": {
+		"Hiker Trent 3 (2)": {
 			"ability": "",
 			"index": 3,
 			"item": "",
-			"ivs": {
-				"at": 3,
-				"df": 3,
-				"hp": 3,
-				"sa": 3,
-				"sd": 3,
-				"sp": 3
-			},
-			"level": 30,
+			"level": 27,
 			"moves": [],
-			"nature": ""
-		},
-		"Hiker Trent 5": {
-			"ability": "",
-			"index": 2,
-			"item": "",
+			"nature": "",
 			"ivs": {
-				"at": 4,
-				"df": 4,
-				"hp": 4,
-				"sa": 4,
-				"sd": 4,
-				"sp": 4
-			},
-			"level": 33,
-			"moves": [],
-			"nature": ""
+				"hp": 2,
+				"at": 2,
+				"df": 2,
+				"sa": 2,
+				"sd": 2,
+				"sp": 2
+			}
 		},
-		"Sr And Jr Tyra And Ivy": {
+		"Hiker Trent 4": {
 			"ability": "",
 			"index": 1,
 			"item": "",
+			"level": 30,
+			"moves": [],
+			"nature": "",
 			"ivs": {
-				"at": 0,
-				"df": 0,
-				"hp": 0,
-				"sa": 0,
-				"sd": 0,
-				"sp": 0
-			},
+				"hp": 3,
+				"at": 3,
+				"df": 3,
+				"sa": 3,
+				"sd": 3,
+				"sp": 3
+			}
+		},
+		"Hiker Trent 4 (2)": {
+			"ability": "",
+			"index": 2,
+			"item": "",
+			"level": 30,
+			"moves": [],
+			"nature": "",
+			"ivs": {
+				"hp": 3,
+				"at": 3,
+				"df": 3,
+				"sa": 3,
+				"sd": 3,
+				"sp": 3
+			}
+		},
+		"Hiker Trent 4 (3)": {
+			"ability": "",
+			"index": 3,
+			"item": "",
+			"level": 30,
+			"moves": [],
+			"nature": "",
+			"ivs": {
+				"hp": 3,
+				"at": 3,
+				"df": 3,
+				"sa": 3,
+				"sd": 3,
+				"sp": 3
+			}
+		},
+		"Hiker Trent 5": {
+			"ability": "",
+			"index": 0,
+			"item": "",
+			"level": 33,
+			"moves": [],
+			"nature": "",
+			"ivs": {
+				"hp": 4,
+				"at": 4,
+				"df": 4,
+				"sa": 4,
+				"sd": 4,
+				"sp": 4
+			}
+		},
+		"Hiker Trent 5 (2)": {
+			"ability": "",
+			"index": 1,
+			"item": "",
+			"level": 33,
+			"moves": [],
+			"nature": "",
+			"ivs": {
+				"hp": 4,
+				"at": 4,
+				"df": 4,
+				"sa": 4,
+				"sd": 4,
+				"sp": 4
+			}
+		},
+		"Hiker Trent 5 (3)": {
+			"ability": "",
+			"index": 2,
+			"item": "",
+			"level": 33,
+			"moves": [],
+			"nature": "",
+			"ivs": {
+				"hp": 4,
+				"at": 4,
+				"df": 4,
+				"sa": 4,
+				"sd": 4,
+				"sp": 4
+			}
+		},
+		"Sr And Jr Tyra & Ivy Tyra And Ivy": {
+			"ability": "",
+			"index": 1,
+			"item": "",
 			"level": 20,
 			"moves": [
 				"Defense Curl",
@@ -7104,25 +7503,48 @@ var SETDEX_SV = {
 				"Mud Sport",
 				"Rock Throw"
 			],
-			"nature": ""
-		}
-	},
-	"Groudon": {
-		"RS Protag Brendan Placeholder": {
-			"ability": "",
-			"index": 0,
-			"item": "",
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
+			}
+		}
+	},
+	"Greedent": {
+		"Tuber M Simon": {
+			"ability": "Cheek Pouch",
+			"index": 1,
+			"item": "Sitrus Berry",
+			"level": 23,
+			"moves": [
+				"Stuff Cheeks",
+				"Stockpile",
+				"Spit Up",
+				"Knock Off"
+			],
+			"nature": "Lax"
+		}
+	},
+	"Groudon": {
+		"Rs Protag Brendan Placeholder": {
+			"ability": "",
+			"index": 0,
+			"item": "",
 			"level": 5,
 			"moves": [],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 0,
+				"at": 0,
+				"df": 0,
+				"sa": 0,
+				"sd": 0,
+				"sp": 0
+			}
 		}
 	},
 	"Grovyle": {
@@ -7130,62 +7552,38 @@ var SETDEX_SV = {
 			"ability": "",
 			"index": 3,
 			"item": "",
+			"level": 34,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 24,
 				"at": 24,
 				"df": 24,
-				"hp": 24,
 				"sa": 24,
 				"sd": 24,
 				"sp": 24
-			},
-			"level": 34,
-			"moves": [],
-			"nature": ""
-		},
-		"Rival Brendan Route 110 Mudkip": {
-			"ability": "",
-			"index": 2,
-			"item": "",
-			"ivs": {
-				"at": 12,
-				"df": 12,
-				"hp": 12,
-				"sa": 12,
-				"sd": 12,
-				"sp": 12
-			},
-			"level": 20,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Rival Brendan Route 119 Mudkip": {
 			"ability": "",
 			"index": 2,
 			"item": "",
+			"level": 31,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 18,
 				"at": 18,
 				"df": 18,
-				"hp": 18,
 				"sa": 18,
 				"sd": 18,
 				"sp": 18
-			},
-			"level": 31,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Rival Brendan Rustboro Torchic": {
 			"ability": "Unburden",
 			"index": 0,
 			"item": "Sitrus Berry",
-			"ivs": {
-				"at": 31,
-				"df": 31,
-				"hp": 31,
-				"sa": 31,
-				"sd": 31,
-				"sp": 31
-			},
 			"level": 21,
 			"moves": [
 				"Acrobatics",
@@ -7199,62 +7597,38 @@ var SETDEX_SV = {
 			"ability": "",
 			"index": 3,
 			"item": "",
+			"level": 34,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 24,
 				"at": 24,
 				"df": 24,
-				"hp": 24,
 				"sa": 24,
 				"sd": 24,
 				"sp": 24
-			},
-			"level": 34,
-			"moves": [],
-			"nature": ""
-		},
-		"Rival May Route 110 Mudkip": {
-			"ability": "",
-			"index": 2,
-			"item": "",
-			"ivs": {
-				"at": 12,
-				"df": 12,
-				"hp": 12,
-				"sa": 12,
-				"sd": 12,
-				"sp": 12
-			},
-			"level": 20,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Rival May Route 119 Mudkip": {
 			"ability": "",
 			"index": 2,
 			"item": "",
+			"level": 31,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 18,
 				"at": 18,
 				"df": 18,
-				"hp": 18,
 				"sa": 18,
 				"sd": 18,
 				"sp": 18
-			},
-			"level": 31,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Rival May Rustboro Torchic": {
 			"ability": "Unburden",
 			"index": 0,
 			"item": "Sitrus Berry",
-			"ivs": {
-				"at": 31,
-				"df": 31,
-				"hp": 31,
-				"sa": 31,
-				"sd": 31,
-				"sp": 31
-			},
 			"level": 21,
 			"moves": [
 				"Acrobatics",
@@ -7270,14 +7644,6 @@ var SETDEX_SV = {
 			"ability": "",
 			"index": 0,
 			"item": "",
-			"ivs": {
-				"at": 31,
-				"df": 31,
-				"hp": 31,
-				"sa": 31,
-				"sd": 31,
-				"sp": 31
-			},
 			"level": 41,
 			"moves": [
 				"Helping Hand",
@@ -7285,20 +7651,20 @@ var SETDEX_SV = {
 				"Roar",
 				"Sunny Day"
 			],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 31,
+				"at": 31,
+				"df": 31,
+				"sa": 31,
+				"sd": 31,
+				"sp": 31
+			}
 		},
 		"Leader Flannery 4": {
 			"ability": "",
 			"index": 1,
 			"item": "",
-			"ivs": {
-				"at": 31,
-				"df": 31,
-				"hp": 31,
-				"sa": 31,
-				"sd": 31,
-				"sp": 31
-			},
 			"level": 46,
 			"moves": [
 				"Helping Hand",
@@ -7306,7 +7672,15 @@ var SETDEX_SV = {
 				"Sunny Day",
 				"Roar"
 			],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 31,
+				"at": 31,
+				"df": 31,
+				"sa": 31,
+				"sd": 31,
+				"sp": 31
+			}
 		}
 	},
 	"Growlithe-Hisui": {
@@ -7314,14 +7688,6 @@ var SETDEX_SV = {
 			"ability": "Intimidate",
 			"index": 2,
 			"item": "Passho Berry",
-			"ivs": {
-				"at": 31,
-				"df": 31,
-				"hp": 31,
-				"sa": 31,
-				"sd": 31,
-				"sp": 31
-			},
 			"level": 18,
 			"moves": [
 				"Accelerock",
@@ -7337,17 +7703,17 @@ var SETDEX_SV = {
 			"ability": "",
 			"index": 2,
 			"item": "",
+			"level": 42,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 4,
 				"at": 4,
 				"df": 4,
-				"hp": 4,
 				"sa": 4,
 				"sd": 4,
 				"sp": 4
-			},
-			"level": 42,
-			"moves": [],
-			"nature": ""
+			}
 		}
 	},
 	"Gulpin": {
@@ -7355,46 +7721,38 @@ var SETDEX_SV = {
 			"ability": "",
 			"index": 1,
 			"item": "",
+			"level": 26,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 26,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Pkmn Breeder Pat": {
 			"ability": "",
 			"index": 5,
 			"item": "",
+			"level": 25,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 1,
 				"at": 1,
 				"df": 1,
-				"hp": 1,
 				"sa": 1,
 				"sd": 1,
 				"sp": 1
-			},
-			"level": 25,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Youngster Ben": {
 			"ability": "",
 			"index": 1,
 			"item": "",
-			"ivs": {
-				"at": 18,
-				"df": 18,
-				"hp": 18,
-				"sa": 18,
-				"sd": 18,
-				"sp": 18
-			},
 			"level": 17,
 			"moves": [
 				"Amnesia",
@@ -7402,7 +7760,15 @@ var SETDEX_SV = {
 				"Yawn",
 				"Pound"
 			],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 18,
+				"at": 18,
+				"df": 18,
+				"sa": 18,
+				"sd": 18,
+				"sp": 18
+			}
 		}
 	},
 	"Gurdurr": {
@@ -7410,14 +7776,6 @@ var SETDEX_SV = {
 			"ability": "Sheer Force",
 			"index": 2,
 			"item": "",
-			"ivs": {
-				"at": 31,
-				"df": 31,
-				"hp": 31,
-				"sa": 31,
-				"sd": 31,
-				"sp": 31
-			},
 			"level": 23,
 			"moves": [
 				"Thunder Punch",
@@ -7433,14 +7791,6 @@ var SETDEX_SV = {
 			"ability": "",
 			"index": 4,
 			"item": "",
-			"ivs": {
-				"at": 31,
-				"df": 31,
-				"hp": 31,
-				"sa": 31,
-				"sd": 31,
-				"sp": 31
-			},
 			"level": 56,
 			"moves": [
 				"Dragon Dance",
@@ -7448,84 +7798,148 @@ var SETDEX_SV = {
 				"Hyper Beam",
 				"Surf"
 			],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 31,
+				"at": 31,
+				"df": 31,
+				"sa": 31,
+				"sd": 31,
+				"sp": 31
+			}
 		},
 		"Fisherman Elliot 2": {
 			"ability": "",
-			"index": 2,
+			"index": 1,
 			"item": "",
+			"level": 27,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 1,
 				"at": 1,
 				"df": 1,
-				"hp": 1,
 				"sa": 1,
 				"sd": 1,
 				"sp": 1
-			},
-			"level": 27,
-			"moves": [],
-			"nature": ""
+			}
 		},
-		"Fisherman Elliot 3": {
-			"ability": "",
-			"index": 3,
-			"item": "",
-			"ivs": {
-				"at": 2,
-				"df": 2,
-				"hp": 2,
-				"sa": 2,
-				"sd": 2,
-				"sp": 2
-			},
-			"level": 29,
-			"moves": [],
-			"nature": ""
-		},
-		"Fisherman Elliot 4": {
-			"ability": "",
-			"index": 3,
-			"item": "",
-			"ivs": {
-				"at": 3,
-				"df": 3,
-				"hp": 3,
-				"sa": 3,
-				"sd": 3,
-				"sp": 3
-			},
-			"level": 31,
-			"moves": [],
-			"nature": ""
-		},
-		"Fisherman Elliot 5": {
+		"Fisherman Elliot 2 (2)": {
 			"ability": "",
 			"index": 2,
 			"item": "",
+			"level": 27,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 1,
+				"at": 1,
+				"df": 1,
+				"sa": 1,
+				"sd": 1,
+				"sp": 1
+			}
+		},
+		"Fisherman Elliot 3": {
+			"ability": "",
+			"index": 0,
+			"item": "",
+			"level": 29,
+			"moves": [],
+			"nature": "",
+			"ivs": {
+				"hp": 2,
+				"at": 2,
+				"df": 2,
+				"sa": 2,
+				"sd": 2,
+				"sp": 2
+			}
+		},
+		"Fisherman Elliot 3 (2)": {
+			"ability": "",
+			"index": 3,
+			"item": "",
+			"level": 29,
+			"moves": [],
+			"nature": "",
+			"ivs": {
+				"hp": 2,
+				"at": 2,
+				"df": 2,
+				"sa": 2,
+				"sd": 2,
+				"sp": 2
+			}
+		},
+		"Fisherman Elliot 4": {
+			"ability": "",
+			"index": 0,
+			"item": "",
+			"level": 31,
+			"moves": [],
+			"nature": "",
+			"ivs": {
+				"hp": 3,
+				"at": 3,
+				"df": 3,
+				"sa": 3,
+				"sd": 3,
+				"sp": 3
+			}
+		},
+		"Fisherman Elliot 4 (2)": {
+			"ability": "",
+			"index": 3,
+			"item": "",
+			"level": 31,
+			"moves": [],
+			"nature": "",
+			"ivs": {
+				"hp": 3,
+				"at": 3,
+				"df": 3,
+				"sa": 3,
+				"sd": 3,
+				"sp": 3
+			}
+		},
+		"Fisherman Elliot 5": {
+			"ability": "",
+			"index": 0,
+			"item": "",
+			"level": 33,
+			"moves": [],
+			"nature": "",
+			"ivs": {
+				"hp": 4,
 				"at": 4,
 				"df": 4,
-				"hp": 4,
 				"sa": 4,
 				"sd": 4,
 				"sp": 4
-			},
+			}
+		},
+		"Fisherman Elliot 5 (2)": {
+			"ability": "",
+			"index": 2,
+			"item": "",
 			"level": 33,
 			"moves": [],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 4,
+				"at": 4,
+				"df": 4,
+				"sa": 4,
+				"sd": 4,
+				"sp": 4
+			}
 		},
 		"Fisherman Ned": {
 			"ability": "Intimidate",
 			"index": 2,
 			"item": "Wacan Berry",
-			"ivs": {
-				"at": 31,
-				"df": 31,
-				"hp": 31,
-				"sa": 31,
-				"sd": 31,
-				"sp": 31
-			},
 			"level": 24,
 			"moves": [
 				"Bite",
@@ -7539,97 +7953,161 @@ var SETDEX_SV = {
 			"ability": "",
 			"index": 2,
 			"item": "",
+			"level": 35,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 35,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Fisherman Ronald": {
 			"ability": "",
-			"index": 5,
+			"index": 1,
 			"item": "",
+			"level": 21,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
+			}
+		},
+		"Fisherman Ronald (2)": {
+			"ability": "",
+			"index": 2,
+			"item": "",
+			"level": 23,
+			"moves": [],
+			"nature": "",
+			"ivs": {
+				"hp": 0,
+				"at": 0,
+				"df": 0,
+				"sa": 0,
+				"sd": 0,
+				"sp": 0
+			}
+		},
+		"Fisherman Ronald (3)": {
+			"ability": "",
+			"index": 3,
+			"item": "",
+			"level": 26,
+			"moves": [],
+			"nature": "",
+			"ivs": {
+				"hp": 0,
+				"at": 0,
+				"df": 0,
+				"sa": 0,
+				"sd": 0,
+				"sp": 0
+			}
+		},
+		"Fisherman Ronald (4)": {
+			"ability": "",
+			"index": 4,
+			"item": "",
+			"level": 30,
+			"moves": [],
+			"nature": "",
+			"ivs": {
+				"hp": 0,
+				"at": 0,
+				"df": 0,
+				"sa": 0,
+				"sd": 0,
+				"sp": 0
+			}
+		},
+		"Fisherman Ronald (5)": {
+			"ability": "",
+			"index": 5,
+			"item": "",
 			"level": 35,
 			"moves": [],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 0,
+				"at": 0,
+				"df": 0,
+				"sa": 0,
+				"sd": 0,
+				"sp": 0
+			}
 		},
 		"Swimmer M Barry": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 34,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 34,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Swimmer M Declan": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 34,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 34,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Swimmer M Jack": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 34,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 34,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Swimmer M Rodney": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 34,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 34,
-			"moves": [],
-			"nature": ""
+			}
 		}
 	},
 	"Hariyama": {
@@ -7637,238 +8115,230 @@ var SETDEX_SV = {
 			"ability": "",
 			"index": 1,
 			"item": "",
+			"level": 32,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 15,
 				"at": 15,
 				"df": 15,
-				"hp": 15,
 				"sa": 15,
 				"sd": 15,
 				"sp": 15
-			},
-			"level": 32,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Battle Girl Cyndy 5": {
 			"ability": "",
 			"index": 1,
 			"item": "",
+			"level": 35,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 17,
 				"at": 17,
 				"df": 17,
-				"hp": 17,
 				"sa": 17,
 				"sd": 17,
 				"sp": 17
-			},
-			"level": 35,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Battle Girl Reyna": {
 			"ability": "",
 			"index": 1,
 			"item": "",
+			"level": 33,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 24,
 				"at": 24,
 				"df": 24,
-				"hp": 24,
 				"sa": 24,
 				"sd": 24,
 				"sp": 24
-			},
-			"level": 33,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Black Belt Atsushi": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 32,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 12,
 				"at": 12,
 				"df": 12,
-				"hp": 12,
 				"sa": 12,
 				"sd": 12,
 				"sp": 12
-			},
-			"level": 32,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Black Belt Kiyo": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 34,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 12,
 				"at": 12,
 				"df": 12,
-				"hp": 12,
 				"sa": 12,
 				"sd": 12,
 				"sp": 12
-			},
-			"level": 34,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Black Belt Koji 4": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 41,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 3,
 				"at": 3,
 				"df": 3,
-				"hp": 3,
 				"sa": 3,
 				"sd": 3,
 				"sp": 3
-			},
-			"level": 41,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Black Belt Koji 5": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 43,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 4,
 				"at": 4,
 				"df": 4,
-				"hp": 4,
 				"sa": 4,
 				"sd": 4,
 				"sp": 4
-			},
-			"level": 43,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Black Belt Zander": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 31,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 31,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Cooltrainer Wilton 5": {
 			"ability": "",
 			"index": 2,
 			"item": "",
+			"level": 35,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 17,
 				"at": 17,
 				"df": 17,
-				"hp": 17,
 				"sa": 17,
 				"sd": 17,
 				"sp": 17
-			},
-			"level": 35,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Expert Conor": {
 			"ability": "",
 			"index": 1,
 			"item": "",
+			"level": 33,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 24,
 				"at": 24,
 				"df": 24,
-				"hp": 24,
 				"sa": 24,
 				"sd": 24,
 				"sp": 24
-			},
-			"level": 33,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Expert Shelby 3": {
 			"ability": "",
 			"index": 1,
 			"item": "",
+			"level": 33,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 26,
 				"at": 26,
 				"df": 26,
-				"hp": 26,
 				"sa": 26,
 				"sd": 26,
 				"sp": 26
-			},
-			"level": 33,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Expert Shelby 4": {
 			"ability": "",
 			"index": 1,
 			"item": "",
+			"level": 36,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 27,
 				"at": 27,
 				"df": 27,
-				"hp": 27,
 				"sa": 27,
 				"sd": 27,
 				"sp": 27
-			},
-			"level": 36,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Expert Shelby 5": {
 			"ability": "",
 			"index": 1,
 			"item": "",
+			"level": 39,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 29,
 				"at": 29,
 				"df": 29,
-				"hp": 29,
 				"sa": 29,
 				"sd": 29,
 				"sp": 29
-			},
-			"level": 39,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Expert Timothy 1": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 27,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 24,
 				"at": 24,
 				"df": 24,
-				"hp": 24,
 				"sa": 24,
 				"sd": 24,
 				"sp": 24
-			},
-			"level": 27,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Expert Timothy 2": {
 			"ability": "",
 			"index": 0,
 			"item": "",
-			"ivs": {
-				"at": 25,
-				"df": 25,
-				"hp": 25,
-				"sa": 25,
-				"sd": 25,
-				"sp": 25
-			},
 			"level": 33,
 			"moves": [
 				"Arm Thrust",
@@ -7876,20 +8346,20 @@ var SETDEX_SV = {
 				"Sand Attack",
 				"Dig"
 			],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 25,
+				"at": 25,
+				"df": 25,
+				"sa": 25,
+				"sd": 25,
+				"sp": 25
+			}
 		},
 		"Expert Timothy 3": {
 			"ability": "",
 			"index": 0,
 			"item": "",
-			"ivs": {
-				"at": 26,
-				"df": 26,
-				"hp": 26,
-				"sa": 26,
-				"sd": 26,
-				"sp": 26
-			},
 			"level": 36,
 			"moves": [
 				"Arm Thrust",
@@ -7897,20 +8367,20 @@ var SETDEX_SV = {
 				"Sand Attack",
 				"Dig"
 			],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 26,
+				"at": 26,
+				"df": 26,
+				"sa": 26,
+				"sd": 26,
+				"sp": 26
+			}
 		},
 		"Expert Timothy 4": {
 			"ability": "",
 			"index": 0,
 			"item": "",
-			"ivs": {
-				"at": 27,
-				"df": 27,
-				"hp": 27,
-				"sa": 27,
-				"sd": 27,
-				"sp": 27
-			},
 			"level": 39,
 			"moves": [
 				"Arm Thrust",
@@ -7918,20 +8388,20 @@ var SETDEX_SV = {
 				"Sand Attack",
 				"Dig"
 			],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 27,
+				"at": 27,
+				"df": 27,
+				"sa": 27,
+				"sd": 27,
+				"sp": 27
+			}
 		},
 		"Expert Timothy 5": {
 			"ability": "",
 			"index": 0,
 			"item": "",
-			"ivs": {
-				"at": 29,
-				"df": 29,
-				"hp": 29,
-				"sa": 29,
-				"sd": 29,
-				"sp": 29
-			},
 			"level": 42,
 			"moves": [
 				"Arm Thrust",
@@ -7939,28 +8409,23 @@ var SETDEX_SV = {
 				"Sand Attack",
 				"Dig"
 			],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 29,
+				"at": 29,
+				"df": 29,
+				"sa": 29,
+				"sd": 29,
+				"sp": 29
+			}
 		},
 		"Leader Brawly 1": {
 			"ability": "Guts",
-			"evs": {
-				"at": 150,
-				"hp": 4,
-				"sp": 50
-			},
 			"index": 2,
 			"item": "Flame Orb",
-			"ivs": {
-				"at": 31,
-				"df": 31,
-				"hp": 31,
-				"sa": 31,
-				"sd": 31,
-				"sp": 31
-			},
 			"level": 25,
 			"moves": [
-				"Facade",
+				"Fake Out",
 				"Drain Punch",
 				"Knock Off",
 				"Bullet Punch"
@@ -7971,14 +8436,6 @@ var SETDEX_SV = {
 			"ability": "",
 			"index": 3,
 			"item": "Sitrus Berry",
-			"ivs": {
-				"at": 31,
-				"df": 31,
-				"hp": 31,
-				"sa": 31,
-				"sd": 31,
-				"sp": 31
-			},
 			"level": 37,
 			"moves": [
 				"Fake Out",
@@ -7986,20 +8443,20 @@ var SETDEX_SV = {
 				"Belly Drum",
 				"Earthquake"
 			],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 31,
+				"at": 31,
+				"df": 31,
+				"sa": 31,
+				"sd": 31,
+				"sp": 31
+			}
 		},
 		"Leader Brawly 3": {
 			"ability": "",
 			"index": 3,
 			"item": "Sitrus Berry",
-			"ivs": {
-				"at": 31,
-				"df": 31,
-				"hp": 31,
-				"sa": 31,
-				"sd": 31,
-				"sp": 31
-			},
 			"level": 42,
 			"moves": [
 				"Fake Out",
@@ -8007,20 +8464,20 @@ var SETDEX_SV = {
 				"Belly Drum",
 				"Earthquake"
 			],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 31,
+				"at": 31,
+				"df": 31,
+				"sa": 31,
+				"sd": 31,
+				"sp": 31
+			}
 		},
 		"Leader Brawly 4": {
 			"ability": "",
 			"index": 4,
 			"item": "Sitrus Berry",
-			"ivs": {
-				"at": 31,
-				"df": 31,
-				"hp": 31,
-				"sa": 31,
-				"sd": 31,
-				"sp": 31
-			},
 			"level": 47,
 			"moves": [
 				"Fake Out",
@@ -8028,20 +8485,20 @@ var SETDEX_SV = {
 				"Belly Drum",
 				"Earthquake"
 			],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 31,
+				"at": 31,
+				"df": 31,
+				"sa": 31,
+				"sd": 31,
+				"sp": 31
+			}
 		},
 		"Leader Brawly 5": {
 			"ability": "",
 			"index": 5,
 			"item": "Sitrus Berry",
-			"ivs": {
-				"at": 31,
-				"df": 31,
-				"hp": 31,
-				"sa": 31,
-				"sd": 31,
-				"sp": 31
-			},
 			"level": 52,
 			"moves": [
 				"Fake Out",
@@ -8049,20 +8506,20 @@ var SETDEX_SV = {
 				"Belly Drum",
 				"Earthquake"
 			],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 31,
+				"at": 31,
+				"df": 31,
+				"sa": 31,
+				"sd": 31,
+				"sp": 31
+			}
 		},
-		"Old Couple John And Jay 1": {
+		"Old Couple John & Jay John And Jay 1": {
 			"ability": "",
 			"index": 1,
 			"item": "",
-			"ivs": {
-				"at": 24,
-				"df": 24,
-				"hp": 24,
-				"sa": 24,
-				"sd": 24,
-				"sp": 24
-			},
 			"level": 39,
 			"moves": [
 				"Focus Punch",
@@ -8070,20 +8527,20 @@ var SETDEX_SV = {
 				"Rest",
 				"Belly Drum"
 			],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 24,
+				"at": 24,
+				"df": 24,
+				"sa": 24,
+				"sd": 24,
+				"sp": 24
+			}
 		},
-		"Old Couple John And Jay 2": {
+		"Old Couple John & Jay John And Jay 2": {
 			"ability": "",
 			"index": 1,
 			"item": "",
-			"ivs": {
-				"at": 25,
-				"df": 25,
-				"hp": 25,
-				"sa": 25,
-				"sd": 25,
-				"sp": 25
-			},
 			"level": 43,
 			"moves": [
 				"Focus Punch",
@@ -8091,20 +8548,20 @@ var SETDEX_SV = {
 				"Rest",
 				"Belly Drum"
 			],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 25,
+				"at": 25,
+				"df": 25,
+				"sa": 25,
+				"sd": 25,
+				"sp": 25
+			}
 		},
-		"Old Couple John And Jay 3": {
+		"Old Couple John & Jay John And Jay 3": {
 			"ability": "",
 			"index": 1,
 			"item": "",
-			"ivs": {
-				"at": 26,
-				"df": 26,
-				"hp": 26,
-				"sa": 26,
-				"sd": 26,
-				"sp": 26
-			},
 			"level": 46,
 			"moves": [
 				"Focus Punch",
@@ -8112,20 +8569,20 @@ var SETDEX_SV = {
 				"Rest",
 				"Belly Drum"
 			],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 26,
+				"at": 26,
+				"df": 26,
+				"sa": 26,
+				"sd": 26,
+				"sp": 26
+			}
 		},
-		"Old Couple John And Jay 4": {
+		"Old Couple John & Jay John And Jay 4": {
 			"ability": "",
 			"index": 1,
 			"item": "",
-			"ivs": {
-				"at": 27,
-				"df": 27,
-				"hp": 27,
-				"sa": 27,
-				"sd": 27,
-				"sp": 27
-			},
 			"level": 49,
 			"moves": [
 				"Focus Punch",
@@ -8133,20 +8590,20 @@ var SETDEX_SV = {
 				"Rest",
 				"Belly Drum"
 			],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 27,
+				"at": 27,
+				"df": 27,
+				"sa": 27,
+				"sd": 27,
+				"sp": 27
+			}
 		},
-		"Old Couple John And Jay 5": {
+		"Old Couple John & Jay John And Jay 5": {
 			"ability": "",
 			"index": 1,
 			"item": "",
-			"ivs": {
-				"at": 29,
-				"df": 29,
-				"hp": 29,
-				"sa": 29,
-				"sd": 29,
-				"sp": 29
-			},
 			"level": 52,
 			"moves": [
 				"Focus Punch",
@@ -8154,75 +8611,83 @@ var SETDEX_SV = {
 				"Rest",
 				"Belly Drum"
 			],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 29,
+				"at": 29,
+				"df": 29,
+				"sa": 29,
+				"sd": 29,
+				"sp": 29
+			}
 		},
 		"Pkmn Breeder Isaac 3": {
 			"ability": "",
 			"index": 5,
 			"item": "",
+			"level": 25,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 2,
 				"at": 2,
 				"df": 2,
-				"hp": 2,
 				"sa": 2,
 				"sd": 2,
 				"sp": 2
-			},
-			"level": 25,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Pkmn Breeder Isaac 4": {
 			"ability": "",
 			"index": 5,
 			"item": "",
+			"level": 28,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 3,
 				"at": 3,
 				"df": 3,
-				"hp": 3,
 				"sa": 3,
 				"sd": 3,
 				"sp": 3
-			},
-			"level": 28,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Pkmn Breeder Isaac 5": {
 			"ability": "",
 			"index": 5,
 			"item": "",
+			"level": 31,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 4,
 				"at": 4,
 				"df": 4,
-				"hp": 4,
 				"sa": 4,
 				"sd": 4,
 				"sp": 4
-			},
-			"level": 31,
-			"moves": [],
-			"nature": ""
+			}
 		},
-		"Sr And Jr Anna And Meg 5": {
+		"Sr And Jr Anna & Meg Anna And Meg 5": {
 			"ability": "",
 			"index": 1,
 			"item": "",
-			"ivs": {
-				"at": 4,
-				"df": 4,
-				"hp": 4,
-				"sa": 4,
-				"sd": 4,
-				"sp": 4
-			},
 			"level": 38,
 			"moves": [
 				"Tackle",
 				"Focus Energy",
 				"Arm Thrust"
 			],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 4,
+				"at": 4,
+				"df": 4,
+				"sa": 4,
+				"sd": 4,
+				"sp": 4
+			}
 		}
 	},
 	"Hattrem": {
@@ -8230,21 +8695,16 @@ var SETDEX_SV = {
 			"ability": "Magic Bounce",
 			"index": 1,
 			"item": "Custap Berry",
-			"ivs": {
-				"at": 0,
-				"df": 31,
-				"hp": 31,
-				"sa": 31,
-				"sd": 31,
-				"sp": 31
-			},
 			"level": 14,
 			"moves": [
 				"Psybeam",
 				"Draining Kiss",
 				"Substitute"
 			],
-			"nature": "Sassy"
+			"nature": "Sassy",
+			"ivs": {
+				"at": 0
+			}
 		}
 	},
 	"Hawlucha": {
@@ -8252,14 +8712,6 @@ var SETDEX_SV = {
 			"ability": "Unburden",
 			"index": 2,
 			"item": "Sitrus Berry",
-			"ivs": {
-				"at": 31,
-				"df": 31,
-				"hp": 31,
-				"sa": 31,
-				"sd": 31,
-				"sp": 31
-			},
 			"level": 24,
 			"moves": [
 				"Acrobatics",
@@ -8275,14 +8727,6 @@ var SETDEX_SV = {
 			"ability": "Swarm",
 			"index": 0,
 			"item": "Coba Berry",
-			"ivs": {
-				"at": 31,
-				"df": 31,
-				"hp": 31,
-				"sa": 31,
-				"sd": 31,
-				"sp": 31
-			},
 			"level": 24,
 			"moves": [
 				"Rock Tomb",
@@ -8293,19 +8737,26 @@ var SETDEX_SV = {
 			"nature": "Jolly"
 		}
 	},
+	"Herdier": {
+		"Gentleman Wilson School": {
+			"ability": "Intimidate",
+			"index": 0,
+			"item": "Eviolite",
+			"level": 17,
+			"moves": [
+				"Work Up",
+				"Crunch",
+				"Facade",
+				"Psychic Fangs"
+			],
+			"nature": "Adamant"
+		}
+	},
 	"Hitmonchan": {
 		"Leader Brawly 4": {
 			"ability": "",
 			"index": 0,
 			"item": "",
-			"ivs": {
-				"at": 31,
-				"df": 31,
-				"hp": 31,
-				"sa": 31,
-				"sd": 31,
-				"sp": 31
-			},
 			"level": 40,
 			"moves": [
 				"Sky Uppercut",
@@ -8313,20 +8764,20 @@ var SETDEX_SV = {
 				"Fire Punch",
 				"Ice Punch"
 			],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 31,
+				"at": 31,
+				"df": 31,
+				"sa": 31,
+				"sd": 31,
+				"sp": 31
+			}
 		},
 		"Leader Brawly 5": {
 			"ability": "",
 			"index": 1,
 			"item": "",
-			"ivs": {
-				"at": 31,
-				"df": 31,
-				"hp": 31,
-				"sa": 31,
-				"sd": 31,
-				"sp": 31
-			},
 			"level": 46,
 			"moves": [
 				"Sky Uppercut",
@@ -8334,7 +8785,15 @@ var SETDEX_SV = {
 				"Fire Punch",
 				"Ice Punch"
 			],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 31,
+				"at": 31,
+				"df": 31,
+				"sa": 31,
+				"sd": 31,
+				"sp": 31
+			}
 		}
 	},
 	"Hitmonlee": {
@@ -8342,14 +8801,6 @@ var SETDEX_SV = {
 			"ability": "",
 			"index": 0,
 			"item": "",
-			"ivs": {
-				"at": 31,
-				"df": 31,
-				"hp": 31,
-				"sa": 31,
-				"sd": 31,
-				"sp": 31
-			},
 			"level": 46,
 			"moves": [
 				"Mega Kick",
@@ -8357,7 +8808,28 @@ var SETDEX_SV = {
 				"Earthquake",
 				"Bulk Up"
 			],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 31,
+				"at": 31,
+				"df": 31,
+				"sa": 31,
+				"sd": 31,
+				"sp": 31
+			}
+		},
+		"Sailor Edmond": {
+			"ability": "Unburden",
+			"index": 0,
+			"item": "Normal Gem",
+			"level": 23,
+			"moves": [
+				"Fake Out",
+				"High Jump Kick",
+				"Rock Slide",
+				"Poison Jab"
+			],
+			"nature": "Adamant"
 		}
 	},
 	"Hitmontop": {
@@ -8365,14 +8837,6 @@ var SETDEX_SV = {
 			"ability": "",
 			"index": 2,
 			"item": "",
-			"ivs": {
-				"at": 31,
-				"df": 31,
-				"hp": 31,
-				"sa": 31,
-				"sd": 31,
-				"sp": 31
-			},
 			"level": 35,
 			"moves": [
 				"Pursuit",
@@ -8380,20 +8844,20 @@ var SETDEX_SV = {
 				"Protect",
 				"Triple Kick"
 			],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 31,
+				"at": 31,
+				"df": 31,
+				"sa": 31,
+				"sd": 31,
+				"sp": 31
+			}
 		},
 		"Leader Brawly 3": {
 			"ability": "",
 			"index": 2,
 			"item": "",
-			"ivs": {
-				"at": 31,
-				"df": 31,
-				"hp": 31,
-				"sa": 31,
-				"sd": 31,
-				"sp": 31
-			},
 			"level": 40,
 			"moves": [
 				"Pursuit",
@@ -8401,20 +8865,20 @@ var SETDEX_SV = {
 				"Protect",
 				"Triple Kick"
 			],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 31,
+				"at": 31,
+				"df": 31,
+				"sa": 31,
+				"sd": 31,
+				"sp": 31
+			}
 		},
 		"Leader Brawly 4": {
 			"ability": "",
 			"index": 3,
 			"item": "",
-			"ivs": {
-				"at": 31,
-				"df": 31,
-				"hp": 31,
-				"sa": 31,
-				"sd": 31,
-				"sp": 31
-			},
 			"level": 45,
 			"moves": [
 				"Pursuit",
@@ -8422,20 +8886,20 @@ var SETDEX_SV = {
 				"Protect",
 				"Triple Kick"
 			],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 31,
+				"at": 31,
+				"df": 31,
+				"sa": 31,
+				"sd": 31,
+				"sp": 31
+			}
 		},
 		"Leader Brawly 5": {
 			"ability": "",
 			"index": 4,
 			"item": "",
-			"ivs": {
-				"at": 31,
-				"df": 31,
-				"hp": 31,
-				"sa": 31,
-				"sd": 31,
-				"sp": 31
-			},
 			"level": 50,
 			"moves": [
 				"Pursuit",
@@ -8443,7 +8907,43 @@ var SETDEX_SV = {
 				"Protect",
 				"Triple Kick"
 			],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 31,
+				"at": 31,
+				"df": 31,
+				"sa": 31,
+				"sd": 31,
+				"sp": 31
+			}
+		}
+	},
+	"Honchkrow": {
+		"Rival Brendan Route 110 Mudkip": {
+			"ability": "Super Luck",
+			"index": 3,
+			"item": "Scope Lens",
+			"level": 35,
+			"moves": [
+				"Night Slash",
+				"Drill Peck",
+				"Roost",
+				"Superpower"
+			],
+			"nature": "Adamant"
+		},
+		"Rival May Route 110 Mudkip": {
+			"ability": "Super Luck",
+			"index": 3,
+			"item": "Scope Lens",
+			"level": 35,
+			"moves": [
+				"Night Slash",
+				"Drill Peck",
+				"Roost",
+				"Superpower"
+			],
+			"nature": "Adamant"
 		}
 	},
 	"Hoothoot": {
@@ -8451,14 +8951,6 @@ var SETDEX_SV = {
 			"ability": "",
 			"index": 0,
 			"item": "",
-			"ivs": {
-				"at": 31,
-				"df": 31,
-				"hp": 31,
-				"sa": 31,
-				"sd": 31,
-				"sp": 31
-			},
 			"level": 43,
 			"moves": [
 				"Hypnosis",
@@ -8466,7 +8958,15 @@ var SETDEX_SV = {
 				"Reflect",
 				"Dream Eater"
 			],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 31,
+				"at": 31,
+				"df": 31,
+				"sa": 31,
+				"sd": 31,
+				"sp": 31
+			}
 		}
 	},
 	"Horsea": {
@@ -8474,81 +8974,81 @@ var SETDEX_SV = {
 			"ability": "",
 			"index": 1,
 			"item": "",
+			"level": 25,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 25,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Beauty Thalia 2": {
 			"ability": "",
 			"index": 1,
 			"item": "",
+			"level": 34,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 1,
 				"at": 1,
 				"df": 1,
-				"hp": 1,
 				"sa": 1,
 				"sd": 1,
 				"sp": 1
-			},
-			"level": 34,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Swimmer F Linda": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 33,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 33,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Swimmer F Tara": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 25,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 25,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Swimmer M Stan": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 34,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 34,
-			"moves": [],
-			"nature": ""
+			}
 		}
 	},
 	"Houndoom": {
@@ -8556,14 +9056,6 @@ var SETDEX_SV = {
 			"ability": "",
 			"index": 2,
 			"item": "",
-			"ivs": {
-				"at": 31,
-				"df": 31,
-				"hp": 31,
-				"sa": 31,
-				"sd": 31,
-				"sp": 31
-			},
 			"level": 51,
 			"moves": [
 				"Roar",
@@ -8571,7 +9063,15 @@ var SETDEX_SV = {
 				"Taunt",
 				"Sunny Day"
 			],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 31,
+				"at": 31,
+				"df": 31,
+				"sa": 31,
+				"sd": 31,
+				"sp": 31
+			}
 		}
 	},
 	"Houndour": {
@@ -8579,14 +9079,6 @@ var SETDEX_SV = {
 			"ability": "",
 			"index": 0,
 			"item": "",
-			"ivs": {
-				"at": 31,
-				"df": 31,
-				"hp": 31,
-				"sa": 31,
-				"sd": 31,
-				"sp": 31
-			},
 			"level": 46,
 			"moves": [
 				"Roar",
@@ -8594,22 +9086,22 @@ var SETDEX_SV = {
 				"Taunt",
 				"Sunny Day"
 			],
-			"nature": ""
-		}
-	},
-	"Hypno": {
-		"Leader Tate And Liza 4": {
-			"ability": "",
-			"index": 0,
-			"item": "",
+			"nature": "",
 			"ivs": {
+				"hp": 31,
 				"at": 31,
 				"df": 31,
-				"hp": 31,
 				"sa": 31,
 				"sd": 31,
 				"sp": 31
-			},
+			}
+		}
+	},
+	"Hypno": {
+		"Leader Tate&liza Tate And Liza 4": {
+			"ability": "",
+			"index": 0,
+			"item": "",
 			"level": 58,
 			"moves": [
 				"Hypnosis",
@@ -8617,20 +9109,20 @@ var SETDEX_SV = {
 				"Headbutt",
 				"Protect"
 			],
-			"nature": ""
-		},
-		"Leader Tate And Liza 5": {
-			"ability": "",
-			"index": 0,
-			"item": "",
+			"nature": "",
 			"ivs": {
+				"hp": 31,
 				"at": 31,
 				"df": 31,
-				"hp": 31,
 				"sa": 31,
 				"sd": 31,
 				"sp": 31
-			},
+			}
+		},
+		"Leader Tate&liza Tate And Liza 5": {
+			"ability": "",
+			"index": 0,
+			"item": "",
 			"level": 63,
 			"moves": [
 				"Hypnosis",
@@ -8638,7 +9130,15 @@ var SETDEX_SV = {
 				"Headbutt",
 				"Protect"
 			],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 31,
+				"at": 31,
+				"df": 31,
+				"sa": 31,
+				"sd": 31,
+				"sp": 31
+			}
 		}
 	},
 	"Illumise": {
@@ -8646,117 +9146,117 @@ var SETDEX_SV = {
 			"ability": "",
 			"index": 1,
 			"item": "",
+			"level": 25,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 25,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Bug Maniac Angelo": {
 			"ability": "",
 			"index": 0,
 			"item": "",
-			"ivs": {
-				"at": 12,
-				"df": 12,
-				"hp": 12,
-				"sa": 12,
-				"sd": 12,
-				"sp": 12
-			},
 			"level": 17,
 			"moves": [
 				"Shock Wave",
 				"Quick Attack",
 				"Charm"
 			],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 12,
+				"at": 12,
+				"df": 12,
+				"sa": 12,
+				"sd": 12,
+				"sp": 12
+			}
 		},
-		"Young Couple Kira And Dan 1": {
+		"Young Couple Kira & Dan Kira And Dan 1": {
 			"ability": "",
 			"index": 1,
 			"item": "",
+			"level": 25,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 25,
-			"moves": [],
-			"nature": ""
+			}
 		},
-		"Young Couple Kira And Dan 2": {
+		"Young Couple Kira & Dan Kira And Dan 2": {
 			"ability": "",
 			"index": 1,
 			"item": "",
+			"level": 30,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 1,
 				"at": 1,
 				"df": 1,
-				"hp": 1,
 				"sa": 1,
 				"sd": 1,
 				"sp": 1
-			},
-			"level": 30,
-			"moves": [],
-			"nature": ""
+			}
 		},
-		"Young Couple Kira And Dan 3": {
+		"Young Couple Kira & Dan Kira And Dan 3": {
 			"ability": "",
 			"index": 1,
 			"item": "",
+			"level": 33,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 2,
 				"at": 2,
 				"df": 2,
-				"hp": 2,
 				"sa": 2,
 				"sd": 2,
 				"sp": 2
-			},
-			"level": 33,
-			"moves": [],
-			"nature": ""
+			}
 		},
-		"Young Couple Kira And Dan 4": {
+		"Young Couple Kira & Dan Kira And Dan 4": {
 			"ability": "",
 			"index": 1,
 			"item": "",
+			"level": 36,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 3,
 				"at": 3,
 				"df": 3,
-				"hp": 3,
 				"sa": 3,
 				"sd": 3,
 				"sp": 3
-			},
-			"level": 36,
-			"moves": [],
-			"nature": ""
+			}
 		},
-		"Young Couple Kira And Dan 5": {
+		"Young Couple Kira & Dan Kira And Dan 5": {
 			"ability": "",
 			"index": 1,
 			"item": "",
+			"level": 39,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 4,
 				"at": 4,
 				"df": 4,
-				"hp": 4,
 				"sa": 4,
 				"sd": 4,
 				"sp": 4
-			},
-			"level": 39,
-			"moves": [],
-			"nature": ""
+			}
 		}
 	},
 	"Kabuto": {
@@ -8764,14 +9264,6 @@ var SETDEX_SV = {
 			"ability": "",
 			"index": 1,
 			"item": "Sitrus Berry",
-			"ivs": {
-				"at": 31,
-				"df": 31,
-				"hp": 31,
-				"sa": 31,
-				"sd": 31,
-				"sp": 31
-			},
 			"level": 35,
 			"moves": [
 				"Swords Dance",
@@ -8779,7 +9271,15 @@ var SETDEX_SV = {
 				"Surf",
 				"Rock Slide"
 			],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 31,
+				"at": 31,
+				"df": 31,
+				"sa": 31,
+				"sd": 31,
+				"sp": 31
+			}
 		}
 	},
 	"Kabutops": {
@@ -8787,14 +9287,6 @@ var SETDEX_SV = {
 			"ability": "",
 			"index": 2,
 			"item": "Sitrus Berry",
-			"ivs": {
-				"at": 31,
-				"df": 31,
-				"hp": 31,
-				"sa": 31,
-				"sd": 31,
-				"sp": 31
-			},
 			"level": 40,
 			"moves": [
 				"Swords Dance",
@@ -8802,20 +9294,20 @@ var SETDEX_SV = {
 				"Surf",
 				"Rock Slide"
 			],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 31,
+				"at": 31,
+				"df": 31,
+				"sa": 31,
+				"sd": 31,
+				"sp": 31
+			}
 		},
 		"Leader Roxanne 4": {
 			"ability": "",
 			"index": 2,
 			"item": "Sitrus Berry",
-			"ivs": {
-				"at": 31,
-				"df": 31,
-				"hp": 31,
-				"sa": 31,
-				"sd": 31,
-				"sp": 31
-			},
 			"level": 45,
 			"moves": [
 				"Swords Dance",
@@ -8823,20 +9315,20 @@ var SETDEX_SV = {
 				"Surf",
 				"Rock Slide"
 			],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 31,
+				"at": 31,
+				"df": 31,
+				"sa": 31,
+				"sd": 31,
+				"sp": 31
+			}
 		},
 		"Leader Roxanne 5": {
 			"ability": "",
 			"index": 3,
 			"item": "Sitrus Berry",
-			"ivs": {
-				"at": 31,
-				"df": 31,
-				"hp": 31,
-				"sa": 31,
-				"sd": 31,
-				"sp": 31
-			},
 			"level": 50,
 			"moves": [
 				"Swords Dance",
@@ -8844,7 +9336,28 @@ var SETDEX_SV = {
 				"Surf",
 				"Rock Slide"
 			],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 31,
+				"at": 31,
+				"df": 31,
+				"sa": 31,
+				"sd": 31,
+				"sp": 31
+			}
+		},
+		"Team Aqua Grunt Oceanic Left": {
+			"ability": "Swift Swim",
+			"index": 0,
+			"item": "Rindo Berry",
+			"level": 28,
+			"moves": [
+				"Rock Slide",
+				"Razor Shell",
+				"Hone Claws",
+				"Leech Life"
+			],
+			"nature": "Adamant"
 		}
 	},
 	"Kadabra": {
@@ -8852,241 +9365,241 @@ var SETDEX_SV = {
 			"ability": "",
 			"index": 2,
 			"item": "",
+			"level": 42,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 12,
 				"at": 12,
 				"df": 12,
-				"hp": 12,
 				"sa": 12,
 				"sd": 12,
 				"sp": 12
-			},
-			"level": 42,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Cooltrainer Vito": {
 			"ability": "",
 			"index": 1,
 			"item": "",
+			"level": 42,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 12,
 				"at": 12,
 				"df": 12,
-				"hp": 12,
 				"sa": 12,
 				"sd": 12,
 				"sp": 12
-			},
-			"level": 42,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Hex Maniac Kathleen": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 36,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 12,
 				"at": 12,
 				"df": 12,
-				"hp": 12,
 				"sa": 12,
 				"sd": 12,
 				"sp": 12
-			},
-			"level": 36,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Psychic Alix": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 26,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 26,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Psychic Alvaro": {
 			"ability": "",
 			"index": 1,
 			"item": "",
+			"level": 41,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 41,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Psychic Cameron 2": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 33,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 1,
 				"at": 1,
 				"df": 1,
-				"hp": 1,
 				"sa": 1,
 				"sd": 1,
 				"sp": 1
-			},
-			"level": 33,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Psychic Cameron 3": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 38,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 2,
 				"at": 2,
 				"df": 2,
-				"hp": 2,
 				"sa": 2,
 				"sd": 2,
 				"sp": 2
-			},
-			"level": 38,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Psychic Cameron 4": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 41,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 3,
 				"at": 3,
 				"df": 3,
-				"hp": 3,
 				"sa": 3,
 				"sd": 3,
 				"sp": 3
-			},
-			"level": 41,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Psychic Jacki 1": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 30,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 30,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Psychic Jacki 2": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 34,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 1,
 				"at": 1,
 				"df": 1,
-				"hp": 1,
 				"sa": 1,
 				"sd": 1,
 				"sp": 1
-			},
-			"level": 34,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Psychic Jacki 3": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 37,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 2,
 				"at": 2,
 				"df": 2,
-				"hp": 2,
 				"sa": 2,
 				"sd": 2,
 				"sp": 2
-			},
-			"level": 37,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Psychic Jacki 4": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 40,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 3,
 				"at": 3,
 				"df": 3,
-				"hp": 3,
 				"sa": 3,
 				"sd": 3,
 				"sp": 3
-			},
-			"level": 40,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Psychic Joshua": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 41,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 41,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Psychic Kayla": {
 			"ability": "",
 			"index": 2,
 			"item": "",
+			"level": 26,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 26,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Psychic Maura": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 36,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 12,
 				"at": 12,
 				"df": 12,
-				"hp": 12,
 				"sa": 12,
 				"sd": 12,
 				"sp": 12
-			},
-			"level": 36,
-			"moves": [],
-			"nature": ""
+			}
 		}
 	},
 	"Kakuna": {
@@ -9094,14 +9607,6 @@ var SETDEX_SV = {
 			"ability": "Anger Shell",
 			"index": 1,
 			"item": "",
-			"ivs": {
-				"at": 31,
-				"df": 31,
-				"hp": 31,
-				"sa": 31,
-				"sd": 31,
-				"sp": 31
-			},
 			"level": 8,
 			"moves": [
 				"Bug Bite",
@@ -9116,14 +9621,6 @@ var SETDEX_SV = {
 			"ability": "",
 			"index": 2,
 			"item": "",
-			"ivs": {
-				"at": 31,
-				"df": 31,
-				"hp": 31,
-				"sa": 31,
-				"sd": 31,
-				"sp": 31
-			},
 			"level": 45,
 			"moves": [
 				"Fake Out",
@@ -9131,20 +9628,20 @@ var SETDEX_SV = {
 				"Endure",
 				"Reversal"
 			],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 31,
+				"at": 31,
+				"df": 31,
+				"sa": 31,
+				"sd": 31,
+				"sp": 31
+			}
 		},
 		"Leader Norman 4": {
 			"ability": "",
 			"index": 2,
 			"item": "",
-			"ivs": {
-				"at": 31,
-				"df": 31,
-				"hp": 31,
-				"sa": 31,
-				"sd": 31,
-				"sp": 31
-			},
 			"level": 50,
 			"moves": [
 				"Fake Out",
@@ -9152,20 +9649,20 @@ var SETDEX_SV = {
 				"Endure",
 				"Reversal"
 			],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 31,
+				"at": 31,
+				"df": 31,
+				"sa": 31,
+				"sd": 31,
+				"sp": 31
+			}
 		},
 		"Leader Norman 5": {
 			"ability": "",
 			"index": 2,
 			"item": "",
-			"ivs": {
-				"at": 31,
-				"df": 31,
-				"hp": 31,
-				"sa": 31,
-				"sd": 31,
-				"sp": 31
-			},
 			"level": 55,
 			"moves": [
 				"Fake Out",
@@ -9173,7 +9670,15 @@ var SETDEX_SV = {
 				"Endure",
 				"Reversal"
 			],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 31,
+				"at": 31,
+				"df": 31,
+				"sa": 31,
+				"sd": 31,
+				"sp": 31
+			}
 		}
 	},
 	"Kecleon": {
@@ -9181,14 +9686,6 @@ var SETDEX_SV = {
 			"ability": "",
 			"index": 0,
 			"item": "",
-			"ivs": {
-				"at": 0,
-				"df": 0,
-				"hp": 0,
-				"sa": 0,
-				"sd": 0,
-				"sp": 0
-			},
 			"level": 29,
 			"moves": [
 				"Bind",
@@ -9196,20 +9693,20 @@ var SETDEX_SV = {
 				"Fury Swipes",
 				"Feint Attack"
 			],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 0,
+				"at": 0,
+				"df": 0,
+				"sa": 0,
+				"sd": 0,
+				"sp": 0
+			}
 		},
 		"Beauty Jessica 2": {
 			"ability": "",
 			"index": 0,
 			"item": "",
-			"ivs": {
-				"at": 1,
-				"df": 1,
-				"hp": 1,
-				"sa": 1,
-				"sd": 1,
-				"sp": 1
-			},
 			"level": 35,
 			"moves": [
 				"Bind",
@@ -9217,20 +9714,20 @@ var SETDEX_SV = {
 				"Fury Swipes",
 				"Feint Attack"
 			],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 1,
+				"at": 1,
+				"df": 1,
+				"sa": 1,
+				"sd": 1,
+				"sp": 1
+			}
 		},
 		"Beauty Jessica 3": {
 			"ability": "",
 			"index": 0,
 			"item": "",
-			"ivs": {
-				"at": 2,
-				"df": 2,
-				"hp": 2,
-				"sa": 2,
-				"sd": 2,
-				"sp": 2
-			},
 			"level": 38,
 			"moves": [
 				"Bind",
@@ -9238,20 +9735,20 @@ var SETDEX_SV = {
 				"Fury Swipes",
 				"Feint Attack"
 			],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 2,
+				"at": 2,
+				"df": 2,
+				"sa": 2,
+				"sd": 2,
+				"sp": 2
+			}
 		},
 		"Beauty Jessica 4": {
 			"ability": "",
 			"index": 0,
 			"item": "",
-			"ivs": {
-				"at": 3,
-				"df": 3,
-				"hp": 3,
-				"sa": 3,
-				"sd": 3,
-				"sp": 3
-			},
 			"level": 41,
 			"moves": [
 				"Bind",
@@ -9259,20 +9756,20 @@ var SETDEX_SV = {
 				"Fury Swipes",
 				"Feint Attack"
 			],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 3,
+				"at": 3,
+				"df": 3,
+				"sa": 3,
+				"sd": 3,
+				"sp": 3
+			}
 		},
 		"Beauty Jessica 5": {
 			"ability": "",
 			"index": 0,
 			"item": "",
-			"ivs": {
-				"at": 4,
-				"df": 4,
-				"hp": 4,
-				"sa": 4,
-				"sd": 4,
-				"sp": 4
-			},
 			"level": 44,
 			"moves": [
 				"Bind",
@@ -9280,36 +9777,36 @@ var SETDEX_SV = {
 				"Fury Swipes",
 				"Feint Attack"
 			],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 4,
+				"at": 4,
+				"df": 4,
+				"sa": 4,
+				"sd": 4,
+				"sp": 4
+			}
 		},
 		"Camper Justin": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 24,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 24,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Cooltrainer Gerald": {
 			"ability": "",
 			"index": 0,
 			"item": "",
-			"ivs": {
-				"at": 12,
-				"df": 12,
-				"hp": 12,
-				"sa": 12,
-				"sd": 12,
-				"sp": 12
-			},
 			"level": 23,
 			"moves": [
 				"Flamethrower",
@@ -9317,55 +9814,81 @@ var SETDEX_SV = {
 				"Feint Attack",
 				"Bind"
 			],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 12,
+				"at": 12,
+				"df": 12,
+				"sa": 12,
+				"sd": 12,
+				"sp": 12
+			}
 		},
 		"Cooltrainer Jonathan": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 33,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 33,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Cooltrainer Owen": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 42,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 12,
 				"at": 12,
 				"df": 12,
-				"hp": 12,
 				"sa": 12,
 				"sd": 12,
 				"sp": 12
-			},
-			"level": 42,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Pkmn Ranger Jackson 5": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 39,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 10,
 				"at": 10,
 				"df": 10,
-				"hp": 10,
 				"sa": 10,
 				"sd": 10,
 				"sp": 10
-			},
-			"level": 39,
-			"moves": [],
-			"nature": ""
+			}
+		}
+	},
+	"Kilowattrel": {
+		"Team Aqua Grunt Museum 2": {
+			"ability": "Volt Absorb",
+			"index": 1,
+			"item": "Wide Lens",
+			"level": 30,
+			"moves": [
+				"Hurricane",
+				"Thunder",
+				"Heat Wave",
+				"Uproar"
+			],
+			"nature": "Modest",
+			"ivs": {
+				"at": 0
+			}
 		}
 	},
 	"Kingdra": {
@@ -9373,30 +9896,22 @@ var SETDEX_SV = {
 			"ability": "",
 			"index": 2,
 			"item": "",
+			"level": 40,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 4,
 				"at": 4,
 				"df": 4,
-				"hp": 4,
 				"sa": 4,
 				"sd": 4,
 				"sp": 4
-			},
-			"level": 40,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Elite Four Drake": {
 			"ability": "",
 			"index": 2,
 			"item": "",
-			"ivs": {
-				"at": 30,
-				"df": 30,
-				"hp": 30,
-				"sa": 30,
-				"sd": 30,
-				"sp": 30
-			},
 			"level": 53,
 			"moves": [
 				"Smokescreen",
@@ -9404,20 +9919,20 @@ var SETDEX_SV = {
 				"Surf",
 				"Body Slam"
 			],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 30,
+				"at": 30,
+				"df": 30,
+				"sa": 30,
+				"sd": 30,
+				"sp": 30
+			}
 		},
 		"Leader Juan 1": {
 			"ability": "",
 			"index": 4,
 			"item": "Chesto Berry",
-			"ivs": {
-				"at": 30,
-				"df": 30,
-				"hp": 30,
-				"sa": 30,
-				"sd": 30,
-				"sp": 30
-			},
 			"level": 46,
 			"moves": [
 				"Water Pulse",
@@ -9425,20 +9940,20 @@ var SETDEX_SV = {
 				"Ice Beam",
 				"Rest"
 			],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 30,
+				"at": 30,
+				"df": 30,
+				"sa": 30,
+				"sd": 30,
+				"sp": 30
+			}
 		},
 		"Leader Juan 2": {
 			"ability": "",
 			"index": 4,
 			"item": "Chesto Berry",
-			"ivs": {
-				"at": 31,
-				"df": 31,
-				"hp": 31,
-				"sa": 31,
-				"sd": 31,
-				"sp": 31
-			},
 			"level": 51,
 			"moves": [
 				"Water Pulse",
@@ -9446,20 +9961,20 @@ var SETDEX_SV = {
 				"Ice Beam",
 				"Rest"
 			],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 31,
+				"at": 31,
+				"df": 31,
+				"sa": 31,
+				"sd": 31,
+				"sp": 31
+			}
 		},
 		"Leader Juan 3": {
 			"ability": "",
 			"index": 4,
 			"item": "Chesto Berry",
-			"ivs": {
-				"at": 31,
-				"df": 31,
-				"hp": 31,
-				"sa": 31,
-				"sd": 31,
-				"sp": 31
-			},
 			"level": 56,
 			"moves": [
 				"Water Pulse",
@@ -9467,20 +9982,20 @@ var SETDEX_SV = {
 				"Ice Beam",
 				"Rest"
 			],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 31,
+				"at": 31,
+				"df": 31,
+				"sa": 31,
+				"sd": 31,
+				"sp": 31
+			}
 		},
 		"Leader Juan 4": {
 			"ability": "",
 			"index": 5,
 			"item": "Chesto Berry",
-			"ivs": {
-				"at": 31,
-				"df": 31,
-				"hp": 31,
-				"sa": 31,
-				"sd": 31,
-				"sp": 31
-			},
 			"level": 61,
 			"moves": [
 				"Water Pulse",
@@ -9488,20 +10003,20 @@ var SETDEX_SV = {
 				"Ice Beam",
 				"Rest"
 			],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 31,
+				"at": 31,
+				"df": 31,
+				"sa": 31,
+				"sd": 31,
+				"sp": 31
+			}
 		},
 		"Leader Juan 5": {
 			"ability": "",
 			"index": 5,
 			"item": "Chesto Berry",
-			"ivs": {
-				"at": 31,
-				"df": 31,
-				"hp": 31,
-				"sa": 31,
-				"sd": 31,
-				"sp": 31
-			},
 			"level": 66,
 			"moves": [
 				"Water Pulse",
@@ -9509,7 +10024,15 @@ var SETDEX_SV = {
 				"Ice Beam",
 				"Rest"
 			],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 31,
+				"at": 31,
+				"df": 31,
+				"sa": 31,
+				"sd": 31,
+				"sp": 31
+			}
 		}
 	},
 	"Kirlia": {
@@ -9517,94 +10040,86 @@ var SETDEX_SV = {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 41,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 41,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Psychic Alix": {
 			"ability": "",
 			"index": 1,
 			"item": "",
+			"level": 26,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 26,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Psychic Hannah": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 36,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 12,
 				"at": 12,
 				"df": 12,
-				"hp": 12,
 				"sa": 12,
 				"sd": 12,
 				"sp": 12
-			},
-			"level": 36,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Psychic Preston": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 36,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 12,
 				"at": 12,
 				"df": 12,
-				"hp": 12,
 				"sa": 12,
 				"sd": 12,
 				"sp": 12
-			},
-			"level": 36,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Psychic William": {
 			"ability": "",
 			"index": 2,
 			"item": "",
+			"level": 26,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 26,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Rival Wally Petalburg": {
 			"ability": "Synchronize",
 			"index": 2,
 			"item": "",
-			"ivs": {
-				"at": 0,
-				"df": 31,
-				"hp": 31,
-				"sa": 31,
-				"sd": 31,
-				"sp": 31
-			},
 			"level": 13,
 			"moves": [
 				"Fairy Wind",
@@ -9612,70 +10127,86 @@ var SETDEX_SV = {
 				"Confuse Ray",
 				"Disable"
 			],
-			"nature": "Modest"
+			"nature": "Modest",
+			"ivs": {
+				"at": 0
+			}
 		},
 		"School Kid Jerry 3": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 29,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 3,
 				"at": 3,
 				"df": 3,
-				"hp": 3,
 				"sa": 3,
 				"sd": 3,
 				"sp": 3
-			},
-			"level": 29,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"School Kid Jerry 4": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 32,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 4,
 				"at": 4,
 				"df": 4,
-				"hp": 4,
 				"sa": 4,
 				"sd": 4,
 				"sp": 4
-			},
-			"level": 32,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"School Kid Jerry 5": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 34,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 6,
 				"at": 6,
 				"df": 6,
-				"hp": 6,
 				"sa": 6,
 				"sd": 6,
 				"sp": 6
-			},
-			"level": 34,
-			"moves": [],
-			"nature": ""
+			}
 		}
 	},
 	"Koffing": {
 		"Ninja Boy Hideo": {
 			"ability": "",
-			"index": 1,
+			"index": 0,
 			"item": "",
+			"level": 25,
+			"moves": [
+				"Tackle",
+				"Self Destruct",
+				"Sludge",
+				"Smokescreen"
+			],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
+			}
+		},
+		"Ninja Boy Hideo (2)": {
+			"ability": "",
+			"index": 1,
+			"item": "",
 			"level": 25,
 			"moves": [
 				"Tackle",
@@ -9683,20 +10214,20 @@ var SETDEX_SV = {
 				"Sludge",
 				"Smokescreen"
 			],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 0,
+				"at": 0,
+				"df": 0,
+				"sa": 0,
+				"sd": 0,
+				"sp": 0
+			}
 		},
 		"Ninja Boy Jonas": {
 			"ability": "",
 			"index": 0,
 			"item": "",
-			"ivs": {
-				"at": 0,
-				"df": 0,
-				"hp": 0,
-				"sa": 0,
-				"sd": 0,
-				"sp": 0
-			},
 			"level": 31,
 			"moves": [
 				"Toxic",
@@ -9704,20 +10235,20 @@ var SETDEX_SV = {
 				"Self Destruct",
 				"Sludge Bomb"
 			],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 0,
+				"at": 0,
+				"df": 0,
+				"sa": 0,
+				"sd": 0,
+				"sp": 0
+			}
 		},
 		"Ninja Boy Keigo": {
 			"ability": "",
 			"index": 0,
 			"item": "",
-			"ivs": {
-				"at": 0,
-				"df": 0,
-				"hp": 0,
-				"sa": 0,
-				"sd": 0,
-				"sp": 0
-			},
 			"level": 28,
 			"moves": [
 				"Poison Gas",
@@ -9725,20 +10256,62 @@ var SETDEX_SV = {
 				"Sludge",
 				"Smokescreen"
 			],
-			"nature": ""
-		},
-		"Ninja Boy Lao 1": {
-			"ability": "",
-			"index": 2,
-			"item": "",
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
+			}
+		},
+		"Ninja Boy Lao 1": {
+			"ability": "",
+			"index": 0,
+			"item": "",
+			"level": 17,
+			"moves": [
+				"Poison Gas",
+				"Tackle",
+				"Smog",
+				"Self Destruct"
+			],
+			"nature": "",
+			"ivs": {
+				"hp": 0,
+				"at": 0,
+				"df": 0,
+				"sa": 0,
+				"sd": 0,
+				"sp": 0
+			}
+		},
+		"Ninja Boy Lao 1 (2)": {
+			"ability": "",
+			"index": 1,
+			"item": "",
+			"level": 17,
+			"moves": [
+				"Poison Gas",
+				"Tackle",
+				"Smog",
+				"Self Destruct"
+			],
+			"nature": "",
+			"ivs": {
+				"hp": 0,
+				"at": 0,
+				"df": 0,
+				"sa": 0,
+				"sd": 0,
+				"sp": 0
+			}
+		},
+		"Ninja Boy Lao 1 (3)": {
+			"ability": "",
+			"index": 2,
+			"item": "",
 			"level": 17,
 			"moves": [
 				"Poison Gas",
@@ -9746,77 +10319,281 @@ var SETDEX_SV = {
 				"Sludge",
 				"Self Destruct"
 			],
-			"nature": ""
-		},
-		"Ninja Boy Lao 2": {
-			"ability": "",
-			"index": 3,
-			"item": "",
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
+			}
+		},
+		"Ninja Boy Lao 2": {
+			"ability": "",
+			"index": 0,
+			"item": "",
+			"level": 24,
+			"moves": [
+				"Poison Gas",
+				"Tackle",
+				"Sludge",
+				"Self Destruct"
+			],
+			"nature": "",
+			"ivs": {
+				"hp": 0,
+				"at": 0,
+				"df": 0,
+				"sa": 0,
+				"sd": 0,
+				"sp": 0
+			}
+		},
+		"Ninja Boy Lao 2 (2)": {
+			"ability": "",
+			"index": 1,
+			"item": "",
+			"level": 24,
+			"moves": [
+				"Poison Gas",
+				"Tackle",
+				"Sludge"
+			],
+			"nature": "",
+			"ivs": {
+				"hp": 0,
+				"at": 0,
+				"df": 0,
+				"sa": 0,
+				"sd": 0,
+				"sp": 0
+			}
+		},
+		"Ninja Boy Lao 2 (3)": {
+			"ability": "",
+			"index": 2,
+			"item": "",
+			"level": 24,
+			"moves": [
+				"Poison Gas",
+				"Tackle",
+				"Sludge",
+				"Self Destruct"
+			],
+			"nature": "",
+			"ivs": {
+				"hp": 0,
+				"at": 0,
+				"df": 0,
+				"sa": 0,
+				"sd": 0,
+				"sp": 0
+			}
+		},
+		"Ninja Boy Lao 2 (4)": {
+			"ability": "",
+			"index": 3,
+			"item": "",
 			"level": 26,
 			"moves": [
 				"Tackle",
 				"Sludge"
 			],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 0,
+				"at": 0,
+				"df": 0,
+				"sa": 0,
+				"sd": 0,
+				"sp": 0
+			}
 		},
 		"Ninja Boy Lao 3": {
 			"ability": "",
-			"index": 3,
+			"index": 0,
 			"item": "",
+			"level": 27,
+			"moves": [
+				"Poison Gas",
+				"Tackle",
+				"Sludge",
+				"Self Destruct"
+			],
+			"nature": "",
 			"ivs": {
+				"hp": 2,
 				"at": 2,
 				"df": 2,
-				"hp": 2,
 				"sa": 2,
 				"sd": 2,
 				"sp": 2
-			},
+			}
+		},
+		"Ninja Boy Lao 3 (2)": {
+			"ability": "",
+			"index": 1,
+			"item": "",
+			"level": 27,
+			"moves": [
+				"Poison Gas",
+				"Tackle",
+				"Sludge",
+				"Self Destruct"
+			],
+			"nature": "",
+			"ivs": {
+				"hp": 2,
+				"at": 2,
+				"df": 2,
+				"sa": 2,
+				"sd": 2,
+				"sp": 2
+			}
+		},
+		"Ninja Boy Lao 3 (3)": {
+			"ability": "",
+			"index": 2,
+			"item": "",
+			"level": 27,
+			"moves": [
+				"Poison Gas",
+				"Tackle",
+				"Sludge"
+			],
+			"nature": "",
+			"ivs": {
+				"hp": 2,
+				"at": 2,
+				"df": 2,
+				"sa": 2,
+				"sd": 2,
+				"sp": 2
+			}
+		},
+		"Ninja Boy Lao 3 (4)": {
+			"ability": "",
+			"index": 3,
+			"item": "",
 			"level": 29,
 			"moves": [
 				"Tackle",
 				"Sludge"
 			],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 2,
+				"at": 2,
+				"df": 2,
+				"sa": 2,
+				"sd": 2,
+				"sp": 2
+			}
 		},
 		"Ninja Boy Lao 4": {
 			"ability": "",
-			"index": 3,
+			"index": 0,
 			"item": "",
+			"level": 30,
+			"moves": [
+				"Poison Gas",
+				"Tackle",
+				"Sludge"
+			],
+			"nature": "",
 			"ivs": {
+				"hp": 3,
 				"at": 3,
 				"df": 3,
-				"hp": 3,
 				"sa": 3,
 				"sd": 3,
 				"sp": 3
-			},
+			}
+		},
+		"Ninja Boy Lao 4 (2)": {
+			"ability": "",
+			"index": 1,
+			"item": "",
+			"level": 30,
+			"moves": [
+				"Poison Gas",
+				"Tackle",
+				"Sludge"
+			],
+			"nature": "",
+			"ivs": {
+				"hp": 3,
+				"at": 3,
+				"df": 3,
+				"sa": 3,
+				"sd": 3,
+				"sp": 3
+			}
+		},
+		"Ninja Boy Lao 4 (3)": {
+			"ability": "",
+			"index": 2,
+			"item": "",
+			"level": 30,
+			"moves": [
+				"Poison Gas",
+				"Tackle",
+				"Sludge"
+			],
+			"nature": "",
+			"ivs": {
+				"hp": 3,
+				"at": 3,
+				"df": 3,
+				"sa": 3,
+				"sd": 3,
+				"sp": 3
+			}
+		},
+		"Ninja Boy Lao 4 (4)": {
+			"ability": "",
+			"index": 3,
+			"item": "",
 			"level": 32,
 			"moves": [
 				"Tackle",
 				"Sludge"
 			],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 3,
+				"at": 3,
+				"df": 3,
+				"sa": 3,
+				"sd": 3,
+				"sp": 3
+			}
 		},
 		"Ninja Boy Lao 5": {
 			"ability": "",
-			"index": 2,
+			"index": 0,
 			"item": "",
+			"level": 33,
+			"moves": [
+				"Poison Gas",
+				"Tackle",
+				"Sludge"
+			],
+			"nature": "",
 			"ivs": {
+				"hp": 4,
 				"at": 4,
 				"df": 4,
-				"hp": 4,
 				"sa": 4,
 				"sd": 4,
 				"sp": 4
-			},
+			}
+		},
+		"Ninja Boy Lao 5 (2)": {
+			"ability": "",
+			"index": 1,
+			"item": "",
 			"level": 33,
 			"moves": [
 				"Poison Gas",
@@ -9824,36 +10601,57 @@ var SETDEX_SV = {
 				"Sludge",
 				"Self Destruct"
 			],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 4,
+				"at": 4,
+				"df": 4,
+				"sa": 4,
+				"sd": 4,
+				"sp": 4
+			}
+		},
+		"Ninja Boy Lao 5 (3)": {
+			"ability": "",
+			"index": 2,
+			"item": "",
+			"level": 33,
+			"moves": [
+				"Poison Gas",
+				"Tackle",
+				"Sludge",
+				"Self Destruct"
+			],
+			"nature": "",
+			"ivs": {
+				"hp": 4,
+				"at": 4,
+				"df": 4,
+				"sa": 4,
+				"sd": 4,
+				"sp": 4
+			}
 		},
 		"Ninja Boy Lung": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 18,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 18,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Ninja Boy Riley": {
 			"ability": "",
 			"index": 1,
 			"item": "",
-			"ivs": {
-				"at": 0,
-				"df": 0,
-				"hp": 0,
-				"sa": 0,
-				"sd": 0,
-				"sp": 0
-			},
 			"level": 28,
 			"moves": [
 				"Tackle",
@@ -9861,23 +10659,31 @@ var SETDEX_SV = {
 				"Sludge",
 				"Smokescreen"
 			],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 0,
+				"at": 0,
+				"df": 0,
+				"sa": 0,
+				"sd": 0,
+				"sp": 0
+			}
 		},
 		"Ninja Boy Takashi": {
 			"ability": "",
 			"index": 1,
 			"item": "",
+			"level": 25,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 25,
-			"moves": [],
-			"nature": ""
+			}
 		}
 	},
 	"Kricketune": {
@@ -9885,14 +10691,6 @@ var SETDEX_SV = {
 			"ability": "Technician",
 			"index": 1,
 			"item": "Coba Berry",
-			"ivs": {
-				"at": 31,
-				"df": 31,
-				"hp": 31,
-				"sa": 31,
-				"sd": 31,
-				"sp": 31
-			},
 			"level": 17,
 			"moves": [
 				"Bug Bite",
@@ -9903,19 +10701,26 @@ var SETDEX_SV = {
 			"nature": "Careful"
 		}
 	},
+	"Krokorok": {
+		"Sailor Huey": {
+			"ability": "Intimidate",
+			"index": 0,
+			"item": "Passho Berry",
+			"level": 24,
+			"moves": [
+				"Crunch",
+				"Stomping Tantrum",
+				"Thunder Fang",
+				"Fire Fang"
+			],
+			"nature": "Jolly"
+		}
+	},
 	"Kubfu": {
 		"Battle Girl Jocelyn": {
 			"ability": "Inner Focus",
 			"index": 1,
 			"item": "Punching Glove",
-			"ivs": {
-				"at": 31,
-				"df": 31,
-				"hp": 31,
-				"sa": 31,
-				"sd": 31,
-				"sp": 31
-			},
 			"level": 24,
 			"moves": [
 				"Brick Break",
@@ -9927,21 +10732,21 @@ var SETDEX_SV = {
 		}
 	},
 	"Kyogre": {
-		"RS Protag May Placeholder": {
+		"Rs Protag May Placeholder": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 5,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 5,
-			"moves": [],
-			"nature": ""
+			}
 		}
 	},
 	"Lairon": {
@@ -9949,81 +10754,81 @@ var SETDEX_SV = {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 45,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 12,
 				"at": 12,
 				"df": 12,
-				"hp": 12,
 				"sa": 12,
 				"sd": 12,
 				"sp": 12
-			},
-			"level": 45,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Pkmn Breeder Isaac 5": {
 			"ability": "",
 			"index": 2,
 			"item": "",
+			"level": 31,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 4,
 				"at": 4,
 				"df": 4,
-				"hp": 4,
 				"sa": 4,
 				"sd": 4,
 				"sp": 4
-			},
-			"level": 31,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Pokemaniac Steve 2": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 27,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 1,
 				"at": 1,
 				"df": 1,
-				"hp": 1,
 				"sa": 1,
 				"sd": 1,
 				"sp": 1
-			},
-			"level": 27,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Pokemaniac Steve 3": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 29,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 2,
 				"at": 2,
 				"df": 2,
-				"hp": 2,
 				"sa": 2,
 				"sd": 2,
 				"sp": 2
-			},
-			"level": 29,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Pokemaniac Steve 4": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 32,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 3,
 				"at": 3,
 				"df": 3,
-				"hp": 3,
 				"sa": 3,
 				"sd": 3,
 				"sp": 3
-			},
-			"level": 32,
-			"moves": [],
-			"nature": ""
+			}
 		}
 	},
 	"Lanturn": {
@@ -10031,84 +10836,84 @@ var SETDEX_SV = {
 			"ability": "",
 			"index": 1,
 			"item": "",
-			"ivs": {
-				"at": 0,
-				"df": 0,
-				"hp": 0,
-				"sa": 0,
-				"sd": 0,
-				"sp": 0
-			},
 			"level": 43,
 			"moves": [
 				"Thunderbolt",
 				"Earthquake"
 			],
-			"nature": ""
-		},
-		"Sis And Bro Lila And Roy 3": {
-			"ability": "",
-			"index": 0,
-			"item": "",
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
+			}
+		},
+		"Sis And Bro Lila & Roy Lila And Roy 3": {
+			"ability": "",
+			"index": 0,
+			"item": "",
 			"level": 45,
 			"moves": [],
-			"nature": ""
-		},
-		"Sis And Bro Lila And Roy 4": {
-			"ability": "",
-			"index": 0,
-			"item": "",
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
+			}
+		},
+		"Sis And Bro Lila & Roy Lila And Roy 4": {
+			"ability": "",
+			"index": 0,
+			"item": "",
 			"level": 48,
 			"moves": [],
-			"nature": ""
-		},
-		"Sis And Bro Lila And Roy 5": {
-			"ability": "",
-			"index": 0,
-			"item": "",
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
+			}
+		},
+		"Sis And Bro Lila & Roy Lila And Roy 5": {
+			"ability": "",
+			"index": 0,
+			"item": "",
 			"level": 51,
 			"moves": [],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 0,
+				"at": 0,
+				"df": 0,
+				"sa": 0,
+				"sd": 0,
+				"sp": 0
+			}
 		},
 		"Swimmer F Kaylee": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 34,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 34,
-			"moves": [],
-			"nature": ""
+			}
 		}
 	},
 	"Lapras": {
@@ -10116,14 +10921,6 @@ var SETDEX_SV = {
 			"ability": "",
 			"index": 0,
 			"item": "",
-			"ivs": {
-				"at": 31,
-				"df": 31,
-				"hp": 31,
-				"sa": 31,
-				"sd": 31,
-				"sp": 31
-			},
 			"level": 56,
 			"moves": [
 				"Hydro Pump",
@@ -10131,20 +10928,20 @@ var SETDEX_SV = {
 				"Ice Beam",
 				"Confuse Ray"
 			],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 31,
+				"at": 31,
+				"df": 31,
+				"sa": 31,
+				"sd": 31,
+				"sp": 31
+			}
 		},
 		"Leader Juan 5": {
 			"ability": "",
 			"index": 0,
 			"item": "",
-			"ivs": {
-				"at": 31,
-				"df": 31,
-				"hp": 31,
-				"sa": 31,
-				"sd": 31,
-				"sp": 31
-			},
 			"level": 61,
 			"moves": [
 				"Hydro Pump",
@@ -10152,7 +10949,15 @@ var SETDEX_SV = {
 				"Ice Beam",
 				"Confuse Ray"
 			],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 31,
+				"at": 31,
+				"df": 31,
+				"sa": 31,
+				"sd": 31,
+				"sp": 31
+			}
 		}
 	},
 	"Ledyba": {
@@ -10160,14 +10965,6 @@ var SETDEX_SV = {
 			"ability": "Iron Fist",
 			"index": 1,
 			"item": "",
-			"ivs": {
-				"at": 31,
-				"df": 31,
-				"hp": 31,
-				"sa": 31,
-				"sd": 31,
-				"sp": 31
-			},
 			"level": 14,
 			"moves": [
 				"Comet Punch",
@@ -10178,19 +10975,26 @@ var SETDEX_SV = {
 			"nature": "Adamant"
 		}
 	},
+	"Liepard": {
+		"Beauty Johanna": {
+			"ability": "Prankster",
+			"index": 0,
+			"item": "Black Glasses",
+			"level": 23,
+			"moves": [
+				"Thunder Wave",
+				"Dark Pulse",
+				"Copycat",
+				"Encore"
+			],
+			"nature": "Timid"
+		}
+	},
 	"Lileep": {
 		"Leader Roxanne 1": {
 			"ability": "Storm Drain",
 			"index": 1,
 			"item": "Eviolite",
-			"ivs": {
-				"at": 0,
-				"df": 31,
-				"hp": 31,
-				"sa": 31,
-				"sd": 31,
-				"sp": 31
-			},
 			"level": 17,
 			"moves": [
 				"Mega Drain",
@@ -10198,7 +11002,10 @@ var SETDEX_SV = {
 				"Toxic",
 				"Recover"
 			],
-			"nature": "Calm"
+			"nature": "Calm",
+			"ivs": {
+				"at": 0
+			}
 		}
 	},
 	"Linoone": {
@@ -10206,81 +11013,73 @@ var SETDEX_SV = {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 29,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 2,
 				"at": 2,
 				"df": 2,
-				"hp": 2,
 				"sa": 2,
 				"sd": 2,
 				"sp": 2
-			},
-			"level": 29,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Camper Ethan 4": {
 			"ability": "",
 			"index": 2,
 			"item": "",
+			"level": 31,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 3,
 				"at": 3,
 				"df": 3,
-				"hp": 3,
 				"sa": 3,
 				"sd": 3,
 				"sp": 3
-			},
-			"level": 31,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Camper Ethan 5": {
 			"ability": "",
 			"index": 2,
 			"item": "",
+			"level": 34,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 4,
 				"at": 4,
 				"df": 4,
-				"hp": 4,
 				"sa": 4,
 				"sd": 4,
 				"sp": 4
-			},
-			"level": 34,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Cooltrainer Athena": {
 			"ability": "",
 			"index": 1,
 			"item": "",
-			"ivs": {
-				"at": 12,
-				"df": 12,
-				"hp": 12,
-				"sa": 12,
-				"sd": 12,
-				"sp": 12
-			},
 			"level": 32,
 			"moves": [
 				"Surf",
 				"Thief"
 			],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 12,
+				"at": 12,
+				"df": 12,
+				"sa": 12,
+				"sd": 12,
+				"sp": 12
+			}
 		},
 		"Gentleman Walter 3": {
 			"ability": "",
 			"index": 0,
 			"item": "",
-			"ivs": {
-				"at": 2,
-				"df": 2,
-				"hp": 2,
-				"sa": 2,
-				"sd": 2,
-				"sp": 2
-			},
 			"level": 36,
 			"moves": [
 				"Headbutt",
@@ -10288,20 +11087,20 @@ var SETDEX_SV = {
 				"Odor Sleuth",
 				"Fury Swipes"
 			],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 2,
+				"at": 2,
+				"df": 2,
+				"sa": 2,
+				"sd": 2,
+				"sp": 2
+			}
 		},
 		"Gentleman Walter 4": {
 			"ability": "",
 			"index": 0,
 			"item": "",
-			"ivs": {
-				"at": 3,
-				"df": 3,
-				"hp": 3,
-				"sa": 3,
-				"sd": 3,
-				"sp": 3
-			},
 			"level": 39,
 			"moves": [
 				"Headbutt",
@@ -10309,20 +11108,20 @@ var SETDEX_SV = {
 				"Odor Sleuth",
 				"Fury Swipes"
 			],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 3,
+				"at": 3,
+				"df": 3,
+				"sa": 3,
+				"sd": 3,
+				"sp": 3
+			}
 		},
 		"Gentleman Walter 5": {
 			"ability": "",
 			"index": 0,
 			"item": "",
-			"ivs": {
-				"at": 4,
-				"df": 4,
-				"hp": 4,
-				"sa": 4,
-				"sd": 4,
-				"sp": 4
-			},
 			"level": 41,
 			"moves": [
 				"Headbutt",
@@ -10330,68 +11129,68 @@ var SETDEX_SV = {
 				"Odor Sleuth",
 				"Fury Swipes"
 			],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 4,
+				"at": 4,
+				"df": 4,
+				"sa": 4,
+				"sd": 4,
+				"sp": 4
+			}
 		},
 		"Lady Cindy 3": {
 			"ability": "",
 			"index": 0,
 			"item": "Nugget",
+			"level": 27,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 1,
 				"at": 1,
 				"df": 1,
-				"hp": 1,
 				"sa": 1,
 				"sd": 1,
 				"sp": 1
-			},
-			"level": 27,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Lady Cindy 4": {
 			"ability": "",
 			"index": 0,
 			"item": "Nugget",
+			"level": 30,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 2,
 				"at": 2,
 				"df": 2,
-				"hp": 2,
 				"sa": 2,
 				"sd": 2,
 				"sp": 2
-			},
-			"level": 30,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Lady Cindy 5": {
 			"ability": "",
 			"index": 0,
 			"item": "Nugget",
+			"level": 33,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 3,
 				"at": 3,
 				"df": 3,
-				"hp": 3,
 				"sa": 3,
 				"sd": 3,
 				"sp": 3
-			},
-			"level": 33,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Lady Cindy 6": {
 			"ability": "",
 			"index": 0,
 			"item": "Nugget",
-			"ivs": {
-				"at": 4,
-				"df": 4,
-				"hp": 4,
-				"sa": 4,
-				"sd": 4,
-				"sp": 4
-			},
 			"level": 36,
 			"moves": [
 				"Fury Swipes",
@@ -10399,20 +11198,20 @@ var SETDEX_SV = {
 				"Odor Sleuth",
 				"Sand Attack"
 			],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 4,
+				"at": 4,
+				"df": 4,
+				"sa": 4,
+				"sd": 4,
+				"sp": 4
+			}
 		},
 		"Leader Norman 1": {
 			"ability": "",
 			"index": 2,
 			"item": "",
-			"ivs": {
-				"at": 24,
-				"df": 24,
-				"hp": 24,
-				"sa": 24,
-				"sd": 24,
-				"sp": 24
-			},
 			"level": 29,
 			"moves": [
 				"Slash",
@@ -10420,180 +11219,180 @@ var SETDEX_SV = {
 				"Facade",
 				"Headbutt"
 			],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 24,
+				"at": 24,
+				"df": 24,
+				"sa": 24,
+				"sd": 24,
+				"sp": 24
+			}
 		},
 		"Pkmn Breeder Gabrielle 3": {
 			"ability": "",
 			"index": 2,
 			"item": "",
+			"level": 33,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 2,
 				"at": 2,
 				"df": 2,
-				"hp": 2,
 				"sa": 2,
 				"sd": 2,
 				"sp": 2
-			},
-			"level": 33,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Pkmn Breeder Gabrielle 4": {
 			"ability": "",
 			"index": 2,
 			"item": "",
+			"level": 35,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 3,
 				"at": 3,
 				"df": 3,
-				"hp": 3,
 				"sa": 3,
 				"sd": 3,
 				"sp": 3
-			},
-			"level": 35,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Pkmn Breeder Gabrielle 5": {
 			"ability": "",
 			"index": 2,
 			"item": "",
+			"level": 37,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 4,
 				"at": 4,
 				"df": 4,
-				"hp": 4,
 				"sa": 4,
 				"sd": 4,
 				"sp": 4
-			},
-			"level": 37,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Pkmn Breeder Isaac 2": {
 			"ability": "",
 			"index": 1,
 			"item": "",
+			"level": 22,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 1,
 				"at": 1,
 				"df": 1,
-				"hp": 1,
 				"sa": 1,
 				"sd": 1,
 				"sp": 1
-			},
-			"level": 22,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Pkmn Breeder Isaac 3": {
 			"ability": "",
 			"index": 1,
 			"item": "",
+			"level": 25,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 2,
 				"at": 2,
 				"df": 2,
-				"hp": 2,
 				"sa": 2,
 				"sd": 2,
 				"sp": 2
-			},
-			"level": 25,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Pkmn Breeder Isaac 4": {
 			"ability": "",
 			"index": 1,
 			"item": "",
+			"level": 28,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 3,
 				"at": 3,
 				"df": 3,
-				"hp": 3,
 				"sa": 3,
 				"sd": 3,
 				"sp": 3
-			},
-			"level": 28,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Pkmn Breeder Isaac 5": {
 			"ability": "",
 			"index": 1,
 			"item": "",
+			"level": 31,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 4,
 				"at": 4,
 				"df": 4,
-				"hp": 4,
 				"sa": 4,
 				"sd": 4,
 				"sp": 4
-			},
-			"level": 31,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Rich Boy Winston 2": {
 			"ability": "",
 			"index": 0,
 			"item": "Nugget",
+			"level": 27,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 27,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Rich Boy Winston 3": {
 			"ability": "",
 			"index": 0,
 			"item": "Nugget",
+			"level": 30,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 30,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Rich Boy Winston 4": {
 			"ability": "",
 			"index": 0,
 			"item": "Nugget",
+			"level": 33,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 33,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Rich Boy Winston 5": {
 			"ability": "",
 			"index": 0,
 			"item": "Nugget",
-			"ivs": {
-				"at": 0,
-				"df": 0,
-				"hp": 0,
-				"sa": 0,
-				"sd": 0,
-				"sp": 0
-			},
 			"level": 36,
 			"moves": [
 				"Fury Swipes",
@@ -10601,20 +11400,20 @@ var SETDEX_SV = {
 				"Odor Sleuth",
 				"Sand Attack"
 			],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 0,
+				"at": 0,
+				"df": 0,
+				"sa": 0,
+				"sd": 0,
+				"sp": 0
+			}
 		},
-		"Sr And Jr Anna And Meg 4": {
+		"Sr And Jr Anna & Meg Anna And Meg 4": {
 			"ability": "",
 			"index": 0,
 			"item": "",
-			"ivs": {
-				"at": 3,
-				"df": 3,
-				"hp": 3,
-				"sa": 3,
-				"sd": 3,
-				"sp": 3
-			},
 			"level": 34,
 			"moves": [
 				"Growl",
@@ -10622,20 +11421,20 @@ var SETDEX_SV = {
 				"Headbutt",
 				"Odor Sleuth"
 			],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 3,
+				"at": 3,
+				"df": 3,
+				"sa": 3,
+				"sd": 3,
+				"sp": 3
+			}
 		},
-		"Sr And Jr Anna And Meg 5": {
+		"Sr And Jr Anna & Meg Anna And Meg 5": {
 			"ability": "",
 			"index": 0,
 			"item": "",
-			"ivs": {
-				"at": 4,
-				"df": 4,
-				"hp": 4,
-				"sa": 4,
-				"sd": 4,
-				"sp": 4
-			},
 			"level": 36,
 			"moves": [
 				"Growl",
@@ -10643,20 +11442,20 @@ var SETDEX_SV = {
 				"Headbutt",
 				"Odor Sleuth"
 			],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 4,
+				"at": 4,
+				"df": 4,
+				"sa": 4,
+				"sd": 4,
+				"sp": 4
+			}
 		},
 		"Tuber M Ricky 2": {
 			"ability": "",
 			"index": 0,
 			"item": "",
-			"ivs": {
-				"at": 1,
-				"df": 1,
-				"hp": 1,
-				"sa": 1,
-				"sd": 1,
-				"sp": 1
-			},
 			"level": 27,
 			"moves": [
 				"Sand Attack",
@@ -10664,20 +11463,20 @@ var SETDEX_SV = {
 				"Tail Whip",
 				"Surf"
 			],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 1,
+				"at": 1,
+				"df": 1,
+				"sa": 1,
+				"sd": 1,
+				"sp": 1
+			}
 		},
 		"Tuber M Ricky 3": {
 			"ability": "",
 			"index": 0,
 			"item": "",
-			"ivs": {
-				"at": 2,
-				"df": 2,
-				"hp": 2,
-				"sa": 2,
-				"sd": 2,
-				"sp": 2
-			},
 			"level": 30,
 			"moves": [
 				"Sand Attack",
@@ -10685,20 +11484,20 @@ var SETDEX_SV = {
 				"Tail Whip",
 				"Surf"
 			],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 2,
+				"at": 2,
+				"df": 2,
+				"sa": 2,
+				"sd": 2,
+				"sp": 2
+			}
 		},
 		"Tuber M Ricky 4": {
 			"ability": "",
 			"index": 0,
 			"item": "",
-			"ivs": {
-				"at": 3,
-				"df": 3,
-				"hp": 3,
-				"sa": 3,
-				"sd": 3,
-				"sp": 3
-			},
 			"level": 33,
 			"moves": [
 				"Sand Attack",
@@ -10706,20 +11505,20 @@ var SETDEX_SV = {
 				"Tail Whip",
 				"Surf"
 			],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 3,
+				"at": 3,
+				"df": 3,
+				"sa": 3,
+				"sd": 3,
+				"sp": 3
+			}
 		},
 		"Tuber M Ricky 5": {
 			"ability": "",
 			"index": 0,
 			"item": "",
-			"ivs": {
-				"at": 4,
-				"df": 4,
-				"hp": 4,
-				"sa": 4,
-				"sd": 4,
-				"sp": 4
-			},
 			"level": 36,
 			"moves": [
 				"Sand Attack",
@@ -10727,39 +11526,47 @@ var SETDEX_SV = {
 				"Tail Whip",
 				"Surf"
 			],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 4,
+				"at": 4,
+				"df": 4,
+				"sa": 4,
+				"sd": 4,
+				"sp": 4
+			}
 		},
 		"Youngster Calvin 4": {
 			"ability": "",
 			"index": 1,
 			"item": "",
+			"level": 29,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 3,
 				"at": 3,
 				"df": 3,
-				"hp": 3,
 				"sa": 3,
 				"sd": 3,
 				"sp": 3
-			},
-			"level": 29,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Youngster Calvin 5": {
 			"ability": "",
 			"index": 1,
 			"item": "",
+			"level": 32,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 4,
 				"at": 4,
 				"df": 4,
-				"hp": 4,
 				"sa": 4,
 				"sd": 4,
 				"sp": 4
-			},
-			"level": 32,
-			"moves": [],
-			"nature": ""
+			}
 		}
 	},
 	"Lombre": {
@@ -10767,14 +11574,6 @@ var SETDEX_SV = {
 			"ability": "",
 			"index": 2,
 			"item": "",
-			"ivs": {
-				"at": 12,
-				"df": 12,
-				"hp": 12,
-				"sa": 12,
-				"sd": 12,
-				"sp": 12
-			},
 			"level": 39,
 			"moves": [
 				"Uproar",
@@ -10782,436 +11581,372 @@ var SETDEX_SV = {
 				"Fake Out",
 				"Water Pulse"
 			],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 12,
+				"at": 12,
+				"df": 12,
+				"sa": 12,
+				"sd": 12,
+				"sp": 12
+			}
 		},
 		"Collector Edwin 1": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 14,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 14,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Collector Edwin 2": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 26,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 26,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Collector Edwin 3": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 29,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 29,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Collector Edwin 4": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 32,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 32,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Lass Haley 2": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 26,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 1,
 				"at": 1,
 				"df": 1,
-				"hp": 1,
 				"sa": 1,
 				"sd": 1,
 				"sp": 1
-			},
-			"level": 26,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Lass Haley 3": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 29,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 2,
 				"at": 2,
 				"df": 2,
-				"hp": 2,
 				"sa": 2,
 				"sd": 2,
 				"sp": 2
-			},
-			"level": 29,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Lass Haley 4": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 32,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 3,
 				"at": 3,
 				"df": 3,
-				"hp": 3,
 				"sa": 3,
 				"sd": 3,
 				"sp": 3
-			},
-			"level": 32,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Lass Haley 5": {
 			"ability": "",
 			"index": 1,
 			"item": "",
+			"level": 34,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 4,
 				"at": 4,
 				"df": 4,
-				"hp": 4,
 				"sa": 4,
 				"sd": 4,
 				"sp": 4
-			},
-			"level": 34,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Picnicker Angelina": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 18,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 18,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Picnicker Carol": {
 			"ability": "",
 			"index": 1,
 			"item": "",
+			"level": 17,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 17,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Picnicker Celia": {
 			"ability": "",
 			"index": 1,
 			"item": "",
+			"level": 22,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 22,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Picnicker Nancy": {
 			"ability": "",
 			"index": 1,
 			"item": "",
+			"level": 18,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 18,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Picnicker Sophie": {
 			"ability": "",
 			"index": 1,
 			"item": "",
+			"level": 19,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 19,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Pkmn Breeder Gabrielle 3": {
 			"ability": "",
 			"index": 3,
 			"item": "",
+			"level": 33,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 2,
 				"at": 2,
 				"df": 2,
-				"hp": 2,
 				"sa": 2,
 				"sd": 2,
 				"sp": 2
-			},
-			"level": 33,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Pkmn Breeder Gabrielle 4": {
 			"ability": "",
 			"index": 3,
 			"item": "",
+			"level": 35,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 3,
 				"at": 3,
 				"df": 3,
-				"hp": 3,
 				"sa": 3,
 				"sd": 3,
 				"sp": 3
-			},
-			"level": 35,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Pkmn Ranger Jenna": {
 			"ability": "",
 			"index": 1,
 			"item": "",
+			"level": 28,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 6,
 				"at": 6,
 				"df": 6,
-				"hp": 6,
 				"sa": 6,
 				"sd": 6,
 				"sp": 6
-			},
-			"level": 28,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Pkmn Ranger Lorenzo": {
 			"ability": "",
 			"index": 2,
 			"item": "",
-			"ivs": {
-				"at": 6,
-				"df": 6,
-				"hp": 6,
-				"sa": 6,
-				"sd": 6,
-				"sp": 6
-			},
 			"level": 28,
 			"moves": [],
-			"nature": ""
-		},
-		"Rival Brendan Route 110 Torchic": {
-			"ability": "",
-			"index": 0,
-			"item": "",
+			"nature": "",
 			"ivs": {
+				"hp": 6,
 				"at": 6,
 				"df": 6,
-				"hp": 6,
 				"sa": 6,
 				"sd": 6,
 				"sp": 6
-			},
-			"level": 18,
-			"moves": [],
-			"nature": ""
-		},
-		"Rival Brendan Route 110 Treecko": {
-			"ability": "",
-			"index": 1,
-			"item": "",
-			"ivs": {
-				"at": 6,
-				"df": 6,
-				"hp": 6,
-				"sa": 6,
-				"sd": 6,
-				"sp": 6
-			},
-			"level": 18,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Rival Brendan Route 119 Torchic": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 29,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 12,
 				"at": 12,
 				"df": 12,
-				"hp": 12,
 				"sa": 12,
 				"sd": 12,
 				"sp": 12
-			},
-			"level": 29,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Rival Brendan Route 119 Treecko": {
 			"ability": "",
 			"index": 1,
 			"item": "",
+			"level": 29,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 12,
 				"at": 12,
 				"df": 12,
-				"hp": 12,
 				"sa": 12,
 				"sd": 12,
 				"sp": 12
-			},
-			"level": 29,
-			"moves": [],
-			"nature": ""
-		},
-		"Rival May Route 110 Torchic": {
-			"ability": "",
-			"index": 0,
-			"item": "",
-			"ivs": {
-				"at": 6,
-				"df": 6,
-				"hp": 6,
-				"sa": 6,
-				"sd": 6,
-				"sp": 6
-			},
-			"level": 18,
-			"moves": [],
-			"nature": ""
-		},
-		"Rival May Route 110 Treecko": {
-			"ability": "",
-			"index": 1,
-			"item": "",
-			"ivs": {
-				"at": 6,
-				"df": 6,
-				"hp": 6,
-				"sa": 6,
-				"sd": 6,
-				"sp": 6
-			},
-			"level": 18,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Rival May Route 119 Mudkip": {
 			"ability": "",
 			"index": 1,
 			"item": "",
+			"level": 29,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 12,
 				"at": 12,
 				"df": 12,
-				"hp": 12,
 				"sa": 12,
 				"sd": 12,
 				"sp": 12
-			},
-			"level": 29,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Rival May Route 119 Torchic": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 29,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 12,
 				"at": 12,
 				"df": 12,
-				"hp": 12,
 				"sa": 12,
 				"sd": 12,
 				"sp": 12
-			},
-			"level": 29,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Rival May Route 119 Treecko": {
 			"ability": "",
 			"index": 1,
 			"item": "",
+			"level": 29,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 12,
 				"at": 12,
 				"df": 12,
-				"hp": 12,
 				"sa": 12,
 				"sd": 12,
 				"sp": 12
-			},
-			"level": 29,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Youngster Billy": {
 			"ability": "Own Tempo",
 			"index": 1,
 			"item": "",
-			"ivs": {
-				"at": 31,
-				"df": 31,
-				"hp": 31,
-				"sa": 31,
-				"sd": 31,
-				"sp": 31
-			},
 			"level": 13,
 			"moves": [
 				"Bubble Beam",
@@ -11227,65 +11962,65 @@ var SETDEX_SV = {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 8,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 8,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Pkmn Breeder Gabrielle 1": {
 			"ability": "",
 			"index": 3,
 			"item": "",
+			"level": 26,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 26,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Pkmn Breeder Gabrielle 2": {
 			"ability": "",
 			"index": 3,
 			"item": "",
+			"level": 31,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 1,
 				"at": 1,
 				"df": 1,
-				"hp": 1,
 				"sa": 1,
 				"sd": 1,
 				"sp": 1
-			},
-			"level": 31,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Pkmn Ranger Jenna": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 28,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 6,
 				"at": 6,
 				"df": 6,
-				"hp": 6,
 				"sa": 6,
 				"sd": 6,
 				"sp": 6
-			},
-			"level": 28,
-			"moves": [],
-			"nature": ""
+			}
 		}
 	},
 	"Loudred": {
@@ -11293,356 +12028,344 @@ var SETDEX_SV = {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 29,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 12,
 				"at": 12,
 				"df": 12,
-				"hp": 12,
 				"sa": 12,
 				"sd": 12,
 				"sp": 12
-			},
-			"level": 29,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Cooltrainer Cristin 2": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 35,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 13,
 				"at": 13,
 				"df": 13,
-				"hp": 13,
 				"sa": 13,
 				"sd": 13,
 				"sp": 13
-			},
-			"level": 35,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Cooltrainer Cristin 3": {
 			"ability": "",
 			"index": 1,
 			"item": "",
+			"level": 37,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 14,
 				"at": 14,
 				"df": 14,
-				"hp": 14,
 				"sa": 14,
 				"sd": 14,
 				"sp": 14
-			},
-			"level": 37,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Cooltrainer Cristin 4": {
 			"ability": "",
 			"index": 1,
 			"item": "",
+			"level": 39,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 15,
 				"at": 15,
 				"df": 15,
-				"hp": 15,
 				"sa": 15,
 				"sd": 15,
 				"sp": 15
-			},
-			"level": 39,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Cooltrainer Jonathan": {
 			"ability": "",
 			"index": 1,
 			"item": "",
+			"level": 33,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 33,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Guitarist Dalton 3": {
 			"ability": "",
 			"index": 1,
 			"item": "",
+			"level": 28,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 2,
 				"at": 2,
 				"df": 2,
-				"hp": 2,
 				"sa": 2,
 				"sd": 2,
 				"sp": 2
-			},
-			"level": 28,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Guitarist Dalton 4": {
 			"ability": "",
 			"index": 1,
 			"item": "",
+			"level": 31,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 3,
 				"at": 3,
 				"df": 3,
-				"hp": 3,
 				"sa": 3,
 				"sd": 3,
 				"sp": 3
-			},
-			"level": 31,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Guitarist Fernando 1": {
 			"ability": "",
 			"index": 1,
 			"item": "",
+			"level": 30,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 30,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Guitarist Fernando 2": {
 			"ability": "",
 			"index": 2,
 			"item": "",
+			"level": 35,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 1,
 				"at": 1,
 				"df": 1,
-				"hp": 1,
 				"sa": 1,
 				"sd": 1,
 				"sp": 1
-			},
-			"level": 35,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Guitarist Fernando 3": {
 			"ability": "",
 			"index": 2,
 			"item": "",
+			"level": 37,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 2,
 				"at": 2,
 				"df": 2,
-				"hp": 2,
 				"sa": 2,
 				"sd": 2,
 				"sp": 2
-			},
-			"level": 37,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Guitarist Fernando 4": {
 			"ability": "",
 			"index": 2,
 			"item": "",
+			"level": 39,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 3,
 				"at": 3,
 				"df": 3,
-				"hp": 3,
 				"sa": 3,
 				"sd": 3,
 				"sp": 3
-			},
-			"level": 39,
-			"moves": [],
-			"nature": ""
+			}
 		},
-		"Interviewer Gabby And Ty 2": {
+		"Interviewer Gabby & Ty Gabby And Ty 2": {
 			"ability": "",
 			"index": 1,
 			"item": "",
+			"level": 27,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 12,
 				"at": 12,
 				"df": 12,
-				"hp": 12,
 				"sa": 12,
 				"sd": 12,
 				"sp": 12
-			},
-			"level": 27,
-			"moves": [],
-			"nature": ""
+			}
 		},
-		"Interviewer Gabby And Ty 3": {
+		"Interviewer Gabby & Ty Gabby And Ty 3": {
 			"ability": "",
 			"index": 1,
 			"item": "",
+			"level": 30,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 18,
 				"at": 18,
 				"df": 18,
-				"hp": 18,
 				"sa": 18,
 				"sd": 18,
 				"sp": 18
-			},
-			"level": 30,
-			"moves": [],
-			"nature": ""
+			}
 		},
-		"Interviewer Gabby And Ty 4": {
+		"Interviewer Gabby & Ty Gabby And Ty 4": {
 			"ability": "",
 			"index": 1,
 			"item": "",
+			"level": 33,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 24,
 				"at": 24,
 				"df": 24,
-				"hp": 24,
 				"sa": 24,
 				"sd": 24,
 				"sp": 24
-			},
-			"level": 33,
-			"moves": [],
-			"nature": ""
+			}
 		},
-		"Interviewer Gabby And Ty 5": {
+		"Interviewer Gabby & Ty Gabby And Ty 5": {
 			"ability": "",
 			"index": 1,
 			"item": "",
+			"level": 36,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 30,
 				"at": 30,
 				"df": 30,
-				"hp": 30,
 				"sa": 30,
 				"sd": 30,
 				"sp": 30
-			},
-			"level": 36,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Pkmn Breeder Isaac 2": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 22,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 1,
 				"at": 1,
 				"df": 1,
-				"hp": 1,
 				"sa": 1,
 				"sd": 1,
 				"sp": 1
-			},
-			"level": 22,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Pkmn Breeder Isaac 3": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 25,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 2,
 				"at": 2,
 				"df": 2,
-				"hp": 2,
 				"sa": 2,
 				"sd": 2,
 				"sp": 2
-			},
-			"level": 25,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Pkmn Breeder Isaac 4": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 28,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 3,
 				"at": 3,
 				"df": 3,
-				"hp": 3,
 				"sa": 3,
 				"sd": 3,
 				"sp": 3
-			},
-			"level": 28,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Pkmn Breeder Isaac 5": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 31,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 4,
 				"at": 4,
 				"df": 4,
-				"hp": 4,
 				"sa": 4,
 				"sd": 4,
 				"sp": 4
-			},
-			"level": 31,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"School Kid Karen 3": {
 			"ability": "",
 			"index": 1,
 			"item": "",
+			"level": 29,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 3,
 				"at": 3,
 				"df": 3,
-				"hp": 3,
 				"sa": 3,
 				"sd": 3,
 				"sp": 3
-			},
-			"level": 29,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"School Kid Karen 4": {
 			"ability": "",
 			"index": 1,
 			"item": "",
+			"level": 32,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 4,
 				"at": 4,
 				"df": 4,
-				"hp": 4,
 				"sa": 4,
 				"sd": 4,
 				"sp": 4
-			},
-			"level": 32,
-			"moves": [],
-			"nature": ""
+			}
 		}
 	},
 	"Lucario": {
 		"Leader Brawly 1": {
 			"ability": "Inner Focus",
-			"evs": {
-				"sa": 50,
-				"sp": 150
-			},
 			"index": 4,
 			"item": "Wise Glasses",
-			"ivs": {
-				"at": 0,
-				"df": 31,
-				"hp": 31,
-				"sa": 31,
-				"sd": 31,
-				"sp": 31
-			},
 			"level": 26,
 			"moves": [
 				"Flash Cannon",
@@ -11650,7 +12373,10 @@ var SETDEX_SV = {
 				"Water Pulse",
 				"Dark Pulse"
 			],
-			"nature": "Timid"
+			"nature": "Timid",
+			"ivs": {
+				"at": 0
+			}
 		}
 	},
 	"Ludicolo": {
@@ -11658,14 +12384,6 @@ var SETDEX_SV = {
 			"ability": "",
 			"index": 2,
 			"item": "",
-			"ivs": {
-				"at": 31,
-				"df": 31,
-				"hp": 31,
-				"sa": 31,
-				"sd": 31,
-				"sp": 31
-			},
 			"level": 56,
 			"moves": [
 				"Giga Drain",
@@ -11673,135 +12391,143 @@ var SETDEX_SV = {
 				"Leech Seed",
 				"Double Team"
 			],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 31,
+				"at": 31,
+				"df": 31,
+				"sa": 31,
+				"sd": 31,
+				"sp": 31
+			}
 		},
 		"Collector Edwin 5": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 35,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 35,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Cooltrainer Michelle": {
 			"ability": "",
 			"index": 2,
 			"item": "",
+			"level": 42,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 12,
 				"at": 12,
 				"df": 12,
-				"hp": 12,
 				"sa": 12,
 				"sd": 12,
 				"sp": 12
-			},
-			"level": 42,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Cooltrainer Warren": {
 			"ability": "",
 			"index": 1,
 			"item": "",
+			"level": 33,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 12,
 				"at": 12,
 				"df": 12,
-				"hp": 12,
 				"sa": 12,
 				"sd": 12,
 				"sp": 12
-			},
-			"level": 33,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Pkmn Breeder Gabrielle 5": {
 			"ability": "",
 			"index": 3,
 			"item": "",
+			"level": 37,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 4,
 				"at": 4,
 				"df": 4,
-				"hp": 4,
 				"sa": 4,
 				"sd": 4,
 				"sp": 4
-			},
-			"level": 37,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Rival Brendan Lilycove Torchic": {
 			"ability": "",
 			"index": 1,
 			"item": "",
+			"level": 32,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 18,
 				"at": 18,
 				"df": 18,
-				"hp": 18,
 				"sa": 18,
 				"sd": 18,
 				"sp": 18
-			},
-			"level": 32,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Rival Brendan Lilycove Treecko": {
 			"ability": "",
 			"index": 2,
 			"item": "",
+			"level": 32,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 18,
 				"at": 18,
 				"df": 18,
-				"hp": 18,
 				"sa": 18,
 				"sd": 18,
 				"sp": 18
-			},
-			"level": 32,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Rival May Lilycove Torchic": {
 			"ability": "",
 			"index": 1,
 			"item": "",
+			"level": 32,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 18,
 				"at": 18,
 				"df": 18,
-				"hp": 18,
 				"sa": 18,
 				"sd": 18,
 				"sp": 18
-			},
-			"level": 32,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Rival May Lilycove Treecko": {
 			"ability": "",
 			"index": 2,
 			"item": "",
+			"level": 32,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 18,
 				"at": 18,
 				"df": 18,
-				"hp": 18,
 				"sa": 18,
 				"sd": 18,
 				"sp": 18
-			},
-			"level": 32,
-			"moves": [],
-			"nature": ""
+			}
 		}
 	},
 	"Lunatone": {
@@ -11809,14 +12535,6 @@ var SETDEX_SV = {
 			"ability": "",
 			"index": 0,
 			"item": "",
-			"ivs": {
-				"at": 0,
-				"df": 0,
-				"hp": 0,
-				"sa": 0,
-				"sd": 0,
-				"sp": 0
-			},
 			"level": 43,
 			"moves": [
 				"Explosion",
@@ -11824,36 +12542,36 @@ var SETDEX_SV = {
 				"Light Screen",
 				"Psychic"
 			],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 0,
+				"at": 0,
+				"df": 0,
+				"sa": 0,
+				"sd": 0,
+				"sp": 0
+			}
 		},
 		"Hex Maniac Patricia": {
 			"ability": "",
 			"index": 1,
 			"item": "",
+			"level": 41,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 41,
-			"moves": [],
-			"nature": ""
+			}
 		},
-		"Leader Tate And Liza 1": {
+		"Leader Tate&liza Tate And Liza 1": {
 			"ability": "",
 			"index": 2,
 			"item": "Sitrus Berry",
-			"ivs": {
-				"at": 30,
-				"df": 30,
-				"hp": 30,
-				"sa": 30,
-				"sd": 30,
-				"sp": 30
-			},
 			"level": 42,
 			"moves": [
 				"Light Screen",
@@ -11861,20 +12579,20 @@ var SETDEX_SV = {
 				"Hypnosis",
 				"Calm Mind"
 			],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 30,
+				"at": 30,
+				"df": 30,
+				"sa": 30,
+				"sd": 30,
+				"sp": 30
+			}
 		},
-		"Leader Tate And Liza 2": {
+		"Leader Tate&liza Tate And Liza 2": {
 			"ability": "",
 			"index": 3,
 			"item": "Chesto Berry",
-			"ivs": {
-				"at": 31,
-				"df": 31,
-				"hp": 31,
-				"sa": 31,
-				"sd": 31,
-				"sp": 31
-			},
 			"level": 50,
 			"moves": [
 				"Earthquake",
@@ -11882,20 +12600,20 @@ var SETDEX_SV = {
 				"Rest",
 				"Calm Mind"
 			],
-			"nature": ""
-		},
-		"Leader Tate And Liza 3": {
-			"ability": "",
-			"index": 4,
-			"item": "Chesto Berry",
+			"nature": "",
 			"ivs": {
+				"hp": 31,
 				"at": 31,
 				"df": 31,
-				"hp": 31,
 				"sa": 31,
 				"sd": 31,
 				"sp": 31
-			},
+			}
+		},
+		"Leader Tate&liza Tate And Liza 3": {
+			"ability": "",
+			"index": 4,
+			"item": "Chesto Berry",
 			"level": 55,
 			"moves": [
 				"Earthquake",
@@ -11903,20 +12621,20 @@ var SETDEX_SV = {
 				"Rest",
 				"Calm Mind"
 			],
-			"nature": ""
-		},
-		"Leader Tate And Liza 4": {
-			"ability": "",
-			"index": 4,
-			"item": "Chesto Berry",
+			"nature": "",
 			"ivs": {
+				"hp": 31,
 				"at": 31,
 				"df": 31,
-				"hp": 31,
 				"sa": 31,
 				"sd": 31,
 				"sp": 31
-			},
+			}
+		},
+		"Leader Tate&liza Tate And Liza 4": {
+			"ability": "",
+			"index": 4,
+			"item": "Chesto Berry",
 			"level": 60,
 			"moves": [
 				"Earthquake",
@@ -11924,20 +12642,20 @@ var SETDEX_SV = {
 				"Rest",
 				"Calm Mind"
 			],
-			"nature": ""
-		},
-		"Leader Tate And Liza 5": {
-			"ability": "",
-			"index": 4,
-			"item": "Chesto Berry",
+			"nature": "",
 			"ivs": {
+				"hp": 31,
 				"at": 31,
 				"df": 31,
-				"hp": 31,
 				"sa": 31,
 				"sd": 31,
 				"sp": 31
-			},
+			}
+		},
+		"Leader Tate&liza Tate And Liza 5": {
+			"ability": "",
+			"index": 4,
+			"item": "Chesto Berry",
 			"level": 65,
 			"moves": [
 				"Earthquake",
@@ -11945,87 +12663,95 @@ var SETDEX_SV = {
 				"Rest",
 				"Calm Mind"
 			],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 31,
+				"at": 31,
+				"df": 31,
+				"sa": 31,
+				"sd": 31,
+				"sp": 31
+			}
 		},
 		"Psychic Jacki 1": {
 			"ability": "",
 			"index": 1,
 			"item": "",
+			"level": 30,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 30,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Psychic Jacki 2": {
 			"ability": "",
 			"index": 1,
 			"item": "",
+			"level": 34,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 1,
 				"at": 1,
 				"df": 1,
-				"hp": 1,
 				"sa": 1,
 				"sd": 1,
 				"sp": 1
-			},
-			"level": 34,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Psychic Jacki 3": {
 			"ability": "",
 			"index": 1,
 			"item": "",
+			"level": 37,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 2,
 				"at": 2,
 				"df": 2,
-				"hp": 2,
 				"sa": 2,
 				"sd": 2,
 				"sp": 2
-			},
-			"level": 37,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Psychic Jacki 4": {
 			"ability": "",
 			"index": 1,
 			"item": "",
+			"level": 40,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 3,
 				"at": 3,
 				"df": 3,
-				"hp": 3,
 				"sa": 3,
 				"sd": 3,
 				"sp": 3
-			},
-			"level": 40,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Psychic Jacki 5": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 43,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 4,
 				"at": 4,
 				"df": 4,
-				"hp": 4,
 				"sa": 4,
 				"sd": 4,
 				"sp": 4
-			},
-			"level": 43,
-			"moves": [],
-			"nature": ""
+			}
 		}
 	},
 	"Luvdisc": {
@@ -12033,62 +12759,75 @@ var SETDEX_SV = {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 36,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 2,
 				"at": 2,
 				"df": 2,
-				"hp": 2,
 				"sa": 2,
 				"sd": 2,
 				"sp": 2
-			},
-			"level": 36,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Beauty Thalia 4": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 38,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 3,
 				"at": 3,
 				"df": 3,
-				"hp": 3,
 				"sa": 3,
 				"sd": 3,
 				"sp": 3
-			},
-			"level": 38,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Beauty Thalia 5": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 40,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 4,
 				"at": 4,
 				"df": 4,
-				"hp": 4,
 				"sa": 4,
 				"sd": 4,
 				"sp": 4
-			},
-			"level": 40,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Lady Daphne": {
 			"ability": "",
-			"index": 1,
+			"index": 0,
 			"item": "Nugget",
+			"level": 39,
+			"moves": [
+				"Attract",
+				"Sweet Kiss",
+				"Flail",
+				"Water Pulse"
+			],
+			"nature": "",
 			"ivs": {
+				"hp": 12,
 				"at": 12,
 				"df": 12,
-				"hp": 12,
 				"sa": 12,
 				"sd": 12,
 				"sp": 12
-			},
+			}
+		},
+		"Lady Daphne (2)": {
+			"ability": "",
+			"index": 1,
+			"item": "Nugget",
 			"level": 39,
 			"moves": [
 				"Attract",
@@ -12096,36 +12835,36 @@ var SETDEX_SV = {
 				"Take Down",
 				"Water Pulse"
 			],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 12,
+				"at": 12,
+				"df": 12,
+				"sa": 12,
+				"sd": 12,
+				"sp": 12
+			}
 		},
 		"Lass Andrea": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 40,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 12,
 				"at": 12,
 				"df": 12,
-				"hp": 12,
 				"sa": 12,
 				"sd": 12,
 				"sp": 12
-			},
-			"level": 40,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Leader Juan 1": {
 			"ability": "",
 			"index": 0,
 			"item": "",
-			"ivs": {
-				"at": 24,
-				"df": 24,
-				"hp": 24,
-				"sa": 24,
-				"sd": 24,
-				"sp": 24
-			},
 			"level": 41,
 			"moves": [
 				"Water Pulse",
@@ -12133,166 +12872,230 @@ var SETDEX_SV = {
 				"Sweet Kiss",
 				"Flail"
 			],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 24,
+				"at": 24,
+				"df": 24,
+				"sa": 24,
+				"sd": 24,
+				"sp": 24
+			}
 		},
 		"Swimmer F Jenny 5": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 45,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 45,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Swimmer F Laurel": {
 			"ability": "",
-			"index": 1,
+			"index": 0,
 			"item": "",
+			"level": 33,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 33,
-			"moves": [],
-			"nature": ""
+			}
 		},
-		"Swimmer F Sienna": {
+		"Swimmer F Laurel (2)": {
 			"ability": "",
 			"index": 1,
 			"item": "",
+			"level": 33,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
+			}
+		},
+		"Swimmer F Sienna": {
+			"ability": "",
+			"index": 0,
+			"item": "",
 			"level": 33,
 			"moves": [],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 0,
+				"at": 0,
+				"df": 0,
+				"sa": 0,
+				"sd": 0,
+				"sp": 0
+			}
+		},
+		"Swimmer F Sienna (2)": {
+			"ability": "",
+			"index": 1,
+			"item": "",
+			"level": 33,
+			"moves": [],
+			"nature": "",
+			"ivs": {
+				"hp": 0,
+				"at": 0,
+				"df": 0,
+				"sa": 0,
+				"sd": 0,
+				"sp": 0
+			}
 		},
 		"Swimmer F Susie": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 34,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 34,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Swimmer F Tanya": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 34,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 34,
-			"moves": [],
-			"nature": ""
+			}
 		},
-		"Young Couple Lea And Jed": {
+		"Young Couple Lea & Jed Lea And Jed": {
+			"ability": "",
+			"index": 0,
+			"item": "",
+			"level": 45,
+			"moves": [],
+			"nature": "",
+			"ivs": {
+				"hp": 0,
+				"at": 0,
+				"df": 0,
+				"sa": 0,
+				"sd": 0,
+				"sp": 0
+			}
+		},
+		"Young Couple Lea & Jed Lea And Jed (2)": {
 			"ability": "",
 			"index": 1,
 			"item": "",
+			"level": 45,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 45,
-			"moves": [],
-			"nature": ""
+			}
 		}
 	},
 	"Machamp": {
 		"Black Belt Koji 5": {
 			"ability": "",
-			"index": 2,
+			"index": 1,
 			"item": "",
+			"level": 43,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 4,
 				"at": 4,
 				"df": 4,
-				"hp": 4,
 				"sa": 4,
 				"sd": 4,
 				"sp": 4
-			},
+			}
+		},
+		"Black Belt Koji 5 (2)": {
+			"ability": "",
+			"index": 2,
+			"item": "",
 			"level": 43,
 			"moves": [],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 4,
+				"at": 4,
+				"df": 4,
+				"sa": 4,
+				"sd": 4,
+				"sp": 4
+			}
 		},
 		"Black Belt Nob 5": {
 			"ability": "",
 			"index": 3,
 			"item": "Black Belt",
+			"level": 33,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 17,
 				"at": 17,
 				"df": 17,
-				"hp": 17,
 				"sa": 17,
 				"sd": 17,
 				"sp": 17
-			},
-			"level": 33,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Expert Auron": {
 			"ability": "",
 			"index": 1,
 			"item": "",
+			"level": 33,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 33,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Leader Brawly 2": {
 			"ability": "",
 			"index": 0,
 			"item": "Sitrus Berry",
-			"ivs": {
-				"at": 31,
-				"df": 31,
-				"hp": 31,
-				"sa": 31,
-				"sd": 31,
-				"sp": 31
-			},
 			"level": 33,
 			"moves": [
 				"Karate Chop",
@@ -12300,20 +13103,20 @@ var SETDEX_SV = {
 				"Focus Punch",
 				"Bulk Up"
 			],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 31,
+				"at": 31,
+				"df": 31,
+				"sa": 31,
+				"sd": 31,
+				"sp": 31
+			}
 		},
 		"Leader Brawly 3": {
 			"ability": "",
 			"index": 0,
 			"item": "Sitrus Berry",
-			"ivs": {
-				"at": 31,
-				"df": 31,
-				"hp": 31,
-				"sa": 31,
-				"sd": 31,
-				"sp": 31
-			},
 			"level": 38,
 			"moves": [
 				"Karate Chop",
@@ -12321,20 +13124,20 @@ var SETDEX_SV = {
 				"Focus Punch",
 				"Bulk Up"
 			],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 31,
+				"at": 31,
+				"df": 31,
+				"sa": 31,
+				"sd": 31,
+				"sp": 31
+			}
 		},
 		"Leader Brawly 4": {
 			"ability": "",
 			"index": 1,
 			"item": "Sitrus Berry",
-			"ivs": {
-				"at": 31,
-				"df": 31,
-				"hp": 31,
-				"sa": 31,
-				"sd": 31,
-				"sp": 31
-			},
 			"level": 43,
 			"moves": [
 				"Karate Chop",
@@ -12342,20 +13145,20 @@ var SETDEX_SV = {
 				"Focus Punch",
 				"Bulk Up"
 			],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 31,
+				"at": 31,
+				"df": 31,
+				"sa": 31,
+				"sd": 31,
+				"sp": 31
+			}
 		},
 		"Leader Brawly 5": {
 			"ability": "",
 			"index": 2,
 			"item": "Sitrus Berry",
-			"ivs": {
-				"at": 31,
-				"df": 31,
-				"hp": 31,
-				"sa": 31,
-				"sd": 31,
-				"sp": 31
-			},
 			"level": 48,
 			"moves": [
 				"Cross Chop",
@@ -12363,7 +13166,15 @@ var SETDEX_SV = {
 				"Focus Punch",
 				"Bulk Up"
 			],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 31,
+				"at": 31,
+				"df": 31,
+				"sa": 31,
+				"sd": 31,
+				"sp": 31
+			}
 		}
 	},
 	"Machoke": {
@@ -12371,14 +13182,6 @@ var SETDEX_SV = {
 			"ability": "Guts",
 			"index": 1,
 			"item": "Eviolite",
-			"ivs": {
-				"at": 31,
-				"df": 31,
-				"hp": 31,
-				"sa": 31,
-				"sd": 31,
-				"sp": 31
-			},
 			"level": 23,
 			"moves": [
 				"Bulk Up",
@@ -12392,369 +13195,449 @@ var SETDEX_SV = {
 			"ability": "",
 			"index": 1,
 			"item": "",
+			"level": 32,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 24,
 				"at": 24,
 				"df": 24,
-				"hp": 24,
 				"sa": 24,
 				"sd": 24,
 				"sp": 24
-			},
-			"level": 32,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Black Belt Koichi": {
 			"ability": "",
 			"index": 1,
 			"item": "",
+			"level": 28,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 18,
 				"at": 18,
 				"df": 18,
-				"hp": 18,
 				"sa": 18,
 				"sd": 18,
 				"sp": 18
-			},
-			"level": 28,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Black Belt Koji 1": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 34,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 34,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Black Belt Koji 2": {
 			"ability": "",
-			"index": 1,
+			"index": 0,
 			"item": "",
+			"level": 37,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 1,
 				"at": 1,
 				"df": 1,
-				"hp": 1,
 				"sa": 1,
 				"sd": 1,
 				"sp": 1
-			},
+			}
+		},
+		"Black Belt Koji 2 (2)": {
+			"ability": "",
+			"index": 1,
+			"item": "",
 			"level": 37,
 			"moves": [],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 1,
+				"at": 1,
+				"df": 1,
+				"sa": 1,
+				"sd": 1,
+				"sp": 1
+			}
 		},
 		"Black Belt Koji 3": {
 			"ability": "",
-			"index": 2,
+			"index": 1,
 			"item": "",
+			"level": 39,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 2,
 				"at": 2,
 				"df": 2,
-				"hp": 2,
 				"sa": 2,
 				"sd": 2,
 				"sp": 2
-			},
-			"level": 39,
-			"moves": [],
-			"nature": ""
+			}
 		},
-		"Black Belt Koji 4": {
+		"Black Belt Koji 3 (2)": {
 			"ability": "",
 			"index": 2,
 			"item": "",
+			"level": 39,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 2,
+				"at": 2,
+				"df": 2,
+				"sa": 2,
+				"sd": 2,
+				"sp": 2
+			}
+		},
+		"Black Belt Koji 4": {
+			"ability": "",
+			"index": 1,
+			"item": "",
+			"level": 41,
+			"moves": [],
+			"nature": "",
+			"ivs": {
+				"hp": 3,
 				"at": 3,
 				"df": 3,
-				"hp": 3,
 				"sa": 3,
 				"sd": 3,
 				"sp": 3
-			},
+			}
+		},
+		"Black Belt Koji 4 (2)": {
+			"ability": "",
+			"index": 2,
+			"item": "",
 			"level": 41,
 			"moves": [],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 3,
+				"at": 3,
+				"df": 3,
+				"sa": 3,
+				"sd": 3,
+				"sp": 3
+			}
 		},
 		"Black Belt Nob 2": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 27,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 13,
 				"at": 13,
 				"df": 13,
-				"hp": 13,
 				"sa": 13,
 				"sd": 13,
 				"sp": 13
-			},
-			"level": 27,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Black Belt Nob 3": {
 			"ability": "",
 			"index": 1,
 			"item": "",
+			"level": 29,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 14,
 				"at": 14,
 				"df": 14,
-				"hp": 14,
 				"sa": 14,
 				"sd": 14,
 				"sp": 14
-			},
-			"level": 29,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Black Belt Nob 4": {
 			"ability": "",
-			"index": 2,
+			"index": 1,
 			"item": "",
+			"level": 31,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 15,
 				"at": 15,
 				"df": 15,
-				"hp": 15,
 				"sa": 15,
 				"sd": 15,
 				"sp": 15
-			},
-			"level": 31,
-			"moves": [],
-			"nature": ""
+			}
 		},
-		"Black Belt Nob 5": {
+		"Black Belt Nob 4 (2)": {
 			"ability": "",
 			"index": 2,
 			"item": "",
+			"level": 31,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 15,
+				"at": 15,
+				"df": 15,
+				"sa": 15,
+				"sd": 15,
+				"sp": 15
+			}
+		},
+		"Black Belt Nob 5": {
+			"ability": "",
+			"index": 1,
+			"item": "",
+			"level": 33,
+			"moves": [],
+			"nature": "",
+			"ivs": {
+				"hp": 17,
 				"at": 17,
 				"df": 17,
-				"hp": 17,
 				"sa": 17,
 				"sd": 17,
 				"sp": 17
-			},
+			}
+		},
+		"Black Belt Nob 5 (2)": {
+			"ability": "",
+			"index": 2,
+			"item": "",
 			"level": 33,
 			"moves": [],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 17,
+				"at": 17,
+				"df": 17,
+				"sa": 17,
+				"sd": 17,
+				"sp": 17
+			}
 		},
 		"Black Belt Yuji": {
 			"ability": "",
 			"index": 1,
 			"item": "",
+			"level": 26,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 12,
 				"at": 12,
 				"df": 12,
-				"hp": 12,
 				"sa": 12,
 				"sd": 12,
 				"sp": 12
-			},
-			"level": 26,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Expert Fredrick": {
 			"ability": "",
 			"index": 1,
 			"item": "",
+			"level": 30,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 12,
 				"at": 12,
 				"df": 12,
-				"hp": 12,
 				"sa": 12,
 				"sd": 12,
 				"sp": 12
-			},
-			"level": 30,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Hiker Sawyer 5": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 33,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 4,
 				"at": 4,
 				"df": 4,
-				"hp": 4,
 				"sa": 4,
 				"sd": 4,
 				"sp": 4
-			},
-			"level": 33,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Sailor Cory 5": {
 			"ability": "",
 			"index": 1,
 			"item": "",
+			"level": 36,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 4,
 				"at": 4,
 				"df": 4,
-				"hp": 4,
 				"sa": 4,
 				"sd": 4,
 				"sp": 4
-			},
-			"level": 36,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Sailor Duncan": {
 			"ability": "",
 			"index": 1,
 			"item": "",
+			"level": 25,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 25,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Sailor Ernest 1": {
 			"ability": "",
 			"index": 1,
 			"item": "",
+			"level": 33,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 33,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Sailor Ernest 2": {
 			"ability": "",
 			"index": 2,
 			"item": "",
+			"level": 36,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 1,
 				"at": 1,
 				"df": 1,
-				"hp": 1,
 				"sa": 1,
 				"sd": 1,
 				"sp": 1
-			},
-			"level": 36,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Sailor Ernest 3": {
 			"ability": "",
 			"index": 2,
 			"item": "",
+			"level": 39,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 2,
 				"at": 2,
 				"df": 2,
-				"hp": 2,
 				"sa": 2,
 				"sd": 2,
 				"sp": 2
-			},
-			"level": 39,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Sailor Ernest 4": {
 			"ability": "",
 			"index": 2,
 			"item": "",
+			"level": 42,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 3,
 				"at": 3,
 				"df": 3,
-				"hp": 3,
 				"sa": 3,
 				"sd": 3,
 				"sp": 3
-			},
-			"level": 42,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Sailor Ernest 5": {
 			"ability": "",
 			"index": 1,
 			"item": "",
+			"level": 45,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 4,
 				"at": 4,
 				"df": 4,
-				"hp": 4,
 				"sa": 4,
 				"sd": 4,
 				"sp": 4
-			},
-			"level": 45,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Sailor Kelvin": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 33,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 18,
 				"at": 18,
 				"df": 18,
-				"hp": 18,
 				"sa": 18,
 				"sd": 18,
 				"sp": 18
-			},
-			"level": 33,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Sailor Leonard": {
 			"ability": "",
 			"index": 2,
 			"item": "",
+			"level": 43,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 43,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Sailor Phillip": {
 			"ability": "",
 			"index": 1,
 			"item": "",
+			"level": 44,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 44,
-			"moves": [],
-			"nature": ""
+			}
 		}
 	},
 	"Machop": {
@@ -12762,305 +13645,273 @@ var SETDEX_SV = {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 19,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 12,
 				"at": 12,
 				"df": 12,
-				"hp": 12,
 				"sa": 12,
 				"sd": 12,
 				"sp": 12
-			},
-			"level": 19,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Black Belt Hitoshi": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 32,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 6,
 				"at": 6,
 				"df": 6,
-				"hp": 6,
 				"sa": 6,
 				"sd": 6,
 				"sp": 6
-			},
-			"level": 32,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Black Belt Koichi": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 24,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 12,
 				"at": 12,
 				"df": 12,
-				"hp": 12,
 				"sa": 12,
 				"sd": 12,
 				"sp": 12
-			},
-			"level": 24,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Black Belt Nob 1": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 19,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 12,
 				"at": 12,
 				"df": 12,
-				"hp": 12,
 				"sa": 12,
 				"sd": 12,
 				"sp": 12
-			},
-			"level": 19,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Black Belt Nob 3": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 29,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 14,
 				"at": 14,
 				"df": 14,
-				"hp": 14,
 				"sa": 14,
 				"sd": 14,
 				"sp": 14
-			},
-			"level": 29,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Black Belt Nob 4": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 31,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 15,
 				"at": 15,
 				"df": 15,
-				"hp": 15,
 				"sa": 15,
 				"sd": 15,
 				"sp": 15
-			},
-			"level": 31,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Black Belt Nob 5": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 33,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 17,
 				"at": 17,
 				"df": 17,
-				"hp": 17,
 				"sa": 17,
 				"sd": 17,
 				"sp": 17
-			},
-			"level": 33,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Hiker Brice": {
 			"ability": "",
 			"index": 1,
 			"item": "",
+			"level": 17,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 17,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Hiker Lenny": {
 			"ability": "",
 			"index": 1,
 			"item": "",
+			"level": 18,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 18,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Hiker Mike 2": {
 			"ability": "",
 			"index": 2,
 			"item": "",
+			"level": 16,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 16,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Hiker Sawyer 3": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 28,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 2,
 				"at": 2,
 				"df": 2,
-				"hp": 2,
 				"sa": 2,
 				"sd": 2,
 				"sp": 2
-			},
-			"level": 28,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Hiker Sawyer 4": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 30,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 3,
 				"at": 3,
 				"df": 3,
-				"hp": 3,
 				"sa": 3,
 				"sd": 3,
 				"sp": 3
-			},
-			"level": 30,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Sailor Cory 1": {
 			"ability": "",
 			"index": 1,
 			"item": "",
+			"level": 24,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 24,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Sailor Cory 2": {
 			"ability": "",
 			"index": 1,
 			"item": "",
+			"level": 30,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 1,
 				"at": 1,
 				"df": 1,
-				"hp": 1,
 				"sa": 1,
 				"sd": 1,
 				"sp": 1
-			},
-			"level": 30,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Sailor Cory 3": {
 			"ability": "",
 			"index": 1,
 			"item": "",
+			"level": 32,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 2,
 				"at": 2,
 				"df": 2,
-				"hp": 2,
 				"sa": 2,
 				"sd": 2,
 				"sp": 2
-			},
-			"level": 32,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Sailor Cory 4": {
 			"ability": "",
 			"index": 1,
 			"item": "",
+			"level": 34,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 3,
 				"at": 3,
 				"df": 3,
-				"hp": 3,
 				"sa": 3,
 				"sd": 3,
 				"sp": 3
-			},
-			"level": 34,
-			"moves": [],
-			"nature": ""
-		},
-		"Sailor Dwayne": {
-			"ability": "",
-			"index": 1,
-			"item": "",
-			"ivs": {
-				"at": 0,
-				"df": 0,
-				"hp": 0,
-				"sa": 0,
-				"sd": 0,
-				"sp": 0
-			},
-			"level": 11,
-			"moves": [],
-			"nature": ""
-		},
-		"Sailor Huey": {
-			"ability": "",
-			"index": 1,
-			"item": "",
-			"ivs": {
-				"at": 1,
-				"df": 1,
-				"hp": 1,
-				"sa": 1,
-				"sd": 1,
-				"sp": 1
-			},
-			"level": 12,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Sailor Leonard": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 43,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 43,
-			"moves": [],
-			"nature": ""
+			}
 		}
 	},
 	"Magcargo": {
@@ -13068,30 +13919,22 @@ var SETDEX_SV = {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 35,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 4,
 				"at": 4,
 				"df": 4,
-				"hp": 4,
 				"sa": 4,
 				"sd": 4,
 				"sp": 4
-			},
-			"level": 35,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Leader Flannery 2": {
 			"ability": "",
 			"index": 0,
 			"item": "White Herb",
-			"ivs": {
-				"at": 31,
-				"df": 31,
-				"hp": 31,
-				"sa": 31,
-				"sd": 31,
-				"sp": 31
-			},
 			"level": 38,
 			"moves": [
 				"Overheat",
@@ -13099,20 +13942,20 @@ var SETDEX_SV = {
 				"Light Screen",
 				"Rock Slide"
 			],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 31,
+				"at": 31,
+				"df": 31,
+				"sa": 31,
+				"sd": 31,
+				"sp": 31
+			}
 		},
 		"Leader Flannery 3": {
 			"ability": "",
 			"index": 1,
 			"item": "White Herb",
-			"ivs": {
-				"at": 31,
-				"df": 31,
-				"hp": 31,
-				"sa": 31,
-				"sd": 31,
-				"sp": 31
-			},
 			"level": 43,
 			"moves": [
 				"Overheat",
@@ -13120,20 +13963,20 @@ var SETDEX_SV = {
 				"Light Screen",
 				"Rock Slide"
 			],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 31,
+				"at": 31,
+				"df": 31,
+				"sa": 31,
+				"sd": 31,
+				"sp": 31
+			}
 		},
 		"Leader Flannery 4": {
 			"ability": "",
 			"index": 2,
 			"item": "White Herb",
-			"ivs": {
-				"at": 31,
-				"df": 31,
-				"hp": 31,
-				"sa": 31,
-				"sd": 31,
-				"sp": 31
-			},
 			"level": 48,
 			"moves": [
 				"Overheat",
@@ -13141,20 +13984,20 @@ var SETDEX_SV = {
 				"Light Screen",
 				"Rock Slide"
 			],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 31,
+				"at": 31,
+				"df": 31,
+				"sa": 31,
+				"sd": 31,
+				"sp": 31
+			}
 		},
 		"Leader Flannery 5": {
 			"ability": "",
 			"index": 1,
 			"item": "White Herb",
-			"ivs": {
-				"at": 31,
-				"df": 31,
-				"hp": 31,
-				"sa": 31,
-				"sd": 31,
-				"sp": 31
-			},
 			"level": 53,
 			"moves": [
 				"Overheat",
@@ -13162,110 +14005,142 @@ var SETDEX_SV = {
 				"Light Screen",
 				"Rock Slide"
 			],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 31,
+				"at": 31,
+				"df": 31,
+				"sa": 31,
+				"sd": 31,
+				"sp": 31
+			}
 		}
 	},
 	"Magikarp": {
 		"Fisherman Andrew": {
 			"ability": "",
-			"index": 2,
+			"index": 0,
 			"item": "",
+			"level": 5,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
+			}
+		},
+		"Fisherman Andrew (2)": {
+			"ability": "",
+			"index": 2,
+			"item": "",
 			"level": 15,
 			"moves": [],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 0,
+				"at": 0,
+				"df": 0,
+				"sa": 0,
+				"sd": 0,
+				"sp": 0
+			}
 		},
 		"Fisherman Chris": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 29,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 29,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Fisherman Claude": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 16,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 16,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Fisherman Darian": {
 			"ability": "Swift Swim",
-			"evs": {
-				"at": 252
-			},
 			"index": 5,
 			"item": "Choice Band",
-			"ivs": {
-				"at": 31,
-				"df": 31,
-				"hp": 31,
-				"sa": 31,
-				"sd": 31,
-				"sp": 31
-			},
 			"level": 15,
 			"moves": [
 				"Bounce"
 			],
-			"nature": "Adamant"
+			"nature": "Adamant",
+			"evs": {
+				"at": 252
+			}
 		},
 		"Fisherman Roger": {
 			"ability": "",
-			"index": 1,
+			"index": 0,
 			"item": "",
+			"level": 15,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
+			}
+		},
+		"Fisherman Roger (2)": {
+			"ability": "",
+			"index": 1,
+			"item": "",
 			"level": 25,
 			"moves": [],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 0,
+				"at": 0,
+				"df": 0,
+				"sa": 0,
+				"sd": 0,
+				"sp": 0
+			}
 		},
 		"Fisherman Ronald": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 19,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 19,
-			"moves": [],
-			"nature": ""
+			}
 		}
 	},
 	"Magnemite": {
@@ -13273,273 +14148,353 @@ var SETDEX_SV = {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 15,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 15,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Guitarist Dalton 2": {
 			"ability": "",
-			"index": 2,
+			"index": 0,
 			"item": "",
+			"level": 25,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 1,
 				"at": 1,
 				"df": 1,
-				"hp": 1,
 				"sa": 1,
 				"sd": 1,
 				"sp": 1
-			},
-			"level": 25,
-			"moves": [],
-			"nature": ""
+			}
 		},
-		"Guitarist Dalton 3": {
+		"Guitarist Dalton 2 (2)": {
 			"ability": "",
 			"index": 2,
 			"item": "",
+			"level": 25,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 1,
+				"at": 1,
+				"df": 1,
+				"sa": 1,
+				"sd": 1,
+				"sp": 1
+			}
+		},
+		"Guitarist Dalton 3": {
+			"ability": "",
+			"index": 0,
+			"item": "",
+			"level": 28,
+			"moves": [],
+			"nature": "",
+			"ivs": {
+				"hp": 2,
 				"at": 2,
 				"df": 2,
-				"hp": 2,
 				"sa": 2,
 				"sd": 2,
 				"sp": 2
-			},
+			}
+		},
+		"Guitarist Dalton 3 (2)": {
+			"ability": "",
+			"index": 2,
+			"item": "",
 			"level": 28,
 			"moves": [],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 2,
+				"at": 2,
+				"df": 2,
+				"sa": 2,
+				"sd": 2,
+				"sp": 2
+			}
 		},
 		"Guitarist Shawn": {
 			"ability": "",
 			"index": 1,
 			"item": "",
+			"level": 17,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 12,
 				"at": 12,
 				"df": 12,
-				"hp": 12,
 				"sa": 12,
 				"sd": 12,
 				"sp": 12
-			},
-			"level": 17,
-			"moves": [],
-			"nature": ""
+			}
 		},
-		"Interviewer Gabby And Ty 1": {
+		"Interviewer Gabby & Ty Gabby And Ty 1": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 17,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 6,
 				"at": 6,
 				"df": 6,
-				"hp": 6,
 				"sa": 6,
 				"sd": 6,
 				"sp": 6
-			},
-			"level": 17,
-			"moves": [],
-			"nature": ""
+			}
 		},
-		"Interviewer Gabby And Ty 2": {
+		"Interviewer Gabby & Ty Gabby And Ty 2": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 27,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 12,
 				"at": 12,
 				"df": 12,
-				"hp": 12,
 				"sa": 12,
 				"sd": 12,
 				"sp": 12
-			},
-			"level": 27,
-			"moves": [],
-			"nature": ""
+			}
+		},
+		"Sailor Edmond": {
+			"ability": "Sturdy",
+			"index": 2,
+			"item": "Magnet",
+			"level": 24,
+			"moves": [
+				"Thunder Wave",
+				"Thunderbolt",
+				"Volt Switch",
+				"Flash Cannon"
+			],
+			"nature": "Modest",
+			"ivs": {
+				"at": 0
+			}
 		},
 		"Triathlete Abigail 1": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 16,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 16,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Triathlete Abigail 2": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 28,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 1,
 				"at": 1,
 				"df": 1,
-				"hp": 1,
 				"sa": 1,
 				"sd": 1,
 				"sp": 1
-			},
-			"level": 28,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Triathlete Abigail 3": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 31,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 2,
 				"at": 2,
 				"df": 2,
-				"hp": 2,
 				"sa": 2,
 				"sd": 2,
 				"sp": 2
-			},
-			"level": 31,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Triathlete Alyssa": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 15,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 15,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Triathlete Anthony": {
 			"ability": "",
-			"index": 1,
+			"index": 0,
 			"item": "",
+			"level": 14,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
+			}
+		},
+		"Triathlete Anthony (2)": {
+			"ability": "",
+			"index": 1,
+			"item": "",
 			"level": 14,
 			"moves": [],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 0,
+				"at": 0,
+				"df": 0,
+				"sa": 0,
+				"sd": 0,
+				"sp": 0
+			}
 		},
 		"Triathlete Benjamin 1": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 16,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 16,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Triathlete Benjamin 2": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 30,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 1,
 				"at": 1,
 				"df": 1,
-				"hp": 1,
 				"sa": 1,
 				"sd": 1,
 				"sp": 1
-			},
-			"level": 30,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Triathlete Benjamin 3": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 33,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 2,
 				"at": 2,
 				"df": 2,
-				"hp": 2,
 				"sa": 2,
 				"sd": 2,
 				"sp": 2
-			},
-			"level": 33,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Triathlete Jacob": {
 			"ability": "",
 			"index": 2,
 			"item": "",
+			"level": 14,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 24,
 				"at": 24,
 				"df": 24,
-				"hp": 24,
 				"sa": 24,
 				"sd": 24,
 				"sp": 24
-			},
-			"level": 14,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Triathlete Jasmine": {
 			"ability": "",
-			"index": 1,
+			"index": 0,
 			"item": "",
+			"level": 14,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 9,
 				"at": 9,
 				"df": 9,
-				"hp": 9,
 				"sa": 9,
 				"sd": 9,
 				"sp": 9
-			},
+			}
+		},
+		"Triathlete Jasmine (2)": {
+			"ability": "",
+			"index": 1,
+			"item": "",
 			"level": 14,
 			"moves": [],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 9,
+				"at": 9,
+				"df": 9,
+				"sa": 9,
+				"sd": 9,
+				"sp": 9
+			}
 		},
 		"Triathlete Julio": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 21,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 21,
-			"moves": [],
-			"nature": ""
+			}
 		}
 	},
 	"Magneton": {
@@ -13547,30 +14502,22 @@ var SETDEX_SV = {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 43,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 12,
 				"at": 12,
 				"df": 12,
-				"hp": 12,
 				"sa": 12,
 				"sd": 12,
 				"sp": 12
-			},
-			"level": 43,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Cooltrainer Braxton": {
 			"ability": "",
 			"index": 3,
 			"item": "",
-			"ivs": {
-				"at": 12,
-				"df": 12,
-				"hp": 12,
-				"sa": 12,
-				"sd": 12,
-				"sp": 12
-			},
 			"level": 28,
 			"moves": [
 				"Thunderbolt",
@@ -13578,100 +14525,132 @@ var SETDEX_SV = {
 				"Thunder Wave",
 				"Sonic Boom"
 			],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 12,
+				"at": 12,
+				"df": 12,
+				"sa": 12,
+				"sd": 12,
+				"sp": 12
+			}
 		},
 		"Guitarist Dalton 4": {
 			"ability": "",
-			"index": 2,
+			"index": 0,
 			"item": "",
+			"level": 31,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 3,
 				"at": 3,
 				"df": 3,
-				"hp": 3,
 				"sa": 3,
 				"sd": 3,
 				"sp": 3
-			},
-			"level": 31,
-			"moves": [],
-			"nature": ""
+			}
 		},
-		"Guitarist Dalton 5": {
+		"Guitarist Dalton 4 (2)": {
 			"ability": "",
 			"index": 2,
 			"item": "",
+			"level": 31,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 3,
+				"at": 3,
+				"df": 3,
+				"sa": 3,
+				"sd": 3,
+				"sp": 3
+			}
+		},
+		"Guitarist Dalton 5": {
+			"ability": "",
+			"index": 0,
+			"item": "",
+			"level": 34,
+			"moves": [],
+			"nature": "",
+			"ivs": {
+				"hp": 4,
 				"at": 4,
 				"df": 4,
-				"hp": 4,
 				"sa": 4,
 				"sd": 4,
 				"sp": 4
-			},
+			}
+		},
+		"Guitarist Dalton 5 (2)": {
+			"ability": "",
+			"index": 2,
+			"item": "",
 			"level": 34,
 			"moves": [],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 4,
+				"at": 4,
+				"df": 4,
+				"sa": 4,
+				"sd": 4,
+				"sp": 4
+			}
 		},
-		"Interviewer Gabby And Ty 3": {
+		"Interviewer Gabby & Ty Gabby And Ty 3": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 30,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 18,
 				"at": 18,
 				"df": 18,
-				"hp": 18,
 				"sa": 18,
 				"sd": 18,
 				"sp": 18
-			},
-			"level": 30,
-			"moves": [],
-			"nature": ""
+			}
 		},
-		"Interviewer Gabby And Ty 4": {
+		"Interviewer Gabby & Ty Gabby And Ty 4": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 33,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 24,
 				"at": 24,
 				"df": 24,
-				"hp": 24,
 				"sa": 24,
 				"sd": 24,
 				"sp": 24
-			},
-			"level": 33,
-			"moves": [],
-			"nature": ""
+			}
 		},
-		"Interviewer Gabby And Ty 5": {
+		"Interviewer Gabby & Ty Gabby And Ty 5": {
 			"ability": "",
 			"index": 0,
 			"item": "",
-			"ivs": {
-				"at": 30,
-				"df": 30,
-				"hp": 30,
-				"sa": 30,
-				"sd": 30,
-				"sp": 30
-			},
 			"level": 36,
 			"moves": [],
-			"nature": ""
-		},
-		"Interviewer Gabby And Ty 6": {
-			"ability": "",
-			"index": 0,
-			"item": "",
+			"nature": "",
 			"ivs": {
+				"hp": 30,
 				"at": 30,
 				"df": 30,
-				"hp": 30,
 				"sa": 30,
 				"sd": 30,
 				"sp": 30
-			},
+			}
+		},
+		"Interviewer Gabby & Ty Gabby And Ty 6": {
+			"ability": "",
+			"index": 0,
+			"item": "",
 			"level": 39,
 			"moves": [
 				"Sonic Boom",
@@ -13679,20 +14658,20 @@ var SETDEX_SV = {
 				"Metal Sound",
 				"Thunderbolt"
 			],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 30,
+				"at": 30,
+				"df": 30,
+				"sa": 30,
+				"sd": 30,
+				"sp": 30
+			}
 		},
 		"Leader Wattson 1": {
 			"ability": "",
 			"index": 2,
 			"item": "",
-			"ivs": {
-				"at": 26,
-				"df": 26,
-				"hp": 26,
-				"sa": 26,
-				"sd": 26,
-				"sp": 26
-			},
 			"level": 22,
 			"moves": [
 				"Supersonic",
@@ -13700,20 +14679,20 @@ var SETDEX_SV = {
 				"Thunder Wave",
 				"Sonic Boom"
 			],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 26,
+				"at": 26,
+				"df": 26,
+				"sa": 26,
+				"sd": 26,
+				"sp": 26
+			}
 		},
 		"Leader Wattson 2": {
 			"ability": "",
 			"index": 2,
 			"item": "Sitrus Berry",
-			"ivs": {
-				"at": 31,
-				"df": 31,
-				"hp": 31,
-				"sa": 31,
-				"sd": 31,
-				"sp": 31
-			},
 			"level": 38,
 			"moves": [
 				"Supersonic",
@@ -13721,20 +14700,20 @@ var SETDEX_SV = {
 				"Thunder",
 				"Rain Dance"
 			],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 31,
+				"at": 31,
+				"df": 31,
+				"sa": 31,
+				"sd": 31,
+				"sp": 31
+			}
 		},
 		"Leader Wattson 3": {
 			"ability": "",
 			"index": 3,
 			"item": "Sitrus Berry",
-			"ivs": {
-				"at": 31,
-				"df": 31,
-				"hp": 31,
-				"sa": 31,
-				"sd": 31,
-				"sp": 31
-			},
 			"level": 43,
 			"moves": [
 				"Supersonic",
@@ -13742,20 +14721,20 @@ var SETDEX_SV = {
 				"Thunder",
 				"Rain Dance"
 			],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 31,
+				"at": 31,
+				"df": 31,
+				"sa": 31,
+				"sd": 31,
+				"sp": 31
+			}
 		},
 		"Leader Wattson 4": {
 			"ability": "",
 			"index": 3,
 			"item": "Sitrus Berry",
-			"ivs": {
-				"at": 31,
-				"df": 31,
-				"hp": 31,
-				"sa": 31,
-				"sd": 31,
-				"sp": 31
-			},
 			"level": 48,
 			"moves": [
 				"Supersonic",
@@ -13763,20 +14742,20 @@ var SETDEX_SV = {
 				"Thunder",
 				"Rain Dance"
 			],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 31,
+				"at": 31,
+				"df": 31,
+				"sa": 31,
+				"sd": 31,
+				"sp": 31
+			}
 		},
 		"Leader Wattson 5": {
 			"ability": "",
 			"index": 4,
 			"item": "Sitrus Berry",
-			"ivs": {
-				"at": 31,
-				"df": 31,
-				"hp": 31,
-				"sa": 31,
-				"sd": 31,
-				"sp": 31
-			},
 			"level": 53,
 			"moves": [
 				"Supersonic",
@@ -13784,20 +14763,20 @@ var SETDEX_SV = {
 				"Thunder",
 				"Rain Dance"
 			],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 31,
+				"at": 31,
+				"df": 31,
+				"sa": 31,
+				"sd": 31,
+				"sp": 31
+			}
 		},
 		"Rival Wally Vr 1": {
 			"ability": "",
 			"index": 3,
 			"item": "",
-			"ivs": {
-				"at": 18,
-				"df": 18,
-				"hp": 18,
-				"sa": 18,
-				"sd": 18,
-				"sp": 18
-			},
 			"level": 41,
 			"moves": [
 				"Supersonic",
@@ -13805,20 +14784,20 @@ var SETDEX_SV = {
 				"Tri Attack",
 				"Screech"
 			],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 18,
+				"at": 18,
+				"df": 18,
+				"sa": 18,
+				"sd": 18,
+				"sp": 18
+			}
 		},
 		"Rival Wally Vr 2": {
 			"ability": "",
 			"index": 3,
 			"item": "",
-			"ivs": {
-				"at": 18,
-				"df": 18,
-				"hp": 18,
-				"sa": 18,
-				"sd": 18,
-				"sp": 18
-			},
 			"level": 44,
 			"moves": [
 				"Supersonic",
@@ -13826,20 +14805,20 @@ var SETDEX_SV = {
 				"Tri Attack",
 				"Screech"
 			],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 18,
+				"at": 18,
+				"df": 18,
+				"sa": 18,
+				"sd": 18,
+				"sp": 18
+			}
 		},
 		"Rival Wally Vr 3": {
 			"ability": "",
 			"index": 3,
 			"item": "",
-			"ivs": {
-				"at": 18,
-				"df": 18,
-				"hp": 18,
-				"sa": 18,
-				"sd": 18,
-				"sp": 18
-			},
 			"level": 47,
 			"moves": [
 				"Supersonic",
@@ -13847,20 +14826,20 @@ var SETDEX_SV = {
 				"Tri Attack",
 				"Screech"
 			],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 18,
+				"at": 18,
+				"df": 18,
+				"sa": 18,
+				"sd": 18,
+				"sp": 18
+			}
 		},
 		"Rival Wally Vr 4": {
 			"ability": "",
 			"index": 3,
 			"item": "",
-			"ivs": {
-				"at": 18,
-				"df": 18,
-				"hp": 18,
-				"sa": 18,
-				"sd": 18,
-				"sp": 18
-			},
 			"level": 50,
 			"moves": [
 				"Supersonic",
@@ -13868,20 +14847,20 @@ var SETDEX_SV = {
 				"Tri Attack",
 				"Screech"
 			],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 18,
+				"at": 18,
+				"df": 18,
+				"sa": 18,
+				"sd": 18,
+				"sp": 18
+			}
 		},
 		"Rival Wally Vr 5": {
 			"ability": "",
 			"index": 3,
 			"item": "",
-			"ivs": {
-				"at": 18,
-				"df": 18,
-				"hp": 18,
-				"sa": 18,
-				"sd": 18,
-				"sp": 18
-			},
 			"level": 53,
 			"moves": [
 				"Supersonic",
@@ -13889,71 +14868,113 @@ var SETDEX_SV = {
 				"Tri Attack",
 				"Screech"
 			],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 18,
+				"at": 18,
+				"df": 18,
+				"sa": 18,
+				"sd": 18,
+				"sp": 18
+			}
 		},
 		"Triathlete Abigail 4": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 34,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 3,
 				"at": 3,
 				"df": 3,
-				"hp": 3,
 				"sa": 3,
 				"sd": 3,
 				"sp": 3
-			},
-			"level": 34,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Triathlete Abigail 5": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 37,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 4,
 				"at": 4,
 				"df": 4,
-				"hp": 4,
 				"sa": 4,
 				"sd": 4,
 				"sp": 4
-			},
-			"level": 37,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Triathlete Benjamin 4": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 36,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 3,
 				"at": 3,
 				"df": 3,
-				"hp": 3,
 				"sa": 3,
 				"sd": 3,
 				"sp": 3
-			},
-			"level": 36,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Triathlete Benjamin 5": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 39,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 4,
 				"at": 4,
 				"df": 4,
-				"hp": 4,
 				"sa": 4,
 				"sd": 4,
 				"sp": 4
-			},
-			"level": 39,
-			"moves": [],
-			"nature": ""
+			}
+		}
+	},
+	"Magnezone": {
+		"Rival Brendan Route 110 Torchic": {
+			"ability": "Magnet Pull",
+			"index": 3,
+			"item": "Air Balloon",
+			"level": 35,
+			"moves": [
+				"Flash Cannon",
+				"Volt Switch",
+				"Body Press",
+				"Tri Attack"
+			],
+			"nature": "Modest",
+			"ivs": {
+				"at": 0
+			}
+		},
+		"Rival May Route 110 Torchic": {
+			"ability": "Magnet Pull",
+			"index": 3,
+			"item": "Air Balloon",
+			"level": 35,
+			"moves": [
+				"Flash Cannon",
+				"Volt Switch",
+				"Body Press",
+				"Tri Attack"
+			],
+			"nature": "Modest",
+			"ivs": {
+				"at": 0
+			}
 		}
 	},
 	"Makuhita": {
@@ -13961,369 +14982,369 @@ var SETDEX_SV = {
 			"ability": "",
 			"index": 1,
 			"item": "",
+			"level": 28,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 28,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Battle Girl Cyndy 1": {
 			"ability": "",
 			"index": 1,
 			"item": "",
+			"level": 18,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 12,
 				"at": 12,
 				"df": 12,
-				"hp": 12,
 				"sa": 12,
 				"sd": 12,
 				"sp": 12
-			},
-			"level": 18,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Battle Girl Cyndy 2": {
 			"ability": "",
 			"index": 1,
 			"item": "",
+			"level": 26,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 13,
 				"at": 13,
 				"df": 13,
-				"hp": 13,
 				"sa": 13,
 				"sd": 13,
 				"sp": 13
-			},
-			"level": 26,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Battle Girl Cyndy 3": {
 			"ability": "",
 			"index": 1,
 			"item": "",
+			"level": 29,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 14,
 				"at": 14,
 				"df": 14,
-				"hp": 14,
 				"sa": 14,
 				"sd": 14,
 				"sp": 14
-			},
-			"level": 29,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Battle Girl Helene": {
 			"ability": "",
 			"index": 1,
 			"item": "",
+			"level": 26,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 26,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Black Belt Koji 3": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 39,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 2,
 				"at": 2,
 				"df": 2,
-				"hp": 2,
 				"sa": 2,
 				"sd": 2,
 				"sp": 2
-			},
-			"level": 39,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Black Belt Rhett": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 15,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 12,
 				"at": 12,
 				"df": 12,
-				"hp": 12,
 				"sa": 12,
 				"sd": 12,
 				"sp": 12
-			},
-			"level": 15,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Black Belt Yuji": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 26,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 12,
 				"at": 12,
 				"df": 12,
-				"hp": 12,
 				"sa": 12,
 				"sd": 12,
 				"sp": 12
-			},
-			"level": 26,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Cooltrainer Wilton 1": {
 			"ability": "",
 			"index": 2,
 			"item": "",
+			"level": 17,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 12,
 				"at": 12,
 				"df": 12,
-				"hp": 12,
 				"sa": 12,
 				"sd": 12,
 				"sp": 12
-			},
-			"level": 17,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Cooltrainer Wilton 2": {
 			"ability": "",
 			"index": 2,
 			"item": "",
+			"level": 26,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 13,
 				"at": 13,
 				"df": 13,
-				"hp": 13,
 				"sa": 13,
 				"sd": 13,
 				"sp": 13
-			},
-			"level": 26,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Cooltrainer Wilton 3": {
 			"ability": "",
 			"index": 2,
 			"item": "",
+			"level": 29,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 14,
 				"at": 14,
 				"df": 14,
-				"hp": 14,
 				"sa": 14,
 				"sd": 14,
 				"sp": 14
-			},
-			"level": 29,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Cooltrainer Wilton 4": {
 			"ability": "",
 			"index": 2,
 			"item": "",
+			"level": 32,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 15,
 				"at": 15,
 				"df": 15,
-				"hp": 15,
 				"sa": 15,
 				"sd": 15,
 				"sp": 15
-			},
-			"level": 32,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Expert Fredrick": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 30,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 12,
 				"at": 12,
 				"df": 12,
-				"hp": 12,
 				"sa": 12,
 				"sd": 12,
 				"sp": 12
-			},
-			"level": 30,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Expert Shelby 1": {
 			"ability": "",
 			"index": 1,
 			"item": "",
+			"level": 21,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 24,
 				"at": 24,
 				"df": 24,
-				"hp": 24,
 				"sa": 24,
 				"sd": 24,
 				"sp": 24
-			},
-			"level": 21,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Expert Shelby 2": {
 			"ability": "",
 			"index": 1,
 			"item": "",
+			"level": 30,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 25,
 				"at": 25,
 				"df": 25,
-				"hp": 25,
 				"sa": 25,
 				"sd": 25,
 				"sp": 25
-			},
-			"level": 30,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Pkmn Breeder Isaac 1": {
 			"ability": "",
 			"index": 5,
 			"item": "",
+			"level": 11,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 11,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Pkmn Breeder Isaac 2": {
 			"ability": "",
 			"index": 5,
 			"item": "",
+			"level": 22,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 1,
 				"at": 1,
 				"df": 1,
-				"hp": 1,
 				"sa": 1,
 				"sd": 1,
 				"sp": 1
-			},
-			"level": 22,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Pkmn Breeder Myles": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 25,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 1,
 				"at": 1,
 				"df": 1,
-				"hp": 1,
 				"sa": 1,
 				"sd": 1,
 				"sp": 1
-			},
-			"level": 25,
-			"moves": [],
-			"nature": ""
+			}
 		},
-		"Sr And Jr Anna And Meg 1": {
+		"Sr And Jr Anna & Meg Anna And Meg 1": {
 			"ability": "",
 			"index": 1,
 			"item": "",
-			"ivs": {
-				"at": 0,
-				"df": 0,
-				"hp": 0,
-				"sa": 0,
-				"sd": 0,
-				"sp": 0
-			},
 			"level": 17,
 			"moves": [
 				"Tackle",
 				"Focus Energy",
 				"Arm Thrust"
 			],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 0,
+				"at": 0,
+				"df": 0,
+				"sa": 0,
+				"sd": 0,
+				"sp": 0
+			}
 		},
-		"Sr And Jr Anna And Meg 2": {
+		"Sr And Jr Anna & Meg Anna And Meg 2": {
 			"ability": "",
 			"index": 1,
 			"item": "",
-			"ivs": {
-				"at": 1,
-				"df": 1,
-				"hp": 1,
-				"sa": 1,
-				"sd": 1,
-				"sp": 1
-			},
 			"level": 30,
 			"moves": [
 				"Tackle",
 				"Focus Energy",
 				"Arm Thrust"
 			],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 1,
+				"at": 1,
+				"df": 1,
+				"sa": 1,
+				"sd": 1,
+				"sp": 1
+			}
 		},
-		"Sr And Jr Anna And Meg 3": {
+		"Sr And Jr Anna & Meg Anna And Meg 3": {
 			"ability": "",
 			"index": 1,
 			"item": "",
-			"ivs": {
-				"at": 2,
-				"df": 2,
-				"hp": 2,
-				"sa": 2,
-				"sd": 2,
-				"sp": 2
-			},
 			"level": 33,
 			"moves": [
 				"Tackle",
 				"Focus Energy",
 				"Arm Thrust"
 			],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 2,
+				"at": 2,
+				"df": 2,
+				"sa": 2,
+				"sd": 2,
+				"sp": 2
+			}
 		},
-		"Sr And Jr Anna And Meg 4": {
+		"Sr And Jr Anna & Meg Anna And Meg 4": {
 			"ability": "",
 			"index": 1,
 			"item": "",
-			"ivs": {
-				"at": 3,
-				"df": 3,
-				"hp": 3,
-				"sa": 3,
-				"sd": 3,
-				"sp": 3
-			},
 			"level": 36,
 			"moves": [
 				"Tackle",
 				"Focus Energy",
 				"Arm Thrust"
 			],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 3,
+				"at": 3,
+				"df": 3,
+				"sa": 3,
+				"sd": 3,
+				"sp": 3
+			}
 		}
 	},
 	"Manectric": {
@@ -14331,102 +15352,110 @@ var SETDEX_SV = {
 			"ability": "",
 			"index": 0,
 			"item": "",
-			"ivs": {
-				"at": 12,
-				"df": 12,
-				"hp": 12,
-				"sa": 12,
-				"sd": 12,
-				"sp": 12
-			},
 			"level": 32,
 			"moves": [
 				"Thunder",
 				"Thunder Wave",
 				"Quick Attack"
 			],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 12,
+				"at": 12,
+				"df": 12,
+				"sa": 12,
+				"sd": 12,
+				"sp": 12
+			}
 		},
 		"Cooltrainer Carolina": {
 			"ability": "",
-			"index": 2,
+			"index": 0,
 			"item": "",
+			"level": 24,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 6,
 				"at": 6,
 				"df": 6,
-				"hp": 6,
 				"sa": 6,
 				"sd": 6,
 				"sp": 6
-			},
+			}
+		},
+		"Cooltrainer Carolina (2)": {
+			"ability": "",
+			"index": 2,
+			"item": "",
 			"level": 24,
 			"moves": [],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 6,
+				"at": 6,
+				"df": 6,
+				"sa": 6,
+				"sd": 6,
+				"sp": 6
+			}
 		},
 		"Cooltrainer Keira": {
 			"ability": "",
 			"index": 1,
 			"item": "",
+			"level": 45,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 12,
 				"at": 12,
 				"df": 12,
-				"hp": 12,
 				"sa": 12,
 				"sd": 12,
 				"sp": 12
-			},
-			"level": 45,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Cooltrainer Leonel": {
 			"ability": "",
 			"index": 0,
 			"item": "",
-			"ivs": {
-				"at": 12,
-				"df": 12,
-				"hp": 12,
-				"sa": 12,
-				"sd": 12,
-				"sp": 12
-			},
 			"level": 30,
 			"moves": [
 				"Thunder",
 				"Quick Attack",
 				"Thunder Wave"
 			],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 12,
+				"at": 12,
+				"df": 12,
+				"sa": 12,
+				"sd": 12,
+				"sp": 12
+			}
 		},
 		"Cooltrainer Marcel": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 29,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 12,
 				"at": 12,
 				"df": 12,
-				"hp": 12,
 				"sa": 12,
 				"sd": 12,
 				"sp": 12
-			},
-			"level": 29,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Cooltrainer Marley": {
 			"ability": "",
 			"index": 0,
 			"item": "",
-			"ivs": {
-				"at": 31,
-				"df": 31,
-				"hp": 31,
-				"sa": 31,
-				"sd": 31,
-				"sp": 31
-			},
 			"level": 34,
 			"moves": [
 				"Bite",
@@ -14434,132 +15463,148 @@ var SETDEX_SV = {
 				"Thunder Wave",
 				"Thunderbolt"
 			],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 31,
+				"at": 31,
+				"df": 31,
+				"sa": 31,
+				"sd": 31,
+				"sp": 31
+			}
 		},
 		"Cooltrainer Wilton 3": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 29,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 14,
 				"at": 14,
 				"df": 14,
-				"hp": 14,
 				"sa": 14,
 				"sd": 14,
 				"sp": 14
-			},
-			"level": 29,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Cooltrainer Wilton 4": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 32,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 15,
 				"at": 15,
 				"df": 15,
-				"hp": 15,
 				"sa": 15,
 				"sd": 15,
 				"sp": 15
-			},
-			"level": 32,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Cooltrainer Wilton 5": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 35,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 17,
 				"at": 17,
 				"df": 17,
-				"hp": 17,
 				"sa": 17,
 				"sd": 17,
 				"sp": 17
-			},
-			"level": 35,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Expert Auron": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 33,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 33,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Gentleman Micah": {
 			"ability": "",
-			"index": 1,
+			"index": 0,
 			"item": "",
+			"level": 44,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
+			}
+		},
+		"Gentleman Micah (2)": {
+			"ability": "",
+			"index": 1,
+			"item": "",
 			"level": 44,
 			"moves": [],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 0,
+				"at": 0,
+				"df": 0,
+				"sa": 0,
+				"sd": 0,
+				"sp": 0
+			}
 		},
 		"Gentleman Walter 1": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 29,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 29,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Gentleman Walter 2": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 34,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 1,
 				"at": 1,
 				"df": 1,
-				"hp": 1,
 				"sa": 1,
 				"sd": 1,
 				"sp": 1
-			},
-			"level": 34,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Gentleman Walter 3": {
 			"ability": "",
 			"index": 1,
 			"item": "",
-			"ivs": {
-				"at": 2,
-				"df": 2,
-				"hp": 2,
-				"sa": 2,
-				"sd": 2,
-				"sp": 2
-			},
 			"level": 36,
 			"moves": [
 				"Quick Attack",
@@ -14567,40 +15612,40 @@ var SETDEX_SV = {
 				"Odor Sleuth",
 				"Roar"
 			],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 2,
+				"at": 2,
+				"df": 2,
+				"sa": 2,
+				"sd": 2,
+				"sp": 2
+			}
 		},
 		"Gentleman Walter 4": {
 			"ability": "",
 			"index": 1,
 			"item": "",
-			"ivs": {
-				"at": 3,
-				"df": 3,
-				"hp": 3,
-				"sa": 3,
-				"sd": 3,
-				"sp": 3
-			},
 			"level": 39,
 			"moves": [
 				"Quick Attack",
 				"Spark",
 				"Odor Sleuth"
 			],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 3,
+				"at": 3,
+				"df": 3,
+				"sa": 3,
+				"sd": 3,
+				"sp": 3
+			}
 		},
 		"Gentleman Walter 5": {
 			"ability": "",
 			"index": 2,
 			"item": "",
-			"ivs": {
-				"at": 4,
-				"df": 4,
-				"hp": 4,
-				"sa": 4,
-				"sd": 4,
-				"sp": 4
-			},
 			"level": 41,
 			"moves": [
 				"Quick Attack",
@@ -14608,84 +15653,116 @@ var SETDEX_SV = {
 				"Odor Sleuth",
 				"Roar"
 			],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 4,
+				"at": 4,
+				"df": 4,
+				"sa": 4,
+				"sd": 4,
+				"sp": 4
+			}
 		},
 		"Guitarist Fabian": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 26,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 26,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Guitarist Fernando 3": {
 			"ability": "",
 			"index": 1,
 			"item": "",
+			"level": 37,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 2,
 				"at": 2,
 				"df": 2,
-				"hp": 2,
 				"sa": 2,
 				"sd": 2,
 				"sp": 2
-			},
-			"level": 37,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Guitarist Fernando 4": {
 			"ability": "",
-			"index": 1,
+			"index": 0,
 			"item": "",
+			"level": 39,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 3,
 				"at": 3,
 				"df": 3,
-				"hp": 3,
 				"sa": 3,
 				"sd": 3,
 				"sp": 3
-			},
-			"level": 39,
-			"moves": [],
-			"nature": ""
+			}
 		},
-		"Guitarist Fernando 5": {
+		"Guitarist Fernando 4 (2)": {
 			"ability": "",
 			"index": 1,
 			"item": "",
+			"level": 39,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 3,
+				"at": 3,
+				"df": 3,
+				"sa": 3,
+				"sd": 3,
+				"sp": 3
+			}
+		},
+		"Guitarist Fernando 5": {
+			"ability": "",
+			"index": 0,
+			"item": "",
+			"level": 41,
+			"moves": [],
+			"nature": "",
+			"ivs": {
+				"hp": 4,
 				"at": 4,
 				"df": 4,
-				"hp": 4,
 				"sa": 4,
 				"sd": 4,
 				"sp": 4
-			},
+			}
+		},
+		"Guitarist Fernando 5 (2)": {
+			"ability": "",
+			"index": 1,
+			"item": "",
 			"level": 41,
 			"moves": [],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 4,
+				"at": 4,
+				"df": 4,
+				"sa": 4,
+				"sd": 4,
+				"sp": 4
+			}
 		},
 		"Leader Wattson 1": {
 			"ability": "",
 			"index": 3,
 			"item": "Sitrus Berry",
-			"ivs": {
-				"at": 30,
-				"df": 30,
-				"hp": 30,
-				"sa": 30,
-				"sd": 30,
-				"sp": 30
-			},
 			"level": 24,
 			"moves": [
 				"Quick Attack",
@@ -14693,20 +15770,20 @@ var SETDEX_SV = {
 				"Shock Wave",
 				"Howl"
 			],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 30,
+				"at": 30,
+				"df": 30,
+				"sa": 30,
+				"sd": 30,
+				"sp": 30
+			}
 		},
 		"Leader Wattson 2": {
 			"ability": "",
 			"index": 3,
 			"item": "Sitrus Berry",
-			"ivs": {
-				"at": 31,
-				"df": 31,
-				"hp": 31,
-				"sa": 31,
-				"sd": 31,
-				"sp": 31
-			},
 			"level": 40,
 			"moves": [
 				"Bite",
@@ -14714,20 +15791,20 @@ var SETDEX_SV = {
 				"Thunder",
 				"Protect"
 			],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 31,
+				"at": 31,
+				"df": 31,
+				"sa": 31,
+				"sd": 31,
+				"sp": 31
+			}
 		},
 		"Leader Wattson 3": {
 			"ability": "",
 			"index": 4,
 			"item": "Sitrus Berry",
-			"ivs": {
-				"at": 31,
-				"df": 31,
-				"hp": 31,
-				"sa": 31,
-				"sd": 31,
-				"sp": 31
-			},
 			"level": 45,
 			"moves": [
 				"Bite",
@@ -14735,20 +15812,20 @@ var SETDEX_SV = {
 				"Thunder",
 				"Protect"
 			],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 31,
+				"at": 31,
+				"df": 31,
+				"sa": 31,
+				"sd": 31,
+				"sp": 31
+			}
 		},
 		"Leader Wattson 4": {
 			"ability": "",
 			"index": 4,
 			"item": "Sitrus Berry",
-			"ivs": {
-				"at": 31,
-				"df": 31,
-				"hp": 31,
-				"sa": 31,
-				"sd": 31,
-				"sp": 31
-			},
 			"level": 50,
 			"moves": [
 				"Bite",
@@ -14756,20 +15833,20 @@ var SETDEX_SV = {
 				"Thunder",
 				"Protect"
 			],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 31,
+				"at": 31,
+				"df": 31,
+				"sa": 31,
+				"sd": 31,
+				"sp": 31
+			}
 		},
 		"Leader Wattson 5": {
 			"ability": "",
 			"index": 5,
 			"item": "Sitrus Berry",
-			"ivs": {
-				"at": 31,
-				"df": 31,
-				"hp": 31,
-				"sa": 31,
-				"sd": 31,
-				"sp": 31
-			},
 			"level": 55,
 			"moves": [
 				"Bite",
@@ -14777,23 +15854,64 @@ var SETDEX_SV = {
 				"Thunder",
 				"Protect"
 			],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 31,
+				"at": 31,
+				"df": 31,
+				"sa": 31,
+				"sd": 31,
+				"sp": 31
+			}
 		},
-		"Young Couple Dez And Luke": {
+		"Young Couple Dez & Luke Dez And Luke": {
 			"ability": "",
 			"index": 1,
 			"item": "",
+			"level": 31,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 31,
-			"moves": [],
-			"nature": ""
+			}
+		}
+	},
+	"Mantine": {
+		"Tuber M Chandler": {
+			"ability": "Water Absorb",
+			"index": 0,
+			"item": "Leftovers",
+			"level": 24,
+			"moves": [
+				"Tailwind",
+				"Protect",
+				"Air Slash",
+				"Surf"
+			],
+			"nature": "Modest",
+			"ivs": {
+				"at": 0
+			}
+		}
+	},
+	"Maractus": {
+		"Tuber F Lola 1": {
+			"ability": "Water Absorb",
+			"index": 0,
+			"item": "Miracle Seed",
+			"level": 24,
+			"moves": [
+				"Giga Drain",
+				"Spikes",
+				"Endeavor",
+				"Sucker Punch"
+			],
+			"nature": "Sassy"
 		}
 	},
 	"Mareep": {
@@ -14801,14 +15919,6 @@ var SETDEX_SV = {
 			"ability": "",
 			"index": 0,
 			"item": "",
-			"ivs": {
-				"at": 31,
-				"df": 31,
-				"hp": 31,
-				"sa": 31,
-				"sd": 31,
-				"sp": 31
-			},
 			"level": 36,
 			"moves": [
 				"Thunder",
@@ -14816,7 +15926,15 @@ var SETDEX_SV = {
 				"Thunder Wave",
 				"Light Screen"
 			],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 31,
+				"at": 31,
+				"df": 31,
+				"sa": 31,
+				"sd": 31,
+				"sp": 31
+			}
 		}
 	},
 	"Marill": {
@@ -14824,78 +15942,70 @@ var SETDEX_SV = {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 21,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 21,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Lass Janice": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 9,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 9,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Lass Robin": {
 			"ability": "",
 			"index": 2,
 			"item": "",
+			"level": 14,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 14,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Picnicker Angelina": {
 			"ability": "",
 			"index": 1,
 			"item": "",
+			"level": 18,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 18,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Picnicker Becky": {
 			"ability": "",
 			"index": 1,
 			"item": "",
-			"ivs": {
-				"at": 0,
-				"df": 0,
-				"hp": 0,
-				"sa": 0,
-				"sd": 0,
-				"sp": 0
-			},
 			"level": 22,
 			"moves": [
 				"Rollout",
@@ -14903,407 +16013,431 @@ var SETDEX_SV = {
 				"Tail Whip",
 				"Defense Curl"
 			],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 0,
+				"at": 0,
+				"df": 0,
+				"sa": 0,
+				"sd": 0,
+				"sp": 0
+			}
 		},
 		"Picnicker Celia": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 22,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 22,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Picnicker Irene": {
 			"ability": "",
 			"index": 1,
 			"item": "",
+			"level": 17,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 17,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Picnicker Nancy": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 18,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 18,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Picnicker Sophie": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 17,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 17,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Pkmn Breeder Lydia 1": {
 			"ability": "",
 			"index": 2,
 			"item": "",
+			"level": 11,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 11,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Pkmn Breeder Lydia 2": {
 			"ability": "",
 			"index": 2,
 			"item": "",
+			"level": 22,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 1,
 				"at": 1,
 				"df": 1,
-				"hp": 1,
 				"sa": 1,
 				"sd": 1,
 				"sp": 1
-			},
-			"level": 22,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Pkmn Breeder Lydia 3": {
 			"ability": "",
 			"index": 2,
 			"item": "",
+			"level": 25,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 2,
 				"at": 2,
 				"df": 2,
-				"hp": 2,
 				"sa": 2,
 				"sd": 2,
 				"sp": 2
-			},
-			"level": 25,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Pkmn Breeder Lydia 4": {
 			"ability": "",
 			"index": 2,
 			"item": "",
+			"level": 28,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 3,
 				"at": 3,
 				"df": 3,
-				"hp": 3,
 				"sa": 3,
 				"sd": 3,
 				"sp": 3
-			},
-			"level": 28,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Pkmn Breeder Pat": {
 			"ability": "",
 			"index": 3,
 			"item": "",
+			"level": 25,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 1,
 				"at": 1,
 				"df": 1,
-				"hp": 1,
 				"sa": 1,
 				"sd": 1,
 				"sp": 1
-			},
-			"level": 25,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Pokefan Bethany": {
 			"ability": "",
 			"index": 1,
 			"item": "Oran Berry",
+			"level": 37,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 12,
 				"at": 12,
 				"df": 12,
-				"hp": 12,
 				"sa": 12,
 				"sd": 12,
 				"sp": 12
-			},
-			"level": 37,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Swimmer F Grace": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 34,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 34,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Swimmer F Imani": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 26,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 26,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Swimmer F Isabelle": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 15,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 15,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Swimmer F Nikki": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 33,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 33,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Swimmer F Tara": {
 			"ability": "",
 			"index": 1,
 			"item": "",
+			"level": 25,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 25,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Tuber F Austina": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 26,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 26,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Tuber F Gwen": {
 			"ability": "",
 			"index": 0,
 			"item": "",
-			"ivs": {
-				"at": 0,
-				"df": 0,
-				"hp": 0,
-				"sa": 0,
-				"sd": 0,
-				"sp": 0
-			},
 			"level": 26,
 			"moves": [],
-			"nature": ""
-		},
-		"Tuber F Hailey": {
-			"ability": "",
-			"index": 0,
-			"item": "",
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 13,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Tuber F Jani": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 26,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 26,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Tuber F Lola 2": {
 			"ability": "",
-			"index": 1,
+			"index": 0,
 			"item": "",
+			"level": 26,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 1,
 				"at": 1,
 				"df": 1,
-				"hp": 1,
 				"sa": 1,
 				"sd": 1,
 				"sp": 1
-			},
+			}
+		},
+		"Tuber F Lola 2 (2)": {
+			"ability": "",
+			"index": 1,
+			"item": "",
 			"level": 26,
 			"moves": [],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 1,
+				"at": 1,
+				"df": 1,
+				"sa": 1,
+				"sd": 1,
+				"sp": 1
+			}
 		},
 		"Tuber F Lola 3": {
 			"ability": "",
-			"index": 1,
+			"index": 0,
 			"item": "",
+			"level": 29,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 2,
 				"at": 2,
 				"df": 2,
-				"hp": 2,
 				"sa": 2,
 				"sd": 2,
 				"sp": 2
-			},
-			"level": 29,
-			"moves": [],
-			"nature": ""
+			}
 		},
-		"Tuber F Lola 4": {
+		"Tuber F Lola 3 (2)": {
 			"ability": "",
 			"index": 1,
 			"item": "",
+			"level": 29,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 2,
+				"at": 2,
+				"df": 2,
+				"sa": 2,
+				"sd": 2,
+				"sp": 2
+			}
+		},
+		"Tuber F Lola 4": {
+			"ability": "",
+			"index": 0,
+			"item": "",
+			"level": 32,
+			"moves": [],
+			"nature": "",
+			"ivs": {
+				"hp": 3,
 				"at": 3,
 				"df": 3,
-				"hp": 3,
 				"sa": 3,
 				"sd": 3,
 				"sp": 3
-			},
+			}
+		},
+		"Tuber F Lola 4 (2)": {
+			"ability": "",
+			"index": 1,
+			"item": "",
 			"level": 32,
 			"moves": [],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 3,
+				"at": 3,
+				"df": 3,
+				"sa": 3,
+				"sd": 3,
+				"sp": 3
+			}
 		},
 		"Tuber M Charlie": {
 			"ability": "",
 			"index": 0,
 			"item": "",
-			"ivs": {
-				"at": 0,
-				"df": 0,
-				"hp": 0,
-				"sa": 0,
-				"sd": 0,
-				"sp": 0
-			},
 			"level": 26,
 			"moves": [],
-			"nature": ""
-		},
-		"Tuber M Simon": {
-			"ability": "",
-			"index": 1,
-			"item": "",
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 12,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Winstrate Vivi": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 15,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 12,
 				"at": 12,
 				"df": 12,
-				"hp": 12,
 				"sa": 12,
 				"sd": 12,
 				"sp": 12
-			},
-			"level": 15,
-			"moves": [],
-			"nature": ""
+			}
 		}
 	},
 	"Marshtomp": {
@@ -15311,62 +16445,38 @@ var SETDEX_SV = {
 			"ability": "",
 			"index": 3,
 			"item": "",
+			"level": 34,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 24,
 				"at": 24,
 				"df": 24,
-				"hp": 24,
 				"sa": 24,
 				"sd": 24,
 				"sp": 24
-			},
-			"level": 34,
-			"moves": [],
-			"nature": ""
-		},
-		"Rival Brendan Route 110 Torchic": {
-			"ability": "",
-			"index": 2,
-			"item": "",
-			"ivs": {
-				"at": 12,
-				"df": 12,
-				"hp": 12,
-				"sa": 12,
-				"sd": 12,
-				"sp": 12
-			},
-			"level": 20,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Rival Brendan Route 119 Torchic": {
 			"ability": "",
 			"index": 2,
 			"item": "",
+			"level": 31,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 18,
 				"at": 18,
 				"df": 18,
-				"hp": 18,
 				"sa": 18,
 				"sd": 18,
 				"sp": 18
-			},
-			"level": 31,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Rival Brendan Rustboro Treecko": {
 			"ability": "Torrent",
 			"index": 0,
 			"item": "Rindo Berry",
-			"ivs": {
-				"at": 31,
-				"df": 31,
-				"hp": 31,
-				"sa": 31,
-				"sd": 31,
-				"sp": 31
-			},
 			"level": 21,
 			"moves": [
 				"Stealth Rock",
@@ -15380,62 +16490,38 @@ var SETDEX_SV = {
 			"ability": "",
 			"index": 3,
 			"item": "",
+			"level": 34,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 24,
 				"at": 24,
 				"df": 24,
-				"hp": 24,
 				"sa": 24,
 				"sd": 24,
 				"sp": 24
-			},
-			"level": 34,
-			"moves": [],
-			"nature": ""
-		},
-		"Rival May Route 110 Torchic": {
-			"ability": "",
-			"index": 2,
-			"item": "",
-			"ivs": {
-				"at": 12,
-				"df": 12,
-				"hp": 12,
-				"sa": 12,
-				"sd": 12,
-				"sp": 12
-			},
-			"level": 20,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Rival May Route 119 Torchic": {
 			"ability": "",
 			"index": 2,
 			"item": "",
+			"level": 31,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 18,
 				"at": 18,
 				"df": 18,
-				"hp": 18,
 				"sa": 18,
 				"sd": 18,
 				"sp": 18
-			},
-			"level": 31,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Rival May Rustboro Treecko": {
 			"ability": "Torrent",
 			"index": 0,
 			"item": "Rindo Berry",
-			"ivs": {
-				"at": 31,
-				"df": 31,
-				"hp": 31,
-				"sa": 31,
-				"sd": 31,
-				"sp": 31
-			},
 			"level": 21,
 			"moves": [
 				"Stealth Rock",
@@ -15451,49 +16537,49 @@ var SETDEX_SV = {
 			"ability": "",
 			"index": 2,
 			"item": "",
+			"level": 34,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 2,
 				"at": 2,
 				"df": 2,
-				"hp": 2,
 				"sa": 2,
 				"sd": 2,
 				"sp": 2
-			},
-			"level": 34,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Bug Maniac Jeffrey 4": {
 			"ability": "",
 			"index": 3,
 			"item": "",
+			"level": 36,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 3,
 				"at": 3,
 				"df": 3,
-				"hp": 3,
 				"sa": 3,
 				"sd": 3,
 				"sp": 3
-			},
-			"level": 36,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Bug Maniac Jeffrey 5": {
 			"ability": "",
 			"index": 3,
 			"item": "Silver Powder",
+			"level": 38,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 4,
 				"at": 4,
 				"df": 4,
-				"hp": 4,
 				"sa": 4,
 				"sd": 4,
 				"sp": 4
-			},
-			"level": 38,
-			"moves": [],
-			"nature": ""
+			}
 		}
 	},
 	"Mawile": {
@@ -15501,46 +16587,38 @@ var SETDEX_SV = {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 46,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 12,
 				"at": 12,
 				"df": 12,
-				"hp": 12,
 				"sa": 12,
 				"sd": 12,
 				"sp": 12
-			},
-			"level": 46,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Cooltrainer Samuel": {
 			"ability": "",
 			"index": 1,
 			"item": "",
+			"level": 42,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 12,
 				"at": 12,
 				"df": 12,
-				"hp": 12,
 				"sa": 12,
 				"sd": 12,
 				"sp": 12
-			},
-			"level": 42,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Cooltrainer Wendy": {
 			"ability": "",
 			"index": 0,
 			"item": "",
-			"ivs": {
-				"at": 12,
-				"df": 12,
-				"hp": 12,
-				"sa": 12,
-				"sd": 12,
-				"sp": 12
-			},
 			"level": 29,
 			"moves": [
 				"Baton Pass",
@@ -15548,7 +16626,15 @@ var SETDEX_SV = {
 				"Fake Tears",
 				"Bite"
 			],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 12,
+				"at": 12,
+				"df": 12,
+				"sa": 12,
+				"sd": 12,
+				"sp": 12
+			}
 		}
 	},
 	"Medicham": {
@@ -15556,160 +16642,152 @@ var SETDEX_SV = {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 32,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 15,
 				"at": 15,
 				"df": 15,
-				"hp": 15,
 				"sa": 15,
 				"sd": 15,
 				"sp": 15
-			},
-			"level": 32,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Battle Girl Cyndy 5": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 35,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 17,
 				"at": 17,
 				"df": 17,
-				"hp": 17,
 				"sa": 17,
 				"sd": 17,
 				"sp": 17
-			},
-			"level": 35,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Cooltrainer Felix": {
 			"ability": "",
 			"index": 0,
 			"item": "",
-			"ivs": {
-				"at": 0,
-				"df": 0,
-				"hp": 0,
-				"sa": 0,
-				"sd": 0,
-				"sp": 0
-			},
 			"level": 43,
 			"moves": [
 				"Psychic"
 			],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 0,
+				"at": 0,
+				"df": 0,
+				"sa": 0,
+				"sd": 0,
+				"sp": 0
+			}
 		},
 		"Cooltrainer Michelle": {
 			"ability": "",
 			"index": 1,
 			"item": "",
+			"level": 42,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 12,
 				"at": 12,
 				"df": 12,
-				"hp": 12,
 				"sa": 12,
 				"sd": 12,
 				"sp": 12
-			},
-			"level": 42,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Cooltrainer Vincent": {
 			"ability": "",
 			"index": 1,
 			"item": "",
+			"level": 44,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 12,
 				"at": 12,
 				"df": 12,
-				"hp": 12,
 				"sa": 12,
 				"sd": 12,
 				"sp": 12
-			},
-			"level": 44,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Expert Makayla": {
 			"ability": "",
 			"index": 1,
 			"item": "",
+			"level": 33,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 33,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Expert Shelby 3": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 33,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 26,
 				"at": 26,
 				"df": 26,
-				"hp": 26,
 				"sa": 26,
 				"sd": 26,
 				"sp": 26
-			},
-			"level": 33,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Expert Shelby 4": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 36,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 27,
 				"at": 27,
 				"df": 27,
-				"hp": 27,
 				"sa": 27,
 				"sd": 27,
 				"sp": 27
-			},
-			"level": 36,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Expert Shelby 5": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 39,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 29,
 				"at": 29,
 				"df": 29,
-				"hp": 29,
 				"sa": 29,
 				"sd": 29,
 				"sp": 29
-			},
-			"level": 39,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Leader Brawly 3": {
 			"ability": "",
 			"index": 1,
 			"item": "",
-			"ivs": {
-				"at": 31,
-				"df": 31,
-				"hp": 31,
-				"sa": 31,
-				"sd": 31,
-				"sp": 31
-			},
 			"level": 38,
 			"moves": [
 				"Psychic",
@@ -15717,20 +16795,20 @@ var SETDEX_SV = {
 				"Reflect",
 				"Focus Punch"
 			],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 31,
+				"at": 31,
+				"df": 31,
+				"sa": 31,
+				"sd": 31,
+				"sp": 31
+			}
 		},
 		"Leader Brawly 4": {
 			"ability": "",
 			"index": 2,
 			"item": "",
-			"ivs": {
-				"at": 31,
-				"df": 31,
-				"hp": 31,
-				"sa": 31,
-				"sd": 31,
-				"sp": 31
-			},
 			"level": 43,
 			"moves": [
 				"Focus Punch",
@@ -15738,20 +16816,20 @@ var SETDEX_SV = {
 				"Reflect",
 				"Psychic"
 			],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 31,
+				"at": 31,
+				"df": 31,
+				"sa": 31,
+				"sd": 31,
+				"sp": 31
+			}
 		},
 		"Leader Brawly 5": {
 			"ability": "",
 			"index": 3,
 			"item": "",
-			"ivs": {
-				"at": 31,
-				"df": 31,
-				"hp": 31,
-				"sa": 31,
-				"sd": 31,
-				"sp": 31
-			},
 			"level": 48,
 			"moves": [
 				"Focus Punch",
@@ -15759,20 +16837,20 @@ var SETDEX_SV = {
 				"Reflect",
 				"Psychic"
 			],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 31,
+				"at": 31,
+				"df": 31,
+				"sa": 31,
+				"sd": 31,
+				"sp": 31
+			}
 		},
-		"Old Couple John And Jay 1": {
+		"Old Couple John & Jay John And Jay 1": {
 			"ability": "",
 			"index": 0,
 			"item": "",
-			"ivs": {
-				"at": 24,
-				"df": 24,
-				"hp": 24,
-				"sa": 24,
-				"sd": 24,
-				"sp": 24
-			},
 			"level": 39,
 			"moves": [
 				"Psychic",
@@ -15780,20 +16858,20 @@ var SETDEX_SV = {
 				"Psych Up",
 				"Protect"
 			],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 24,
+				"at": 24,
+				"df": 24,
+				"sa": 24,
+				"sd": 24,
+				"sp": 24
+			}
 		},
-		"Old Couple John And Jay 2": {
+		"Old Couple John & Jay John And Jay 2": {
 			"ability": "",
 			"index": 0,
 			"item": "",
-			"ivs": {
-				"at": 25,
-				"df": 25,
-				"hp": 25,
-				"sa": 25,
-				"sd": 25,
-				"sp": 25
-			},
 			"level": 43,
 			"moves": [
 				"Psychic",
@@ -15801,20 +16879,20 @@ var SETDEX_SV = {
 				"Psych Up",
 				"Protect"
 			],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 25,
+				"at": 25,
+				"df": 25,
+				"sa": 25,
+				"sd": 25,
+				"sp": 25
+			}
 		},
-		"Old Couple John And Jay 3": {
+		"Old Couple John & Jay John And Jay 3": {
 			"ability": "",
 			"index": 0,
 			"item": "",
-			"ivs": {
-				"at": 26,
-				"df": 26,
-				"hp": 26,
-				"sa": 26,
-				"sd": 26,
-				"sp": 26
-			},
 			"level": 46,
 			"moves": [
 				"Psychic",
@@ -15822,20 +16900,20 @@ var SETDEX_SV = {
 				"Psych Up",
 				"Protect"
 			],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 26,
+				"at": 26,
+				"df": 26,
+				"sa": 26,
+				"sd": 26,
+				"sp": 26
+			}
 		},
-		"Old Couple John And Jay 4": {
+		"Old Couple John & Jay John And Jay 4": {
 			"ability": "",
 			"index": 0,
 			"item": "",
-			"ivs": {
-				"at": 27,
-				"df": 27,
-				"hp": 27,
-				"sa": 27,
-				"sd": 27,
-				"sp": 27
-			},
 			"level": 49,
 			"moves": [
 				"Psychic",
@@ -15843,20 +16921,20 @@ var SETDEX_SV = {
 				"Psych Up",
 				"Protect"
 			],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 27,
+				"at": 27,
+				"df": 27,
+				"sa": 27,
+				"sd": 27,
+				"sp": 27
+			}
 		},
-		"Old Couple John And Jay 5": {
+		"Old Couple John & Jay John And Jay 5": {
 			"ability": "",
 			"index": 0,
 			"item": "",
-			"ivs": {
-				"at": 29,
-				"df": 29,
-				"hp": 29,
-				"sa": 29,
-				"sd": 29,
-				"sp": 29
-			},
 			"level": 52,
 			"moves": [
 				"Psychic",
@@ -15864,39 +16942,47 @@ var SETDEX_SV = {
 				"Psych Up",
 				"Protect"
 			],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 29,
+				"at": 29,
+				"df": 29,
+				"sa": 29,
+				"sd": 29,
+				"sp": 29
+			}
 		},
 		"School Kid Jerry 4": {
 			"ability": "",
 			"index": 1,
 			"item": "",
+			"level": 32,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 4,
 				"at": 4,
 				"df": 4,
-				"hp": 4,
 				"sa": 4,
 				"sd": 4,
 				"sp": 4
-			},
-			"level": 32,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"School Kid Jerry 5": {
 			"ability": "",
 			"index": 2,
 			"item": "",
+			"level": 34,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 6,
 				"at": 6,
 				"df": 6,
-				"hp": 6,
 				"sa": 6,
 				"sd": 6,
 				"sp": 6
-			},
-			"level": 34,
-			"moves": [],
-			"nature": ""
+			}
 		}
 	},
 	"Meditite": {
@@ -15904,110 +16990,102 @@ var SETDEX_SV = {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 17,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 17,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Battle Girl Callie": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 28,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 28,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Battle Girl Cora": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 27,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 12,
 				"at": 12,
 				"df": 12,
-				"hp": 12,
 				"sa": 12,
 				"sd": 12,
 				"sp": 12
-			},
-			"level": 27,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Battle Girl Cyndy 1": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 18,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 12,
 				"at": 12,
 				"df": 12,
-				"hp": 12,
 				"sa": 12,
 				"sd": 12,
 				"sp": 12
-			},
-			"level": 18,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Battle Girl Cyndy 2": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 26,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 13,
 				"at": 13,
 				"df": 13,
-				"hp": 13,
 				"sa": 13,
 				"sd": 13,
 				"sp": 13
-			},
-			"level": 26,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Battle Girl Cyndy 3": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 29,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 14,
 				"at": 14,
 				"df": 14,
-				"hp": 14,
 				"sa": 14,
 				"sd": 14,
 				"sp": 14
-			},
-			"level": 29,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Battle Girl Danielle": {
 			"ability": "",
 			"index": 0,
 			"item": "",
-			"ivs": {
-				"at": 12,
-				"df": 12,
-				"hp": 12,
-				"sa": 12,
-				"sd": 12,
-				"sp": 12
-			},
 			"level": 23,
 			"moves": [
 				"Bide",
@@ -16015,52 +17093,73 @@ var SETDEX_SV = {
 				"Confusion",
 				"Fire Punch"
 			],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 12,
+				"at": 12,
+				"df": 12,
+				"sa": 12,
+				"sd": 12,
+				"sp": 12
+			}
 		},
 		"Battle Girl Helene": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 26,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 26,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Battle Girl Reyna": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 33,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 6,
 				"at": 6,
 				"df": 6,
-				"hp": 6,
 				"sa": 6,
 				"sd": 6,
 				"sp": 6
-			},
-			"level": 33,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Battle Girl Vivian": {
 			"ability": "",
-			"index": 1,
+			"index": 0,
 			"item": "",
+			"level": 17,
+			"moves": [
+				"Bide",
+				"Detect",
+				"Confusion",
+				"Thunder Punch"
+			],
+			"nature": "",
 			"ivs": {
+				"hp": 12,
 				"at": 12,
 				"df": 12,
-				"hp": 12,
 				"sa": 12,
 				"sd": 12,
 				"sp": 12
-			},
+			}
+		},
+		"Battle Girl Vivian (2)": {
+			"ability": "",
+			"index": 1,
+			"item": "",
 			"level": 17,
 			"moves": [
 				"Thunder Punch",
@@ -16068,84 +17167,84 @@ var SETDEX_SV = {
 				"Confusion",
 				"Meditate"
 			],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 12,
+				"at": 12,
+				"df": 12,
+				"sa": 12,
+				"sd": 12,
+				"sp": 12
+			}
 		},
 		"Expert Mollie": {
 			"ability": "",
 			"index": 1,
 			"item": "",
+			"level": 33,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 24,
 				"at": 24,
 				"df": 24,
-				"hp": 24,
 				"sa": 24,
 				"sd": 24,
 				"sp": 24
-			},
-			"level": 33,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Expert Shelby 1": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 21,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 24,
 				"at": 24,
 				"df": 24,
-				"hp": 24,
 				"sa": 24,
 				"sd": 24,
 				"sp": 24
-			},
-			"level": 21,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Expert Shelby 2": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 30,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 25,
 				"at": 25,
 				"df": 25,
-				"hp": 25,
 				"sa": 25,
 				"sd": 25,
 				"sp": 25
-			},
-			"level": 30,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Hex Maniac Sylvia": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 36,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 12,
 				"at": 12,
 				"df": 12,
-				"hp": 12,
 				"sa": 12,
 				"sd": 12,
 				"sp": 12
-			},
-			"level": 36,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Leader Brawly 2": {
 			"ability": "",
 			"index": 1,
 			"item": "",
-			"ivs": {
-				"at": 31,
-				"df": 31,
-				"hp": 31,
-				"sa": 31,
-				"sd": 31,
-				"sp": 31
-			},
 			"level": 33,
 			"moves": [
 				"Psychic",
@@ -16153,68 +17252,68 @@ var SETDEX_SV = {
 				"Reflect",
 				"Focus Punch"
 			],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 31,
+				"at": 31,
+				"df": 31,
+				"sa": 31,
+				"sd": 31,
+				"sp": 31
+			}
 		},
 		"Psychic Marlene": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 18,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 18,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"School Kid Jerry 2": {
 			"ability": "",
 			"index": 1,
 			"item": "",
+			"level": 26,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 2,
 				"at": 2,
 				"df": 2,
-				"hp": 2,
 				"sa": 2,
 				"sd": 2,
 				"sp": 2
-			},
-			"level": 26,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"School Kid Jerry 3": {
 			"ability": "",
 			"index": 1,
 			"item": "",
+			"level": 29,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 3,
 				"at": 3,
 				"df": 3,
-				"hp": 3,
 				"sa": 3,
 				"sd": 3,
 				"sp": 3
-			},
-			"level": 29,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Winstrate Vicky": {
 			"ability": "",
 			"index": 0,
 			"item": "",
-			"ivs": {
-				"at": 24,
-				"df": 24,
-				"hp": 24,
-				"sa": 24,
-				"sd": 24,
-				"sp": 24
-			},
 			"level": 18,
 			"moves": [
 				"High Jump Kick",
@@ -16222,7 +17321,15 @@ var SETDEX_SV = {
 				"Confusion",
 				"Detect"
 			],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 24,
+				"at": 24,
+				"df": 24,
+				"sa": 24,
+				"sd": 24,
+				"sp": 24
+			}
 		}
 	},
 	"Meowth-Galar": {
@@ -16230,14 +17337,6 @@ var SETDEX_SV = {
 			"ability": "Tough Claws",
 			"index": 1,
 			"item": "Metal Coat",
-			"ivs": {
-				"at": 31,
-				"df": 31,
-				"hp": 31,
-				"sa": 31,
-				"sd": 31,
-				"sp": 31
-			},
 			"level": 16,
 			"moves": [
 				"Metal Claw",
@@ -16253,14 +17352,6 @@ var SETDEX_SV = {
 			"ability": "",
 			"index": 5,
 			"item": "Sitrus Berry",
-			"ivs": {
-				"at": 31,
-				"df": 31,
-				"hp": 31,
-				"sa": 31,
-				"sd": 31,
-				"sp": 31
-			},
 			"level": 78,
 			"moves": [
 				"Earthquake",
@@ -16268,7 +17359,15 @@ var SETDEX_SV = {
 				"Meteor Mash",
 				"Shadow Ball"
 			],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 31,
+				"at": 31,
+				"df": 31,
+				"sa": 31,
+				"sd": 31,
+				"sp": 31
+			}
 		}
 	},
 	"Metapod": {
@@ -16276,14 +17375,6 @@ var SETDEX_SV = {
 			"ability": "Shed Skin",
 			"index": 0,
 			"item": "",
-			"ivs": {
-				"at": 31,
-				"df": 31,
-				"hp": 31,
-				"sa": 31,
-				"sd": 31,
-				"sp": 31
-			},
 			"level": 8,
 			"moves": [
 				"Iron Defense",
@@ -16298,14 +17389,6 @@ var SETDEX_SV = {
 			"ability": "Regenerator",
 			"index": 0,
 			"item": "Eviolite",
-			"ivs": {
-				"at": 31,
-				"df": 31,
-				"hp": 31,
-				"sa": 31,
-				"sd": 31,
-				"sp": 31
-			},
 			"level": 23,
 			"moves": [
 				"Fake Out",
@@ -16321,78 +17404,70 @@ var SETDEX_SV = {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 34,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 6,
 				"at": 6,
 				"df": 6,
-				"hp": 6,
 				"sa": 6,
 				"sd": 6,
 				"sp": 6
-			},
-			"level": 34,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Aqua Admin Shelly Seafloor Cavern": {
 			"ability": "",
 			"index": 1,
 			"item": "",
+			"level": 37,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 12,
 				"at": 12,
 				"df": 12,
-				"hp": 12,
 				"sa": 12,
 				"sd": 12,
 				"sp": 12
-			},
-			"level": 37,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Aqua Admin Shelly Weather Institute": {
 			"ability": "",
 			"index": 1,
 			"item": "",
+			"level": 28,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 6,
 				"at": 6,
 				"df": 6,
-				"hp": 6,
 				"sa": 6,
 				"sd": 6,
 				"sp": 6
-			},
-			"level": 28,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Aqua Leader Archie": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 41,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 18,
 				"at": 18,
 				"df": 18,
-				"hp": 18,
 				"sa": 18,
 				"sd": 18,
 				"sp": 18
-			},
-			"level": 41,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Elite Four Sidney": {
 			"ability": "",
 			"index": 0,
 			"item": "",
-			"ivs": {
-				"at": 30,
-				"df": 30,
-				"hp": 30,
-				"sa": 30,
-				"sd": 30,
-				"sp": 30
-			},
 			"level": 46,
 			"moves": [
 				"Roar",
@@ -16400,228 +17475,228 @@ var SETDEX_SV = {
 				"Sand Attack",
 				"Crunch"
 			],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 30,
+				"at": 30,
+				"df": 30,
+				"sa": 30,
+				"sd": 30,
+				"sp": 30
+			}
 		},
 		"Magma Admin Tabitha Magma Hideout": {
 			"ability": "",
 			"index": 1,
 			"item": "",
+			"level": 28,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 9,
 				"at": 9,
 				"df": 9,
-				"hp": 9,
 				"sa": 9,
 				"sd": 9,
 				"sp": 9
-			},
-			"level": 28,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Magma Admin Tabitha Mossdeep": {
 			"ability": "",
 			"index": 1,
 			"item": "",
+			"level": 38,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 12,
 				"at": 12,
 				"df": 12,
-				"hp": 12,
 				"sa": 12,
 				"sd": 12,
 				"sp": 12
-			},
-			"level": 38,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Magma Leader Maxie Magma Hideout": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 37,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 18,
 				"at": 18,
 				"df": 18,
-				"hp": 18,
 				"sa": 18,
 				"sd": 18,
 				"sp": 18
-			},
-			"level": 37,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Magma Leader Maxie Mossdeep": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 42,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 18,
 				"at": 18,
 				"df": 18,
-				"hp": 18,
 				"sa": 18,
 				"sd": 18,
 				"sp": 18
-			},
-			"level": 42,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Magma Leader Maxie Mt Chimney": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 24,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 18,
 				"at": 18,
 				"df": 18,
-				"hp": 18,
 				"sa": 18,
 				"sd": 18,
 				"sp": 18
-			},
-			"level": 24,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Pkmn Breeder Gabrielle 2": {
 			"ability": "",
 			"index": 1,
 			"item": "",
+			"level": 31,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 1,
 				"at": 1,
 				"df": 1,
-				"hp": 1,
 				"sa": 1,
 				"sd": 1,
 				"sp": 1
-			},
-			"level": 31,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Pkmn Breeder Gabrielle 3": {
 			"ability": "",
 			"index": 1,
 			"item": "",
+			"level": 33,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 2,
 				"at": 2,
 				"df": 2,
-				"hp": 2,
 				"sa": 2,
 				"sd": 2,
 				"sp": 2
-			},
-			"level": 33,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Pkmn Breeder Gabrielle 4": {
 			"ability": "",
 			"index": 1,
 			"item": "",
+			"level": 35,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 3,
 				"at": 3,
 				"df": 3,
-				"hp": 3,
 				"sa": 3,
 				"sd": 3,
 				"sp": 3
-			},
-			"level": 35,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Pkmn Breeder Gabrielle 5": {
 			"ability": "",
 			"index": 1,
 			"item": "",
+			"level": 37,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 4,
 				"at": 4,
 				"df": 4,
-				"hp": 4,
 				"sa": 4,
 				"sd": 4,
 				"sp": 4
-			},
-			"level": 37,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Pkmn Breeder Isaac 2": {
 			"ability": "",
 			"index": 3,
 			"item": "",
+			"level": 22,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 1,
 				"at": 1,
 				"df": 1,
-				"hp": 1,
 				"sa": 1,
 				"sd": 1,
 				"sp": 1
-			},
-			"level": 22,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Pkmn Breeder Isaac 3": {
 			"ability": "",
 			"index": 3,
 			"item": "",
+			"level": 25,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 2,
 				"at": 2,
 				"df": 2,
-				"hp": 2,
 				"sa": 2,
 				"sd": 2,
 				"sp": 2
-			},
-			"level": 25,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Pkmn Breeder Isaac 4": {
 			"ability": "",
 			"index": 3,
 			"item": "",
+			"level": 28,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 3,
 				"at": 3,
 				"df": 3,
-				"hp": 3,
 				"sa": 3,
 				"sd": 3,
 				"sp": 3
-			},
-			"level": 28,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Pkmn Breeder Isaac 5": {
 			"ability": "",
 			"index": 3,
 			"item": "",
+			"level": 31,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 4,
 				"at": 4,
 				"df": 4,
-				"hp": 4,
 				"sa": 4,
 				"sd": 4,
 				"sp": 4
-			},
-			"level": 31,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Team Aqua Grunt Rusturf Tunnel": {
 			"ability": "Intimidate",
 			"index": 1,
 			"item": "Kings Rock",
-			"ivs": {
-				"at": 31,
-				"df": 31,
-				"hp": 31,
-				"sa": 31,
-				"sd": 31,
-				"sp": 31
-			},
 			"level": 21,
 			"moves": [
 				"Crunch",
@@ -16635,161 +17710,177 @@ var SETDEX_SV = {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 35,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 6,
 				"at": 6,
 				"df": 6,
-				"hp": 6,
 				"sa": 6,
 				"sd": 6,
 				"sp": 6
-			},
-			"level": 35,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Team Magma Grunt Magma Hideout 10": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 29,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 29,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Team Magma Grunt Magma Hideout 14": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 29,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 29,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Team Magma Grunt Magma Hideout 6": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 29,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 29,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Team Magma Grunt Space Center 2": {
 			"ability": "",
-			"index": 1,
+			"index": 0,
 			"item": "",
+			"level": 26,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
+			}
+		},
+		"Team Magma Grunt Space Center 2 (2)": {
+			"ability": "",
+			"index": 1,
+			"item": "",
 			"level": 28,
 			"moves": [],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 0,
+				"at": 0,
+				"df": 0,
+				"sa": 0,
+				"sd": 0,
+				"sp": 0
+			}
 		},
 		"Team Magma Grunt Space Center 6": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 32,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 32,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Youngster Calvin 2": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 27,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 1,
 				"at": 1,
 				"df": 1,
-				"hp": 1,
 				"sa": 1,
 				"sd": 1,
 				"sp": 1
-			},
-			"level": 27,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Youngster Calvin 3": {
 			"ability": "",
 			"index": 1,
 			"item": "",
+			"level": 30,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 2,
 				"at": 2,
 				"df": 2,
-				"hp": 2,
 				"sa": 2,
 				"sd": 2,
 				"sp": 2
-			},
-			"level": 30,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Youngster Calvin 4": {
 			"ability": "",
 			"index": 2,
 			"item": "",
+			"level": 33,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 3,
 				"at": 3,
 				"df": 3,
-				"hp": 3,
 				"sa": 3,
 				"sd": 3,
 				"sp": 3
-			},
-			"level": 33,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Youngster Calvin 5": {
 			"ability": "",
 			"index": 2,
 			"item": "",
+			"level": 36,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 4,
 				"at": 4,
 				"df": 4,
-				"hp": 4,
 				"sa": 4,
 				"sd": 4,
 				"sp": 4
-			},
-			"level": 36,
-			"moves": [],
-			"nature": ""
+			}
 		}
 	},
 	"Milotic": {
@@ -16797,14 +17888,6 @@ var SETDEX_SV = {
 			"ability": "",
 			"index": 5,
 			"item": "Sitrus Berry",
-			"ivs": {
-				"at": 31,
-				"df": 31,
-				"hp": 31,
-				"sa": 31,
-				"sd": 31,
-				"sp": 31
-			},
 			"level": 58,
 			"moves": [
 				"Recover",
@@ -16812,26 +17895,37 @@ var SETDEX_SV = {
 				"Ice Beam",
 				"Toxic"
 			],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 31,
+				"at": 31,
+				"df": 31,
+				"sa": 31,
+				"sd": 31,
+				"sp": 31
+			}
+		}
+	},
+	"Miltank": {
+		"Sailor Dwayne": {
+			"ability": "Thick Fat",
+			"index": 1,
+			"item": "Leftovers",
+			"level": 23,
+			"moves": [
+				"Rollout",
+				"Milk Drink",
+				"Counter",
+				"Seismic Toss"
+			],
+			"nature": "Impish"
 		}
 	},
 	"Minior": {
 		"Leader Roxanne 1": {
 			"ability": "Shields Down",
-			"evs": {
-				"at": 150,
-				"sp": 150
-			},
 			"index": 5,
 			"item": "Charti Berry",
-			"ivs": {
-				"at": 31,
-				"df": 31,
-				"hp": 31,
-				"sa": 31,
-				"sd": 31,
-				"sp": 31
-			},
 			"level": 20,
 			"moves": [
 				"Acrobatics",
@@ -16847,142 +17941,134 @@ var SETDEX_SV = {
 			"ability": "",
 			"index": 1,
 			"item": "Oran Berry",
+			"level": 14,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 14,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Pokefan Isabel 2": {
 			"ability": "",
 			"index": 1,
 			"item": "Oran Berry",
+			"level": 26,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 1,
 				"at": 1,
 				"df": 1,
-				"hp": 1,
 				"sa": 1,
 				"sd": 1,
 				"sp": 1
-			},
-			"level": 26,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Pokefan Isabel 3": {
 			"ability": "",
 			"index": 1,
 			"item": "Oran Berry",
+			"level": 29,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 2,
 				"at": 2,
 				"df": 2,
-				"hp": 2,
 				"sa": 2,
 				"sd": 2,
 				"sp": 2
-			},
-			"level": 29,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Pokefan Isabel 4": {
 			"ability": "",
 			"index": 1,
 			"item": "Oran Berry",
+			"level": 32,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 3,
 				"at": 3,
 				"df": 3,
-				"hp": 3,
 				"sa": 3,
 				"sd": 3,
 				"sp": 3
-			},
-			"level": 32,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Pokefan Isabel 5": {
 			"ability": "",
 			"index": 1,
 			"item": "Sitrus Berry",
+			"level": 35,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 4,
 				"at": 4,
 				"df": 4,
-				"hp": 4,
 				"sa": 4,
 				"sd": 4,
 				"sp": 4
-			},
-			"level": 35,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Pokefan Kaleb": {
 			"ability": "",
 			"index": 0,
 			"item": "Oran Berry",
-			"ivs": {
-				"at": 0,
-				"df": 0,
-				"hp": 0,
-				"sa": 0,
-				"sd": 0,
-				"sp": 0
-			},
 			"level": 14,
 			"moves": [],
-			"nature": ""
-		},
-		"Twins Amy And Liv 1": {
-			"ability": "",
-			"index": 1,
-			"item": "",
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 15,
-			"moves": [],
-			"nature": ""
+			}
 		},
-		"Twins Amy And Liv 2": {
+		"Twins Amy & Liv Amy And Liv 1": {
 			"ability": "",
 			"index": 1,
 			"item": "",
+			"level": 15,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
+				"at": 0,
+				"df": 0,
+				"sa": 0,
+				"sd": 0,
+				"sp": 0
+			}
+		},
+		"Twins Amy & Liv Amy And Liv 2": {
+			"ability": "",
+			"index": 1,
+			"item": "",
+			"level": 27,
+			"moves": [],
+			"nature": "",
+			"ivs": {
+				"hp": 1,
 				"at": 1,
 				"df": 1,
-				"hp": 1,
 				"sa": 1,
 				"sd": 1,
 				"sp": 1
-			},
-			"level": 27,
-			"moves": [],
-			"nature": ""
+			}
 		},
-		"Twins Amy And Liv 3": {
+		"Twins Amy & Liv Amy And Liv 3": {
 			"ability": "Minus",
 			"index": 1,
 			"item": "Magnet",
-			"ivs": {
-				"at": 31,
-				"df": 31,
-				"hp": 31,
-				"sa": 31,
-				"sd": 31,
-				"sp": 31
-			},
 			"level": 16,
 			"moves": [
 				"Charge Beam",
@@ -16992,34 +18078,26 @@ var SETDEX_SV = {
 			],
 			"nature": "Hasty"
 		},
-		"Twins Amy And Liv 4": {
+		"Twins Amy & Liv Amy And Liv 4": {
 			"ability": "",
 			"index": 1,
 			"item": "",
+			"level": 30,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 2,
 				"at": 2,
 				"df": 2,
-				"hp": 2,
 				"sa": 2,
 				"sd": 2,
 				"sp": 2
-			},
-			"level": 30,
-			"moves": [],
-			"nature": ""
+			}
 		},
-		"Twins Amy And Liv 5": {
+		"Twins Amy & Liv Amy And Liv 5": {
 			"ability": "",
 			"index": 1,
 			"item": "",
-			"ivs": {
-				"at": 3,
-				"df": 3,
-				"hp": 3,
-				"sa": 3,
-				"sd": 3,
-				"sp": 3
-			},
 			"level": 33,
 			"moves": [
 				"Spark",
@@ -17027,20 +18105,20 @@ var SETDEX_SV = {
 				"Charm",
 				"Helping Hand"
 			],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 3,
+				"at": 3,
+				"df": 3,
+				"sa": 3,
+				"sd": 3,
+				"sp": 3
+			}
 		},
-		"Twins Amy And Liv 6": {
+		"Twins Amy & Liv Amy And Liv 6": {
 			"ability": "",
 			"index": 1,
 			"item": "",
-			"ivs": {
-				"at": 4,
-				"df": 4,
-				"hp": 4,
-				"sa": 4,
-				"sd": 4,
-				"sp": 4
-			},
 			"level": 36,
 			"moves": [
 				"Thunder",
@@ -17048,20 +18126,20 @@ var SETDEX_SV = {
 				"Charm",
 				"Helping Hand"
 			],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 4,
+				"at": 4,
+				"df": 4,
+				"sa": 4,
+				"sd": 4,
+				"sp": 4
+			}
 		},
-		"Twins Gina And Mia 1": {
+		"Twins Gina & Mia Gina And Mia 1": {
 			"ability": "Minus",
 			"index": 1,
 			"item": "Magnet",
-			"ivs": {
-				"at": 31,
-				"df": 31,
-				"hp": 31,
-				"sa": 31,
-				"sd": 31,
-				"sp": 31
-			},
 			"level": 16,
 			"moves": [
 				"Charge Beam",
@@ -17075,19 +18153,8 @@ var SETDEX_SV = {
 	"Monferno": {
 		"Leader Brawly 1": {
 			"ability": "Iron Fist",
-			"evs": {
-				"sp": 150
-			},
 			"index": 0,
 			"item": "Focus Sash",
-			"ivs": {
-				"at": 31,
-				"df": 31,
-				"hp": 31,
-				"sa": 31,
-				"sd": 31,
-				"sp": 31
-			},
 			"level": 25,
 			"moves": [
 				"Fake Out",
@@ -17095,7 +18162,10 @@ var SETDEX_SV = {
 				"Fire Punch",
 				"Mach Punch"
 			],
-			"nature": "Jolly"
+			"nature": "Jolly",
+			"evs": {
+				"sp": 150
+			}
 		}
 	},
 	"Muk": {
@@ -17103,17 +18173,32 @@ var SETDEX_SV = {
 			"ability": "",
 			"index": 1,
 			"item": "",
+			"level": 43,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 12,
 				"at": 12,
 				"df": 12,
-				"hp": 12,
 				"sa": 12,
 				"sd": 12,
 				"sp": 12
-			},
-			"level": 43,
-			"moves": [],
-			"nature": ""
+			}
+		}
+	},
+	"Munchlax": {
+		"Lass Fiona School": {
+			"ability": "Thick Fat",
+			"index": 1,
+			"item": "Leftovers",
+			"level": 16,
+			"moves": [
+				"Rock Throw",
+				"Body Slam",
+				"Zen Headbutt",
+				"Fire Punch"
+			],
+			"nature": "Adamant"
 		}
 	},
 	"Murkrow": {
@@ -17121,14 +18206,6 @@ var SETDEX_SV = {
 			"ability": "Prankster",
 			"index": 2,
 			"item": "Eviolite",
-			"ivs": {
-				"at": 0,
-				"df": 31,
-				"hp": 31,
-				"sa": 31,
-				"sd": 31,
-				"sp": 31
-			},
 			"level": 22,
 			"moves": [
 				"Thunder Wave",
@@ -17136,20 +18213,15 @@ var SETDEX_SV = {
 				"Air Cutter",
 				"Roost"
 			],
-			"nature": "Modest"
+			"nature": "Modest",
+			"ivs": {
+				"at": 0
+			}
 		},
 		"Rival May Rustboro Mudkip": {
 			"ability": "Prankster",
 			"index": 2,
 			"item": "Eviolite",
-			"ivs": {
-				"at": 0,
-				"df": 31,
-				"hp": 31,
-				"sa": 31,
-				"sd": 31,
-				"sp": 31
-			},
 			"level": 22,
 			"moves": [
 				"Thunder Wave",
@@ -17157,7 +18229,10 @@ var SETDEX_SV = {
 				"Air Cutter",
 				"Roost"
 			],
-			"nature": "Modest"
+			"nature": "Modest",
+			"ivs": {
+				"at": 0
+			}
 		}
 	},
 	"Natu": {
@@ -17165,133 +18240,120 @@ var SETDEX_SV = {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 33,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 18,
 				"at": 18,
 				"df": 18,
-				"hp": 18,
 				"sa": 18,
 				"sd": 18,
 				"sp": 18
-			},
-			"level": 33,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Bird Keeper Colin": {
 			"ability": "",
 			"index": 1,
 			"item": "",
+			"level": 28,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 28,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Bird Keeper Robert 2": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 32,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 1,
 				"at": 1,
 				"df": 1,
-				"hp": 1,
 				"sa": 1,
 				"sd": 1,
 				"sp": 1
-			},
-			"level": 32,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Bird Keeper Robert 3": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 35,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 2,
 				"at": 2,
 				"df": 2,
-				"hp": 2,
 				"sa": 2,
 				"sd": 2,
 				"sp": 2
-			},
-			"level": 35,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Bird Keeper Robert 4": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 38,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 3,
 				"at": 3,
 				"df": 3,
-				"hp": 3,
 				"sa": 3,
 				"sd": 3,
 				"sp": 3
-			},
-			"level": 38,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Psychic Kayla": {
 			"ability": "",
 			"index": 1,
 			"item": "",
+			"level": 26,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 26,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Psychic Macey": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 36,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 36,
-			"moves": [],
-			"nature": ""
+			}
 		}
 	},
 	"Nidorina": {
 		"School Kid Karen 1": {
 			"ability": "Hustle",
-			"evs": {
-				"at": 252,
-				"sd": 236,
-				"sp": 20
-			},
 			"index": 0,
 			"item": "Scope Lens",
-			"ivs": {
-				"at": 31,
-				"df": 31,
-				"hp": 31,
-				"sa": 31,
-				"sd": 31,
-				"sp": 31
-			},
 			"level": 17,
 			"moves": [
 				"Poison Tail",
@@ -17299,28 +18361,19 @@ var SETDEX_SV = {
 				"Hone Claws",
 				"Counter"
 			],
-			"nature": "Adamant"
+			"nature": "Adamant",
+			"evs": {
+				"at": 252,
+				"sd": 236,
+				"sp": 20
+			}
 		}
 	},
 	"Nidorino": {
 		"School Kid Karen 1": {
 			"ability": "Hustle",
-			"evs": {
-				"at": 244,
-				"df": 12,
-				"sd": 236,
-				"sp": 16
-			},
 			"index": 1,
 			"item": "Scope Lens",
-			"ivs": {
-				"at": 31,
-				"df": 31,
-				"hp": 31,
-				"sa": 31,
-				"sd": 31,
-				"sp": 31
-			},
 			"level": 17,
 			"moves": [
 				"Poison Tail",
@@ -17328,7 +18381,13 @@ var SETDEX_SV = {
 				"Ice Fang",
 				"Headbutt"
 			],
-			"nature": "Adamant"
+			"nature": "Adamant",
+			"evs": {
+				"at": 244,
+				"df": 12,
+				"sd": 236,
+				"sp": 16
+			}
 		}
 	},
 	"Nincada": {
@@ -17336,30 +18395,22 @@ var SETDEX_SV = {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 28,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 28,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Ninja Boy Riley": {
 			"ability": "",
 			"index": 0,
 			"item": "",
-			"ivs": {
-				"at": 0,
-				"df": 0,
-				"hp": 0,
-				"sa": 0,
-				"sd": 0,
-				"sp": 0
-			},
 			"level": 28,
 			"moves": [
 				"Leech Life",
@@ -17367,7 +18418,15 @@ var SETDEX_SV = {
 				"Mind Reader",
 				"Dig"
 			],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 0,
+				"at": 0,
+				"df": 0,
+				"sa": 0,
+				"sd": 0,
+				"sp": 0
+			}
 		}
 	},
 	"Ninetales": {
@@ -17375,17 +18434,17 @@ var SETDEX_SV = {
 			"ability": "",
 			"index": 1,
 			"item": "",
+			"level": 42,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 12,
 				"at": 12,
 				"df": 12,
-				"hp": 12,
 				"sa": 12,
 				"sd": 12,
 				"sp": 12
-			},
-			"level": 42,
-			"moves": [],
-			"nature": ""
+			}
 		}
 	},
 	"Ninjask": {
@@ -17393,126 +18452,134 @@ var SETDEX_SV = {
 			"ability": "",
 			"index": 1,
 			"item": "",
+			"level": 28,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 28,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Bug Catcher James 2": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 27,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 1,
 				"at": 1,
 				"df": 1,
-				"hp": 1,
 				"sa": 1,
 				"sd": 1,
 				"sp": 1
-			},
-			"level": 27,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Bug Catcher James 3": {
 			"ability": "",
 			"index": 1,
 			"item": "",
+			"level": 29,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 2,
 				"at": 2,
 				"df": 2,
-				"hp": 2,
 				"sa": 2,
 				"sd": 2,
 				"sp": 2
-			},
-			"level": 29,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Bug Catcher James 4": {
 			"ability": "",
 			"index": 2,
 			"item": "",
+			"level": 31,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 3,
 				"at": 3,
 				"df": 3,
-				"hp": 3,
 				"sa": 3,
 				"sd": 3,
 				"sp": 3
-			},
-			"level": 31,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Bug Catcher James 5": {
 			"ability": "",
-			"index": 3,
+			"index": 1,
 			"item": "",
+			"level": 33,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 4,
 				"at": 4,
 				"df": 4,
-				"hp": 4,
 				"sa": 4,
 				"sd": 4,
 				"sp": 4
-			},
+			}
+		},
+		"Bug Catcher James 5 (2)": {
+			"ability": "",
+			"index": 3,
+			"item": "",
 			"level": 33,
 			"moves": [],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 4,
+				"at": 4,
+				"df": 4,
+				"sa": 4,
+				"sd": 4,
+				"sp": 4
+			}
 		},
 		"Bug Catcher Kent": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 25,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 25,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Ninja Boy Jaiden": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 26,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 26,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Ninja Boy Keigo": {
 			"ability": "",
 			"index": 1,
 			"item": "",
-			"ivs": {
-				"at": 0,
-				"df": 0,
-				"hp": 0,
-				"sa": 0,
-				"sd": 0,
-				"sp": 0
-			},
 			"level": 28,
 			"moves": [
 				"Sand Attack",
@@ -17520,55 +18587,63 @@ var SETDEX_SV = {
 				"Fury Cutter",
 				"Swords Dance"
 			],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 0,
+				"at": 0,
+				"df": 0,
+				"sa": 0,
+				"sd": 0,
+				"sp": 0
+			}
 		},
 		"Ninja Boy Lung": {
 			"ability": "",
 			"index": 1,
 			"item": "",
+			"level": 18,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 18,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Ninja Boy Takashi": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 25,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 25,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Ninja Boy Yasu": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 26,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 26,
-			"moves": [],
-			"nature": ""
+			}
 		}
 	},
 	"Noctowl": {
@@ -17576,14 +18651,6 @@ var SETDEX_SV = {
 			"ability": "",
 			"index": 0,
 			"item": "",
-			"ivs": {
-				"at": 31,
-				"df": 31,
-				"hp": 31,
-				"sa": 31,
-				"sd": 31,
-				"sp": 31
-			},
 			"level": 48,
 			"moves": [
 				"Hypnosis",
@@ -17591,20 +18658,20 @@ var SETDEX_SV = {
 				"Reflect",
 				"Dream Eater"
 			],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 31,
+				"at": 31,
+				"df": 31,
+				"sa": 31,
+				"sd": 31,
+				"sp": 31
+			}
 		},
 		"Leader Winona 5": {
 			"ability": "",
 			"index": 0,
 			"item": "",
-			"ivs": {
-				"at": 31,
-				"df": 31,
-				"hp": 31,
-				"sa": 31,
-				"sd": 31,
-				"sp": 31
-			},
 			"level": 53,
 			"moves": [
 				"Hypnosis",
@@ -17612,7 +18679,15 @@ var SETDEX_SV = {
 				"Reflect",
 				"Dream Eater"
 			],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 31,
+				"at": 31,
+				"df": 31,
+				"sa": 31,
+				"sd": 31,
+				"sp": 31
+			}
 		}
 	},
 	"Nosepass": {
@@ -17620,46 +18695,38 @@ var SETDEX_SV = {
 			"ability": "",
 			"index": 1,
 			"item": "",
+			"level": 34,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 12,
 				"at": 12,
 				"df": 12,
-				"hp": 12,
 				"sa": 12,
 				"sd": 12,
 				"sp": 12
-			},
-			"level": 34,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Hiker Alan": {
 			"ability": "",
 			"index": 1,
 			"item": "",
+			"level": 22,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 22,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Leader Roxanne 2": {
 			"ability": "",
 			"index": 3,
 			"item": "Sitrus Berry",
-			"ivs": {
-				"at": 31,
-				"df": 31,
-				"hp": 31,
-				"sa": 31,
-				"sd": 31,
-				"sp": 31
-			},
 			"level": 37,
 			"moves": [
 				"Double Team",
@@ -17667,20 +18734,20 @@ var SETDEX_SV = {
 				"Protect",
 				"Rock Slide"
 			],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 31,
+				"at": 31,
+				"df": 31,
+				"sa": 31,
+				"sd": 31,
+				"sp": 31
+			}
 		},
 		"Leader Roxanne 3": {
 			"ability": "",
 			"index": 4,
 			"item": "Sitrus Berry",
-			"ivs": {
-				"at": 31,
-				"df": 31,
-				"hp": 31,
-				"sa": 31,
-				"sd": 31,
-				"sp": 31
-			},
 			"level": 42,
 			"moves": [
 				"Double Team",
@@ -17688,20 +18755,20 @@ var SETDEX_SV = {
 				"Protect",
 				"Rock Slide"
 			],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 31,
+				"at": 31,
+				"df": 31,
+				"sa": 31,
+				"sd": 31,
+				"sp": 31
+			}
 		},
 		"Leader Roxanne 4": {
 			"ability": "",
 			"index": 4,
 			"item": "Sitrus Berry",
-			"ivs": {
-				"at": 31,
-				"df": 31,
-				"hp": 31,
-				"sa": 31,
-				"sd": 31,
-				"sp": 31
-			},
 			"level": 47,
 			"moves": [
 				"Double Team",
@@ -17709,20 +18776,20 @@ var SETDEX_SV = {
 				"Protect",
 				"Rock Slide"
 			],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 31,
+				"at": 31,
+				"df": 31,
+				"sa": 31,
+				"sd": 31,
+				"sp": 31
+			}
 		},
 		"Leader Roxanne 5": {
 			"ability": "",
 			"index": 5,
 			"item": "Sitrus Berry",
-			"ivs": {
-				"at": 31,
-				"df": 31,
-				"hp": 31,
-				"sa": 31,
-				"sd": 31,
-				"sp": 31
-			},
 			"level": 52,
 			"moves": [
 				"Double Team",
@@ -17730,74 +18797,68 @@ var SETDEX_SV = {
 				"Protect",
 				"Rock Slide"
 			],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 31,
+				"at": 31,
+				"df": 31,
+				"sa": 31,
+				"sd": 31,
+				"sp": 31
+			}
 		},
 		"Ruin Maniac Andres 3": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 33,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 2,
 				"at": 2,
 				"df": 2,
-				"hp": 2,
 				"sa": 2,
 				"sd": 2,
 				"sp": 2
-			},
-			"level": 33,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Ruin Maniac Andres 4": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 35,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 3,
 				"at": 3,
 				"df": 3,
-				"hp": 3,
 				"sa": 3,
 				"sd": 3,
 				"sp": 3
-			},
-			"level": 35,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Ruin Maniac Andres 5": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 37,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 4,
 				"at": 4,
 				"df": 4,
-				"hp": 4,
 				"sa": 4,
 				"sd": 4,
 				"sp": 4
-			},
-			"level": 37,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Youngster Josh": {
 			"ability": "Sturdy",
-			"evs": {
-				"at": 100,
-				"hp": 12,
-				"sd": 100,
-				"sp": 12
-			},
 			"index": 1,
 			"item": "Eviolite",
-			"ivs": {
-				"at": 31,
-				"df": 31,
-				"hp": 31,
-				"sa": 31,
-				"sd": 31,
-				"sp": 31
-			},
 			"level": 16,
 			"moves": [
 				"Thunder Wave",
@@ -17805,7 +18866,13 @@ var SETDEX_SV = {
 				"Rock Blast",
 				"Thunder Punch"
 			],
-			"nature": "Adamant"
+			"nature": "Adamant",
+			"evs": {
+				"hp": 12,
+				"at": 100,
+				"sd": 100,
+				"sp": 12
+			}
 		}
 	},
 	"Numel": {
@@ -17813,270 +18880,262 @@ var SETDEX_SV = {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 21,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 21,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Cooltrainer Brooke 1": {
 			"ability": "",
 			"index": 1,
 			"item": "",
+			"level": 17,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 12,
 				"at": 12,
 				"df": 12,
-				"hp": 12,
 				"sa": 12,
 				"sd": 12,
 				"sp": 12
-			},
-			"level": 17,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Cooltrainer Brooke 2": {
 			"ability": "",
 			"index": 1,
 			"item": "",
+			"level": 26,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 13,
 				"at": 13,
 				"df": 13,
-				"hp": 13,
 				"sa": 13,
 				"sd": 13,
 				"sp": 13
-			},
-			"level": 26,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Cooltrainer Brooke 3": {
 			"ability": "",
 			"index": 1,
 			"item": "",
+			"level": 29,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 14,
 				"at": 14,
 				"df": 14,
-				"hp": 14,
 				"sa": 14,
 				"sd": 14,
 				"sp": 14
-			},
-			"level": 29,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Cooltrainer Brooke 4": {
 			"ability": "",
 			"index": 1,
 			"item": "",
+			"level": 32,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 15,
 				"at": 15,
 				"df": 15,
-				"hp": 15,
 				"sa": 15,
 				"sd": 15,
 				"sp": 15
-			},
-			"level": 32,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Hiker Brice": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 17,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 17,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Hiker Eli": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 23,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 12,
 				"at": 12,
 				"df": 12,
-				"hp": 12,
 				"sa": 12,
 				"sd": 12,
 				"sp": 12
-			},
-			"level": 23,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Hiker Lucas 1": {
 			"ability": "",
 			"index": 1,
 			"item": "",
+			"level": 18,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 18,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Hiker Sawyer 2": {
 			"ability": "",
 			"index": 1,
 			"item": "",
+			"level": 26,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 1,
 				"at": 1,
 				"df": 1,
-				"hp": 1,
 				"sa": 1,
 				"sd": 1,
 				"sp": 1
-			},
-			"level": 26,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Hiker Sawyer 3": {
 			"ability": "",
 			"index": 1,
 			"item": "",
+			"level": 28,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 2,
 				"at": 2,
 				"df": 2,
-				"hp": 2,
 				"sa": 2,
 				"sd": 2,
 				"sp": 2
-			},
-			"level": 28,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Hiker Sawyer 4": {
 			"ability": "",
 			"index": 1,
 			"item": "",
+			"level": 30,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 3,
 				"at": 3,
 				"df": 3,
-				"hp": 3,
 				"sa": 3,
 				"sd": 3,
 				"sp": 3
-			},
-			"level": 30,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Kindler Axle": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 23,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 12,
 				"at": 12,
 				"df": 12,
-				"hp": 12,
 				"sa": 12,
 				"sd": 12,
 				"sp": 12
-			},
-			"level": 23,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Kindler Bryant": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 18,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 18,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Kindler Cole": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 23,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 12,
 				"at": 12,
 				"df": 12,
-				"hp": 12,
 				"sa": 12,
 				"sd": 12,
 				"sp": 12
-			},
-			"level": 23,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Kindler Dayton": {
 			"ability": "",
 			"index": 1,
 			"item": "",
+			"level": 25,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 25,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Kindler Hayden": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 18,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 18,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Leader Flannery 1": {
 			"ability": "",
 			"index": 0,
 			"item": "",
-			"ivs": {
-				"at": 24,
-				"df": 24,
-				"hp": 24,
-				"sa": 24,
-				"sd": 24,
-				"sp": 24
-			},
 			"level": 24,
 			"moves": [
 				"Overheat",
@@ -18084,52 +19143,68 @@ var SETDEX_SV = {
 				"Magnitude",
 				"Sunny Day"
 			],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 24,
+				"at": 24,
+				"df": 24,
+				"sa": 24,
+				"sd": 24,
+				"sp": 24
+			}
 		},
 		"Magma Admin Tabitha Magma Hideout": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 26,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 9,
 				"at": 9,
 				"df": 9,
-				"hp": 9,
 				"sa": 9,
 				"sd": 9,
 				"sp": 9
-			},
-			"level": 26,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Magma Admin Tabitha Mt Chimney": {
 			"ability": "",
-			"index": 2,
+			"index": 0,
 			"item": "",
+			"level": 18,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 6,
 				"at": 6,
 				"df": 6,
-				"hp": 6,
 				"sa": 6,
 				"sd": 6,
 				"sp": 6
-			},
+			}
+		},
+		"Magma Admin Tabitha Mt Chimney (2)": {
+			"ability": "",
+			"index": 2,
+			"item": "",
 			"level": 22,
 			"moves": [],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 6,
+				"at": 6,
+				"df": 6,
+				"sa": 6,
+				"sd": 6,
+				"sp": 6
+			}
 		},
 		"Parasol Lady Madeline 1": {
 			"ability": "",
 			"index": 0,
 			"item": "",
-			"ivs": {
-				"at": 0,
-				"df": 0,
-				"hp": 0,
-				"sa": 0,
-				"sd": 0,
-				"sp": 0
-			},
 			"level": 19,
 			"moves": [
 				"Ember",
@@ -18137,20 +19212,20 @@ var SETDEX_SV = {
 				"Magnitude",
 				"Sunny Day"
 			],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 0,
+				"at": 0,
+				"df": 0,
+				"sa": 0,
+				"sd": 0,
+				"sp": 0
+			}
 		},
 		"Parasol Lady Madeline 2": {
 			"ability": "",
 			"index": 0,
 			"item": "",
-			"ivs": {
-				"at": 1,
-				"df": 1,
-				"hp": 1,
-				"sa": 1,
-				"sd": 1,
-				"sp": 1
-			},
 			"level": 29,
 			"moves": [
 				"Ember",
@@ -18158,20 +19233,20 @@ var SETDEX_SV = {
 				"Magnitude",
 				"Sunny Day"
 			],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 1,
+				"at": 1,
+				"df": 1,
+				"sa": 1,
+				"sd": 1,
+				"sp": 1
+			}
 		},
 		"Parasol Lady Madeline 3": {
 			"ability": "",
 			"index": 0,
 			"item": "",
-			"ivs": {
-				"at": 2,
-				"df": 2,
-				"hp": 2,
-				"sa": 2,
-				"sd": 2,
-				"sp": 2
-			},
 			"level": 32,
 			"moves": [
 				"Ember",
@@ -18179,20 +19254,20 @@ var SETDEX_SV = {
 				"Magnitude",
 				"Sunny Day"
 			],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 2,
+				"at": 2,
+				"df": 2,
+				"sa": 2,
+				"sd": 2,
+				"sp": 2
+			}
 		},
 		"Parasol Lady Madeline 4": {
 			"ability": "",
 			"index": 1,
 			"item": "",
-			"ivs": {
-				"at": 3,
-				"df": 3,
-				"hp": 3,
-				"sa": 3,
-				"sd": 3,
-				"sp": 3
-			},
 			"level": 34,
 			"moves": [
 				"Flamethrower",
@@ -18200,52 +19275,52 @@ var SETDEX_SV = {
 				"Magnitude",
 				"Sunny Day"
 			],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 3,
+				"at": 3,
+				"df": 3,
+				"sa": 3,
+				"sd": 3,
+				"sp": 3
+			}
 		},
 		"Pkmn Breeder Myles": {
 			"ability": "",
 			"index": 5,
 			"item": "",
+			"level": 25,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 1,
 				"at": 1,
 				"df": 1,
-				"hp": 1,
 				"sa": 1,
 				"sd": 1,
 				"sp": 1
-			},
-			"level": 25,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"School Kid Paul": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 15,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 1,
 				"at": 1,
 				"df": 1,
-				"hp": 1,
 				"sa": 1,
 				"sd": 1,
 				"sp": 1
-			},
-			"level": 15,
-			"moves": [],
-			"nature": ""
+			}
 		},
-		"Sr And Jr Kim And Iris": {
+		"Sr And Jr Kim & Iris Kim And Iris": {
 			"ability": "",
 			"index": 1,
 			"item": "",
-			"ivs": {
-				"at": 0,
-				"df": 0,
-				"hp": 0,
-				"sa": 0,
-				"sd": 0,
-				"sp": 0
-			},
 			"level": 35,
 			"moves": [
 				"Flamethrower",
@@ -18253,151 +19328,159 @@ var SETDEX_SV = {
 				"Rest",
 				"Earthquake"
 			],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 0,
+				"at": 0,
+				"df": 0,
+				"sa": 0,
+				"sd": 0,
+				"sp": 0
+			}
 		},
 		"Team Magma Grunt Jagged Pass": {
 			"ability": "",
 			"index": 1,
 			"item": "",
+			"level": 22,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 6,
 				"at": 6,
 				"df": 6,
-				"hp": 6,
 				"sa": 6,
 				"sd": 6,
 				"sp": 6
-			},
-			"level": 22,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Team Magma Grunt Magma Hideout 12": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 29,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 29,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Team Magma Grunt Magma Hideout 15": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 29,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 29,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Team Magma Grunt Magma Hideout 3": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 29,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 29,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Team Magma Grunt Magma Hideout 5": {
 			"ability": "",
 			"index": 1,
 			"item": "",
+			"level": 28,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 28,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Team Magma Grunt Mt Chimney 1": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 20,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 20,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Team Magma Grunt Space Center 1": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 32,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 32,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Team Magma Grunt Space Center 2": {
 			"ability": "",
 			"index": 2,
 			"item": "",
+			"level": 30,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 30,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Winstrate Vivi": {
 			"ability": "",
 			"index": 2,
 			"item": "",
+			"level": 15,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 12,
 				"at": 12,
 				"df": 12,
-				"hp": 12,
 				"sa": 12,
 				"sd": 12,
 				"sp": 12
-			},
-			"level": 15,
-			"moves": [],
-			"nature": ""
+			}
 		}
 	},
 	"Nuzleaf": {
@@ -18405,193 +19488,193 @@ var SETDEX_SV = {
 			"ability": "",
 			"index": 1,
 			"item": "",
+			"level": 22,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 22,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Camper Larry": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 18,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 18,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Camper Shane": {
 			"ability": "",
 			"index": 1,
 			"item": "",
+			"level": 18,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 18,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Collector Edwin 1": {
 			"ability": "",
 			"index": 1,
 			"item": "",
+			"level": 14,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 14,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Collector Edwin 2": {
 			"ability": "",
 			"index": 1,
 			"item": "",
+			"level": 26,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 26,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Collector Edwin 3": {
 			"ability": "",
 			"index": 1,
 			"item": "",
+			"level": 29,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 29,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Collector Edwin 4": {
 			"ability": "",
 			"index": 1,
 			"item": "",
+			"level": 32,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 32,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Picnicker Charlotte": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 19,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 19,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Pkmn Breeder Gabrielle 3": {
 			"ability": "",
 			"index": 4,
 			"item": "",
+			"level": 33,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 2,
 				"at": 2,
 				"df": 2,
-				"hp": 2,
 				"sa": 2,
 				"sd": 2,
 				"sp": 2
-			},
-			"level": 33,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Pkmn Breeder Gabrielle 4": {
 			"ability": "",
 			"index": 4,
 			"item": "",
+			"level": 35,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 3,
 				"at": 3,
 				"df": 3,
-				"hp": 3,
 				"sa": 3,
 				"sd": 3,
 				"sp": 3
-			},
-			"level": 35,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Pkmn Ranger Jenna": {
 			"ability": "",
 			"index": 2,
 			"item": "",
+			"level": 28,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 6,
 				"at": 6,
 				"df": 6,
-				"hp": 6,
 				"sa": 6,
 				"sd": 6,
 				"sp": 6
-			},
-			"level": 28,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Pkmn Ranger Lorenzo": {
 			"ability": "",
 			"index": 1,
 			"item": "",
+			"level": 28,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 6,
 				"at": 6,
 				"df": 6,
-				"hp": 6,
 				"sa": 6,
 				"sd": 6,
 				"sp": 6
-			},
-			"level": 28,
-			"moves": [],
-			"nature": ""
+			}
 		}
 	},
 	"Oddish": {
@@ -18599,49 +19682,49 @@ var SETDEX_SV = {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 16,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 16,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Picnicker Diana 1": {
 			"ability": "",
 			"index": 1,
 			"item": "",
+			"level": 19,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 19,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"School Kid Paul": {
 			"ability": "",
 			"index": 1,
 			"item": "",
+			"level": 15,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 1,
 				"at": 1,
 				"df": 1,
-				"hp": 1,
 				"sa": 1,
 				"sd": 1,
 				"sp": 1
-			},
-			"level": 15,
-			"moves": [],
-			"nature": ""
+			}
 		}
 	},
 	"Omanyte": {
@@ -18649,14 +19732,6 @@ var SETDEX_SV = {
 			"ability": "",
 			"index": 0,
 			"item": "",
-			"ivs": {
-				"at": 31,
-				"df": 31,
-				"hp": 31,
-				"sa": 31,
-				"sd": 31,
-				"sp": 31
-			},
 			"level": 37,
 			"moves": [
 				"Protect",
@@ -18664,7 +19739,15 @@ var SETDEX_SV = {
 				"Rock Slide",
 				"Surf"
 			],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 31,
+				"at": 31,
+				"df": 31,
+				"sa": 31,
+				"sd": 31,
+				"sp": 31
+			}
 		}
 	},
 	"Omastar": {
@@ -18672,14 +19755,6 @@ var SETDEX_SV = {
 			"ability": "",
 			"index": 0,
 			"item": "",
-			"ivs": {
-				"at": 31,
-				"df": 31,
-				"hp": 31,
-				"sa": 31,
-				"sd": 31,
-				"sp": 31
-			},
 			"level": 42,
 			"moves": [
 				"Protect",
@@ -18687,20 +19762,20 @@ var SETDEX_SV = {
 				"Rock Slide",
 				"Surf"
 			],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 31,
+				"at": 31,
+				"df": 31,
+				"sa": 31,
+				"sd": 31,
+				"sp": 31
+			}
 		},
 		"Leader Roxanne 5": {
 			"ability": "",
 			"index": 2,
 			"item": "",
-			"ivs": {
-				"at": 31,
-				"df": 31,
-				"hp": 31,
-				"sa": 31,
-				"sd": 31,
-				"sp": 31
-			},
 			"level": 47,
 			"moves": [
 				"Protect",
@@ -18708,7 +19783,15 @@ var SETDEX_SV = {
 				"Rock Slide",
 				"Surf"
 			],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 31,
+				"at": 31,
+				"df": 31,
+				"sa": 31,
+				"sd": 31,
+				"sp": 31
+			}
 		}
 	},
 	"Onix": {
@@ -18716,14 +19799,6 @@ var SETDEX_SV = {
 			"ability": "",
 			"index": 2,
 			"item": "",
-			"ivs": {
-				"at": 31,
-				"df": 31,
-				"hp": 31,
-				"sa": 31,
-				"sd": 31,
-				"sp": 31
-			},
 			"level": 35,
 			"moves": [
 				"Iron Tail",
@@ -18731,20 +19806,20 @@ var SETDEX_SV = {
 				"Roar",
 				"Rock Slide"
 			],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 31,
+				"at": 31,
+				"df": 31,
+				"sa": 31,
+				"sd": 31,
+				"sp": 31
+			}
 		},
 		"Leader Roxanne 3": {
 			"ability": "",
 			"index": 3,
 			"item": "",
-			"ivs": {
-				"at": 31,
-				"df": 31,
-				"hp": 31,
-				"sa": 31,
-				"sd": 31,
-				"sp": 31
-			},
 			"level": 40,
 			"moves": [
 				"Iron Tail",
@@ -18752,20 +19827,20 @@ var SETDEX_SV = {
 				"Roar",
 				"Rock Slide"
 			],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 31,
+				"at": 31,
+				"df": 31,
+				"sa": 31,
+				"sd": 31,
+				"sp": 31
+			}
 		},
 		"Leader Roxanne 4": {
 			"ability": "",
 			"index": 3,
 			"item": "",
-			"ivs": {
-				"at": 31,
-				"df": 31,
-				"hp": 31,
-				"sa": 31,
-				"sd": 31,
-				"sp": 31
-			},
 			"level": 45,
 			"moves": [
 				"Iron Tail",
@@ -18773,7 +19848,15 @@ var SETDEX_SV = {
 				"Roar",
 				"Rock Slide"
 			],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 31,
+				"at": 31,
+				"df": 31,
+				"sa": 31,
+				"sd": 31,
+				"sp": 31
+			}
 		}
 	},
 	"Pancham": {
@@ -18781,14 +19864,6 @@ var SETDEX_SV = {
 			"ability": "Mold Breaker",
 			"index": 1,
 			"item": "Expert Belt",
-			"ivs": {
-				"at": 31,
-				"df": 31,
-				"hp": 31,
-				"sa": 31,
-				"sd": 31,
-				"sp": 31
-			},
 			"level": 24,
 			"moves": [
 				"Arm Thrust",
@@ -18804,14 +19879,6 @@ var SETDEX_SV = {
 			"ability": "Dry Skin",
 			"index": 0,
 			"item": "Quick Claw",
-			"ivs": {
-				"at": 31,
-				"df": 31,
-				"hp": 31,
-				"sa": 31,
-				"sd": 31,
-				"sp": 31
-			},
 			"level": 17,
 			"moves": [
 				"Bug Bite",
@@ -18827,14 +19894,6 @@ var SETDEX_SV = {
 			"ability": "Defiant",
 			"index": 1,
 			"item": "Assault Vest",
-			"ivs": {
-				"at": 31,
-				"df": 31,
-				"hp": 31,
-				"sa": 31,
-				"sd": 31,
-				"sp": 31
-			},
 			"level": 24,
 			"moves": [
 				"Brick Break",
@@ -18850,44 +19909,16 @@ var SETDEX_SV = {
 			"ability": "Analytic",
 			"index": 1,
 			"item": "Zoom Lens",
-			"ivs": {
-				"at": 31,
-				"df": 31,
-				"hp": 31,
-				"sa": 31,
-				"sd": 31,
-				"sp": 0
-			},
 			"level": 10,
 			"moves": [
 				"Hypnosis",
 				"Covet",
 				"Detect"
 			],
-			"nature": "Brave"
-		}
-	},
-	"Pawmo": {
-		"Leader Brawly 1": {
-			"ability": "Iron Fist",
-			"index": 1,
-			"item": "Punching Glove",
+			"nature": "Brave",
 			"ivs": {
-				"at": 31,
-				"df": 31,
-				"hp": 31,
-				"sa": 31,
-				"sd": 31,
-				"sp": 31
-			},
-			"level": 25,
-			"moves": [
-				"Knock Off",
-				"Thunder Punch",
-				"Drain Punch",
-				"Ice Punch"
-			],
-			"nature": "Adamant"
+				"sp": 0
+			}
 		}
 	},
 	"Pelipper": {
@@ -18895,142 +19926,134 @@ var SETDEX_SV = {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 30,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 30,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Bird Keeper Benny": {
 			"ability": "",
 			"index": 1,
 			"item": "",
+			"level": 36,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 36,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Bird Keeper Edwardo": {
 			"ability": "",
 			"index": 1,
 			"item": "",
+			"level": 29,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 18,
 				"at": 18,
 				"df": 18,
-				"hp": 18,
 				"sa": 18,
 				"sd": 18,
 				"sp": 18
-			},
-			"level": 29,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Cooltrainer Brooke 3": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 29,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 14,
 				"at": 14,
 				"df": 14,
-				"hp": 14,
 				"sa": 14,
 				"sd": 14,
 				"sp": 14
-			},
-			"level": 29,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Cooltrainer Brooke 4": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 32,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 15,
 				"at": 15,
 				"df": 15,
-				"hp": 15,
 				"sa": 15,
 				"sd": 15,
 				"sp": 15
-			},
-			"level": 32,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Cooltrainer Brooke 5": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 34,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 17,
 				"at": 17,
 				"df": 17,
-				"hp": 17,
 				"sa": 17,
 				"sd": 17,
 				"sp": 17
-			},
-			"level": 34,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Cooltrainer Darcy": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 33,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 33,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Cooltrainer Edgar": {
 			"ability": "",
 			"index": 1,
 			"item": "",
+			"level": 43,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 12,
 				"at": 12,
 				"df": 12,
-				"hp": 12,
 				"sa": 12,
 				"sd": 12,
 				"sp": 12
-			},
-			"level": 43,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Cooltrainer Wendy": {
 			"ability": "",
 			"index": 2,
 			"item": "",
-			"ivs": {
-				"at": 12,
-				"df": 12,
-				"hp": 12,
-				"sa": 12,
-				"sd": 12,
-				"sp": 12
-			},
 			"level": 29,
 			"moves": [
 				"Fly",
@@ -19038,108 +20061,87 @@ var SETDEX_SV = {
 				"Mist",
 				"Protect"
 			],
-			"nature": ""
-		},
-		"Fisherman Elliot 1": {
-			"ability": "Drizzle",
-			"index": 0,
-			"item": "Damp Rock",
+			"nature": "",
 			"ivs": {
-				"at": 31,
-				"df": 31,
-				"hp": 31,
-				"sa": 31,
-				"sd": 31,
-				"sp": 31
-			},
-			"level": 23,
-			"moves": [
-				"Roost",
-				"U-turn",
-				"Air Cutter",
-				"Brine"
-			],
-			"nature": "Bold"
+				"hp": 12,
+				"at": 12,
+				"df": 12,
+				"sa": 12,
+				"sd": 12,
+				"sp": 12
+			}
 		},
 		"Hiker Mike 1": {
 			"ability": "",
 			"index": 0,
 			"item": "",
-			"ivs": {
-				"at": 0,
-				"df": 0,
-				"hp": 0,
-				"sa": 0,
-				"sd": 0,
-				"sp": 0
-			},
 			"level": 10,
 			"moves": [
 				"Gust",
 				"Growl"
 			],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 0,
+				"at": 0,
+				"df": 0,
+				"sa": 0,
+				"sd": 0,
+				"sp": 0
+			}
 		},
 		"Kindler Bernie 3": {
 			"ability": "",
 			"index": 1,
 			"item": "",
+			"level": 29,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 2,
 				"at": 2,
 				"df": 2,
-				"hp": 2,
 				"sa": 2,
 				"sd": 2,
 				"sp": 2
-			},
-			"level": 29,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Kindler Bernie 4": {
 			"ability": "",
 			"index": 1,
 			"item": "",
+			"level": 32,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 3,
 				"at": 3,
 				"df": 3,
-				"hp": 3,
 				"sa": 3,
 				"sd": 3,
 				"sp": 3
-			},
-			"level": 32,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Kindler Bernie 5": {
 			"ability": "",
 			"index": 1,
 			"item": "",
+			"level": 35,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 4,
 				"at": 4,
 				"df": 4,
-				"hp": 4,
 				"sa": 4,
 				"sd": 4,
 				"sp": 4
-			},
-			"level": 35,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Leader Winona 1": {
 			"ability": "",
 			"index": 2,
 			"item": "",
-			"ivs": {
-				"at": 25,
-				"df": 25,
-				"hp": 25,
-				"sa": 25,
-				"sd": 25,
-				"sp": 25
-			},
 			"level": 30,
 			"moves": [
 				"Water Gun",
@@ -19147,20 +20149,20 @@ var SETDEX_SV = {
 				"Protect",
 				"Aerial Ace"
 			],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 25,
+				"at": 25,
+				"df": 25,
+				"sa": 25,
+				"sd": 25,
+				"sp": 25
+			}
 		},
 		"Leader Winona 2": {
 			"ability": "",
 			"index": 2,
 			"item": "",
-			"ivs": {
-				"at": 31,
-				"df": 31,
-				"hp": 31,
-				"sa": 31,
-				"sd": 31,
-				"sp": 31
-			},
 			"level": 41,
 			"moves": [
 				"Surf",
@@ -19168,20 +20170,20 @@ var SETDEX_SV = {
 				"Protect",
 				"Aerial Ace"
 			],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 31,
+				"at": 31,
+				"df": 31,
+				"sa": 31,
+				"sd": 31,
+				"sp": 31
+			}
 		},
 		"Leader Winona 3": {
 			"ability": "",
 			"index": 3,
 			"item": "",
-			"ivs": {
-				"at": 31,
-				"df": 31,
-				"hp": 31,
-				"sa": 31,
-				"sd": 31,
-				"sp": 31
-			},
 			"level": 46,
 			"moves": [
 				"Surf",
@@ -19189,20 +20191,20 @@ var SETDEX_SV = {
 				"Protect",
 				"Aerial Ace"
 			],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 31,
+				"at": 31,
+				"df": 31,
+				"sa": 31,
+				"sd": 31,
+				"sp": 31
+			}
 		},
 		"Leader Winona 4": {
 			"ability": "",
 			"index": 3,
 			"item": "",
-			"ivs": {
-				"at": 31,
-				"df": 31,
-				"hp": 31,
-				"sa": 31,
-				"sd": 31,
-				"sp": 31
-			},
 			"level": 51,
 			"moves": [
 				"Surf",
@@ -19210,20 +20212,20 @@ var SETDEX_SV = {
 				"Protect",
 				"Aerial Ace"
 			],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 31,
+				"at": 31,
+				"df": 31,
+				"sa": 31,
+				"sd": 31,
+				"sp": 31
+			}
 		},
 		"Leader Winona 5": {
 			"ability": "",
 			"index": 2,
 			"item": "",
-			"ivs": {
-				"at": 31,
-				"df": 31,
-				"hp": 31,
-				"sa": 31,
-				"sd": 31,
-				"sp": 31
-			},
 			"level": 55,
 			"moves": [
 				"Surf",
@@ -19231,343 +20233,385 @@ var SETDEX_SV = {
 				"Protect",
 				"Aerial Ace"
 			],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 31,
+				"at": 31,
+				"df": 31,
+				"sa": 31,
+				"sd": 31,
+				"sp": 31
+			}
 		},
 		"Pkmn Breeder Lydia 3": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 25,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 2,
 				"at": 2,
 				"df": 2,
-				"hp": 2,
 				"sa": 2,
 				"sd": 2,
 				"sp": 2
-			},
-			"level": 25,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Pkmn Breeder Lydia 4": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 28,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 3,
 				"at": 3,
 				"df": 3,
-				"hp": 3,
 				"sa": 3,
 				"sd": 3,
 				"sp": 3
-			},
-			"level": 28,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Pkmn Breeder Lydia 5": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 31,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 4,
 				"at": 4,
 				"df": 4,
-				"hp": 4,
 				"sa": 4,
 				"sd": 4,
 				"sp": 4
-			},
-			"level": 31,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Rival Brendan Lilycove Mudkip": {
 			"ability": "",
 			"index": 2,
 			"item": "",
+			"level": 32,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 18,
 				"at": 18,
 				"df": 18,
-				"hp": 18,
 				"sa": 18,
 				"sd": 18,
 				"sp": 18
-			},
-			"level": 32,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Rival Brendan Lilycove Treecko": {
 			"ability": "",
 			"index": 1,
 			"item": "",
+			"level": 32,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 18,
 				"at": 18,
 				"df": 18,
-				"hp": 18,
 				"sa": 18,
 				"sd": 18,
 				"sp": 18
-			},
-			"level": 32,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Rival Brendan Route 119 Mudkip": {
 			"ability": "",
 			"index": 1,
 			"item": "",
+			"level": 29,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 12,
 				"at": 12,
 				"df": 12,
-				"hp": 12,
 				"sa": 12,
 				"sd": 12,
 				"sp": 12
-			},
-			"level": 29,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Rival Brendan Route 119 Treecko": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 29,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 12,
 				"at": 12,
 				"df": 12,
-				"hp": 12,
 				"sa": 12,
 				"sd": 12,
 				"sp": 12
-			},
-			"level": 29,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Rival May Lilycove Mudkip": {
 			"ability": "",
 			"index": 2,
 			"item": "",
+			"level": 32,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 18,
 				"at": 18,
 				"df": 18,
-				"hp": 18,
 				"sa": 18,
 				"sd": 18,
 				"sp": 18
-			},
-			"level": 32,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Rival May Lilycove Treecko": {
 			"ability": "",
 			"index": 1,
 			"item": "",
+			"level": 32,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 18,
 				"at": 18,
 				"df": 18,
-				"hp": 18,
 				"sa": 18,
 				"sd": 18,
 				"sp": 18
-			},
-			"level": 32,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Rival May Route 119 Treecko": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 29,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 12,
 				"at": 12,
 				"df": 12,
-				"hp": 12,
 				"sa": 12,
 				"sd": 12,
 				"sp": 12
-			},
-			"level": 29,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Sailor Cory 3": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 32,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 2,
 				"at": 2,
 				"df": 2,
-				"hp": 2,
 				"sa": 2,
 				"sd": 2,
 				"sp": 2
-			},
-			"level": 32,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Sailor Cory 4": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 34,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 3,
 				"at": 3,
 				"df": 3,
-				"hp": 3,
 				"sa": 3,
 				"sd": 3,
 				"sp": 3
-			},
-			"level": 34,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Sailor Cory 5": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 36,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 4,
 				"at": 4,
 				"df": 4,
-				"hp": 4,
 				"sa": 4,
 				"sd": 4,
 				"sp": 4
-			},
-			"level": 36,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Sailor Ernest 3": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 39,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 2,
 				"at": 2,
 				"df": 2,
-				"hp": 2,
 				"sa": 2,
 				"sd": 2,
 				"sp": 2
-			},
-			"level": 39,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Sailor Ernest 4": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 42,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 3,
 				"at": 3,
 				"df": 3,
-				"hp": 3,
 				"sa": 3,
 				"sd": 3,
 				"sp": 3
-			},
-			"level": 42,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Sailor Ernest 5": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 45,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 4,
 				"at": 4,
 				"df": 4,
-				"hp": 4,
 				"sa": 4,
 				"sd": 4,
 				"sp": 4
-			},
-			"level": 45,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Sailor Leonard": {
 			"ability": "",
 			"index": 1,
 			"item": "",
+			"level": 43,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 43,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Swimmer F Kaylee": {
 			"ability": "",
 			"index": 1,
 			"item": "",
+			"level": 34,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 34,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Swimmer M Richard": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 34,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 34,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Triathlete Pablo 4": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 41,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 3,
 				"at": 3,
 				"df": 3,
-				"hp": 3,
 				"sa": 3,
 				"sd": 3,
 				"sp": 3
-			},
-			"level": 41,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Triathlete Pablo 5": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 43,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 4,
 				"at": 4,
 				"df": 4,
-				"hp": 4,
 				"sa": 4,
 				"sd": 4,
 				"sp": 4
-			},
-			"level": 43,
-			"moves": [],
-			"nature": ""
+			}
+		},
+		"Tuber M Ricky 1": {
+			"ability": "Drizzle",
+			"index": 0,
+			"item": "Damp Rock",
+			"level": 23,
+			"moves": [
+				"Air Cutter",
+				"Roost",
+				"Protect",
+				"Surf"
+			],
+			"nature": "",
+			"ivs": {
+				"at": 0
+			}
+		}
+	},
+	"Perrserker": {
+		"Aqua Leader Archie Oceanic": {
+			"ability": "Steely Spirit",
+			"index": 0,
+			"item": "Iron Ball",
+			"level": 30,
+			"moves": [
+				"Gyro Ball",
+				"Play Rough",
+				"Swords Dance",
+				"Knock Off"
+			],
+			"nature": "Brave",
+			"ivs": {
+				"sp": 0
+			}
 		}
 	},
 	"Phanpy": {
@@ -19575,14 +20619,6 @@ var SETDEX_SV = {
 			"ability": "Sturdy",
 			"index": 0,
 			"item": "",
-			"ivs": {
-				"at": 31,
-				"df": 31,
-				"hp": 31,
-				"sa": 31,
-				"sd": 31,
-				"sp": 31
-			},
 			"level": 11,
 			"moves": [
 				"Bulldoze",
@@ -19598,20 +20634,20 @@ var SETDEX_SV = {
 			"ability": "Super Luck",
 			"index": 1,
 			"item": "",
-			"ivs": {
-				"at": 0,
-				"df": 0,
-				"hp": 0,
-				"sa": 0,
-				"sd": 0,
-				"sp": 0
-			},
 			"level": 7,
 			"moves": [
 				"Gust",
 				"Quick Attack"
 			],
-			"nature": "Lax"
+			"nature": "Lax",
+			"ivs": {
+				"hp": 0,
+				"at": 0,
+				"df": 0,
+				"sa": 0,
+				"sd": 0,
+				"sp": 0
+			}
 		}
 	},
 	"Pikachu": {
@@ -19619,14 +20655,6 @@ var SETDEX_SV = {
 			"ability": "",
 			"index": 0,
 			"item": "",
-			"ivs": {
-				"at": 31,
-				"df": 31,
-				"hp": 31,
-				"sa": 31,
-				"sd": 31,
-				"sp": 31
-			},
 			"level": 39,
 			"moves": [
 				"Thunder",
@@ -19634,23 +20662,31 @@ var SETDEX_SV = {
 				"Rain Dance",
 				"Shock Wave"
 			],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 31,
+				"at": 31,
+				"df": 31,
+				"sa": 31,
+				"sd": 31,
+				"sp": 31
+			}
 		},
 		"Pokefan Vanessa": {
 			"ability": "",
 			"index": 0,
 			"item": "Oran Berry",
+			"level": 30,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 30,
-			"moves": [],
-			"nature": ""
+			}
 		}
 	},
 	"Pikipek": {
@@ -19658,14 +20694,6 @@ var SETDEX_SV = {
 			"ability": "Skill Link",
 			"index": 0,
 			"item": "Metronome",
-			"ivs": {
-				"at": 31,
-				"df": 31,
-				"hp": 31,
-				"sa": 31,
-				"sd": 31,
-				"sp": 31
-			},
 			"level": 9,
 			"moves": [
 				"Fury Attack"
@@ -19678,17 +20706,17 @@ var SETDEX_SV = {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 27,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 27,
-			"moves": [],
-			"nature": ""
+			}
 		}
 	},
 	"Plusle": {
@@ -19696,142 +20724,134 @@ var SETDEX_SV = {
 			"ability": "",
 			"index": 0,
 			"item": "Oran Berry",
+			"level": 14,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 14,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Pokefan Isabel 2": {
 			"ability": "",
 			"index": 0,
 			"item": "Oran Berry",
+			"level": 26,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 1,
 				"at": 1,
 				"df": 1,
-				"hp": 1,
 				"sa": 1,
 				"sd": 1,
 				"sp": 1
-			},
-			"level": 26,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Pokefan Isabel 3": {
 			"ability": "",
 			"index": 0,
 			"item": "Oran Berry",
+			"level": 29,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 2,
 				"at": 2,
 				"df": 2,
-				"hp": 2,
 				"sa": 2,
 				"sd": 2,
 				"sp": 2
-			},
-			"level": 29,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Pokefan Isabel 4": {
 			"ability": "",
 			"index": 0,
 			"item": "Oran Berry",
+			"level": 32,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 3,
 				"at": 3,
 				"df": 3,
-				"hp": 3,
 				"sa": 3,
 				"sd": 3,
 				"sp": 3
-			},
-			"level": 32,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Pokefan Isabel 5": {
 			"ability": "",
 			"index": 0,
 			"item": "Sitrus Berry",
+			"level": 35,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 4,
 				"at": 4,
 				"df": 4,
-				"hp": 4,
 				"sa": 4,
 				"sd": 4,
 				"sp": 4
-			},
-			"level": 35,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Pokefan Kaleb": {
 			"ability": "",
 			"index": 1,
 			"item": "Oran Berry",
-			"ivs": {
-				"at": 0,
-				"df": 0,
-				"hp": 0,
-				"sa": 0,
-				"sd": 0,
-				"sp": 0
-			},
 			"level": 14,
 			"moves": [],
-			"nature": ""
-		},
-		"Twins Amy And Liv 1": {
-			"ability": "",
-			"index": 0,
-			"item": "",
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 15,
-			"moves": [],
-			"nature": ""
+			}
 		},
-		"Twins Amy And Liv 2": {
+		"Twins Amy & Liv Amy And Liv 1": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 15,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
+				"at": 0,
+				"df": 0,
+				"sa": 0,
+				"sd": 0,
+				"sp": 0
+			}
+		},
+		"Twins Amy & Liv Amy And Liv 2": {
+			"ability": "",
+			"index": 0,
+			"item": "",
+			"level": 27,
+			"moves": [],
+			"nature": "",
+			"ivs": {
+				"hp": 1,
 				"at": 1,
 				"df": 1,
-				"hp": 1,
 				"sa": 1,
 				"sd": 1,
 				"sp": 1
-			},
-			"level": 27,
-			"moves": [],
-			"nature": ""
+			}
 		},
-		"Twins Amy And Liv 3": {
+		"Twins Amy & Liv Amy And Liv 3": {
 			"ability": "Plus",
 			"index": 0,
 			"item": "Magnet",
-			"ivs": {
-				"at": 31,
-				"df": 31,
-				"hp": 31,
-				"sa": 31,
-				"sd": 31,
-				"sp": 31
-			},
 			"level": 16,
 			"moves": [
 				"Charge Beam",
@@ -19841,34 +20861,26 @@ var SETDEX_SV = {
 			],
 			"nature": "Hasty"
 		},
-		"Twins Amy And Liv 4": {
+		"Twins Amy & Liv Amy And Liv 4": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 30,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 2,
 				"at": 2,
 				"df": 2,
-				"hp": 2,
 				"sa": 2,
 				"sd": 2,
 				"sp": 2
-			},
-			"level": 30,
-			"moves": [],
-			"nature": ""
+			}
 		},
-		"Twins Amy And Liv 5": {
+		"Twins Amy & Liv Amy And Liv 5": {
 			"ability": "",
 			"index": 0,
 			"item": "",
-			"ivs": {
-				"at": 3,
-				"df": 3,
-				"hp": 3,
-				"sa": 3,
-				"sd": 3,
-				"sp": 3
-			},
 			"level": 33,
 			"moves": [
 				"Spark",
@@ -19876,20 +20888,20 @@ var SETDEX_SV = {
 				"Fake Tears",
 				"Helping Hand"
 			],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 3,
+				"at": 3,
+				"df": 3,
+				"sa": 3,
+				"sd": 3,
+				"sp": 3
+			}
 		},
-		"Twins Amy And Liv 6": {
+		"Twins Amy & Liv Amy And Liv 6": {
 			"ability": "",
 			"index": 0,
 			"item": "",
-			"ivs": {
-				"at": 4,
-				"df": 4,
-				"hp": 4,
-				"sa": 4,
-				"sd": 4,
-				"sp": 4
-			},
 			"level": 36,
 			"moves": [
 				"Thunder",
@@ -19897,20 +20909,20 @@ var SETDEX_SV = {
 				"Fake Tears",
 				"Helping Hand"
 			],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 4,
+				"at": 4,
+				"df": 4,
+				"sa": 4,
+				"sd": 4,
+				"sp": 4
+			}
 		},
-		"Twins Gina And Mia 1": {
+		"Twins Gina & Mia Gina And Mia 1": {
 			"ability": "Plus",
 			"index": 0,
 			"item": "Magnet",
-			"ivs": {
-				"at": 31,
-				"df": 31,
-				"hp": 31,
-				"sa": 31,
-				"sd": 31,
-				"sp": 31
-			},
 			"level": 16,
 			"moves": [
 				"Charge Beam",
@@ -19922,18 +20934,26 @@ var SETDEX_SV = {
 		}
 	},
 	"Politoed": {
+		"Fisherman Elliot 1": {
+			"ability": "Drizzle",
+			"index": 0,
+			"item": "Damp Rock",
+			"level": 23,
+			"moves": [
+				"Water Pulse",
+				"Ice Beam",
+				"Hypnosis",
+				"Encore"
+			],
+			"nature": "Bold",
+			"ivs": {
+				"at": 0
+			}
+		},
 		"Leader Juan 5": {
 			"ability": "",
 			"index": 2,
 			"item": "",
-			"ivs": {
-				"at": 31,
-				"df": 31,
-				"hp": 31,
-				"sa": 31,
-				"sd": 31,
-				"sp": 31
-			},
 			"level": 61,
 			"moves": [
 				"Hypnosis",
@@ -19941,7 +20961,15 @@ var SETDEX_SV = {
 				"Hydro Pump",
 				"Perish Song"
 			],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 31,
+				"at": 31,
+				"df": 31,
+				"sa": 31,
+				"sd": 31,
+				"sp": 31
+			}
 		}
 	},
 	"Poliwag": {
@@ -19949,14 +20977,6 @@ var SETDEX_SV = {
 			"ability": "",
 			"index": 0,
 			"item": "",
-			"ivs": {
-				"at": 31,
-				"df": 31,
-				"hp": 31,
-				"sa": 31,
-				"sd": 31,
-				"sp": 31
-			},
 			"level": 46,
 			"moves": [
 				"Hypnosis",
@@ -19964,7 +20984,15 @@ var SETDEX_SV = {
 				"Protect",
 				"Hydro Pump"
 			],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 31,
+				"at": 31,
+				"df": 31,
+				"sa": 31,
+				"sd": 31,
+				"sp": 31
+			}
 		}
 	},
 	"Poliwhirl": {
@@ -19972,14 +21000,6 @@ var SETDEX_SV = {
 			"ability": "",
 			"index": 0,
 			"item": "",
-			"ivs": {
-				"at": 31,
-				"df": 31,
-				"hp": 31,
-				"sa": 31,
-				"sd": 31,
-				"sp": 31
-			},
 			"level": 50,
 			"moves": [
 				"Hypnosis",
@@ -19987,20 +21007,20 @@ var SETDEX_SV = {
 				"Protect",
 				"Hydro Pump"
 			],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 31,
+				"at": 31,
+				"df": 31,
+				"sa": 31,
+				"sd": 31,
+				"sp": 31
+			}
 		},
 		"Leader Juan 4": {
 			"ability": "",
 			"index": 2,
 			"item": "",
-			"ivs": {
-				"at": 31,
-				"df": 31,
-				"hp": 31,
-				"sa": 31,
-				"sd": 31,
-				"sp": 31
-			},
 			"level": 56,
 			"moves": [
 				"Hypnosis",
@@ -20008,7 +21028,15 @@ var SETDEX_SV = {
 				"Protect",
 				"Hydro Pump"
 			],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 31,
+				"at": 31,
+				"df": 31,
+				"sa": 31,
+				"sd": 31,
+				"sp": 31
+			}
 		}
 	},
 	"Ponyta": {
@@ -20016,14 +21044,6 @@ var SETDEX_SV = {
 			"ability": "Flame Body",
 			"index": 0,
 			"item": "Liechi Berry",
-			"ivs": {
-				"at": 31,
-				"df": 31,
-				"hp": 31,
-				"sa": 31,
-				"sd": 31,
-				"sp": 31
-			},
 			"level": 17,
 			"moves": [
 				"Stomp",
@@ -20037,14 +21057,6 @@ var SETDEX_SV = {
 			"ability": "",
 			"index": 1,
 			"item": "",
-			"ivs": {
-				"at": 31,
-				"df": 31,
-				"hp": 31,
-				"sa": 31,
-				"sd": 31,
-				"sp": 31
-			},
 			"level": 36,
 			"moves": [
 				"Flamethrower",
@@ -20052,20 +21064,20 @@ var SETDEX_SV = {
 				"Solar Beam",
 				"Bounce"
 			],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 31,
+				"at": 31,
+				"df": 31,
+				"sa": 31,
+				"sd": 31,
+				"sp": 31
+			}
 		},
 		"Leader Flannery 3": {
 			"ability": "",
 			"index": 2,
 			"item": "",
-			"ivs": {
-				"at": 31,
-				"df": 31,
-				"hp": 31,
-				"sa": 31,
-				"sd": 31,
-				"sp": 31
-			},
 			"level": 41,
 			"moves": [
 				"Flamethrower",
@@ -20073,7 +21085,15 @@ var SETDEX_SV = {
 				"Solar Beam",
 				"Bounce"
 			],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 31,
+				"at": 31,
+				"df": 31,
+				"sa": 31,
+				"sd": 31,
+				"sp": 31
+			}
 		}
 	},
 	"Poochyena": {
@@ -20081,292 +21101,292 @@ var SETDEX_SV = {
 			"ability": "",
 			"index": 1,
 			"item": "",
-			"ivs": {
-				"at": 0,
-				"df": 0,
-				"hp": 0,
-				"sa": 0,
-				"sd": 0,
-				"sp": 0
-			},
 			"level": 10,
 			"moves": [
 				"Bite",
 				"Scary Face"
 			],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 0,
+				"at": 0,
+				"df": 0,
+				"sa": 0,
+				"sd": 0,
+				"sp": 0
+			}
 		},
 		"Magma Admin Tabitha Mt Chimney": {
 			"ability": "",
 			"index": 1,
 			"item": "",
+			"level": 20,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 6,
 				"at": 6,
 				"df": 6,
-				"hp": 6,
 				"sa": 6,
 				"sd": 6,
 				"sp": 6
-			},
-			"level": 20,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Pkmn Breeder Gabrielle 1": {
 			"ability": "",
 			"index": 1,
 			"item": "",
+			"level": 26,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 26,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Pkmn Breeder Isaac 1": {
 			"ability": "",
 			"index": 3,
 			"item": "",
+			"level": 11,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 11,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Pkmn Breeder Pat": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 25,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 1,
 				"at": 1,
 				"df": 1,
-				"hp": 1,
 				"sa": 1,
 				"sd": 1,
 				"sp": 1
-			},
-			"level": 25,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Rich Boy Dawson": {
 			"ability": "",
 			"index": 1,
 			"item": "",
+			"level": 8,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 8,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Team Aqua Grunt Aqua Hideout 1": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 32,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 32,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Team Aqua Grunt Aqua Hideout 7": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 31,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 31,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Team Aqua Grunt Mt Pyre 3": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 30,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 30,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Team Aqua Grunt Seafloor Cavern 1": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 36,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 36,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Team Aqua Grunt Weather Inst 1": {
 			"ability": "",
 			"index": 1,
 			"item": "",
+			"level": 27,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 27,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Team Aqua Grunt Weather Inst 2": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 27,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 27,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Team Aqua Grunt Weather Inst 3": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 26,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 26,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Team Aqua Grunt Weather Inst 5": {
 			"ability": "",
 			"index": 1,
 			"item": "",
+			"level": 27,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 27,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Team Magma Grunt Jagged Pass": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 22,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 6,
 				"at": 6,
 				"df": 6,
-				"hp": 6,
 				"sa": 6,
 				"sd": 6,
 				"sp": 6
-			},
-			"level": 22,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Team Magma Grunt Magma Hideout 2": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 29,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 29,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Team Magma Grunt Magma Hideout 8": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 29,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 29,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Team Magma Grunt Space Center 3": {
 			"ability": "",
 			"index": 1,
 			"item": "",
+			"level": 31,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 31,
-			"moves": [],
-			"nature": ""
+			}
 		}
 	},
 	"Primeape": {
@@ -20374,14 +21394,6 @@ var SETDEX_SV = {
 			"ability": "Vital Spirit",
 			"index": 0,
 			"item": "Muscle Band",
-			"ivs": {
-				"at": 31,
-				"df": 31,
-				"hp": 31,
-				"sa": 31,
-				"sd": 31,
-				"sp": 31
-			},
 			"level": 24,
 			"moves": [
 				"Brick Break",
@@ -20397,14 +21409,6 @@ var SETDEX_SV = {
 			"ability": "Torrent",
 			"index": 1,
 			"item": "Mystic Water",
-			"ivs": {
-				"at": 31,
-				"df": 31,
-				"hp": 31,
-				"sa": 31,
-				"sd": 31,
-				"sp": 31
-			},
 			"level": 16,
 			"moves": [
 				"Brine",
@@ -20420,14 +21424,6 @@ var SETDEX_SV = {
 			"ability": "Rock Head",
 			"index": 5,
 			"item": "",
-			"ivs": {
-				"at": 31,
-				"df": 31,
-				"hp": 31,
-				"sa": 31,
-				"sd": 31,
-				"sp": 31
-			},
 			"level": 10,
 			"moves": [
 				"Take Down"
@@ -20435,59 +21431,94 @@ var SETDEX_SV = {
 			"nature": "Modest"
 		}
 	},
+	"Quagsire": {
+		"Tuber F Hailey": {
+			"ability": "Water Absorb",
+			"index": 0,
+			"item": "Leftovers",
+			"level": 23,
+			"moves": [
+				"Earthquake",
+				"Waterfall",
+				"Yawn",
+				"Recover"
+			],
+			"nature": ""
+		}
+	},
+	"Quaquaval": {
+		"Rival Brendan Route 110 Torchic": {
+			"ability": "Dazzling",
+			"index": 4,
+			"item": "Expert Belt",
+			"level": 36,
+			"moves": [
+				"Aqua Step",
+				"Brick Break",
+				"Knock Off",
+				"Ice Spinner"
+			],
+			"nature": "Jolly"
+		},
+		"Rival May Route 110 Torchic": {
+			"ability": "Dazzling",
+			"index": 4,
+			"item": "Expert Belt",
+			"level": 36,
+			"moves": [
+				"Aqua Step",
+				"Brick Break",
+				"Knock Off",
+				"Ice Spinner"
+			],
+			"nature": "Jolly"
+		}
+	},
 	"Quaxly": {
 		"Rival Brendan Route 103 Torchic": {
 			"ability": "Dazzling",
 			"index": 0,
 			"item": "",
-			"ivs": {
-				"at": 0,
-				"df": 0,
-				"hp": 0,
-				"sa": 0,
-				"sd": 0,
-				"sp": 0
-			},
 			"level": 6,
 			"moves": [
 				"Growl",
 				"Pound"
 			],
-			"nature": "Adamant"
+			"nature": "Adamant",
+			"ivs": {
+				"hp": 0,
+				"at": 0,
+				"df": 0,
+				"sa": 0,
+				"sd": 0,
+				"sp": 0
+			}
 		},
 		"Rival May Route 103 Torchic": {
 			"ability": "Dazzling",
 			"index": 0,
 			"item": "",
-			"ivs": {
-				"at": 0,
-				"df": 0,
-				"hp": 0,
-				"sa": 0,
-				"sd": 0,
-				"sp": 0
-			},
 			"level": 6,
 			"moves": [
 				"Growl",
 				"Pound"
 			],
-			"nature": "Adamant"
+			"nature": "Adamant",
+			"ivs": {
+				"hp": 0,
+				"at": 0,
+				"df": 0,
+				"sa": 0,
+				"sd": 0,
+				"sp": 0
+			}
 		}
 	},
 	"Quaxwell": {
 		"Rival Brendan Rustboro Torchic": {
-			"ability": "Torrent",
+			"ability": "Dazzling",
 			"index": 3,
 			"item": "Mystic Water",
-			"ivs": {
-				"at": 31,
-				"df": 31,
-				"hp": 31,
-				"sa": 31,
-				"sd": 31,
-				"sp": 31
-			},
 			"level": 23,
 			"moves": [
 				"Aqua Jet",
@@ -20501,14 +21532,6 @@ var SETDEX_SV = {
 			"ability": "Torrent",
 			"index": 3,
 			"item": "Mystic Water",
-			"ivs": {
-				"at": 31,
-				"df": 31,
-				"hp": 31,
-				"sa": 31,
-				"sd": 31,
-				"sp": 31
-			},
 			"level": 23,
 			"moves": [
 				"Aqua Jet",
@@ -20524,14 +21547,6 @@ var SETDEX_SV = {
 			"ability": "Adaptability",
 			"index": 3,
 			"item": "Wise Glasses",
-			"ivs": {
-				"at": 0,
-				"df": 31,
-				"hp": 31,
-				"sa": 31,
-				"sd": 31,
-				"sp": 31
-			},
 			"level": 23,
 			"moves": [
 				"Flame Burst",
@@ -20539,20 +21554,15 @@ var SETDEX_SV = {
 				"Mud Shot",
 				"Attract"
 			],
-			"nature": "Timid"
+			"nature": "Timid",
+			"ivs": {
+				"at": 0
+			}
 		},
 		"Rival May Rustboro Treecko": {
 			"ability": "Adaptability",
 			"index": 3,
 			"item": "Wise Glasses",
-			"ivs": {
-				"at": 0,
-				"df": 31,
-				"hp": 31,
-				"sa": 31,
-				"sd": 31,
-				"sp": 31
-			},
 			"level": 23,
 			"moves": [
 				"Flame Burst",
@@ -20560,7 +21570,10 @@ var SETDEX_SV = {
 				"Mud Shot",
 				"Attract"
 			],
-			"nature": "Timid"
+			"nature": "Timid",
+			"ivs": {
+				"at": 0
+			}
 		}
 	},
 	"Qwilfish-Hisui": {
@@ -20568,14 +21581,6 @@ var SETDEX_SV = {
 			"ability": "Poison Point",
 			"index": 1,
 			"item": "Poison Barb",
-			"ivs": {
-				"at": 31,
-				"df": 31,
-				"hp": 31,
-				"sa": 31,
-				"sd": 31,
-				"sp": 31
-			},
 			"level": 15,
 			"moves": [
 				"Poison Tail",
@@ -20591,14 +21596,6 @@ var SETDEX_SV = {
 			"ability": "",
 			"index": 0,
 			"item": "",
-			"ivs": {
-				"at": 31,
-				"df": 31,
-				"hp": 31,
-				"sa": 31,
-				"sd": 31,
-				"sp": 31
-			},
 			"level": 44,
 			"moves": [
 				"Thunder",
@@ -20606,20 +21603,20 @@ var SETDEX_SV = {
 				"Rain Dance",
 				"Protect"
 			],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 31,
+				"at": 31,
+				"df": 31,
+				"sa": 31,
+				"sd": 31,
+				"sp": 31
+			}
 		},
 		"Leader Wattson 5": {
 			"ability": "",
 			"index": 1,
 			"item": "",
-			"ivs": {
-				"at": 31,
-				"df": 31,
-				"hp": 31,
-				"sa": 31,
-				"sd": 31,
-				"sp": 31
-			},
 			"level": 51,
 			"moves": [
 				"Thunder",
@@ -20627,7 +21624,15 @@ var SETDEX_SV = {
 				"Rain Dance",
 				"Protect"
 			],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 31,
+				"at": 31,
+				"df": 31,
+				"sa": 31,
+				"sd": 31,
+				"sp": 31
+			}
 		}
 	},
 	"Ralts": {
@@ -20635,113 +21640,129 @@ var SETDEX_SV = {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 17,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 17,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Psychic Virgil": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 36,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 12,
 				"at": 12,
 				"df": 12,
-				"hp": 12,
 				"sa": 12,
 				"sd": 12,
 				"sp": 12
-			},
-			"level": 36,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Psychic William": {
 			"ability": "",
-			"index": 1,
+			"index": 0,
 			"item": "",
+			"level": 26,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
+			}
+		},
+		"Psychic William (2)": {
+			"ability": "",
+			"index": 1,
+			"item": "",
 			"level": 26,
 			"moves": [],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 0,
+				"at": 0,
+				"df": 0,
+				"sa": 0,
+				"sd": 0,
+				"sp": 0
+			}
 		},
 		"Rival Wally Mauville": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 16,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 3,
 				"at": 3,
 				"df": 3,
-				"hp": 3,
 				"sa": 3,
 				"sd": 3,
 				"sp": 3
-			},
-			"level": 16,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"School Kid Jerry 1": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 9,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 1,
 				"at": 1,
 				"df": 1,
-				"hp": 1,
 				"sa": 1,
 				"sd": 1,
 				"sp": 1
-			},
-			"level": 9,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"School Kid Jerry 2": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 26,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 2,
 				"at": 2,
 				"df": 2,
-				"hp": 2,
 				"sa": 2,
 				"sd": 2,
 				"sp": 2
-			},
-			"level": 26,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"School Kid Ted": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 17,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 1,
 				"at": 1,
 				"df": 1,
-				"hp": 1,
 				"sa": 1,
 				"sd": 1,
 				"sp": 1
-			},
-			"level": 17,
-			"moves": [],
-			"nature": ""
+			}
 		}
 	},
 	"Rapidash": {
@@ -20749,14 +21770,6 @@ var SETDEX_SV = {
 			"ability": "",
 			"index": 3,
 			"item": "",
-			"ivs": {
-				"at": 31,
-				"df": 31,
-				"hp": 31,
-				"sa": 31,
-				"sd": 31,
-				"sp": 31
-			},
 			"level": 46,
 			"moves": [
 				"Flamethrower",
@@ -20764,20 +21777,20 @@ var SETDEX_SV = {
 				"Solar Beam",
 				"Bounce"
 			],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 31,
+				"at": 31,
+				"df": 31,
+				"sa": 31,
+				"sd": 31,
+				"sp": 31
+			}
 		},
 		"Leader Flannery 5": {
 			"ability": "",
 			"index": 3,
 			"item": "",
-			"ivs": {
-				"at": 31,
-				"df": 31,
-				"hp": 31,
-				"sa": 31,
-				"sd": 31,
-				"sp": 31
-			},
 			"level": 51,
 			"moves": [
 				"Flamethrower",
@@ -20785,7 +21798,30 @@ var SETDEX_SV = {
 				"Solar Beam",
 				"Bounce"
 			],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 31,
+				"at": 31,
+				"df": 31,
+				"sa": 31,
+				"sd": 31,
+				"sp": 31
+			}
+		}
+	},
+	"Relicanth": {
+		"Team Aqua Grunt Oceanic Left": {
+			"ability": "Swift Swim",
+			"index": 1,
+			"item": "Focus Band",
+			"level": 28,
+			"moves": [
+				"Liquidation",
+				"Stone Edge",
+				"Zen Headbutt",
+				"Body Press"
+			],
+			"nature": "Adamant"
 		}
 	},
 	"Remoraid": {
@@ -20793,14 +21829,6 @@ var SETDEX_SV = {
 			"ability": "Sniper",
 			"index": 0,
 			"item": "Rindo Berry",
-			"ivs": {
-				"at": 0,
-				"df": 31,
-				"hp": 31,
-				"sa": 31,
-				"sd": 31,
-				"sp": 31
-			},
 			"level": 10,
 			"moves": [
 				"Rain Dance",
@@ -20808,7 +21836,10 @@ var SETDEX_SV = {
 				"Icy Wind",
 				"Incinerate"
 			],
-			"nature": "Timid"
+			"nature": "Timid",
+			"ivs": {
+				"at": 0
+			}
 		}
 	},
 	"Rhydon": {
@@ -20816,17 +21847,17 @@ var SETDEX_SV = {
 			"ability": "",
 			"index": 1,
 			"item": "",
+			"level": 35,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 4,
 				"at": 4,
 				"df": 4,
-				"hp": 4,
 				"sa": 4,
 				"sd": 4,
 				"sp": 4
-			},
-			"level": 35,
-			"moves": [],
-			"nature": ""
+			}
 		}
 	},
 	"Rhyhorn": {
@@ -20834,49 +21865,49 @@ var SETDEX_SV = {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 31,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 31,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Pokemaniac Steve 3": {
 			"ability": "",
 			"index": 1,
 			"item": "",
+			"level": 29,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 2,
 				"at": 2,
 				"df": 2,
-				"hp": 2,
 				"sa": 2,
 				"sd": 2,
 				"sp": 2
-			},
-			"level": 29,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Pokemaniac Steve 4": {
 			"ability": "",
 			"index": 1,
 			"item": "",
+			"level": 32,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 3,
 				"at": 3,
 				"df": 3,
-				"hp": 3,
 				"sa": 3,
 				"sd": 3,
 				"sp": 3
-			},
-			"level": 32,
-			"moves": [],
-			"nature": ""
+			}
 		}
 	},
 	"Riolu": {
@@ -20884,14 +21915,6 @@ var SETDEX_SV = {
 			"ability": "Prankster",
 			"index": 0,
 			"item": "Eviolite",
-			"ivs": {
-				"at": 31,
-				"df": 31,
-				"hp": 31,
-				"sa": 31,
-				"sd": 31,
-				"sp": 31
-			},
 			"level": 24,
 			"moves": [
 				"Coaching",
@@ -20905,21 +21928,8 @@ var SETDEX_SV = {
 	"Rockruff": {
 		"Youngster Josh": {
 			"ability": "Keen Eye",
-			"evs": {
-				"at": 100,
-				"df": 32,
-				"sd": 100
-			},
 			"index": 2,
 			"item": "Hard Stone",
-			"ivs": {
-				"at": 31,
-				"df": 31,
-				"hp": 31,
-				"sa": 31,
-				"sd": 31,
-				"sp": 31
-			},
 			"level": 16,
 			"moves": [
 				"Accelerock",
@@ -20927,27 +21937,19 @@ var SETDEX_SV = {
 				"Fire Fang",
 				"Rock Tomb"
 			],
-			"nature": "Adamant"
+			"nature": "Adamant",
+			"evs": {
+				"at": 100,
+				"df": 32,
+				"sd": 100
+			}
 		}
 	},
 	"Roggenrola": {
 		"Youngster Tommy": {
 			"ability": "Sand Force",
-			"evs": {
-				"at": 100,
-				"df": 24,
-				"sd": 100
-			},
 			"index": 2,
 			"item": "Rock Gem",
-			"ivs": {
-				"at": 31,
-				"df": 31,
-				"hp": 31,
-				"sa": 31,
-				"sd": 31,
-				"sp": 31
-			},
 			"level": 17,
 			"moves": [
 				"Rock Tomb",
@@ -20955,7 +21957,12 @@ var SETDEX_SV = {
 				"Autotomize",
 				"Explosion"
 			],
-			"nature": "Brave"
+			"nature": "Brave",
+			"evs": {
+				"at": 100,
+				"df": 24,
+				"sd": 100
+			}
 		}
 	},
 	"Roselia": {
@@ -20963,254 +21970,262 @@ var SETDEX_SV = {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 18,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 18,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Aroma Lady Daisy": {
 			"ability": "",
 			"index": 1,
 			"item": "",
+			"level": 14,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 14,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Aroma Lady Rose 1": {
 			"ability": "",
-			"index": 2,
+			"index": 0,
 			"item": "",
+			"level": 14,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
+			}
+		},
+		"Aroma Lady Rose 1 (2)": {
+			"ability": "",
+			"index": 2,
+			"item": "",
 			"level": 14,
 			"moves": [],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 0,
+				"at": 0,
+				"df": 0,
+				"sa": 0,
+				"sd": 0,
+				"sp": 0
+			}
 		},
 		"Aroma Lady Rose 2": {
 			"ability": "",
 			"index": 1,
 			"item": "",
+			"level": 26,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 1,
 				"at": 1,
 				"df": 1,
-				"hp": 1,
 				"sa": 1,
 				"sd": 1,
 				"sp": 1
-			},
-			"level": 26,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Aroma Lady Rose 3": {
 			"ability": "",
 			"index": 2,
 			"item": "",
+			"level": 28,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 2,
 				"at": 2,
 				"df": 2,
-				"hp": 2,
 				"sa": 2,
 				"sd": 2,
 				"sp": 2
-			},
-			"level": 28,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Aroma Lady Rose 4": {
 			"ability": "",
 			"index": 2,
 			"item": "",
+			"level": 31,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 3,
 				"at": 3,
 				"df": 3,
-				"hp": 3,
 				"sa": 3,
 				"sd": 3,
 				"sp": 3
-			},
-			"level": 31,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Aroma Lady Rose 5": {
 			"ability": "",
 			"index": 2,
 			"item": "",
+			"level": 34,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 4,
 				"at": 4,
 				"df": 4,
-				"hp": 4,
 				"sa": 4,
 				"sd": 4,
 				"sp": 4
-			},
-			"level": 34,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Aroma Lady Shayla": {
 			"ability": "",
 			"index": 1,
 			"item": "",
+			"level": 18,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 18,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Aroma Lady Violet": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 26,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 26,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Cooltrainer Brooke 1": {
 			"ability": "",
 			"index": 2,
 			"item": "",
+			"level": 17,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 12,
 				"at": 12,
 				"df": 12,
-				"hp": 12,
 				"sa": 12,
 				"sd": 12,
 				"sp": 12
-			},
-			"level": 17,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Cooltrainer Brooke 2": {
 			"ability": "",
 			"index": 2,
 			"item": "",
+			"level": 26,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 13,
 				"at": 13,
 				"df": 13,
-				"hp": 13,
 				"sa": 13,
 				"sd": 13,
 				"sp": 13
-			},
-			"level": 26,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Cooltrainer Brooke 3": {
 			"ability": "",
 			"index": 2,
 			"item": "",
+			"level": 29,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 14,
 				"at": 14,
 				"df": 14,
-				"hp": 14,
 				"sa": 14,
 				"sd": 14,
 				"sp": 14
-			},
-			"level": 29,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Cooltrainer Brooke 4": {
 			"ability": "",
 			"index": 2,
 			"item": "",
+			"level": 32,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 15,
 				"at": 15,
 				"df": 15,
-				"hp": 15,
 				"sa": 15,
 				"sd": 15,
 				"sp": 15
-			},
-			"level": 32,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Cooltrainer Brooke 5": {
 			"ability": "",
 			"index": 2,
 			"item": "",
+			"level": 34,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 17,
 				"at": 17,
 				"df": 17,
-				"hp": 17,
 				"sa": 17,
 				"sd": 17,
 				"sp": 17
-			},
-			"level": 34,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Cooltrainer Hope": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 45,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 12,
 				"at": 12,
 				"df": 12,
-				"hp": 12,
 				"sa": 12,
 				"sd": 12,
 				"sp": 12
-			},
-			"level": 45,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Cooltrainer Wendy": {
 			"ability": "",
 			"index": 1,
 			"item": "",
-			"ivs": {
-				"at": 12,
-				"df": 12,
-				"hp": 12,
-				"sa": 12,
-				"sd": 12,
-				"sp": 12
-			},
 			"level": 29,
 			"moves": [
 				"Mega Drain",
@@ -21218,52 +22233,52 @@ var SETDEX_SV = {
 				"Grass Whistle",
 				"Leech Seed"
 			],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 12,
+				"at": 12,
+				"df": 12,
+				"sa": 12,
+				"sd": 12,
+				"sp": 12
+			}
 		},
 		"Expert Makayla": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 33,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 33,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Lady Naomi": {
 			"ability": "",
 			"index": 0,
 			"item": "Nugget",
+			"level": 45,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 12,
 				"at": 12,
 				"df": 12,
-				"hp": 12,
 				"sa": 12,
 				"sd": 12,
 				"sp": 12
-			},
-			"level": 45,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Lass Haley 1": {
 			"ability": "Natural Cure",
 			"index": 1,
 			"item": "",
-			"ivs": {
-				"at": 0,
-				"df": 31,
-				"hp": 31,
-				"sa": 31,
-				"sd": 31,
-				"sp": 31
-			},
 			"level": 16,
 			"moves": [
 				"Magical Leaf",
@@ -21271,36 +22286,31 @@ var SETDEX_SV = {
 				"Stun Spore",
 				"Attract"
 			],
-			"nature": "Modest"
+			"nature": "Modest",
+			"ivs": {
+				"at": 0
+			}
 		},
 		"Parasol Lady Clarissa": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 28,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 28,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Parasol Lady Madeline 4": {
 			"ability": "",
 			"index": 0,
 			"item": "",
-			"ivs": {
-				"at": 3,
-				"df": 3,
-				"hp": 3,
-				"sa": 3,
-				"sd": 3,
-				"sp": 3
-			},
 			"level": 34,
 			"moves": [
 				"Leech Seed",
@@ -21308,20 +22318,20 @@ var SETDEX_SV = {
 				"Grass Whistle",
 				"Sunny Day"
 			],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 3,
+				"at": 3,
+				"df": 3,
+				"sa": 3,
+				"sd": 3,
+				"sp": 3
+			}
 		},
 		"Parasol Lady Madeline 5": {
 			"ability": "",
 			"index": 0,
 			"item": "",
-			"ivs": {
-				"at": 4,
-				"df": 4,
-				"hp": 4,
-				"sa": 4,
-				"sd": 4,
-				"sp": 4
-			},
 			"level": 37,
 			"moves": [
 				"Leech Seed",
@@ -21329,196 +22339,196 @@ var SETDEX_SV = {
 				"Solar Beam",
 				"Sunny Day"
 			],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 4,
+				"at": 4,
+				"df": 4,
+				"sa": 4,
+				"sd": 4,
+				"sp": 4
+			}
 		},
 		"Pkmn Breeder Lydia 1": {
 			"ability": "",
 			"index": 3,
 			"item": "",
+			"level": 11,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 11,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Pkmn Breeder Lydia 2": {
 			"ability": "",
 			"index": 3,
 			"item": "",
+			"level": 22,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 1,
 				"at": 1,
 				"df": 1,
-				"hp": 1,
 				"sa": 1,
 				"sd": 1,
 				"sp": 1
-			},
-			"level": 22,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Pkmn Breeder Lydia 3": {
 			"ability": "",
 			"index": 3,
 			"item": "",
+			"level": 25,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 2,
 				"at": 2,
 				"df": 2,
-				"hp": 2,
 				"sa": 2,
 				"sd": 2,
 				"sp": 2
-			},
-			"level": 25,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Pkmn Breeder Lydia 4": {
 			"ability": "",
 			"index": 3,
 			"item": "",
+			"level": 28,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 3,
 				"at": 3,
 				"df": 3,
-				"hp": 3,
 				"sa": 3,
 				"sd": 3,
 				"sp": 3
-			},
-			"level": 28,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Pkmn Breeder Lydia 5": {
 			"ability": "",
 			"index": 3,
 			"item": "",
+			"level": 31,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 4,
 				"at": 4,
 				"df": 4,
-				"hp": 4,
 				"sa": 4,
 				"sd": 4,
 				"sp": 4
-			},
-			"level": 31,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Pkmn Ranger Catherine 1": {
 			"ability": "",
 			"index": 1,
 			"item": "",
+			"level": 26,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 6,
 				"at": 6,
 				"df": 6,
-				"hp": 6,
 				"sa": 6,
 				"sd": 6,
 				"sp": 6
-			},
-			"level": 26,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Pkmn Ranger Catherine 2": {
 			"ability": "",
 			"index": 1,
 			"item": "",
+			"level": 30,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 7,
 				"at": 7,
 				"df": 7,
-				"hp": 7,
 				"sa": 7,
 				"sd": 7,
 				"sp": 7
-			},
-			"level": 30,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Pkmn Ranger Catherine 3": {
 			"ability": "",
 			"index": 1,
 			"item": "",
+			"level": 33,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 8,
 				"at": 8,
 				"df": 8,
-				"hp": 8,
 				"sa": 8,
 				"sd": 8,
 				"sp": 8
-			},
-			"level": 33,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Pkmn Ranger Catherine 4": {
 			"ability": "",
 			"index": 1,
 			"item": "",
+			"level": 36,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 9,
 				"at": 9,
 				"df": 9,
-				"hp": 9,
 				"sa": 9,
 				"sd": 9,
 				"sp": 9
-			},
-			"level": 36,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Pkmn Ranger Catherine 5": {
 			"ability": "",
 			"index": 1,
 			"item": "",
+			"level": 39,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 10,
 				"at": 10,
 				"df": 10,
-				"hp": 10,
 				"sa": 10,
 				"sd": 10,
 				"sp": 10
-			},
-			"level": 39,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Pkmn Ranger Sophia": {
 			"ability": "",
 			"index": 1,
 			"item": "",
+			"level": 38,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 6,
 				"at": 6,
 				"df": 6,
-				"hp": 6,
 				"sa": 6,
 				"sd": 6,
 				"sp": 6
-			},
-			"level": 38,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Rival Wally Vr 1": {
 			"ability": "",
 			"index": 2,
 			"item": "",
-			"ivs": {
-				"at": 18,
-				"df": 18,
-				"hp": 18,
-				"sa": 18,
-				"sd": 18,
-				"sp": 18
-			},
 			"level": 44,
 			"moves": [
 				"Magical Leaf",
@@ -21526,20 +22536,20 @@ var SETDEX_SV = {
 				"Giga Drain",
 				"Toxic"
 			],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 18,
+				"at": 18,
+				"df": 18,
+				"sa": 18,
+				"sd": 18,
+				"sp": 18
+			}
 		},
 		"Rival Wally Vr 2": {
 			"ability": "",
 			"index": 2,
 			"item": "",
-			"ivs": {
-				"at": 18,
-				"df": 18,
-				"hp": 18,
-				"sa": 18,
-				"sd": 18,
-				"sp": 18
-			},
 			"level": 47,
 			"moves": [
 				"Magical Leaf",
@@ -21547,20 +22557,20 @@ var SETDEX_SV = {
 				"Giga Drain",
 				"Toxic"
 			],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 18,
+				"at": 18,
+				"df": 18,
+				"sa": 18,
+				"sd": 18,
+				"sp": 18
+			}
 		},
 		"Rival Wally Vr 3": {
 			"ability": "",
 			"index": 2,
 			"item": "",
-			"ivs": {
-				"at": 18,
-				"df": 18,
-				"hp": 18,
-				"sa": 18,
-				"sd": 18,
-				"sp": 18
-			},
 			"level": 50,
 			"moves": [
 				"Magical Leaf",
@@ -21568,20 +22578,20 @@ var SETDEX_SV = {
 				"Giga Drain",
 				"Toxic"
 			],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 18,
+				"at": 18,
+				"df": 18,
+				"sa": 18,
+				"sd": 18,
+				"sp": 18
+			}
 		},
 		"Rival Wally Vr 4": {
 			"ability": "",
 			"index": 2,
 			"item": "",
-			"ivs": {
-				"at": 18,
-				"df": 18,
-				"hp": 18,
-				"sa": 18,
-				"sd": 18,
-				"sp": 18
-			},
 			"level": 53,
 			"moves": [
 				"Magical Leaf",
@@ -21589,20 +22599,20 @@ var SETDEX_SV = {
 				"Giga Drain",
 				"Toxic"
 			],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 18,
+				"at": 18,
+				"df": 18,
+				"sa": 18,
+				"sd": 18,
+				"sp": 18
+			}
 		},
 		"Rival Wally Vr 5": {
 			"ability": "",
 			"index": 2,
 			"item": "",
-			"ivs": {
-				"at": 18,
-				"df": 18,
-				"hp": 18,
-				"sa": 18,
-				"sd": 18,
-				"sp": 18
-			},
 			"level": 56,
 			"moves": [
 				"Magical Leaf",
@@ -21610,20 +22620,20 @@ var SETDEX_SV = {
 				"Giga Drain",
 				"Toxic"
 			],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 18,
+				"at": 18,
+				"df": 18,
+				"sa": 18,
+				"sd": 18,
+				"sp": 18
+			}
 		},
-		"Sr And Jr Tyra And Ivy": {
+		"Sr And Jr Tyra & Ivy Tyra And Ivy": {
 			"ability": "",
 			"index": 0,
 			"item": "",
-			"ivs": {
-				"at": 0,
-				"df": 0,
-				"hp": 0,
-				"sa": 0,
-				"sd": 0,
-				"sp": 0
-			},
 			"level": 18,
 			"moves": [
 				"Growth",
@@ -21631,23 +22641,31 @@ var SETDEX_SV = {
 				"Mega Drain",
 				"Leech Seed"
 			],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 0,
+				"at": 0,
+				"df": 0,
+				"sa": 0,
+				"sd": 0,
+				"sp": 0
+			}
 		},
 		"Winstrate Victoria": {
 			"ability": "",
 			"index": 0,
 			"item": "Oran Berry",
+			"level": 17,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 6,
 				"at": 6,
 				"df": 6,
-				"hp": 6,
 				"sa": 6,
 				"sd": 6,
 				"sp": 6
-			},
-			"level": 17,
-			"moves": [],
-			"nature": ""
+			}
 		}
 	},
 	"Sableye": {
@@ -21655,78 +22673,70 @@ var SETDEX_SV = {
 			"ability": "",
 			"index": 1,
 			"item": "",
+			"level": 43,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 12,
 				"at": 12,
 				"df": 12,
-				"hp": 12,
 				"sa": 12,
 				"sd": 12,
 				"sp": 12
-			},
-			"level": 43,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Cooltrainer Halle": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 43,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 43,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Cooltrainer Jennifer": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 30,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 24,
 				"at": 24,
 				"df": 24,
-				"hp": 24,
 				"sa": 24,
 				"sd": 24,
 				"sp": 24
-			},
-			"level": 30,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Cooltrainer Vincent": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 44,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 12,
 				"at": 12,
 				"df": 12,
-				"hp": 12,
 				"sa": 12,
 				"sd": 12,
 				"sp": 12
-			},
-			"level": 44,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Elite Four Phoebe": {
 			"ability": "",
 			"index": 2,
 			"item": "",
-			"ivs": {
-				"at": 30,
-				"df": 30,
-				"hp": 30,
-				"sa": 30,
-				"sd": 30,
-				"sp": 30
-			},
 			"level": 50,
 			"moves": [
 				"Shadow Ball",
@@ -21734,87 +22744,95 @@ var SETDEX_SV = {
 				"Night Shade",
 				"Feint Attack"
 			],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 30,
+				"at": 30,
+				"df": 30,
+				"sa": 30,
+				"sd": 30,
+				"sp": 30
+			}
 		},
 		"Hex Maniac Valerie 1": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 32,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 32,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Hex Maniac Valerie 2": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 31,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 1,
 				"at": 1,
 				"df": 1,
-				"hp": 1,
 				"sa": 1,
 				"sd": 1,
 				"sp": 1
-			},
-			"level": 31,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Hex Maniac Valerie 3": {
 			"ability": "",
 			"index": 1,
 			"item": "",
+			"level": 35,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 2,
 				"at": 2,
 				"df": 2,
-				"hp": 2,
 				"sa": 2,
 				"sd": 2,
 				"sp": 2
-			},
-			"level": 35,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Hex Maniac Valerie 4": {
 			"ability": "",
 			"index": 1,
 			"item": "",
+			"level": 40,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 3,
 				"at": 3,
 				"df": 3,
-				"hp": 3,
 				"sa": 3,
 				"sd": 3,
 				"sp": 3
-			},
-			"level": 40,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Hex Maniac Valerie 5": {
 			"ability": "",
 			"index": 1,
 			"item": "",
+			"level": 42,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 4,
 				"at": 4,
 				"df": 4,
-				"hp": 4,
 				"sa": 4,
 				"sd": 4,
 				"sp": 4
-			},
-			"level": 42,
-			"moves": [],
-			"nature": ""
+			}
 		}
 	},
 	"Salamence": {
@@ -21822,14 +22840,6 @@ var SETDEX_SV = {
 			"ability": "",
 			"index": 4,
 			"item": "Sitrus Berry",
-			"ivs": {
-				"at": 31,
-				"df": 31,
-				"hp": 31,
-				"sa": 31,
-				"sd": 31,
-				"sp": 31
-			},
 			"level": 55,
 			"moves": [
 				"Flamethrower",
@@ -21837,7 +22847,15 @@ var SETDEX_SV = {
 				"Rock Slide",
 				"Crunch"
 			],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 31,
+				"at": 31,
+				"df": 31,
+				"sa": 31,
+				"sd": 31,
+				"sp": 31
+			}
 		}
 	},
 	"Sandshrew": {
@@ -21845,14 +22863,6 @@ var SETDEX_SV = {
 			"ability": "",
 			"index": 1,
 			"item": "",
-			"ivs": {
-				"at": 0,
-				"df": 0,
-				"hp": 0,
-				"sa": 0,
-				"sd": 0,
-				"sp": 0
-			},
 			"level": 21,
 			"moves": [
 				"Poison Sting",
@@ -21860,20 +22870,20 @@ var SETDEX_SV = {
 				"Scratch",
 				"Dig"
 			],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 0,
+				"at": 0,
+				"df": 0,
+				"sa": 0,
+				"sd": 0,
+				"sp": 0
+			}
 		},
 		"Camper Drew": {
 			"ability": "",
 			"index": 0,
 			"item": "",
-			"ivs": {
-				"at": 0,
-				"df": 0,
-				"hp": 0,
-				"sa": 0,
-				"sd": 0,
-				"sp": 0
-			},
 			"level": 23,
 			"moves": [
 				"Dig",
@@ -21881,100 +22891,100 @@ var SETDEX_SV = {
 				"Poison Sting",
 				"Slash"
 			],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 0,
+				"at": 0,
+				"df": 0,
+				"sa": 0,
+				"sd": 0,
+				"sp": 0
+			}
 		},
 		"Camper Ethan 4": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 31,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 3,
 				"at": 3,
 				"df": 3,
-				"hp": 3,
 				"sa": 3,
 				"sd": 3,
 				"sp": 3
-			},
-			"level": 31,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Camper Lawrence": {
 			"ability": "",
 			"index": 1,
 			"item": "",
+			"level": 18,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 18,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Camper Shane": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 18,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 18,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Camper Travis": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 18,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 18,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Camper Tyron": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 19,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 19,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Picnicker Becky": {
 			"ability": "",
 			"index": 0,
 			"item": "",
-			"ivs": {
-				"at": 0,
-				"df": 0,
-				"hp": 0,
-				"sa": 0,
-				"sd": 0,
-				"sp": 0
-			},
 			"level": 22,
 			"moves": [
 				"Sand Attack",
@@ -21982,20 +22992,20 @@ var SETDEX_SV = {
 				"Slash",
 				"Dig"
 			],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 0,
+				"at": 0,
+				"df": 0,
+				"sa": 0,
+				"sd": 0,
+				"sp": 0
+			}
 		},
 		"Picnicker Heidi": {
 			"ability": "",
 			"index": 0,
 			"item": "",
-			"ivs": {
-				"at": 0,
-				"df": 0,
-				"hp": 0,
-				"sa": 0,
-				"sd": 0,
-				"sp": 0
-			},
 			"level": 22,
 			"moves": [
 				"Dig",
@@ -22003,116 +23013,180 @@ var SETDEX_SV = {
 				"Poison Sting",
 				"Slash"
 			],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 0,
+				"at": 0,
+				"df": 0,
+				"sa": 0,
+				"sd": 0,
+				"sp": 0
+			}
 		},
 		"Pkmn Breeder Pat": {
 			"ability": "",
 			"index": 4,
 			"item": "",
+			"level": 25,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 1,
 				"at": 1,
 				"df": 1,
-				"hp": 1,
 				"sa": 1,
 				"sd": 1,
 				"sp": 1
-			},
-			"level": 25,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Ruin Maniac Andres 1": {
 			"ability": "",
-			"index": 1,
+			"index": 0,
 			"item": "",
+			"level": 25,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 6,
 				"at": 6,
 				"df": 6,
-				"hp": 6,
 				"sa": 6,
 				"sd": 6,
 				"sp": 6
-			},
-			"level": 25,
-			"moves": [],
-			"nature": ""
+			}
 		},
-		"Ruin Maniac Andres 2": {
+		"Ruin Maniac Andres 1 (2)": {
 			"ability": "",
 			"index": 1,
 			"item": "",
+			"level": 25,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 6,
+				"at": 6,
+				"df": 6,
+				"sa": 6,
+				"sd": 6,
+				"sp": 6
+			}
+		},
+		"Ruin Maniac Andres 2": {
+			"ability": "",
+			"index": 0,
+			"item": "",
+			"level": 31,
+			"moves": [],
+			"nature": "",
+			"ivs": {
+				"hp": 1,
 				"at": 1,
 				"df": 1,
-				"hp": 1,
 				"sa": 1,
 				"sd": 1,
 				"sp": 1
-			},
+			}
+		},
+		"Ruin Maniac Andres 2 (2)": {
+			"ability": "",
+			"index": 1,
+			"item": "",
 			"level": 31,
 			"moves": [],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 1,
+				"at": 1,
+				"df": 1,
+				"sa": 1,
+				"sd": 1,
+				"sp": 1
+			}
 		},
 		"Ruin Maniac Andres 3": {
 			"ability": "",
-			"index": 2,
+			"index": 1,
 			"item": "",
+			"level": 33,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 2,
 				"at": 2,
 				"df": 2,
-				"hp": 2,
 				"sa": 2,
 				"sd": 2,
 				"sp": 2
-			},
-			"level": 33,
-			"moves": [],
-			"nature": ""
+			}
 		},
-		"Ruin Maniac Andres 4": {
+		"Ruin Maniac Andres 3 (2)": {
 			"ability": "",
 			"index": 2,
 			"item": "",
+			"level": 33,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 2,
+				"at": 2,
+				"df": 2,
+				"sa": 2,
+				"sd": 2,
+				"sp": 2
+			}
+		},
+		"Ruin Maniac Andres 4": {
+			"ability": "",
+			"index": 1,
+			"item": "",
+			"level": 35,
+			"moves": [],
+			"nature": "",
+			"ivs": {
+				"hp": 3,
 				"at": 3,
 				"df": 3,
-				"hp": 3,
 				"sa": 3,
 				"sd": 3,
 				"sp": 3
-			},
+			}
+		},
+		"Ruin Maniac Andres 4 (2)": {
+			"ability": "",
+			"index": 2,
+			"item": "",
 			"level": 35,
 			"moves": [],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 3,
+				"at": 3,
+				"df": 3,
+				"sa": 3,
+				"sd": 3,
+				"sp": 3
+			}
 		},
 		"Ruin Maniac Bryan": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 22,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 22,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Ruin Maniac Chip": {
 			"ability": "",
 			"index": 1,
 			"item": "",
-			"ivs": {
-				"at": 6,
-				"df": 6,
-				"hp": 6,
-				"sa": 6,
-				"sd": 6,
-				"sp": 6
-			},
 			"level": 27,
 			"moves": [
 				"Dig",
@@ -22120,20 +23194,20 @@ var SETDEX_SV = {
 				"Sand Attack",
 				"Poison Sting"
 			],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 6,
+				"at": 6,
+				"df": 6,
+				"sa": 6,
+				"sd": 6,
+				"sp": 6
+			}
 		},
 		"Ruin Maniac Foster": {
 			"ability": "",
 			"index": 0,
 			"item": "",
-			"ivs": {
-				"at": 12,
-				"df": 12,
-				"hp": 12,
-				"sa": 12,
-				"sd": 12,
-				"sp": 12
-			},
 			"level": 25,
 			"moves": [
 				"Dig",
@@ -22141,7 +23215,30 @@ var SETDEX_SV = {
 				"Sand Attack",
 				"Poison Sting"
 			],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 12,
+				"at": 12,
+				"df": 12,
+				"sa": 12,
+				"sd": 12,
+				"sp": 12
+			}
+		}
+	},
+	"Sandshrew-Alola": {
+		"Rich Boy Harry School": {
+			"ability": "Snow Cloak",
+			"index": 1,
+			"item": "Bright Powder",
+			"level": 16,
+			"moves": [
+				"Ice Shard",
+				"Metal Claw",
+				"Hone Claws",
+				"Bulldoze"
+			],
+			"nature": "Adamant"
 		}
 	},
 	"Sandslash": {
@@ -22149,78 +23246,86 @@ var SETDEX_SV = {
 			"ability": "",
 			"index": 1,
 			"item": "",
+			"level": 34,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 4,
 				"at": 4,
 				"df": 4,
-				"hp": 4,
 				"sa": 4,
 				"sd": 4,
 				"sp": 4
-			},
-			"level": 34,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Cooltrainer Julie": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 42,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 12,
 				"at": 12,
 				"df": 12,
-				"hp": 12,
 				"sa": 12,
 				"sd": 12,
 				"sp": 12
-			},
-			"level": 42,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Ruin Maniac Andres 5": {
 			"ability": "",
-			"index": 2,
+			"index": 1,
 			"item": "",
+			"level": 37,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 4,
 				"at": 4,
 				"df": 4,
-				"hp": 4,
 				"sa": 4,
 				"sd": 4,
 				"sp": 4
-			},
+			}
+		},
+		"Ruin Maniac Andres 5 (2)": {
+			"ability": "",
+			"index": 2,
+			"item": "",
 			"level": 37,
 			"moves": [],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 4,
+				"at": 4,
+				"df": 4,
+				"sa": 4,
+				"sd": 4,
+				"sp": 4
+			}
 		},
 		"Ruin Maniac Bryan": {
 			"ability": "",
 			"index": 1,
 			"item": "",
+			"level": 22,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 22,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Ruin Maniac Chip": {
 			"ability": "",
 			"index": 2,
 			"item": "",
-			"ivs": {
-				"at": 6,
-				"df": 6,
-				"hp": 6,
-				"sa": 6,
-				"sd": 6,
-				"sp": 6
-			},
 			"level": 27,
 			"moves": [
 				"Dig",
@@ -22228,20 +23333,20 @@ var SETDEX_SV = {
 				"Sand Attack",
 				"Poison Sting"
 			],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 6,
+				"at": 6,
+				"df": 6,
+				"sa": 6,
+				"sd": 6,
+				"sp": 6
+			}
 		},
 		"Ruin Maniac Dusty 1": {
 			"ability": "",
 			"index": 0,
 			"item": "",
-			"ivs": {
-				"at": 6,
-				"df": 6,
-				"hp": 6,
-				"sa": 6,
-				"sd": 6,
-				"sp": 6
-			},
 			"level": 23,
 			"moves": [
 				"Dig",
@@ -22249,20 +23354,20 @@ var SETDEX_SV = {
 				"Sand Attack",
 				"Poison Sting"
 			],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 6,
+				"at": 6,
+				"df": 6,
+				"sa": 6,
+				"sd": 6,
+				"sp": 6
+			}
 		},
 		"Ruin Maniac Dusty 2": {
 			"ability": "",
 			"index": 0,
 			"item": "",
-			"ivs": {
-				"at": 7,
-				"df": 7,
-				"hp": 7,
-				"sa": 7,
-				"sd": 7,
-				"sp": 7
-			},
 			"level": 27,
 			"moves": [
 				"Dig",
@@ -22270,20 +23375,20 @@ var SETDEX_SV = {
 				"Sand Attack",
 				"Poison Sting"
 			],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 7,
+				"at": 7,
+				"df": 7,
+				"sa": 7,
+				"sd": 7,
+				"sp": 7
+			}
 		},
 		"Ruin Maniac Dusty 3": {
 			"ability": "",
 			"index": 0,
 			"item": "",
-			"ivs": {
-				"at": 8,
-				"df": 8,
-				"hp": 8,
-				"sa": 8,
-				"sd": 8,
-				"sp": 8
-			},
 			"level": 30,
 			"moves": [
 				"Dig",
@@ -22291,20 +23396,20 @@ var SETDEX_SV = {
 				"Sand Attack",
 				"Poison Sting"
 			],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 8,
+				"at": 8,
+				"df": 8,
+				"sa": 8,
+				"sd": 8,
+				"sp": 8
+			}
 		},
 		"Ruin Maniac Dusty 4": {
 			"ability": "",
 			"index": 0,
 			"item": "",
-			"ivs": {
-				"at": 9,
-				"df": 9,
-				"hp": 9,
-				"sa": 9,
-				"sd": 9,
-				"sp": 9
-			},
 			"level": 33,
 			"moves": [
 				"Dig",
@@ -22312,20 +23417,20 @@ var SETDEX_SV = {
 				"Sand Attack",
 				"Poison Sting"
 			],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 9,
+				"at": 9,
+				"df": 9,
+				"sa": 9,
+				"sd": 9,
+				"sp": 9
+			}
 		},
 		"Ruin Maniac Dusty 5": {
 			"ability": "",
 			"index": 0,
 			"item": "",
-			"ivs": {
-				"at": 10,
-				"df": 10,
-				"hp": 10,
-				"sa": 10,
-				"sd": 10,
-				"sp": 10
-			},
 			"level": 36,
 			"moves": [
 				"Dig",
@@ -22333,20 +23438,20 @@ var SETDEX_SV = {
 				"Sand Attack",
 				"Poison Sting"
 			],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 10,
+				"at": 10,
+				"df": 10,
+				"sa": 10,
+				"sd": 10,
+				"sp": 10
+			}
 		},
 		"Ruin Maniac Foster": {
 			"ability": "",
 			"index": 1,
 			"item": "",
-			"ivs": {
-				"at": 12,
-				"df": 12,
-				"hp": 12,
-				"sa": 12,
-				"sd": 12,
-				"sp": 12
-			},
 			"level": 25,
 			"moves": [
 				"Dig",
@@ -22354,23 +23459,31 @@ var SETDEX_SV = {
 				"Sand Attack",
 				"Poison Sting"
 			],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 12,
+				"at": 12,
+				"df": 12,
+				"sa": 12,
+				"sd": 12,
+				"sp": 12
+			}
 		},
 		"Ruin Maniac Garrison": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 26,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 26,
-			"moves": [],
-			"nature": ""
+			}
 		}
 	},
 	"Sandygast": {
@@ -22378,14 +23491,6 @@ var SETDEX_SV = {
 			"ability": "Water Compaction",
 			"index": 0,
 			"item": "Passho Berry",
-			"ivs": {
-				"at": 0,
-				"df": 31,
-				"hp": 31,
-				"sa": 31,
-				"sd": 31,
-				"sp": 31
-			},
 			"level": 12,
 			"moves": [
 				"Mud Bomb",
@@ -22393,7 +23498,38 @@ var SETDEX_SV = {
 				"Hex",
 				"Toxic"
 			],
-			"nature": "Modest"
+			"nature": "Modest",
+			"ivs": {
+				"at": 0
+			}
+		}
+	},
+	"Sceptile": {
+		"Rival Brendan Route 110 Torchic": {
+			"ability": "Technician",
+			"index": 1,
+			"item": "Miracle Seed",
+			"level": 34,
+			"moves": [
+				"Dragon Breath",
+				"Magical Leaf",
+				"Vacuum Wave",
+				"Iron Tail"
+			],
+			"nature": "Hasty"
+		},
+		"Rival May Route 110 Torchic": {
+			"ability": "Technician",
+			"index": 1,
+			"item": "Miracle Seed",
+			"level": 34,
+			"moves": [
+				"Dragon Breath",
+				"Magical Leaf",
+				"Vacuum Wave",
+				"Iron Tail"
+			],
+			"nature": "Hasty"
 		}
 	},
 	"Scraggy": {
@@ -22401,14 +23537,6 @@ var SETDEX_SV = {
 			"ability": "Moxie",
 			"index": 1,
 			"item": "Sitrus Berry",
-			"ivs": {
-				"at": 31,
-				"df": 31,
-				"hp": 31,
-				"sa": 31,
-				"sd": 31,
-				"sp": 31
-			},
 			"level": 24,
 			"moves": [
 				"Jump Kick",
@@ -22422,14 +23550,6 @@ var SETDEX_SV = {
 			"ability": "Intimidate",
 			"index": 0,
 			"item": "Muscle Band",
-			"ivs": {
-				"at": 31,
-				"df": 31,
-				"hp": 31,
-				"sa": 31,
-				"sd": 31,
-				"sp": 31
-			},
 			"level": 15,
 			"moves": [
 				"Thief",
@@ -22445,46 +23565,38 @@ var SETDEX_SV = {
 			"ability": "",
 			"index": 2,
 			"item": "",
+			"level": 36,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 2,
 				"at": 2,
 				"df": 2,
-				"hp": 2,
 				"sa": 2,
 				"sd": 2,
 				"sp": 2
-			},
-			"level": 36,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Beauty Thalia 4": {
 			"ability": "",
 			"index": 2,
 			"item": "",
+			"level": 38,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 3,
 				"at": 3,
 				"df": 3,
-				"hp": 3,
 				"sa": 3,
 				"sd": 3,
 				"sp": 3
-			},
-			"level": 38,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Fisherman Ned": {
 			"ability": "Sniper",
 			"index": 1,
 			"item": "Scope Lens",
-			"ivs": {
-				"at": 0,
-				"df": 31,
-				"hp": 31,
-				"sa": 31,
-				"sd": 31,
-				"sp": 31
-			},
 			"level": 23,
 			"moves": [
 				"Focus Energy",
@@ -22492,23 +23604,26 @@ var SETDEX_SV = {
 				"Aurora Beam",
 				"Flash Cannon"
 			],
-			"nature": "Timid"
+			"nature": "Timid",
+			"ivs": {
+				"at": 0
+			}
 		},
 		"Swimmer F Linda": {
 			"ability": "",
 			"index": 1,
 			"item": "",
+			"level": 33,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 33,
-			"moves": [],
-			"nature": ""
+			}
 		}
 	},
 	"Seaking": {
@@ -22516,112 +23631,125 @@ var SETDEX_SV = {
 			"ability": "",
 			"index": 0,
 			"item": "Nugget",
+			"level": 40,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 18,
 				"at": 18,
 				"df": 18,
-				"hp": 18,
 				"sa": 18,
 				"sd": 18,
 				"sp": 18
-			},
-			"level": 40,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Pkmn Breeder Lydia 5": {
 			"ability": "",
 			"index": 5,
 			"item": "",
+			"level": 31,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 4,
 				"at": 4,
 				"df": 4,
-				"hp": 4,
 				"sa": 4,
 				"sd": 4,
 				"sp": 4
-			},
-			"level": 31,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Swimmer F Carlee": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 35,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 35,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Swimmer F Debra": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 34,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 34,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Swimmer F Kara": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 34,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 34,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Swimmer F Sharon": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 34,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 34,
-			"moves": [],
-			"nature": ""
+			}
 		}
 	},
 	"Sealeo": {
 		"Elite Four Glacia": {
 			"ability": "",
-			"index": 2,
+			"index": 0,
 			"item": "",
+			"level": 50,
+			"moves": [
+				"Encore",
+				"Body Slam",
+				"Hail",
+				"Ice Ball"
+			],
+			"nature": "",
 			"ivs": {
+				"hp": 30,
 				"at": 30,
 				"df": 30,
-				"hp": 30,
 				"sa": 30,
 				"sd": 30,
 				"sp": 30
-			},
+			}
+		},
+		"Elite Four Glacia (2)": {
+			"ability": "",
+			"index": 2,
+			"item": "",
 			"level": 52,
 			"moves": [
 				"Attract",
@@ -22629,20 +23757,20 @@ var SETDEX_SV = {
 				"Hail",
 				"Blizzard"
 			],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 30,
+				"at": 30,
+				"df": 30,
+				"sa": 30,
+				"sd": 30,
+				"sp": 30
+			}
 		},
 		"Leader Juan 1": {
 			"ability": "",
 			"index": 2,
 			"item": "",
-			"ivs": {
-				"at": 24,
-				"df": 24,
-				"hp": 24,
-				"sa": 24,
-				"sd": 24,
-				"sp": 24
-			},
 			"level": 43,
 			"moves": [
 				"Encore",
@@ -22650,23 +23778,31 @@ var SETDEX_SV = {
 				"Aurora Beam",
 				"Water Pulse"
 			],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 24,
+				"at": 24,
+				"df": 24,
+				"sa": 24,
+				"sd": 24,
+				"sp": 24
+			}
 		},
 		"Swimmer M Franklin": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 34,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 34,
-			"moves": [],
-			"nature": ""
+			}
 		}
 	},
 	"Seedot": {
@@ -22674,49 +23810,83 @@ var SETDEX_SV = {
 			"ability": "",
 			"index": 4,
 			"item": "",
+			"level": 26,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 26,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Pkmn Breeder Gabrielle 2": {
 			"ability": "",
 			"index": 4,
 			"item": "",
+			"level": 31,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 1,
 				"at": 1,
 				"df": 1,
-				"hp": 1,
 				"sa": 1,
 				"sd": 1,
 				"sp": 1
-			},
-			"level": 31,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Pkmn Ranger Lorenzo": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 28,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 6,
 				"at": 6,
 				"df": 6,
-				"hp": 6,
 				"sa": 6,
 				"sd": 6,
 				"sp": 6
-			},
-			"level": 28,
-			"moves": [],
-			"nature": ""
+			}
+		}
+	},
+	"Serperior": {
+		"Rival Brendan Route 110 Mudkip": {
+			"ability": "Noble Aura",
+			"index": 4,
+			"item": "Assault Vest",
+			"level": 36,
+			"moves": [
+				"Calm Mind",
+				"Giga Drain",
+				"Thunderbolt",
+				"Earth Power"
+			],
+			"nature": "Jolly",
+			"ivs": {
+				"at": 0
+			}
+		},
+		"Rival May Route 110 Mudkip": {
+			"ability": "Noble Aura",
+			"index": 4,
+			"item": "Assault Vest",
+			"level": 36,
+			"moves": [
+				"Calm Mind",
+				"Giga Drain",
+				"Thunderbolt",
+				"Earth Power"
+			],
+			"nature": "Jolly",
+			"ivs": {
+				"at": 0
+			}
 		}
 	},
 	"Servine": {
@@ -22724,14 +23894,6 @@ var SETDEX_SV = {
 			"ability": "No Guard",
 			"index": 3,
 			"item": "Miracle Seed",
-			"ivs": {
-				"at": 1,
-				"df": 31,
-				"hp": 31,
-				"sa": 30,
-				"sd": 30,
-				"sp": 31
-			},
 			"level": 23,
 			"moves": [
 				"Leaf Tornado",
@@ -22739,20 +23901,17 @@ var SETDEX_SV = {
 				"Shock Wave",
 				"Hidden Power"
 			],
-			"nature": "Timid"
+			"nature": "Timid",
+			"ivs": {
+				"at": 1,
+				"sa": 30,
+				"sd": 30
+			}
 		},
 		"Rival May Rustboro Mudkip": {
 			"ability": "No Guard",
 			"index": 3,
 			"item": "Miracle Seed",
-			"ivs": {
-				"at": 1,
-				"df": 31,
-				"hp": 31,
-				"sa": 30,
-				"sd": 30,
-				"sp": 31
-			},
 			"level": 23,
 			"moves": [
 				"Leaf Tornado",
@@ -22760,7 +23919,12 @@ var SETDEX_SV = {
 				"Shock Wave",
 				"Hidden Power"
 			],
-			"nature": "Timid"
+			"nature": "Timid",
+			"ivs": {
+				"at": 1,
+				"sa": 30,
+				"sd": 30
+			}
 		}
 	},
 	"Seviper": {
@@ -22768,14 +23932,6 @@ var SETDEX_SV = {
 			"ability": "",
 			"index": 1,
 			"item": "",
-			"ivs": {
-				"at": 0,
-				"df": 0,
-				"hp": 0,
-				"sa": 0,
-				"sd": 0,
-				"sp": 0
-			},
 			"level": 29,
 			"moves": [
 				"Poison Tail",
@@ -22783,20 +23939,20 @@ var SETDEX_SV = {
 				"Glare",
 				"Crunch"
 			],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 0,
+				"at": 0,
+				"df": 0,
+				"sa": 0,
+				"sd": 0,
+				"sp": 0
+			}
 		},
 		"Beauty Jessica 2": {
 			"ability": "",
 			"index": 1,
 			"item": "",
-			"ivs": {
-				"at": 1,
-				"df": 1,
-				"hp": 1,
-				"sa": 1,
-				"sd": 1,
-				"sp": 1
-			},
 			"level": 35,
 			"moves": [
 				"Poison Tail",
@@ -22804,20 +23960,20 @@ var SETDEX_SV = {
 				"Glare",
 				"Crunch"
 			],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 1,
+				"at": 1,
+				"df": 1,
+				"sa": 1,
+				"sd": 1,
+				"sp": 1
+			}
 		},
 		"Beauty Jessica 3": {
 			"ability": "",
 			"index": 1,
 			"item": "",
-			"ivs": {
-				"at": 2,
-				"df": 2,
-				"hp": 2,
-				"sa": 2,
-				"sd": 2,
-				"sp": 2
-			},
 			"level": 38,
 			"moves": [
 				"Poison Tail",
@@ -22825,20 +23981,20 @@ var SETDEX_SV = {
 				"Glare",
 				"Crunch"
 			],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 2,
+				"at": 2,
+				"df": 2,
+				"sa": 2,
+				"sd": 2,
+				"sp": 2
+			}
 		},
 		"Beauty Jessica 4": {
 			"ability": "",
 			"index": 1,
 			"item": "",
-			"ivs": {
-				"at": 3,
-				"df": 3,
-				"hp": 3,
-				"sa": 3,
-				"sd": 3,
-				"sp": 3
-			},
 			"level": 41,
 			"moves": [
 				"Poison Tail",
@@ -22846,20 +24002,20 @@ var SETDEX_SV = {
 				"Glare",
 				"Crunch"
 			],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 3,
+				"at": 3,
+				"df": 3,
+				"sa": 3,
+				"sd": 3,
+				"sp": 3
+			}
 		},
 		"Beauty Jessica 5": {
 			"ability": "",
 			"index": 1,
 			"item": "",
-			"ivs": {
-				"at": 4,
-				"df": 4,
-				"hp": 4,
-				"sa": 4,
-				"sd": 4,
-				"sp": 4
-			},
 			"level": 44,
 			"moves": [
 				"Poison Tail",
@@ -22867,39 +24023,47 @@ var SETDEX_SV = {
 				"Glare",
 				"Crunch"
 			],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 4,
+				"at": 4,
+				"df": 4,
+				"sa": 4,
+				"sd": 4,
+				"sp": 4
+			}
 		},
 		"Collector Ed": {
 			"ability": "",
 			"index": 1,
 			"item": "",
+			"level": 30,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 30,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Collector Hector": {
 			"ability": "",
 			"index": 1,
 			"item": "",
+			"level": 18,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 18,
-			"moves": [],
-			"nature": ""
+			}
 		}
 	},
 	"Sharpedo": {
@@ -22907,241 +24071,254 @@ var SETDEX_SV = {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 37,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 12,
 				"at": 12,
 				"df": 12,
-				"hp": 12,
 				"sa": 12,
 				"sd": 12,
 				"sp": 12
-			},
-			"level": 37,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Aqua Leader Archie": {
 			"ability": "",
 			"index": 2,
 			"item": "",
+			"level": 43,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 18,
 				"at": 18,
 				"df": 18,
-				"hp": 18,
 				"sa": 18,
 				"sd": 18,
 				"sp": 18
-			},
-			"level": 43,
-			"moves": [],
-			"nature": ""
+			}
+		},
+		"Aqua Leader Archie Oceanic": {
+			"ability": "Speed Boost",
+			"index": 2,
+			"item": "Liechi Berry",
+			"level": 31,
+			"moves": [
+				"Tidal Bore",
+				"Psychic Fangs",
+				"Bite",
+				"Ice Fang"
+			],
+			"nature": "Adamant"
 		},
 		"Beauty Tiffany": {
 			"ability": "",
 			"index": 1,
 			"item": "",
+			"level": 39,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 12,
 				"at": 12,
 				"df": 12,
-				"hp": 12,
 				"sa": 12,
 				"sd": 12,
 				"sp": 12
-			},
-			"level": 39,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Cooltrainer Vincent": {
 			"ability": "",
 			"index": 2,
 			"item": "",
+			"level": 44,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 12,
 				"at": 12,
 				"df": 12,
-				"hp": 12,
 				"sa": 12,
 				"sd": 12,
 				"sp": 12
-			},
-			"level": 44,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Fisherman Elliot 5": {
 			"ability": "",
 			"index": 1,
 			"item": "",
+			"level": 33,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 4,
 				"at": 4,
 				"df": 4,
-				"hp": 4,
 				"sa": 4,
 				"sd": 4,
 				"sp": 4
-			},
-			"level": 33,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Fisherman Jonah": {
 			"ability": "",
 			"index": 2,
 			"item": "",
-			"ivs": {
-				"at": 0,
-				"df": 0,
-				"hp": 0,
-				"sa": 0,
-				"sd": 0,
-				"sp": 0
-			},
 			"level": 32,
 			"moves": [],
-			"nature": ""
-		},
-		"Sis And Bro Lila And Roy 4": {
-			"ability": "",
-			"index": 1,
-			"item": "",
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
+			}
+		},
+		"Sis And Bro Lila & Roy Lila And Roy 4": {
+			"ability": "",
+			"index": 1,
+			"item": "",
 			"level": 46,
 			"moves": [],
-			"nature": ""
-		},
-		"Sis And Bro Lila And Roy 5": {
-			"ability": "",
-			"index": 1,
-			"item": "",
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
+			}
+		},
+		"Sis And Bro Lila & Roy Lila And Roy 5": {
+			"ability": "",
+			"index": 1,
+			"item": "",
 			"level": 49,
 			"moves": [],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 0,
+				"at": 0,
+				"df": 0,
+				"sa": 0,
+				"sd": 0,
+				"sp": 0
+			}
 		},
 		"Swimmer M Clarence": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 34,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 34,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Swimmer M Gilbert": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 34,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 34,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Swimmer M Reed": {
 			"ability": "",
 			"index": 1,
 			"item": "",
+			"level": 33,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 33,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Swimmer M Tony 2": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 30,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 1,
 				"at": 1,
 				"df": 1,
-				"hp": 1,
 				"sa": 1,
 				"sd": 1,
 				"sp": 1
-			},
-			"level": 30,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Swimmer M Tony 3": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 33,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 2,
 				"at": 2,
 				"df": 2,
-				"hp": 2,
 				"sa": 2,
 				"sd": 2,
 				"sp": 2
-			},
-			"level": 33,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Swimmer M Tony 4": {
 			"ability": "",
 			"index": 1,
 			"item": "",
+			"level": 36,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 3,
 				"at": 3,
 				"df": 3,
-				"hp": 3,
 				"sa": 3,
 				"sd": 3,
 				"sp": 3
-			},
-			"level": 36,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Swimmer M Tony 5": {
 			"ability": "",
 			"index": 1,
 			"item": "",
+			"level": 39,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 4,
 				"at": 4,
 				"df": 4,
-				"hp": 4,
 				"sa": 4,
 				"sd": 4,
 				"sp": 4
-			},
-			"level": 39,
-			"moves": [],
-			"nature": ""
+			}
 		}
 	},
 	"Shelgon": {
@@ -23149,30 +24326,22 @@ var SETDEX_SV = {
 			"ability": "",
 			"index": 2,
 			"item": "Dragon Fang",
+			"level": 49,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 17,
 				"at": 17,
 				"df": 17,
-				"hp": 17,
 				"sa": 17,
 				"sd": 17,
 				"sp": 17
-			},
-			"level": 49,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Elite Four Drake": {
 			"ability": "",
 			"index": 0,
 			"item": "",
-			"ivs": {
-				"at": 30,
-				"df": 30,
-				"hp": 30,
-				"sa": 30,
-				"sd": 30,
-				"sp": 30
-			},
 			"level": 52,
 			"moves": [
 				"Rock Tomb",
@@ -23180,7 +24349,15 @@ var SETDEX_SV = {
 				"Protect",
 				"Double Edge"
 			],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 30,
+				"at": 30,
+				"df": 30,
+				"sa": 30,
+				"sd": 30,
+				"sp": 30
+			}
 		}
 	},
 	"Shiftry": {
@@ -23188,30 +24365,22 @@ var SETDEX_SV = {
 			"ability": "",
 			"index": 1,
 			"item": "",
+			"level": 35,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 35,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Cooltrainer Braxton": {
 			"ability": "",
 			"index": 4,
 			"item": "",
-			"ivs": {
-				"at": 12,
-				"df": 12,
-				"hp": 12,
-				"sa": 12,
-				"sd": 12,
-				"sp": 12
-			},
 			"level": 28,
 			"moves": [
 				"Giga Drain",
@@ -23219,68 +24388,68 @@ var SETDEX_SV = {
 				"Double Team",
 				"Swagger"
 			],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 12,
+				"at": 12,
+				"df": 12,
+				"sa": 12,
+				"sd": 12,
+				"sp": 12
+			}
 		},
 		"Cooltrainer Marcel": {
 			"ability": "",
 			"index": 1,
 			"item": "",
+			"level": 29,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 12,
 				"at": 12,
 				"df": 12,
-				"hp": 12,
 				"sa": 12,
 				"sd": 12,
 				"sp": 12
-			},
-			"level": 29,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Cooltrainer Ruben": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 34,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 12,
 				"at": 12,
 				"df": 12,
-				"hp": 12,
 				"sa": 12,
 				"sd": 12,
 				"sp": 12
-			},
-			"level": 34,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Cooltrainer Vito": {
 			"ability": "",
 			"index": 3,
 			"item": "",
+			"level": 42,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 12,
 				"at": 12,
 				"df": 12,
-				"hp": 12,
 				"sa": 12,
 				"sd": 12,
 				"sp": 12
-			},
-			"level": 42,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Elite Four Sidney": {
 			"ability": "",
 			"index": 1,
 			"item": "",
-			"ivs": {
-				"at": 30,
-				"df": 30,
-				"hp": 30,
-				"sa": 30,
-				"sd": 30,
-				"sp": 30
-			},
 			"level": 48,
 			"moves": [
 				"Torment",
@@ -23288,23 +24457,31 @@ var SETDEX_SV = {
 				"Swagger",
 				"Extrasensory"
 			],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 30,
+				"at": 30,
+				"df": 30,
+				"sa": 30,
+				"sd": 30,
+				"sp": 30
+			}
 		},
 		"Pkmn Breeder Gabrielle 5": {
 			"ability": "",
 			"index": 4,
 			"item": "",
+			"level": 37,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 4,
 				"at": 4,
 				"df": 4,
-				"hp": 4,
 				"sa": 4,
 				"sd": 4,
 				"sp": 4
-			},
-			"level": 37,
-			"moves": [],
-			"nature": ""
+			}
 		}
 	},
 	"Shroodle": {
@@ -23312,20 +24489,20 @@ var SETDEX_SV = {
 			"ability": "Pickpocket",
 			"index": 0,
 			"item": "",
-			"ivs": {
-				"at": 0,
-				"df": 0,
-				"hp": 0,
-				"sa": 0,
-				"sd": 0,
-				"sp": 0
-			},
 			"level": 7,
 			"moves": [
 				"Fury Swipes",
 				"Poison Sting"
 			],
-			"nature": "Jolly"
+			"nature": "Jolly",
+			"ivs": {
+				"hp": 0,
+				"at": 0,
+				"df": 0,
+				"sa": 0,
+				"sd": 0,
+				"sp": 0
+			}
 		}
 	},
 	"Shroomish": {
@@ -23333,356 +24510,371 @@ var SETDEX_SV = {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 14,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 14,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Aroma Lady Rose 1": {
 			"ability": "",
 			"index": 1,
 			"item": "",
+			"level": 14,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 14,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Aroma Lady Rose 2": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 26,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 1,
 				"at": 1,
 				"df": 1,
-				"hp": 1,
 				"sa": 1,
 				"sd": 1,
 				"sp": 1
-			},
-			"level": 26,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Aroma Lady Rose 3": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 28,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 2,
 				"at": 2,
 				"df": 2,
-				"hp": 2,
 				"sa": 2,
 				"sd": 2,
 				"sp": 2
-			},
-			"level": 28,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Aroma Lady Rose 4": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 31,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 3,
 				"at": 3,
 				"df": 3,
-				"hp": 3,
 				"sa": 3,
 				"sd": 3,
 				"sp": 3
-			},
-			"level": 31,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Aroma Lady Shayla": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 18,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 18,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Beauty Sheila": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 21,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 21,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Lass Haley 2": {
 			"ability": "",
 			"index": 1,
 			"item": "",
+			"level": 26,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 1,
 				"at": 1,
 				"df": 1,
-				"hp": 1,
 				"sa": 1,
 				"sd": 1,
 				"sp": 1
-			},
-			"level": 26,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Lass Robin": {
 			"ability": "",
 			"index": 1,
 			"item": "",
+			"level": 14,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 14,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Picnicker Autumn": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 21,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 21,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Picnicker Bianca": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 18,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 18,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Picnicker Diana 1": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 19,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 19,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Picnicker Diana 2": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 25,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 1,
 				"at": 1,
 				"df": 1,
-				"hp": 1,
 				"sa": 1,
 				"sd": 1,
 				"sp": 1
-			},
-			"level": 25,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Picnicker Irene": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 17,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 17,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Pkmn Breeder Lydia 1": {
 			"ability": "",
 			"index": 1,
 			"item": "",
+			"level": 11,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 11,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Pkmn Breeder Lydia 2": {
 			"ability": "",
 			"index": 1,
 			"item": "",
+			"level": 22,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 1,
 				"at": 1,
 				"df": 1,
-				"hp": 1,
 				"sa": 1,
 				"sd": 1,
 				"sp": 1
-			},
-			"level": 22,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Pkmn Breeder Pat": {
 			"ability": "",
 			"index": 1,
 			"item": "",
+			"level": 25,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 1,
 				"at": 1,
 				"df": 1,
-				"hp": 1,
 				"sa": 1,
 				"sd": 1,
 				"sp": 1
-			},
-			"level": 25,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"School Kid Georgia": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 16,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 1,
 				"at": 1,
 				"df": 1,
-				"hp": 1,
 				"sa": 1,
 				"sd": 1,
 				"sp": 1
-			},
-			"level": 16,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"School Kid Karen 2": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 26,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 2,
 				"at": 2,
 				"df": 2,
-				"hp": 2,
 				"sa": 2,
 				"sd": 2,
 				"sp": 2
-			},
-			"level": 26,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"School Kid Karen 3": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 29,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 3,
 				"at": 3,
 				"df": 3,
-				"hp": 3,
 				"sa": 3,
 				"sd": 3,
 				"sp": 3
-			},
-			"level": 29,
-			"moves": [],
-			"nature": ""
+			}
 		},
-		"Twins Gina And Mia 2": {
+		"Twins Gina & Mia Gina And Mia 2": {
 			"ability": "",
 			"index": 1,
 			"item": "",
-			"ivs": {
-				"at": 0,
-				"df": 0,
-				"hp": 0,
-				"sa": 0,
-				"sd": 0,
-				"sp": 0
-			},
 			"level": 10,
 			"moves": [
 				"Absorb",
 				"Leech Seed"
 			],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 0,
+				"at": 0,
+				"df": 0,
+				"sa": 0,
+				"sd": 0,
+				"sp": 0
+			}
 		},
 		"Winstrate Vivi": {
 			"ability": "",
 			"index": 1,
 			"item": "",
+			"level": 15,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 12,
 				"at": 12,
 				"df": 12,
-				"hp": 12,
 				"sa": 12,
 				"sd": 12,
 				"sp": 12
-			},
+			}
+		}
+	},
+	"Shuckle": {
+		"Lass Fiona School": {
+			"ability": "Contrary",
+			"index": 0,
+			"item": "Berry Juice",
 			"level": 15,
-			"moves": [],
-			"nature": ""
+			"moves": [
+				"Rollout",
+				"Sticky Web",
+				"Toxic",
+				"Infestation"
+			],
+			"nature": "Sassy"
 		}
 	},
 	"Shuppet": {
@@ -23690,49 +24882,49 @@ var SETDEX_SV = {
 			"ability": "",
 			"index": 1,
 			"item": "",
+			"level": 30,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 30,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Hex Maniac Tammy": {
 			"ability": "",
 			"index": 1,
 			"item": "",
+			"level": 29,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 29,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Hex Maniac Tasha": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 32,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 6,
 				"at": 6,
 				"df": 6,
-				"hp": 6,
 				"sa": 6,
 				"sd": 6,
 				"sp": 6
-			},
-			"level": 32,
-			"moves": [],
-			"nature": ""
+			}
 		}
 	},
 	"Silcoon": {
@@ -23740,14 +24932,6 @@ var SETDEX_SV = {
 			"ability": "Shed Skin",
 			"index": 3,
 			"item": "",
-			"ivs": {
-				"at": 31,
-				"df": 31,
-				"hp": 31,
-				"sa": 31,
-				"sd": 31,
-				"sp": 31
-			},
 			"level": 9,
 			"moves": [
 				"Bug Bite",
@@ -23760,17 +24944,17 @@ var SETDEX_SV = {
 			"ability": "",
 			"index": 1,
 			"item": "",
+			"level": 24,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 12,
 				"at": 12,
 				"df": 12,
-				"hp": 12,
 				"sa": 12,
 				"sd": 12,
 				"sp": 12
-			},
-			"level": 24,
-			"moves": [],
-			"nature": ""
+			}
 		}
 	},
 	"Sizzlipede": {
@@ -23778,14 +24962,6 @@ var SETDEX_SV = {
 			"ability": "Flash Fire",
 			"index": 2,
 			"item": "Charti Berry",
-			"ivs": {
-				"at": 31,
-				"df": 31,
-				"hp": 31,
-				"sa": 31,
-				"sd": 31,
-				"sp": 31
-			},
 			"level": 14,
 			"moves": [
 				"Bug Bite",
@@ -23801,110 +24977,118 @@ var SETDEX_SV = {
 			"ability": "",
 			"index": 1,
 			"item": "",
+			"level": 32,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 32,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Bird Keeper Coby": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 17,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 17,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Bird Keeper Elijah": {
 			"ability": "",
-			"index": 1,
+			"index": 0,
 			"item": "",
+			"level": 25,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
+			}
+		},
+		"Bird Keeper Elijah (2)": {
+			"ability": "",
+			"index": 1,
+			"item": "",
 			"level": 25,
 			"moves": [],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 0,
+				"at": 0,
+				"df": 0,
+				"sa": 0,
+				"sd": 0,
+				"sp": 0
+			}
 		},
 		"Bird Keeper Humberto": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 30,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 30,
 				"at": 30,
 				"df": 30,
-				"hp": 30,
 				"sa": 30,
 				"sd": 30,
 				"sp": 30
-			},
-			"level": 30,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Bird Keeper Jared": {
 			"ability": "",
 			"index": 1,
 			"item": "",
+			"level": 27,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 12,
 				"at": 12,
 				"df": 12,
-				"hp": 12,
 				"sa": 12,
 				"sd": 12,
 				"sp": 12
-			},
-			"level": 27,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Cooltrainer Caroline": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 43,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 12,
 				"at": 12,
 				"df": 12,
-				"hp": 12,
 				"sa": 12,
 				"sd": 12,
 				"sp": 12
-			},
-			"level": 43,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Leader Winona 1": {
 			"ability": "",
 			"index": 3,
 			"item": "",
-			"ivs": {
-				"at": 26,
-				"df": 26,
-				"hp": 26,
-				"sa": 26,
-				"sd": 26,
-				"sp": 26
-			},
 			"level": 31,
 			"moves": [
 				"Sand Attack",
@@ -23912,20 +25096,20 @@ var SETDEX_SV = {
 				"Steel Wing",
 				"Aerial Ace"
 			],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 26,
+				"at": 26,
+				"df": 26,
+				"sa": 26,
+				"sd": 26,
+				"sp": 26
+			}
 		},
 		"Leader Winona 2": {
 			"ability": "",
 			"index": 3,
 			"item": "",
-			"ivs": {
-				"at": 31,
-				"df": 31,
-				"hp": 31,
-				"sa": 31,
-				"sd": 31,
-				"sp": 31
-			},
 			"level": 43,
 			"moves": [
 				"Whirlwind",
@@ -23933,20 +25117,20 @@ var SETDEX_SV = {
 				"Steel Wing",
 				"Aerial Ace"
 			],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 31,
+				"at": 31,
+				"df": 31,
+				"sa": 31,
+				"sd": 31,
+				"sp": 31
+			}
 		},
 		"Leader Winona 3": {
 			"ability": "",
 			"index": 4,
 			"item": "",
-			"ivs": {
-				"at": 31,
-				"df": 31,
-				"hp": 31,
-				"sa": 31,
-				"sd": 31,
-				"sp": 31
-			},
 			"level": 48,
 			"moves": [
 				"Whirlwind",
@@ -23954,20 +25138,20 @@ var SETDEX_SV = {
 				"Steel Wing",
 				"Aerial Ace"
 			],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 31,
+				"at": 31,
+				"df": 31,
+				"sa": 31,
+				"sd": 31,
+				"sp": 31
+			}
 		},
 		"Leader Winona 4": {
 			"ability": "",
 			"index": 4,
 			"item": "",
-			"ivs": {
-				"at": 31,
-				"df": 31,
-				"hp": 31,
-				"sa": 31,
-				"sd": 31,
-				"sp": 31
-			},
 			"level": 53,
 			"moves": [
 				"Whirlwind",
@@ -23975,20 +25159,20 @@ var SETDEX_SV = {
 				"Steel Wing",
 				"Aerial Ace"
 			],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 31,
+				"at": 31,
+				"df": 31,
+				"sa": 31,
+				"sd": 31,
+				"sp": 31
+			}
 		},
 		"Leader Winona 5": {
 			"ability": "",
 			"index": 4,
 			"item": "",
-			"ivs": {
-				"at": 31,
-				"df": 31,
-				"hp": 31,
-				"sa": 31,
-				"sd": 31,
-				"sp": 31
-			},
 			"level": 58,
 			"moves": [
 				"Whirlwind",
@@ -23996,20 +25180,20 @@ var SETDEX_SV = {
 				"Steel Wing",
 				"Aerial Ace"
 			],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 31,
+				"at": 31,
+				"df": 31,
+				"sa": 31,
+				"sd": 31,
+				"sp": 31
+			}
 		},
 		"Rival Steven": {
 			"ability": "",
 			"index": 0,
 			"item": "",
-			"ivs": {
-				"at": 31,
-				"df": 31,
-				"hp": 31,
-				"sa": 31,
-				"sd": 31,
-				"sp": 31
-			},
 			"level": 77,
 			"moves": [
 				"Toxic",
@@ -24017,7 +25201,15 @@ var SETDEX_SV = {
 				"Spikes",
 				"Steel Wing"
 			],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 31,
+				"at": 31,
+				"df": 31,
+				"sa": 31,
+				"sd": 31,
+				"sp": 31
+			}
 		}
 	},
 	"Skitty": {
@@ -24025,126 +25217,202 @@ var SETDEX_SV = {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 14,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 14,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Picnicker Martha": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 23,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 23,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Pkmn Breeder Gabrielle 1": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 26,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 26,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Pkmn Breeder Gabrielle 2": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 31,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 1,
 				"at": 1,
 				"df": 1,
-				"hp": 1,
 				"sa": 1,
 				"sd": 1,
 				"sp": 1
-			},
-			"level": 31,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Pkmn Breeder Gabrielle 3": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 33,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 2,
 				"at": 2,
 				"df": 2,
-				"hp": 2,
 				"sa": 2,
 				"sd": 2,
 				"sp": 2
-			},
-			"level": 33,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Pkmn Breeder Lydia 1": {
 			"ability": "",
 			"index": 4,
 			"item": "",
+			"level": 11,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 11,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Pkmn Breeder Lydia 2": {
 			"ability": "",
 			"index": 4,
 			"item": "",
+			"level": 22,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 1,
 				"at": 1,
 				"df": 1,
-				"hp": 1,
 				"sa": 1,
 				"sd": 1,
 				"sp": 1
-			},
-			"level": 22,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Pokefan Colton": {
 			"ability": "",
-			"index": 4,
+			"index": 0,
 			"item": "Oran Berry",
+			"level": 22,
+			"moves": [
+				"Assist",
+				"Charm",
+				"Feint Attack",
+				"Heal Bell"
+			],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
+			}
+		},
+		"Pokefan Colton (2)": {
+			"ability": "",
+			"index": 1,
+			"item": "Oran Berry",
+			"level": 36,
+			"moves": [
+				"Assist",
+				"Charm",
+				"Feint Attack",
+				"Heal Bell"
+			],
+			"nature": "",
+			"ivs": {
+				"hp": 0,
+				"at": 0,
+				"df": 0,
+				"sa": 0,
+				"sd": 0,
+				"sp": 0
+			}
+		},
+		"Pokefan Colton (3)": {
+			"ability": "",
+			"index": 2,
+			"item": "Oran Berry",
+			"level": 40,
+			"moves": [
+				"Assist",
+				"Charm",
+				"Feint Attack",
+				"Heal Bell"
+			],
+			"nature": "",
+			"ivs": {
+				"hp": 0,
+				"at": 0,
+				"df": 0,
+				"sa": 0,
+				"sd": 0,
+				"sp": 0
+			}
+		},
+		"Pokefan Colton (4)": {
+			"ability": "",
+			"index": 3,
+			"item": "Oran Berry",
+			"level": 12,
+			"moves": [
+				"Assist",
+				"Charm",
+				"Feint Attack",
+				"Heal Bell"
+			],
+			"nature": "",
+			"ivs": {
+				"hp": 0,
+				"at": 0,
+				"df": 0,
+				"sa": 0,
+				"sd": 0,
+				"sp": 0
+			}
+		},
+		"Pokefan Colton (5)": {
+			"ability": "",
+			"index": 4,
+			"item": "Oran Berry",
 			"level": 30,
 			"moves": [
 				"Assist",
@@ -24152,55 +25420,63 @@ var SETDEX_SV = {
 				"Feint Attack",
 				"Heal Bell"
 			],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 0,
+				"at": 0,
+				"df": 0,
+				"sa": 0,
+				"sd": 0,
+				"sp": 0
+			}
 		},
 		"Pokefan Miguel 1": {
 			"ability": "",
 			"index": 0,
 			"item": "Oran Berry",
+			"level": 15,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 15,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Pokefan Miguel 2": {
 			"ability": "",
 			"index": 0,
 			"item": "Oran Berry",
+			"level": 29,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 29,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Pokefan Miguel 3": {
 			"ability": "",
 			"index": 0,
 			"item": "Oran Berry",
+			"level": 32,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 32,
-			"moves": [],
-			"nature": ""
+			}
 		}
 	},
 	"Slaking": {
@@ -24208,30 +25484,22 @@ var SETDEX_SV = {
 			"ability": "",
 			"index": 2,
 			"item": "",
+			"level": 41,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 17,
 				"at": 17,
 				"df": 17,
-				"hp": 17,
 				"sa": 17,
 				"sd": 17,
 				"sp": 17
-			},
-			"level": 41,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Cooltrainer Katelynn": {
 			"ability": "",
 			"index": 1,
 			"item": "",
-			"ivs": {
-				"at": 12,
-				"df": 12,
-				"hp": 12,
-				"sa": 12,
-				"sd": 12,
-				"sp": 12
-			},
 			"level": 43,
 			"moves": [
 				"Earthquake",
@@ -24239,20 +25507,20 @@ var SETDEX_SV = {
 				"Aerial Ace",
 				"Brick Break"
 			],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 12,
+				"at": 12,
+				"df": 12,
+				"sa": 12,
+				"sd": 12,
+				"sp": 12
+			}
 		},
 		"Cooltrainer Quincy": {
 			"ability": "",
 			"index": 0,
 			"item": "",
-			"ivs": {
-				"at": 12,
-				"df": 12,
-				"hp": 12,
-				"sa": 12,
-				"sd": 12,
-				"sp": 12
-			},
 			"level": 43,
 			"moves": [
 				"Attract",
@@ -24260,20 +25528,20 @@ var SETDEX_SV = {
 				"Thunderbolt",
 				"Flamethrower"
 			],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 12,
+				"at": 12,
+				"df": 12,
+				"sa": 12,
+				"sd": 12,
+				"sp": 12
+			}
 		},
 		"Leader Norman 1": {
 			"ability": "",
 			"index": 3,
 			"item": "Sitrus Berry",
-			"ivs": {
-				"at": 30,
-				"df": 30,
-				"hp": 30,
-				"sa": 30,
-				"sd": 30,
-				"sp": 30
-			},
 			"level": 31,
 			"moves": [
 				"Counter",
@@ -24281,20 +25549,41 @@ var SETDEX_SV = {
 				"Facade",
 				"Feint Attack"
 			],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 30,
+				"at": 30,
+				"df": 30,
+				"sa": 30,
+				"sd": 30,
+				"sp": 30
+			}
 		},
 		"Leader Norman 2": {
 			"ability": "",
-			"index": 3,
+			"index": 1,
 			"item": "Sitrus Berry",
+			"level": 42,
+			"moves": [
+				"Blizzard",
+				"Shadow Ball",
+				"Double Edge",
+				"Fire Blast"
+			],
+			"nature": "",
 			"ivs": {
+				"hp": 31,
 				"at": 31,
 				"df": 31,
-				"hp": 31,
 				"sa": 31,
 				"sd": 31,
 				"sp": 31
-			},
+			}
+		},
+		"Leader Norman 2 (2)": {
+			"ability": "",
+			"index": 3,
+			"item": "Sitrus Berry",
 			"level": 45,
 			"moves": [
 				"Hyper Beam",
@@ -24302,20 +25591,41 @@ var SETDEX_SV = {
 				"Thunderbolt",
 				"Shadow Ball"
 			],
-			"nature": ""
-		},
-		"Leader Norman 3": {
-			"ability": "",
-			"index": 4,
-			"item": "Sitrus Berry",
+			"nature": "",
 			"ivs": {
+				"hp": 31,
 				"at": 31,
 				"df": 31,
-				"hp": 31,
 				"sa": 31,
 				"sd": 31,
 				"sp": 31
-			},
+			}
+		},
+		"Leader Norman 3": {
+			"ability": "",
+			"index": 0,
+			"item": "Sitrus Berry",
+			"level": 47,
+			"moves": [
+				"Blizzard",
+				"Shadow Ball",
+				"Double Edge",
+				"Fire Blast"
+			],
+			"nature": "",
+			"ivs": {
+				"hp": 31,
+				"at": 31,
+				"df": 31,
+				"sa": 31,
+				"sd": 31,
+				"sp": 31
+			}
+		},
+		"Leader Norman 3 (2)": {
+			"ability": "",
+			"index": 4,
+			"item": "Sitrus Berry",
 			"level": 50,
 			"moves": [
 				"Hyper Beam",
@@ -24323,20 +25633,41 @@ var SETDEX_SV = {
 				"Thunderbolt",
 				"Shadow Ball"
 			],
-			"nature": ""
-		},
-		"Leader Norman 4": {
-			"ability": "",
-			"index": 4,
-			"item": "Sitrus Berry",
+			"nature": "",
 			"ivs": {
+				"hp": 31,
 				"at": 31,
 				"df": 31,
-				"hp": 31,
 				"sa": 31,
 				"sd": 31,
 				"sp": 31
-			},
+			}
+		},
+		"Leader Norman 4": {
+			"ability": "",
+			"index": 0,
+			"item": "Sitrus Berry",
+			"level": 52,
+			"moves": [
+				"Blizzard",
+				"Shadow Ball",
+				"Double Edge",
+				"Fire Blast"
+			],
+			"nature": "",
+			"ivs": {
+				"hp": 31,
+				"at": 31,
+				"df": 31,
+				"sa": 31,
+				"sd": 31,
+				"sp": 31
+			}
+		},
+		"Leader Norman 4 (2)": {
+			"ability": "",
+			"index": 4,
+			"item": "Sitrus Berry",
 			"level": 55,
 			"moves": [
 				"Hyper Beam",
@@ -24344,20 +25675,41 @@ var SETDEX_SV = {
 				"Thunderbolt",
 				"Shadow Ball"
 			],
-			"nature": ""
-		},
-		"Leader Norman 5": {
-			"ability": "",
-			"index": 5,
-			"item": "Sitrus Berry",
+			"nature": "",
 			"ivs": {
+				"hp": 31,
 				"at": 31,
 				"df": 31,
-				"hp": 31,
 				"sa": 31,
 				"sd": 31,
 				"sp": 31
-			},
+			}
+		},
+		"Leader Norman 5": {
+			"ability": "",
+			"index": 0,
+			"item": "Sitrus Berry",
+			"level": 57,
+			"moves": [
+				"Blizzard",
+				"Shadow Ball",
+				"Double Edge",
+				"Fire Blast"
+			],
+			"nature": "",
+			"ivs": {
+				"hp": 31,
+				"at": 31,
+				"df": 31,
+				"sa": 31,
+				"sd": 31,
+				"sp": 31
+			}
+		},
+		"Leader Norman 5 (2)": {
+			"ability": "",
+			"index": 5,
+			"item": "Sitrus Berry",
 			"level": 60,
 			"moves": [
 				"Hyper Beam",
@@ -24365,20 +25717,20 @@ var SETDEX_SV = {
 				"Thunderbolt",
 				"Shadow Ball"
 			],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 31,
+				"at": 31,
+				"df": 31,
+				"sa": 31,
+				"sd": 31,
+				"sp": 31
+			}
 		},
-		"Sr And Jr Kate And Joy": {
+		"Sr And Jr Kate & Joy Kate And Joy": {
 			"ability": "",
 			"index": 1,
 			"item": "",
-			"ivs": {
-				"at": 0,
-				"df": 0,
-				"hp": 0,
-				"sa": 0,
-				"sd": 0,
-				"sp": 0
-			},
 			"level": 32,
 			"moves": [
 				"Focus Punch",
@@ -24386,7 +25738,15 @@ var SETDEX_SV = {
 				"Slack Off",
 				"Feint Attack"
 			],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 0,
+				"at": 0,
+				"df": 0,
+				"sa": 0,
+				"sd": 0,
+				"sp": 0
+			}
 		}
 	},
 	"Slakoth": {
@@ -24394,36 +25754,28 @@ var SETDEX_SV = {
 			"ability": "",
 			"index": 0,
 			"item": "Sitrus Berry",
-			"ivs": {
-				"at": 31,
-				"df": 31,
-				"hp": 31,
-				"sa": 31,
-				"sd": 31,
-				"sp": 31
-			},
 			"level": 26,
 			"moves": [
 				"Slack Off",
 				"Counter",
 				"Shadow Ball"
 			],
-			"nature": ""
-		}
-	},
-	"Slowking": {
-		"Leader Tate And Liza 5": {
-			"ability": "",
-			"index": 2,
-			"item": "",
+			"nature": "",
 			"ivs": {
+				"hp": 31,
 				"at": 31,
 				"df": 31,
-				"hp": 31,
 				"sa": 31,
 				"sd": 31,
 				"sp": 31
-			},
+			}
+		}
+	},
+	"Slowking": {
+		"Leader Tate&liza Tate And Liza 5": {
+			"ability": "",
+			"index": 2,
+			"item": "",
 			"level": 63,
 			"moves": [
 				"Yawn",
@@ -24431,22 +25783,22 @@ var SETDEX_SV = {
 				"Calm Mind",
 				"Protect"
 			],
-			"nature": ""
-		}
-	},
-	"Slowpoke": {
-		"Leader Tate And Liza 2": {
-			"ability": "",
-			"index": 0,
-			"item": "",
+			"nature": "",
 			"ivs": {
+				"hp": 31,
 				"at": 31,
 				"df": 31,
-				"hp": 31,
 				"sa": 31,
 				"sd": 31,
 				"sp": 31
-			},
+			}
+		}
+	},
+	"Slowpoke": {
+		"Leader Tate&liza Tate And Liza 2": {
+			"ability": "",
+			"index": 0,
+			"item": "",
 			"level": 48,
 			"moves": [
 				"Yawn",
@@ -24454,20 +25806,20 @@ var SETDEX_SV = {
 				"Calm Mind",
 				"Protect"
 			],
-			"nature": ""
-		},
-		"Leader Tate And Liza 3": {
-			"ability": "",
-			"index": 1,
-			"item": "",
+			"nature": "",
 			"ivs": {
+				"hp": 31,
 				"at": 31,
 				"df": 31,
-				"hp": 31,
 				"sa": 31,
 				"sd": 31,
 				"sp": 31
-			},
+			}
+		},
+		"Leader Tate&liza Tate And Liza 3": {
+			"ability": "",
+			"index": 1,
+			"item": "",
 			"level": 53,
 			"moves": [
 				"Yawn",
@@ -24475,20 +25827,20 @@ var SETDEX_SV = {
 				"Calm Mind",
 				"Protect"
 			],
-			"nature": ""
-		},
-		"Leader Tate And Liza 4": {
-			"ability": "",
-			"index": 2,
-			"item": "",
+			"nature": "",
 			"ivs": {
+				"hp": 31,
 				"at": 31,
 				"df": 31,
-				"hp": 31,
 				"sa": 31,
 				"sd": 31,
 				"sp": 31
-			},
+			}
+		},
+		"Leader Tate&liza Tate And Liza 4": {
+			"ability": "",
+			"index": 2,
+			"item": "",
 			"level": 58,
 			"moves": [
 				"Yawn",
@@ -24496,7 +25848,15 @@ var SETDEX_SV = {
 				"Calm Mind",
 				"Protect"
 			],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 31,
+				"at": 31,
+				"df": 31,
+				"sa": 31,
+				"sd": 31,
+				"sp": 31
+			}
 		}
 	},
 	"Slugma": {
@@ -24504,158 +25864,166 @@ var SETDEX_SV = {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 18,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 18,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Kindler Bernie 2": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 26,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 1,
 				"at": 1,
 				"df": 1,
-				"hp": 1,
 				"sa": 1,
 				"sd": 1,
 				"sp": 1
-			},
-			"level": 26,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Kindler Bernie 3": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 29,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 2,
 				"at": 2,
 				"df": 2,
-				"hp": 2,
 				"sa": 2,
 				"sd": 2,
 				"sp": 2
-			},
-			"level": 29,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Kindler Bernie 4": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 32,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 3,
 				"at": 3,
 				"df": 3,
-				"hp": 3,
 				"sa": 3,
 				"sd": 3,
 				"sp": 3
-			},
-			"level": 32,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Kindler Bryant": {
 			"ability": "",
 			"index": 1,
 			"item": "",
+			"level": 18,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 18,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Kindler Dayton": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 25,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 25,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Kindler Jace": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 23,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 12,
 				"at": 12,
 				"df": 12,
-				"hp": 12,
 				"sa": 12,
 				"sd": 12,
 				"sp": 12
-			},
-			"level": 23,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Kindler Jeff": {
 			"ability": "",
-			"index": 1,
+			"index": 0,
 			"item": "",
+			"level": 22,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 12,
 				"at": 12,
 				"df": 12,
-				"hp": 12,
 				"sa": 12,
 				"sd": 12,
 				"sp": 12
-			},
+			}
+		},
+		"Kindler Jeff (2)": {
+			"ability": "",
+			"index": 1,
+			"item": "",
 			"level": 22,
 			"moves": [],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 12,
+				"at": 12,
+				"df": 12,
+				"sa": 12,
+				"sd": 12,
+				"sp": 12
+			}
 		},
 		"Kindler Keegan": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 23,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 14,
 				"at": 14,
 				"df": 14,
-				"hp": 14,
 				"sa": 14,
 				"sd": 14,
 				"sp": 14
-			},
-			"level": 23,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Leader Flannery 1": {
 			"ability": "",
 			"index": 1,
 			"item": "",
-			"ivs": {
-				"at": 24,
-				"df": 24,
-				"hp": 24,
-				"sa": 24,
-				"sd": 24,
-				"sp": 24
-			},
 			"level": 24,
 			"moves": [
 				"Overheat",
@@ -24663,199 +26031,143 @@ var SETDEX_SV = {
 				"Light Screen",
 				"Sunny Day"
 			],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 24,
+				"at": 24,
+				"df": 24,
+				"sa": 24,
+				"sd": 24,
+				"sp": 24
+			}
 		},
 		"Rival Brendan Lilycove Mudkip": {
 			"ability": "",
 			"index": 1,
 			"item": "",
+			"level": 32,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 18,
 				"at": 18,
 				"df": 18,
-				"hp": 18,
 				"sa": 18,
 				"sd": 18,
 				"sp": 18
-			},
-			"level": 32,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Rival Brendan Lilycove Torchic": {
 			"ability": "",
 			"index": 2,
 			"item": "",
+			"level": 32,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 18,
 				"at": 18,
 				"df": 18,
-				"hp": 18,
 				"sa": 18,
 				"sd": 18,
 				"sp": 18
-			},
-			"level": 32,
-			"moves": [],
-			"nature": ""
-		},
-		"Rival Brendan Route 110 Mudkip": {
-			"ability": "",
-			"index": 0,
-			"item": "",
-			"ivs": {
-				"at": 6,
-				"df": 6,
-				"hp": 6,
-				"sa": 6,
-				"sd": 6,
-				"sp": 6
-			},
-			"level": 18,
-			"moves": [],
-			"nature": ""
-		},
-		"Rival Brendan Route 110 Torchic": {
-			"ability": "",
-			"index": 1,
-			"item": "",
-			"ivs": {
-				"at": 6,
-				"df": 6,
-				"hp": 6,
-				"sa": 6,
-				"sd": 6,
-				"sp": 6
-			},
-			"level": 18,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Rival Brendan Route 119 Mudkip": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 29,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 12,
 				"at": 12,
 				"df": 12,
-				"hp": 12,
 				"sa": 12,
 				"sd": 12,
 				"sp": 12
-			},
-			"level": 29,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Rival Brendan Route 119 Torchic": {
 			"ability": "",
 			"index": 1,
 			"item": "",
+			"level": 29,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 12,
 				"at": 12,
 				"df": 12,
-				"hp": 12,
 				"sa": 12,
 				"sd": 12,
 				"sp": 12
-			},
-			"level": 29,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Rival May Lilycove Mudkip": {
 			"ability": "",
 			"index": 1,
 			"item": "",
+			"level": 32,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 18,
 				"at": 18,
 				"df": 18,
-				"hp": 18,
 				"sa": 18,
 				"sd": 18,
 				"sp": 18
-			},
-			"level": 32,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Rival May Lilycove Torchic": {
 			"ability": "",
 			"index": 2,
 			"item": "",
+			"level": 32,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 18,
 				"at": 18,
 				"df": 18,
-				"hp": 18,
 				"sa": 18,
 				"sd": 18,
 				"sp": 18
-			},
-			"level": 32,
-			"moves": [],
-			"nature": ""
-		},
-		"Rival May Route 110 Mudkip": {
-			"ability": "",
-			"index": 1,
-			"item": "",
-			"ivs": {
-				"at": 6,
-				"df": 6,
-				"hp": 6,
-				"sa": 6,
-				"sd": 6,
-				"sp": 6
-			},
-			"level": 18,
-			"moves": [],
-			"nature": ""
-		},
-		"Rival May Route 110 Torchic": {
-			"ability": "",
-			"index": 1,
-			"item": "",
-			"ivs": {
-				"at": 6,
-				"df": 6,
-				"hp": 6,
-				"sa": 6,
-				"sd": 6,
-				"sp": 6
-			},
-			"level": 18,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Rival May Route 119 Mudkip": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 29,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 12,
 				"at": 12,
 				"df": 12,
-				"hp": 12,
 				"sa": 12,
 				"sd": 12,
 				"sp": 12
-			},
-			"level": 29,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Rival May Route 119 Torchic": {
 			"ability": "",
 			"index": 1,
 			"item": "",
+			"level": 29,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 12,
 				"at": 12,
 				"df": 12,
-				"hp": 12,
 				"sa": 12,
 				"sd": 12,
 				"sp": 12
-			},
-			"level": 29,
-			"moves": [],
-			"nature": ""
+			}
 		}
 	},
 	"Smeargle": {
@@ -24863,14 +26175,6 @@ var SETDEX_SV = {
 			"ability": "Technician",
 			"index": 0,
 			"item": "Focus Sash",
-			"ivs": {
-				"at": 31,
-				"df": 31,
-				"hp": 31,
-				"sa": 31,
-				"sd": 31,
-				"sp": 31
-			},
 			"level": 17,
 			"moves": [
 				"Entrainment",
@@ -24886,14 +26190,6 @@ var SETDEX_SV = {
 			"ability": "Pickpocket",
 			"index": 0,
 			"item": "Iron Ball",
-			"ivs": {
-				"at": 31,
-				"df": 31,
-				"hp": 31,
-				"sa": 31,
-				"sd": 31,
-				"sp": 31
-			},
 			"level": 21,
 			"moves": [
 				"Fake Out",
@@ -24909,39 +26205,39 @@ var SETDEX_SV = {
 			"ability": "Noble Aura",
 			"index": 0,
 			"item": "",
-			"ivs": {
-				"at": 0,
-				"df": 0,
-				"hp": 0,
-				"sa": 0,
-				"sd": 0,
-				"sp": 0
-			},
 			"level": 6,
 			"moves": [
 				"Tackle",
 				"Leer"
 			],
-			"nature": "Mild"
+			"nature": "Mild",
+			"ivs": {
+				"hp": 0,
+				"at": 0,
+				"df": 0,
+				"sa": 0,
+				"sd": 0,
+				"sp": 0
+			}
 		},
 		"Rival May Route 103 Mudkip": {
 			"ability": "Noble Aura",
 			"index": 0,
 			"item": "",
-			"ivs": {
-				"at": 0,
-				"df": 0,
-				"hp": 0,
-				"sa": 0,
-				"sd": 0,
-				"sp": 0
-			},
 			"level": 6,
 			"moves": [
 				"Tackle",
 				"Leer"
 			],
-			"nature": "Mild"
+			"nature": "Mild",
+			"ivs": {
+				"hp": 0,
+				"at": 0,
+				"df": 0,
+				"sa": 0,
+				"sd": 0,
+				"sp": 0
+			}
 		}
 	},
 	"Solrock": {
@@ -24949,14 +26245,6 @@ var SETDEX_SV = {
 			"ability": "",
 			"index": 1,
 			"item": "",
-			"ivs": {
-				"at": 0,
-				"df": 0,
-				"hp": 0,
-				"sa": 0,
-				"sd": 0,
-				"sp": 0
-			},
 			"level": 43,
 			"moves": [
 				"Explosion",
@@ -24964,20 +26252,20 @@ var SETDEX_SV = {
 				"Light Screen",
 				"Shadow Ball"
 			],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 0,
+				"at": 0,
+				"df": 0,
+				"sa": 0,
+				"sd": 0,
+				"sp": 0
+			}
 		},
-		"Leader Tate And Liza 1": {
+		"Leader Tate&liza Tate And Liza 1": {
 			"ability": "",
 			"index": 3,
 			"item": "Sitrus Berry",
-			"ivs": {
-				"at": 30,
-				"df": 30,
-				"hp": 30,
-				"sa": 30,
-				"sd": 30,
-				"sp": 30
-			},
 			"level": 42,
 			"moves": [
 				"Sunny Day",
@@ -24985,20 +26273,20 @@ var SETDEX_SV = {
 				"Psychic",
 				"Flamethrower"
 			],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 30,
+				"at": 30,
+				"df": 30,
+				"sa": 30,
+				"sd": 30,
+				"sp": 30
+			}
 		},
-		"Leader Tate And Liza 2": {
+		"Leader Tate&liza Tate And Liza 2": {
 			"ability": "",
 			"index": 4,
 			"item": "Sitrus Berry",
-			"ivs": {
-				"at": 31,
-				"df": 31,
-				"hp": 31,
-				"sa": 31,
-				"sd": 31,
-				"sp": 31
-			},
 			"level": 50,
 			"moves": [
 				"Sunny Day",
@@ -25006,20 +26294,20 @@ var SETDEX_SV = {
 				"Psychic",
 				"Flamethrower"
 			],
-			"nature": ""
-		},
-		"Leader Tate And Liza 3": {
-			"ability": "",
-			"index": 5,
-			"item": "Sitrus Berry",
+			"nature": "",
 			"ivs": {
+				"hp": 31,
 				"at": 31,
 				"df": 31,
-				"hp": 31,
 				"sa": 31,
 				"sd": 31,
 				"sp": 31
-			},
+			}
+		},
+		"Leader Tate&liza Tate And Liza 3": {
+			"ability": "",
+			"index": 5,
+			"item": "Sitrus Berry",
 			"level": 55,
 			"moves": [
 				"Sunny Day",
@@ -25027,20 +26315,20 @@ var SETDEX_SV = {
 				"Psychic",
 				"Flamethrower"
 			],
-			"nature": ""
-		},
-		"Leader Tate And Liza 4": {
-			"ability": "",
-			"index": 5,
-			"item": "Sitrus Berry",
+			"nature": "",
 			"ivs": {
+				"hp": 31,
 				"at": 31,
 				"df": 31,
-				"hp": 31,
 				"sa": 31,
 				"sd": 31,
 				"sp": 31
-			},
+			}
+		},
+		"Leader Tate&liza Tate And Liza 4": {
+			"ability": "",
+			"index": 5,
+			"item": "Sitrus Berry",
 			"level": 60,
 			"moves": [
 				"Sunny Day",
@@ -25048,20 +26336,20 @@ var SETDEX_SV = {
 				"Psychic",
 				"Flamethrower"
 			],
-			"nature": ""
-		},
-		"Leader Tate And Liza 5": {
-			"ability": "",
-			"index": 5,
-			"item": "Sitrus Berry",
+			"nature": "",
 			"ivs": {
+				"hp": 31,
 				"at": 31,
 				"df": 31,
-				"hp": 31,
 				"sa": 31,
 				"sd": 31,
 				"sp": 31
-			},
+			}
+		},
+		"Leader Tate&liza Tate And Liza 5": {
+			"ability": "",
+			"index": 5,
+			"item": "Sitrus Berry",
 			"level": 65,
 			"moves": [
 				"Sunny Day",
@@ -25069,103 +26357,111 @@ var SETDEX_SV = {
 				"Psychic",
 				"Flamethrower"
 			],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 31,
+				"at": 31,
+				"df": 31,
+				"sa": 31,
+				"sd": 31,
+				"sp": 31
+			}
 		},
 		"Psychic Cameron 1": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 31,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 31,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Psychic Cameron 2": {
 			"ability": "",
 			"index": 1,
 			"item": "",
+			"level": 33,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 1,
 				"at": 1,
 				"df": 1,
-				"hp": 1,
 				"sa": 1,
 				"sd": 1,
 				"sp": 1
-			},
-			"level": 33,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Psychic Cameron 3": {
 			"ability": "",
 			"index": 1,
 			"item": "",
+			"level": 38,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 2,
 				"at": 2,
 				"df": 2,
-				"hp": 2,
 				"sa": 2,
 				"sd": 2,
 				"sp": 2
-			},
-			"level": 38,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Psychic Cameron 4": {
 			"ability": "",
 			"index": 1,
 			"item": "",
+			"level": 41,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 3,
 				"at": 3,
 				"df": 3,
-				"hp": 3,
 				"sa": 3,
 				"sd": 3,
 				"sp": 3
-			},
-			"level": 41,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Psychic Cameron 5": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 45,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 4,
 				"at": 4,
 				"df": 4,
-				"hp": 4,
 				"sa": 4,
 				"sd": 4,
 				"sp": 4
-			},
-			"level": 45,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Psychic Joshua": {
 			"ability": "",
 			"index": 1,
 			"item": "",
+			"level": 41,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 41,
-			"moves": [],
-			"nature": ""
+			}
 		}
 	},
 	"Spewpa": {
@@ -25173,21 +26469,16 @@ var SETDEX_SV = {
 			"ability": "Compound Eyes",
 			"index": 4,
 			"item": "",
-			"ivs": {
-				"at": 0,
-				"df": 31,
-				"hp": 31,
-				"sa": 31,
-				"sd": 31,
-				"sp": 31
-			},
 			"level": 9,
 			"moves": [
 				"Stun Spore",
 				"Struggle Bug",
 				"Electroweb"
 			],
-			"nature": "Modest"
+			"nature": "Modest",
+			"ivs": {
+				"at": 0
+			}
 		}
 	},
 	"Spheal": {
@@ -25195,97 +26486,97 @@ var SETDEX_SV = {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 25,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 25,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Sailor Kelvin": {
 			"ability": "",
 			"index": 1,
 			"item": "",
+			"level": 33,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 18,
 				"at": 18,
 				"df": 18,
-				"hp": 18,
 				"sa": 18,
 				"sd": 18,
 				"sp": 18
-			},
-			"level": 33,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Swimmer F Katie": {
 			"ability": "",
 			"index": 1,
 			"item": "",
+			"level": 33,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 33,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Swimmer F Nikki": {
 			"ability": "",
 			"index": 1,
 			"item": "",
+			"level": 33,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 33,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Swimmer M Kevin": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 34,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 34,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Swimmer M Reed": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 33,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 33,
-			"moves": [],
-			"nature": ""
+			}
 		}
 	},
 	"Spinda": {
@@ -25293,82 +26584,87 @@ var SETDEX_SV = {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 37,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 14,
 				"at": 14,
 				"df": 14,
-				"hp": 14,
 				"sa": 14,
 				"sd": 14,
 				"sp": 14
-			},
-			"level": 37,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Cooltrainer Cristin 4": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 39,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 15,
 				"at": 15,
 				"df": 15,
-				"hp": 15,
 				"sa": 15,
 				"sd": 15,
 				"sp": 15
-			},
-			"level": 39,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Cooltrainer Cristin 5": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 41,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 17,
 				"at": 17,
 				"df": 17,
-				"hp": 17,
 				"sa": 17,
 				"sd": 17,
 				"sp": 17
-			},
-			"level": 41,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Cooltrainer Parker": {
 			"ability": "",
 			"index": 0,
 			"item": "",
-			"ivs": {
-				"at": 31,
-				"df": 31,
-				"hp": 31,
-				"sa": 31,
-				"sd": 31,
-				"sp": 31
-			},
 			"level": 26,
 			"moves": [
 				"Teeter Dance",
 				"Dizzy Punch",
 				"Focus Punch"
 			],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 31,
+				"at": 31,
+				"df": 31,
+				"sa": 31,
+				"sd": 31,
+				"sp": 31
+			}
+		},
+		"Gentleman Wilson School": {
+			"ability": "Own Tempo",
+			"index": 2,
+			"item": "Bright Powder",
+			"level": 17,
+			"moves": [
+				"Dizzy Punch",
+				"Drain Punch",
+				"Attract",
+				"Swagger"
+			],
+			"nature": "Adamant"
 		},
 		"Leader Norman 1": {
 			"ability": "",
 			"index": 0,
 			"item": "",
-			"ivs": {
-				"at": 24,
-				"df": 24,
-				"hp": 24,
-				"sa": 24,
-				"sd": 24,
-				"sp": 24
-			},
 			"level": 27,
 			"moves": [
 				"Teeter Dance",
@@ -25376,20 +26672,20 @@ var SETDEX_SV = {
 				"Facade",
 				"Encore"
 			],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 24,
+				"at": 24,
+				"df": 24,
+				"sa": 24,
+				"sd": 24,
+				"sp": 24
+			}
 		},
 		"Leader Norman 2": {
 			"ability": "",
 			"index": 2,
 			"item": "",
-			"ivs": {
-				"at": 31,
-				"df": 31,
-				"hp": 31,
-				"sa": 31,
-				"sd": 31,
-				"sp": 31
-			},
 			"level": 43,
 			"moves": [
 				"Teeter Dance",
@@ -25397,20 +26693,20 @@ var SETDEX_SV = {
 				"Facade",
 				"Hypnosis"
 			],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 31,
+				"at": 31,
+				"df": 31,
+				"sa": 31,
+				"sd": 31,
+				"sp": 31
+			}
 		},
 		"Leader Norman 3": {
 			"ability": "",
 			"index": 3,
 			"item": "",
-			"ivs": {
-				"at": 31,
-				"df": 31,
-				"hp": 31,
-				"sa": 31,
-				"sd": 31,
-				"sp": 31
-			},
 			"level": 48,
 			"moves": [
 				"Teeter Dance",
@@ -25418,20 +26714,20 @@ var SETDEX_SV = {
 				"Facade",
 				"Hypnosis"
 			],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 31,
+				"at": 31,
+				"df": 31,
+				"sa": 31,
+				"sd": 31,
+				"sp": 31
+			}
 		},
 		"Leader Norman 4": {
 			"ability": "",
 			"index": 3,
 			"item": "",
-			"ivs": {
-				"at": 31,
-				"df": 31,
-				"hp": 31,
-				"sa": 31,
-				"sd": 31,
-				"sp": 31
-			},
 			"level": 53,
 			"moves": [
 				"Teeter Dance",
@@ -25439,20 +26735,20 @@ var SETDEX_SV = {
 				"Facade",
 				"Hypnosis"
 			],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 31,
+				"at": 31,
+				"df": 31,
+				"sa": 31,
+				"sd": 31,
+				"sp": 31
+			}
 		},
 		"Leader Norman 5": {
 			"ability": "",
 			"index": 4,
 			"item": "",
-			"ivs": {
-				"at": 31,
-				"df": 31,
-				"hp": 31,
-				"sa": 31,
-				"sd": 31,
-				"sp": 31
-			},
 			"level": 58,
 			"moves": [
 				"Teeter Dance",
@@ -25460,20 +26756,20 @@ var SETDEX_SV = {
 				"Facade",
 				"Hypnosis"
 			],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 31,
+				"at": 31,
+				"df": 31,
+				"sa": 31,
+				"sd": 31,
+				"sp": 31
+			}
 		},
-		"Sr And Jr Kate And Joy": {
+		"Sr And Jr Kate & Joy Kate And Joy": {
 			"ability": "",
 			"index": 0,
 			"item": "",
-			"ivs": {
-				"at": 0,
-				"df": 0,
-				"hp": 0,
-				"sa": 0,
-				"sd": 0,
-				"sp": 0
-			},
 			"level": 30,
 			"moves": [
 				"Hypnosis",
@@ -25481,23 +26777,62 @@ var SETDEX_SV = {
 				"Dizzy Punch",
 				"Teeter Dance"
 			],
-			"nature": ""
-		},
-		"Twins Tori And Tia": {
-			"ability": "",
-			"index": 1,
-			"item": "",
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
+			}
+		},
+		"Twins Tori & Tia Tori And Tia": {
+			"ability": "",
+			"index": 0,
+			"item": "",
 			"level": 19,
 			"moves": [],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 0,
+				"at": 0,
+				"df": 0,
+				"sa": 0,
+				"sd": 0,
+				"sp": 0
+			}
+		},
+		"Twins Tori & Tia Tori And Tia (2)": {
+			"ability": "",
+			"index": 1,
+			"item": "",
+			"level": 19,
+			"moves": [],
+			"nature": "",
+			"ivs": {
+				"hp": 0,
+				"at": 0,
+				"df": 0,
+				"sa": 0,
+				"sd": 0,
+				"sp": 0
+			}
+		}
+	},
+	"Spinda-Drunken": {
+		"Leader Brawly 1": {
+			"ability": "Jumbled",
+			"index": 1,
+			"item": "Lum Berry",
+			"level": 25,
+			"moves": [
+				"Dynamic Punch",
+				"Mega Kick",
+				"Sing",
+				"Stone Edge"
+			],
+			"nature": "Adamant"
 		}
 	},
 	"Spoink": {
@@ -25505,97 +26840,125 @@ var SETDEX_SV = {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 36,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 12,
 				"at": 12,
 				"df": 12,
-				"hp": 12,
 				"sa": 12,
 				"sd": 12,
 				"sp": 12
-			},
-			"level": 36,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Hex Maniac Leah": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 31,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 31,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Hex Maniac Valerie 2": {
 			"ability": "",
 			"index": 1,
 			"item": "",
+			"level": 31,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 1,
 				"at": 1,
 				"df": 1,
-				"hp": 1,
 				"sa": 1,
 				"sd": 1,
 				"sp": 1
-			},
-			"level": 31,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Hex Maniac Valerie 3": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 35,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 2,
 				"at": 2,
 				"df": 2,
-				"hp": 2,
 				"sa": 2,
 				"sd": 2,
 				"sp": 2
-			},
-			"level": 35,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Hex Maniac Valerie 4": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 40,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 3,
 				"at": 3,
 				"df": 3,
-				"hp": 3,
 				"sa": 3,
 				"sd": 3,
 				"sp": 3
-			},
-			"level": 40,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Psychic Marlene": {
 			"ability": "",
 			"index": 1,
 			"item": "",
+			"level": 18,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 18,
-			"moves": [],
-			"nature": ""
+			}
+		}
+	},
+	"Staraptor": {
+		"Rival Brendan Route 110 Treecko": {
+			"ability": "Reckless",
+			"index": 3,
+			"item": "Sitrus Berry",
+			"level": 35,
+			"moves": [
+				"Submission",
+				"Acrobatics",
+				"Pursuit",
+				"U-turn"
+			],
+			"nature": "Jolly"
+		},
+		"Rival May Route 110 Treecko": {
+			"ability": "Reckless",
+			"index": 3,
+			"item": "Sitrus Berry",
+			"level": 35,
+			"moves": [
+				"Submission",
+				"Acrobatics",
+				"Pursuit",
+				"U-turn"
+			],
+			"nature": "Jolly"
 		}
 	},
 	"Staravia": {
@@ -25603,14 +26966,6 @@ var SETDEX_SV = {
 			"ability": "Intimidate",
 			"index": 2,
 			"item": "Muscle Band",
-			"ivs": {
-				"at": 31,
-				"df": 31,
-				"hp": 31,
-				"sa": 31,
-				"sd": 31,
-				"sp": 31
-			},
 			"level": 22,
 			"moves": [
 				"Dual Wingbeat",
@@ -25624,14 +26979,6 @@ var SETDEX_SV = {
 			"ability": "Intimidate",
 			"index": 2,
 			"item": "Muscle Band",
-			"ivs": {
-				"at": 31,
-				"df": 31,
-				"hp": 31,
-				"sa": 31,
-				"sd": 31,
-				"sp": 31
-			},
 			"level": 22,
 			"moves": [
 				"Dual Wingbeat",
@@ -25645,14 +26992,6 @@ var SETDEX_SV = {
 			"ability": "Intimidate",
 			"index": 1,
 			"item": "Expert Belt",
-			"ivs": {
-				"at": 31,
-				"df": 31,
-				"hp": 31,
-				"sa": 31,
-				"sd": 31,
-				"sp": 31
-			},
 			"level": 18,
 			"moves": [
 				"Dual Wingbeat",
@@ -25668,129 +27007,145 @@ var SETDEX_SV = {
 			"ability": "",
 			"index": 1,
 			"item": "",
+			"level": 46,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 12,
 				"at": 12,
 				"df": 12,
-				"hp": 12,
 				"sa": 12,
 				"sd": 12,
 				"sp": 12
-			},
-			"level": 46,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Swimmer F Jenny 5": {
 			"ability": "",
 			"index": 2,
 			"item": "",
+			"level": 45,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 45,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Swimmer M Tony 5": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 37,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 4,
 				"at": 4,
 				"df": 4,
-				"hp": 4,
 				"sa": 4,
 				"sd": 4,
 				"sp": 4
-			},
-			"level": 37,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Triathlete Isaiah 4": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 45,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 3,
 				"at": 3,
 				"df": 3,
-				"hp": 3,
 				"sa": 3,
 				"sd": 3,
 				"sp": 3
-			},
-			"level": 45,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Triathlete Isaiah 5": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 48,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 4,
 				"at": 4,
 				"df": 4,
-				"hp": 4,
 				"sa": 4,
 				"sd": 4,
 				"sp": 4
-			},
-			"level": 48,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Triathlete Katelyn 4": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 45,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 3,
 				"at": 3,
 				"df": 3,
-				"hp": 3,
 				"sa": 3,
 				"sd": 3,
 				"sp": 3
-			},
-			"level": 45,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Triathlete Katelyn 5": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 48,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 4,
 				"at": 4,
 				"df": 4,
-				"hp": 4,
 				"sa": 4,
 				"sd": 4,
 				"sp": 4
-			},
-			"level": 48,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Triathlete Pablo 5": {
 			"ability": "",
-			"index": 2,
+			"index": 1,
 			"item": "",
+			"level": 43,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 4,
 				"at": 4,
 				"df": 4,
-				"hp": 4,
 				"sa": 4,
 				"sd": 4,
 				"sp": 4
-			},
+			}
+		},
+		"Triathlete Pablo 5 (2)": {
+			"ability": "",
+			"index": 2,
+			"item": "",
 			"level": 43,
 			"moves": [],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 4,
+				"at": 4,
+				"df": 4,
+				"sa": 4,
+				"sd": 4,
+				"sp": 4
+			}
 		}
 	},
 	"Staryu": {
@@ -25798,321 +27153,401 @@ var SETDEX_SV = {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 43,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 43,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Swimmer M Tony 4": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 34,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 3,
 				"at": 3,
 				"df": 3,
-				"hp": 3,
 				"sa": 3,
 				"sd": 3,
 				"sp": 3
-			},
-			"level": 34,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Triathlete Allison": {
 			"ability": "",
 			"index": 1,
 			"item": "",
+			"level": 33,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 29,
 				"at": 29,
 				"df": 29,
-				"hp": 29,
 				"sa": 29,
 				"sd": 29,
 				"sp": 29
-			},
-			"level": 33,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Triathlete Camden": {
 			"ability": "",
-			"index": 1,
+			"index": 0,
 			"item": "",
+			"level": 33,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
+			}
+		},
+		"Triathlete Camden (2)": {
+			"ability": "",
+			"index": 1,
+			"item": "",
 			"level": 33,
 			"moves": [],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 0,
+				"at": 0,
+				"df": 0,
+				"sa": 0,
+				"sd": 0,
+				"sp": 0
+			}
 		},
 		"Triathlete Camron": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 26,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 26,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Triathlete Chase": {
 			"ability": "",
 			"index": 1,
 			"item": "",
+			"level": 34,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 9,
 				"at": 9,
 				"df": 9,
-				"hp": 9,
 				"sa": 9,
 				"sd": 9,
 				"sp": 9
-			},
-			"level": 34,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Triathlete Donny": {
 			"ability": "",
 			"index": 1,
 			"item": "",
+			"level": 34,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 19,
 				"at": 19,
 				"df": 19,
-				"hp": 19,
 				"sa": 19,
 				"sd": 19,
 				"sp": 19
-			},
-			"level": 34,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Triathlete Isabella": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 34,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 34,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Triathlete Isaiah 1": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 35,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 35,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Triathlete Isaiah 2": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 39,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 1,
 				"at": 1,
 				"df": 1,
-				"hp": 1,
 				"sa": 1,
 				"sd": 1,
 				"sp": 1
-			},
-			"level": 39,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Triathlete Isaiah 3": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 42,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 2,
 				"at": 2,
 				"df": 2,
-				"hp": 2,
 				"sa": 2,
 				"sd": 2,
 				"sp": 2
-			},
-			"level": 42,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Triathlete Isobel": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 34,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 34,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Triathlete Katelyn 1": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 35,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 35,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Triathlete Katelyn 2": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 39,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 1,
 				"at": 1,
 				"df": 1,
-				"hp": 1,
 				"sa": 1,
 				"sd": 1,
 				"sp": 1
-			},
-			"level": 39,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Triathlete Katelyn 3": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 42,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 2,
 				"at": 2,
 				"df": 2,
-				"hp": 2,
 				"sa": 2,
 				"sd": 2,
 				"sp": 2
-			},
-			"level": 42,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Triathlete Pablo 1": {
 			"ability": "",
-			"index": 1,
+			"index": 0,
 			"item": "",
+			"level": 33,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 33,
-			"moves": [],
-			"nature": ""
+			}
 		},
-		"Triathlete Pablo 2": {
+		"Triathlete Pablo 1 (2)": {
 			"ability": "",
 			"index": 1,
 			"item": "",
+			"level": 33,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
+				"at": 0,
+				"df": 0,
+				"sa": 0,
+				"sd": 0,
+				"sp": 0
+			}
+		},
+		"Triathlete Pablo 2": {
+			"ability": "",
+			"index": 0,
+			"item": "",
+			"level": 37,
+			"moves": [],
+			"nature": "",
+			"ivs": {
+				"hp": 1,
 				"at": 1,
 				"df": 1,
-				"hp": 1,
 				"sa": 1,
 				"sd": 1,
 				"sp": 1
-			},
+			}
+		},
+		"Triathlete Pablo 2 (2)": {
+			"ability": "",
+			"index": 1,
+			"item": "",
 			"level": 37,
 			"moves": [],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 1,
+				"at": 1,
+				"df": 1,
+				"sa": 1,
+				"sd": 1,
+				"sp": 1
+			}
 		},
 		"Triathlete Pablo 3": {
 			"ability": "",
-			"index": 2,
+			"index": 1,
 			"item": "",
+			"level": 39,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 2,
 				"at": 2,
 				"df": 2,
-				"hp": 2,
 				"sa": 2,
 				"sd": 2,
 				"sp": 2
-			},
-			"level": 39,
-			"moves": [],
-			"nature": ""
+			}
 		},
-		"Triathlete Pablo 4": {
+		"Triathlete Pablo 3 (2)": {
 			"ability": "",
 			"index": 2,
 			"item": "",
+			"level": 39,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 2,
+				"at": 2,
+				"df": 2,
+				"sa": 2,
+				"sd": 2,
+				"sp": 2
+			}
+		},
+		"Triathlete Pablo 4": {
+			"ability": "",
+			"index": 1,
+			"item": "",
+			"level": 41,
+			"moves": [],
+			"nature": "",
+			"ivs": {
+				"hp": 3,
 				"at": 3,
 				"df": 3,
-				"hp": 3,
 				"sa": 3,
 				"sd": 3,
 				"sp": 3
-			},
+			}
+		},
+		"Triathlete Pablo 4 (2)": {
+			"ability": "",
+			"index": 2,
+			"item": "",
 			"level": 41,
 			"moves": [],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 3,
+				"at": 3,
+				"df": 3,
+				"sa": 3,
+				"sd": 3,
+				"sp": 3
+			}
 		},
 		"Triathlete Talia": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 34,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 34,
-			"moves": [],
-			"nature": ""
+			}
 		}
 	},
 	"Steelix": {
@@ -26120,14 +27555,6 @@ var SETDEX_SV = {
 			"ability": "",
 			"index": 4,
 			"item": "",
-			"ivs": {
-				"at": 31,
-				"df": 31,
-				"hp": 31,
-				"sa": 31,
-				"sd": 31,
-				"sp": 31
-			},
 			"level": 50,
 			"moves": [
 				"Iron Tail",
@@ -26135,7 +27562,15 @@ var SETDEX_SV = {
 				"Roar",
 				"Rock Slide"
 			],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 31,
+				"at": 31,
+				"df": 31,
+				"sa": 31,
+				"sd": 31,
+				"sp": 31
+			}
 		}
 	},
 	"Steenee": {
@@ -26143,14 +27578,6 @@ var SETDEX_SV = {
 			"ability": "Oblivious",
 			"index": 2,
 			"item": "Muscle Band",
-			"ivs": {
-				"at": 31,
-				"df": 31,
-				"hp": 31,
-				"sa": 31,
-				"sd": 31,
-				"sp": 31
-			},
 			"level": 16,
 			"moves": [
 				"Petal Blizzard",
@@ -26164,21 +27591,8 @@ var SETDEX_SV = {
 	"Sudowoodo": {
 		"Hiker Marc": {
 			"ability": "Sturdy",
-			"evs": {
-				"at": 100,
-				"sd": 100,
-				"sp": 12
-			},
 			"index": 0,
 			"item": "Covert Cloak",
-			"ivs": {
-				"at": 31,
-				"df": 31,
-				"hp": 31,
-				"sa": 31,
-				"sd": 31,
-				"sp": 31
-			},
 			"level": 15,
 			"moves": [
 				"Trailblaze",
@@ -26186,7 +27600,12 @@ var SETDEX_SV = {
 				"Fire Punch",
 				"Rest"
 			],
-			"nature": "Adamant"
+			"nature": "Adamant",
+			"evs": {
+				"at": 100,
+				"sd": 100,
+				"sp": 12
+			}
 		}
 	},
 	"Surskit": {
@@ -26194,129 +27613,241 @@ var SETDEX_SV = {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 31,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 3,
 				"at": 3,
 				"df": 3,
-				"hp": 3,
 				"sa": 3,
 				"sd": 3,
 				"sp": 3
-			},
-			"level": 31,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Bug Catcher James 5": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 33,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 4,
 				"at": 4,
 				"df": 4,
-				"hp": 4,
 				"sa": 4,
 				"sd": 4,
 				"sp": 4
-			},
-			"level": 33,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Bug Maniac Brent": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 26,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 12,
 				"at": 12,
 				"df": 12,
-				"hp": 12,
 				"sa": 12,
 				"sd": 12,
 				"sp": 12
-			},
-			"level": 26,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Bug Maniac Jeffrey 1": {
 			"ability": "",
-			"index": 2,
+			"index": 0,
 			"item": "",
+			"level": 27,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 27,
-			"moves": [],
-			"nature": ""
+			}
 		},
-		"Bug Maniac Jeffrey 2": {
-			"ability": "",
-			"index": 2,
-			"item": "",
-			"ivs": {
-				"at": 1,
-				"df": 1,
-				"hp": 1,
-				"sa": 1,
-				"sd": 1,
-				"sp": 1
-			},
-			"level": 31,
-			"moves": [],
-			"nature": ""
-		},
-		"Bug Maniac Jeffrey 3": {
+		"Bug Maniac Jeffrey 1 (2)": {
 			"ability": "",
 			"index": 1,
 			"item": "",
+			"level": 27,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
+				"at": 0,
+				"df": 0,
+				"sa": 0,
+				"sd": 0,
+				"sp": 0
+			}
+		},
+		"Bug Maniac Jeffrey 1 (3)": {
+			"ability": "",
+			"index": 2,
+			"item": "",
+			"level": 27,
+			"moves": [],
+			"nature": "",
+			"ivs": {
+				"hp": 0,
+				"at": 0,
+				"df": 0,
+				"sa": 0,
+				"sd": 0,
+				"sp": 0
+			}
+		},
+		"Bug Maniac Jeffrey 2": {
+			"ability": "",
+			"index": 0,
+			"item": "",
+			"level": 31,
+			"moves": [],
+			"nature": "",
+			"ivs": {
+				"hp": 1,
+				"at": 1,
+				"df": 1,
+				"sa": 1,
+				"sd": 1,
+				"sp": 1
+			}
+		},
+		"Bug Maniac Jeffrey 2 (2)": {
+			"ability": "",
+			"index": 1,
+			"item": "",
+			"level": 31,
+			"moves": [],
+			"nature": "",
+			"ivs": {
+				"hp": 1,
+				"at": 1,
+				"df": 1,
+				"sa": 1,
+				"sd": 1,
+				"sp": 1
+			}
+		},
+		"Bug Maniac Jeffrey 2 (3)": {
+			"ability": "",
+			"index": 2,
+			"item": "",
+			"level": 31,
+			"moves": [],
+			"nature": "",
+			"ivs": {
+				"hp": 1,
+				"at": 1,
+				"df": 1,
+				"sa": 1,
+				"sd": 1,
+				"sp": 1
+			}
+		},
+		"Bug Maniac Jeffrey 3": {
+			"ability": "",
+			"index": 0,
+			"item": "",
+			"level": 34,
+			"moves": [],
+			"nature": "",
+			"ivs": {
+				"hp": 2,
 				"at": 2,
 				"df": 2,
-				"hp": 2,
 				"sa": 2,
 				"sd": 2,
 				"sp": 2
-			},
+			}
+		},
+		"Bug Maniac Jeffrey 3 (2)": {
+			"ability": "",
+			"index": 1,
+			"item": "",
 			"level": 34,
 			"moves": [],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 2,
+				"at": 2,
+				"df": 2,
+				"sa": 2,
+				"sd": 2,
+				"sp": 2
+			}
 		},
 		"Bug Maniac Jeffrey 4": {
 			"ability": "",
-			"index": 2,
+			"index": 0,
 			"item": "",
+			"level": 36,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 3,
 				"at": 3,
 				"df": 3,
-				"hp": 3,
 				"sa": 3,
 				"sd": 3,
 				"sp": 3
-			},
-			"level": 36,
-			"moves": [],
-			"nature": ""
+			}
 		},
-		"Bug Maniac Jeffrey 5": {
+		"Bug Maniac Jeffrey 4 (2)": {
 			"ability": "",
 			"index": 2,
 			"item": "",
+			"level": 36,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 3,
+				"at": 3,
+				"df": 3,
+				"sa": 3,
+				"sd": 3,
+				"sp": 3
+			}
+		},
+		"Bug Maniac Jeffrey 5": {
+			"ability": "",
+			"index": 0,
+			"item": "",
+			"level": 38,
+			"moves": [],
+			"nature": "",
+			"ivs": {
+				"hp": 4,
 				"at": 4,
 				"df": 4,
-				"hp": 4,
 				"sa": 4,
 				"sd": 4,
 				"sp": 4
-			},
+			}
+		},
+		"Bug Maniac Jeffrey 5 (2)": {
+			"ability": "",
+			"index": 2,
+			"item": "",
 			"level": 38,
 			"moves": [],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 4,
+				"at": 4,
+				"df": 4,
+				"sa": 4,
+				"sd": 4,
+				"sp": 4
+			}
 		}
 	},
 	"Swablu": {
@@ -26324,46 +27855,38 @@ var SETDEX_SV = {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 29,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 29,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Bird Keeper Robert 2": {
 			"ability": "",
 			"index": 1,
 			"item": "",
+			"level": 32,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 1,
 				"at": 1,
 				"df": 1,
-				"hp": 1,
 				"sa": 1,
 				"sd": 1,
 				"sp": 1
-			},
-			"level": 32,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Leader Winona 1": {
 			"ability": "",
 			"index": 0,
 			"item": "",
-			"ivs": {
-				"at": 25,
-				"df": 25,
-				"hp": 25,
-				"sa": 25,
-				"sd": 25,
-				"sp": 25
-			},
 			"level": 29,
 			"moves": [
 				"Perish Song",
@@ -26371,132 +27894,164 @@ var SETDEX_SV = {
 				"Safeguard",
 				"Aerial Ace"
 			],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 25,
+				"at": 25,
+				"df": 25,
+				"sa": 25,
+				"sd": 25,
+				"sp": 25
+			}
 		},
 		"Picnicker Ashley": {
 			"ability": "",
-			"index": 2,
+			"index": 0,
 			"item": "",
+			"level": 27,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 12,
 				"at": 12,
 				"df": 12,
-				"hp": 12,
 				"sa": 12,
 				"sd": 12,
 				"sp": 12
-			},
+			}
+		},
+		"Picnicker Ashley (2)": {
+			"ability": "",
+			"index": 1,
+			"item": "",
 			"level": 27,
 			"moves": [],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 12,
+				"at": 12,
+				"df": 12,
+				"sa": 12,
+				"sd": 12,
+				"sp": 12
+			}
+		},
+		"Picnicker Ashley (3)": {
+			"ability": "",
+			"index": 2,
+			"item": "",
+			"level": 27,
+			"moves": [],
+			"nature": "",
+			"ivs": {
+				"hp": 12,
+				"at": 12,
+				"df": 12,
+				"sa": 12,
+				"sd": 12,
+				"sp": 12
+			}
 		},
 		"Picnicker Diana 1": {
 			"ability": "",
 			"index": 2,
 			"item": "",
+			"level": 19,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 19,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Picnicker Diana 2": {
 			"ability": "",
 			"index": 2,
 			"item": "",
+			"level": 25,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 1,
 				"at": 1,
 				"df": 1,
-				"hp": 1,
 				"sa": 1,
 				"sd": 1,
 				"sp": 1
-			},
-			"level": 25,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Picnicker Diana 3": {
 			"ability": "",
 			"index": 2,
 			"item": "",
+			"level": 28,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 2,
 				"at": 2,
 				"df": 2,
-				"hp": 2,
 				"sa": 2,
 				"sd": 2,
 				"sp": 2
-			},
-			"level": 28,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Picnicker Diana 4": {
 			"ability": "",
 			"index": 2,
 			"item": "",
+			"level": 31,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 3,
 				"at": 3,
 				"df": 3,
-				"hp": 3,
 				"sa": 3,
 				"sd": 3,
 				"sp": 3
-			},
-			"level": 31,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Picnicker Martha": {
 			"ability": "",
 			"index": 1,
 			"item": "",
+			"level": 23,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 23,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Pkmn Ranger Sophia": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 38,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 6,
 				"at": 6,
 				"df": 6,
-				"hp": 6,
 				"sa": 6,
 				"sd": 6,
 				"sp": 6
-			},
-			"level": 38,
-			"moves": [],
-			"nature": ""
+			}
 		},
-		"Sr And Jr Kim And Iris": {
+		"Sr And Jr Kim & Iris Kim And Iris": {
 			"ability": "",
 			"index": 0,
 			"item": "",
-			"ivs": {
-				"at": 0,
-				"df": 0,
-				"hp": 0,
-				"sa": 0,
-				"sd": 0,
-				"sp": 0
-			},
 			"level": 32,
 			"moves": [
 				"Sing",
@@ -26504,7 +28059,43 @@ var SETDEX_SV = {
 				"Safeguard",
 				"Aerial Ace"
 			],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 0,
+				"at": 0,
+				"df": 0,
+				"sa": 0,
+				"sd": 0,
+				"sp": 0
+			}
+		}
+	},
+	"Swampert": {
+		"Rival Brendan Route 110 Treecko": {
+			"ability": "Storm Drain",
+			"index": 1,
+			"item": "Leftovers",
+			"level": 34,
+			"moves": [
+				"Flip Turn",
+				"Earthquake",
+				"Rock Slide",
+				"Waterfall"
+			],
+			"nature": "Adamant"
+		},
+		"Rival May Route 110 Treecko": {
+			"ability": "Storm Drain",
+			"index": 1,
+			"item": "Leftovers",
+			"level": 34,
+			"moves": [
+				"Flip Turn",
+				"Earthquake",
+				"Rock Slide",
+				"Waterfall"
+			],
+			"nature": "Adamant"
 		}
 	},
 	"Swellow": {
@@ -26512,174 +28103,166 @@ var SETDEX_SV = {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 32,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 32,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Bird Keeper Alex": {
 			"ability": "",
 			"index": 1,
 			"item": "",
+			"level": 33,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 18,
 				"at": 18,
 				"df": 18,
-				"hp": 18,
 				"sa": 18,
 				"sd": 18,
 				"sp": 18
-			},
-			"level": 33,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Bird Keeper Benny": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 36,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 36,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Bird Keeper Chester": {
 			"ability": "",
 			"index": 1,
 			"item": "",
+			"level": 25,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 25,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Bird Keeper Coby": {
 			"ability": "",
 			"index": 1,
 			"item": "",
+			"level": 19,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 19,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Bird Keeper Phil": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 26,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 26,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Camper Ethan 3": {
 			"ability": "",
 			"index": 1,
 			"item": "",
+			"level": 29,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 2,
 				"at": 2,
 				"df": 2,
-				"hp": 2,
 				"sa": 2,
 				"sd": 2,
 				"sp": 2
-			},
-			"level": 29,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Camper Ethan 4": {
 			"ability": "",
 			"index": 1,
 			"item": "",
+			"level": 31,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 3,
 				"at": 3,
 				"df": 3,
-				"hp": 3,
 				"sa": 3,
 				"sd": 3,
 				"sp": 3
-			},
-			"level": 31,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Camper Ethan 5": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 34,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 4,
 				"at": 4,
 				"df": 4,
-				"hp": 4,
 				"sa": 4,
 				"sd": 4,
 				"sp": 4
-			},
-			"level": 34,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Camper Flint": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 29,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 18,
 				"at": 18,
 				"df": 18,
-				"hp": 18,
 				"sa": 18,
 				"sd": 18,
 				"sp": 18
-			},
-			"level": 29,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Cooltrainer Braxton": {
 			"ability": "",
 			"index": 0,
 			"item": "",
-			"ivs": {
-				"at": 12,
-				"df": 12,
-				"hp": 12,
-				"sa": 12,
-				"sd": 12,
-				"sp": 12
-			},
 			"level": 28,
 			"moves": [
 				"Focus Energy",
@@ -26687,235 +28270,243 @@ var SETDEX_SV = {
 				"Wing Attack",
 				"Endeavor"
 			],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 12,
+				"at": 12,
+				"df": 12,
+				"sa": 12,
+				"sd": 12,
+				"sp": 12
+			}
 		},
 		"Cooltrainer Carolina": {
 			"ability": "",
 			"index": 1,
 			"item": "",
+			"level": 24,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 6,
 				"at": 6,
 				"df": 6,
-				"hp": 6,
 				"sa": 6,
 				"sd": 6,
 				"sp": 6
-			},
-			"level": 24,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Cooltrainer Randall": {
 			"ability": "",
 			"index": 0,
 			"item": "",
-			"ivs": {
-				"at": 31,
-				"df": 31,
-				"hp": 31,
-				"sa": 31,
-				"sd": 31,
-				"sp": 31
-			},
 			"level": 26,
 			"moves": [
 				"Quick Attack",
 				"Agility",
 				"Wing Attack"
 			],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 31,
+				"at": 31,
+				"df": 31,
+				"sa": 31,
+				"sd": 31,
+				"sp": 31
+			}
 		},
 		"Cooltrainer Samuel": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 42,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 12,
 				"at": 12,
 				"df": 12,
-				"hp": 12,
 				"sa": 12,
 				"sd": 12,
 				"sp": 12
-			},
-			"level": 42,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Expert Paxton": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 33,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 33,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Lass Haley 5": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 34,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 4,
 				"at": 4,
 				"df": 4,
-				"hp": 4,
 				"sa": 4,
 				"sd": 4,
 				"sp": 4
-			},
-			"level": 34,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Pkmn Breeder Gabrielle 4": {
 			"ability": "",
 			"index": 5,
 			"item": "",
+			"level": 35,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 3,
 				"at": 3,
 				"df": 3,
-				"hp": 3,
 				"sa": 3,
 				"sd": 3,
 				"sp": 3
-			},
-			"level": 35,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Pkmn Breeder Gabrielle 5": {
 			"ability": "",
 			"index": 5,
 			"item": "",
+			"level": 37,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 4,
 				"at": 4,
 				"df": 4,
-				"hp": 4,
 				"sa": 4,
 				"sd": 4,
 				"sp": 4
-			},
-			"level": 37,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Pkmn Breeder Isaac 2": {
 			"ability": "",
 			"index": 4,
 			"item": "",
+			"level": 22,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 1,
 				"at": 1,
 				"df": 1,
-				"hp": 1,
 				"sa": 1,
 				"sd": 1,
 				"sp": 1
-			},
-			"level": 22,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Pkmn Breeder Isaac 3": {
 			"ability": "",
 			"index": 4,
 			"item": "",
+			"level": 25,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 2,
 				"at": 2,
 				"df": 2,
-				"hp": 2,
 				"sa": 2,
 				"sd": 2,
 				"sp": 2
-			},
-			"level": 25,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Pkmn Breeder Isaac 4": {
 			"ability": "",
 			"index": 4,
 			"item": "",
+			"level": 28,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 3,
 				"at": 3,
 				"df": 3,
-				"hp": 3,
 				"sa": 3,
 				"sd": 3,
 				"sp": 3
-			},
-			"level": 28,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Pkmn Breeder Isaac 5": {
 			"ability": "",
 			"index": 4,
 			"item": "",
+			"level": 31,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 4,
 				"at": 4,
 				"df": 4,
-				"hp": 4,
 				"sa": 4,
 				"sd": 4,
 				"sp": 4
-			},
-			"level": 31,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Youngster Calvin 3": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 28,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 2,
 				"at": 2,
 				"df": 2,
-				"hp": 2,
 				"sa": 2,
 				"sd": 2,
 				"sp": 2
-			},
-			"level": 28,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Youngster Calvin 4": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 31,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 3,
 				"at": 3,
 				"df": 3,
-				"hp": 3,
 				"sa": 3,
 				"sd": 3,
 				"sp": 3
-			},
-			"level": 31,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Youngster Calvin 5": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 34,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 4,
 				"at": 4,
 				"df": 4,
-				"hp": 4,
 				"sa": 4,
 				"sd": 4,
 				"sp": 4
-			},
-			"level": 34,
-			"moves": [],
-			"nature": ""
+			}
 		}
 	},
 	"Taillow": {
@@ -26923,177 +28514,177 @@ var SETDEX_SV = {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 25,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 25,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Bird Keeper Josue": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 25,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 6,
 				"at": 6,
 				"df": 6,
-				"hp": 6,
 				"sa": 6,
 				"sd": 6,
 				"sp": 6
-			},
-			"level": 25,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Camper Branden": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 22,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 22,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Camper Ethan 1": {
 			"ability": "",
 			"index": 1,
 			"item": "",
+			"level": 20,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 20,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Camper Ethan 2": {
 			"ability": "",
 			"index": 1,
 			"item": "",
+			"level": 26,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 1,
 				"at": 1,
 				"df": 1,
-				"hp": 1,
 				"sa": 1,
 				"sd": 1,
 				"sp": 1
-			},
-			"level": 26,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Picnicker Carol": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 17,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 17,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Pkmn Breeder Gabrielle 1": {
 			"ability": "",
 			"index": 5,
 			"item": "",
+			"level": 26,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 26,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Pkmn Breeder Gabrielle 2": {
 			"ability": "",
 			"index": 5,
 			"item": "",
+			"level": 31,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 1,
 				"at": 1,
 				"df": 1,
-				"hp": 1,
 				"sa": 1,
 				"sd": 1,
 				"sp": 1
-			},
-			"level": 31,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Pkmn Breeder Gabrielle 3": {
 			"ability": "",
 			"index": 5,
 			"item": "",
+			"level": 33,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 2,
 				"at": 2,
 				"df": 2,
-				"hp": 2,
 				"sa": 2,
 				"sd": 2,
 				"sp": 2
-			},
-			"level": 33,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Pkmn Breeder Isaac 1": {
 			"ability": "",
 			"index": 4,
 			"item": "",
+			"level": 11,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 11,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Winstrate Victor": {
 			"ability": "",
 			"index": 0,
 			"item": "Oran Berry",
+			"level": 16,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 3,
 				"at": 3,
 				"df": 3,
-				"hp": 3,
 				"sa": 3,
 				"sd": 3,
 				"sp": 3
-			},
-			"level": 16,
-			"moves": [],
-			"nature": ""
+			}
 		}
 	},
 	"Tauros": {
@@ -27101,14 +28692,6 @@ var SETDEX_SV = {
 			"ability": "",
 			"index": 3,
 			"item": "",
-			"ivs": {
-				"at": 31,
-				"df": 31,
-				"hp": 31,
-				"sa": 31,
-				"sd": 31,
-				"sp": 31
-			},
 			"level": 57,
 			"moves": [
 				"Take Down",
@@ -27116,7 +28699,28 @@ var SETDEX_SV = {
 				"Fire Blast",
 				"Earthquake"
 			],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 31,
+				"at": 31,
+				"df": 31,
+				"sa": 31,
+				"sd": 31,
+				"sp": 31
+			}
+		},
+		"Sailor Dwayne": {
+			"ability": "Intimidate",
+			"index": 0,
+			"item": "Silk Scarf",
+			"level": 23,
+			"moves": [
+				"Facade",
+				"Rock Slide",
+				"Trailblaze",
+				"Pursuit"
+			],
+			"nature": "Jolly"
 		}
 	},
 	"Tentacool": {
@@ -27124,417 +28728,449 @@ var SETDEX_SV = {
 			"ability": "",
 			"index": 1,
 			"item": "",
+			"level": 10,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 10,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Fisherman Barny": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 25,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 25,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Fisherman Chris": {
 			"ability": "",
 			"index": 1,
 			"item": "",
+			"level": 20,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 20,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Fisherman Dale": {
 			"ability": "",
-			"index": 2,
+			"index": 0,
 			"item": "",
+			"level": 11,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
+			}
+		},
+		"Fisherman Dale (2)": {
+			"ability": "",
+			"index": 2,
+			"item": "",
 			"level": 11,
 			"moves": [],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 0,
+				"at": 0,
+				"df": 0,
+				"sa": 0,
+				"sd": 0,
+				"sp": 0
+			}
 		},
 		"Fisherman Elliot 2": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 24,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 1,
 				"at": 1,
 				"df": 1,
-				"hp": 1,
 				"sa": 1,
 				"sd": 1,
 				"sp": 1
-			},
-			"level": 24,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Fisherman Elliot 3": {
 			"ability": "",
 			"index": 2,
 			"item": "",
+			"level": 26,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 2,
 				"at": 2,
 				"df": 2,
-				"hp": 2,
 				"sa": 2,
 				"sd": 2,
 				"sp": 2
-			},
-			"level": 26,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Fisherman Jonah": {
 			"ability": "",
 			"index": 1,
 			"item": "",
+			"level": 31,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 31,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Fisherman Wade": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 16,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 16,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Fisherman Wayne": {
 			"ability": "",
-			"index": 1,
+			"index": 0,
 			"item": "",
+			"level": 31,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
+			}
+		},
+		"Fisherman Wayne (2)": {
+			"ability": "",
+			"index": 1,
+			"item": "",
 			"level": 31,
 			"moves": [],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 0,
+				"at": 0,
+				"df": 0,
+				"sa": 0,
+				"sd": 0,
+				"sp": 0
+			}
 		},
 		"Sailor Cory 1": {
 			"ability": "",
 			"index": 2,
 			"item": "",
+			"level": 24,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 24,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Sailor Cory 2": {
 			"ability": "",
 			"index": 2,
 			"item": "",
+			"level": 30,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 1,
 				"at": 1,
 				"df": 1,
-				"hp": 1,
 				"sa": 1,
 				"sd": 1,
 				"sp": 1
-			},
-			"level": 30,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Sailor Cory 3": {
 			"ability": "",
 			"index": 2,
 			"item": "",
+			"level": 32,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 2,
 				"at": 2,
 				"df": 2,
-				"hp": 2,
 				"sa": 2,
 				"sd": 2,
 				"sp": 2
-			},
-			"level": 32,
-			"moves": [],
-			"nature": ""
-		},
-		"Sailor Dwayne": {
-			"ability": "",
-			"index": 2,
-			"item": "",
-			"ivs": {
-				"at": 0,
-				"df": 0,
-				"hp": 0,
-				"sa": 0,
-				"sd": 0,
-				"sp": 0
-			},
-			"level": 11,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Sailor Ernest 2": {
 			"ability": "",
 			"index": 1,
 			"item": "",
+			"level": 36,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 1,
 				"at": 1,
 				"df": 1,
-				"hp": 1,
 				"sa": 1,
 				"sd": 1,
 				"sp": 1
-			},
-			"level": 36,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Sailor Ernest 3": {
 			"ability": "",
 			"index": 1,
 			"item": "",
+			"level": 39,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 2,
 				"at": 2,
 				"df": 2,
-				"hp": 2,
 				"sa": 2,
 				"sd": 2,
 				"sp": 2
-			},
-			"level": 39,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Sailor Ernest 4": {
 			"ability": "",
 			"index": 1,
 			"item": "",
+			"level": 42,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 3,
 				"at": 3,
 				"df": 3,
-				"hp": 3,
 				"sa": 3,
 				"sd": 3,
 				"sp": 3
-			},
-			"level": 42,
-			"moves": [],
-			"nature": ""
+			}
 		},
-		"Sis And Bro Lisa And Ray": {
+		"Sis And Bro Lisa & Ray Lisa And Ray": {
 			"ability": "",
 			"index": 1,
 			"item": "",
+			"level": 25,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 25,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Swimmer M Chad": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 33,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 33,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Swimmer M Darrin": {
 			"ability": "",
-			"index": 2,
+			"index": 0,
 			"item": "",
+			"level": 24,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 1,
 				"at": 1,
 				"df": 1,
-				"hp": 1,
 				"sa": 1,
 				"sd": 1,
 				"sp": 1
-			},
+			}
+		},
+		"Swimmer M Darrin (2)": {
+			"ability": "",
+			"index": 2,
+			"item": "",
 			"level": 24,
 			"moves": [],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 1,
+				"at": 1,
+				"df": 1,
+				"sa": 1,
+				"sd": 1,
+				"sp": 1
+			}
 		},
 		"Swimmer M David": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 25,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 25,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Swimmer M Dominik": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 26,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 26,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Swimmer M Douglas": {
 			"ability": "",
-			"index": 1,
+			"index": 0,
 			"item": "",
+			"level": 24,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 1,
 				"at": 1,
 				"df": 1,
-				"hp": 1,
 				"sa": 1,
 				"sd": 1,
 				"sp": 1
-			},
+			}
+		},
+		"Swimmer M Douglas (2)": {
+			"ability": "",
+			"index": 1,
+			"item": "",
 			"level": 24,
 			"moves": [],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 1,
+				"at": 1,
+				"df": 1,
+				"sa": 1,
+				"sd": 1,
+				"sp": 1
+			}
 		},
 		"Swimmer M Dudley": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 33,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 33,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Swimmer M Pete": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 15,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 15,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Swimmer M Spencer": {
 			"ability": "",
 			"index": 0,
 			"item": "",
-			"ivs": {
-				"at": 0,
-				"df": 0,
-				"hp": 0,
-				"sa": 0,
-				"sd": 0,
-				"sp": 0
-			},
 			"level": 33,
 			"moves": [],
-			"nature": ""
-		},
-		"Tuber M Chandler": {
-			"ability": "",
-			"index": 1,
-			"item": "",
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 12,
-			"moves": [],
-			"nature": ""
+			}
 		}
 	},
 	"Tentacruel": {
@@ -27542,14 +29178,6 @@ var SETDEX_SV = {
 			"ability": "",
 			"index": 1,
 			"item": "",
-			"ivs": {
-				"at": 31,
-				"df": 31,
-				"hp": 31,
-				"sa": 31,
-				"sd": 31,
-				"sp": 31
-			},
 			"level": 55,
 			"moves": [
 				"Toxic",
@@ -27557,231 +29185,255 @@ var SETDEX_SV = {
 				"Sludge Bomb",
 				"Ice Beam"
 			],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 31,
+				"at": 31,
+				"df": 31,
+				"sa": 31,
+				"sd": 31,
+				"sp": 31
+			}
 		},
 		"Fisherman Carter": {
 			"ability": "",
 			"index": 1,
 			"item": "",
+			"level": 25,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 1,
 				"at": 1,
 				"df": 1,
-				"hp": 1,
 				"sa": 1,
 				"sd": 1,
 				"sp": 1
-			},
-			"level": 25,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Fisherman Elliot 4": {
 			"ability": "",
 			"index": 2,
 			"item": "",
+			"level": 30,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 3,
 				"at": 3,
 				"df": 3,
-				"hp": 3,
 				"sa": 3,
 				"sd": 3,
 				"sp": 3
-			},
-			"level": 30,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Fisherman Elliot 5": {
 			"ability": "",
 			"index": 3,
 			"item": "",
+			"level": 35,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 4,
 				"at": 4,
 				"df": 4,
-				"hp": 4,
 				"sa": 4,
 				"sd": 4,
 				"sp": 4
-			},
-			"level": 35,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Fisherman Henry": {
 			"ability": "",
 			"index": 1,
 			"item": "",
+			"level": 34,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 34,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Sailor Cory 4": {
 			"ability": "",
 			"index": 2,
 			"item": "",
+			"level": 34,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 3,
 				"at": 3,
 				"df": 3,
-				"hp": 3,
 				"sa": 3,
 				"sd": 3,
 				"sp": 3
-			},
-			"level": 34,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Sailor Cory 5": {
 			"ability": "",
 			"index": 2,
 			"item": "",
+			"level": 36,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 4,
 				"at": 4,
 				"df": 4,
-				"hp": 4,
 				"sa": 4,
 				"sd": 4,
 				"sp": 4
-			},
-			"level": 36,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Sailor Ernest 5": {
 			"ability": "",
 			"index": 2,
 			"item": "",
+			"level": 45,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 4,
 				"at": 4,
 				"df": 4,
-				"hp": 4,
 				"sa": 4,
 				"sd": 4,
 				"sp": 4
-			},
-			"level": 45,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Sailor Phillip": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 44,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 44,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Swimmer M Dudley": {
 			"ability": "",
 			"index": 2,
 			"item": "",
+			"level": 33,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 33,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Swimmer M Harrison": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 35,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 35,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Swimmer M Herman": {
 			"ability": "",
 			"index": 1,
 			"item": "",
+			"level": 33,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 33,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Swimmer M Jerome": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 26,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 26,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Swimmer M Nolen": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 34,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 34,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Swimmer M Santiago": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 33,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 33,
-			"moves": [],
-			"nature": ""
+			}
+		},
+		"Team Aqua Grunt Museum 1": {
+			"ability": "Liquid Ooze",
+			"index": 0,
+			"item": "Black Sludge",
+			"level": 30,
+			"moves": [
+				"Scald",
+				"Sludge Bomb",
+				"Hex",
+				"Giga Drain"
+			],
+			"nature": "Jolly",
+			"ivs": {
+				"at": 0
+			}
 		}
 	},
 	"Throh": {
@@ -27789,14 +29441,6 @@ var SETDEX_SV = {
 			"ability": "Inner Focus",
 			"index": 2,
 			"item": "Expert Belt",
-			"ivs": {
-				"at": 31,
-				"df": 31,
-				"hp": 31,
-				"sa": 31,
-				"sd": 31,
-				"sp": 31
-			},
 			"level": 24,
 			"moves": [
 				"Rock Tomb",
@@ -27812,14 +29456,6 @@ var SETDEX_SV = {
 			"ability": "Guts",
 			"index": 0,
 			"item": "Flame Orb",
-			"ivs": {
-				"at": 31,
-				"df": 31,
-				"hp": 31,
-				"sa": 31,
-				"sd": 31,
-				"sp": 31
-			},
 			"level": 24,
 			"moves": [
 				"Drain Punch",
@@ -27833,14 +29469,6 @@ var SETDEX_SV = {
 			"ability": "Sheer Force",
 			"index": 1,
 			"item": "Black Belt",
-			"ivs": {
-				"at": 31,
-				"df": 31,
-				"hp": 31,
-				"sa": 31,
-				"sd": 31,
-				"sp": 31
-			},
 			"level": 17,
 			"moves": [
 				"Force Palm",
@@ -27851,35 +29479,42 @@ var SETDEX_SV = {
 			"nature": "Adamant"
 		}
 	},
+	"Togedemaru": {
+		"Tuber F Hailey": {
+			"ability": "Lightning Rod",
+			"index": 1,
+			"item": "Magnet",
+			"level": 23,
+			"moves": [
+				"Zing Zap",
+				"Iron Head",
+				"Magnet Rise",
+				"Nuzzle"
+			],
+			"nature": ""
+		}
+	},
 	"Torkoal": {
 		"Cooltrainer Michelle": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 42,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 12,
 				"at": 12,
 				"df": 12,
-				"hp": 12,
 				"sa": 12,
 				"sd": 12,
 				"sp": 12
-			},
-			"level": 42,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Leader Flannery 1": {
 			"ability": "",
 			"index": 3,
 			"item": "White Herb",
-			"ivs": {
-				"at": 30,
-				"df": 30,
-				"hp": 30,
-				"sa": 30,
-				"sd": 30,
-				"sp": 30
-			},
 			"level": 29,
 			"moves": [
 				"Overheat",
@@ -27887,20 +29522,20 @@ var SETDEX_SV = {
 				"Body Slam",
 				"Attract"
 			],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 30,
+				"at": 30,
+				"df": 30,
+				"sa": 30,
+				"sd": 30,
+				"sp": 30
+			}
 		},
 		"Leader Flannery 2": {
 			"ability": "",
 			"index": 3,
 			"item": "White Herb",
-			"ivs": {
-				"at": 31,
-				"df": 31,
-				"hp": 31,
-				"sa": 31,
-				"sd": 31,
-				"sp": 31
-			},
 			"level": 40,
 			"moves": [
 				"Overheat",
@@ -27908,20 +29543,20 @@ var SETDEX_SV = {
 				"Explosion",
 				"Attract"
 			],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 31,
+				"at": 31,
+				"df": 31,
+				"sa": 31,
+				"sd": 31,
+				"sp": 31
+			}
 		},
 		"Leader Flannery 3": {
 			"ability": "",
 			"index": 4,
 			"item": "White Herb",
-			"ivs": {
-				"at": 31,
-				"df": 31,
-				"hp": 31,
-				"sa": 31,
-				"sd": 31,
-				"sp": 31
-			},
 			"level": 45,
 			"moves": [
 				"Overheat",
@@ -27929,20 +29564,20 @@ var SETDEX_SV = {
 				"Explosion",
 				"Attract"
 			],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 31,
+				"at": 31,
+				"df": 31,
+				"sa": 31,
+				"sd": 31,
+				"sp": 31
+			}
 		},
 		"Leader Flannery 4": {
 			"ability": "",
 			"index": 5,
 			"item": "White Herb",
-			"ivs": {
-				"at": 31,
-				"df": 31,
-				"hp": 31,
-				"sa": 31,
-				"sd": 31,
-				"sp": 31
-			},
 			"level": 50,
 			"moves": [
 				"Overheat",
@@ -27950,20 +29585,20 @@ var SETDEX_SV = {
 				"Explosion",
 				"Attract"
 			],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 31,
+				"at": 31,
+				"df": 31,
+				"sa": 31,
+				"sd": 31,
+				"sp": 31
+			}
 		},
 		"Leader Flannery 5": {
 			"ability": "",
 			"index": 5,
 			"item": "White Herb",
-			"ivs": {
-				"at": 31,
-				"df": 31,
-				"hp": 31,
-				"sa": 31,
-				"sd": 31,
-				"sp": 31
-			},
 			"level": 55,
 			"moves": [
 				"Overheat",
@@ -27971,7 +29606,31 @@ var SETDEX_SV = {
 				"Explosion",
 				"Attract"
 			],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 31,
+				"at": 31,
+				"df": 31,
+				"sa": 31,
+				"sd": 31,
+				"sp": 31
+			}
+		},
+		"School Kid Ollie School": {
+			"ability": "White Smoke",
+			"index": 1,
+			"item": "Charcoal",
+			"level": 16,
+			"moves": [
+				"Ember",
+				"Curse",
+				"Body Slam",
+				"Rock Tomb"
+			],
+			"nature": "Brave",
+			"ivs": {
+				"sp": 0
+			}
 		}
 	},
 	"Trapinch": {
@@ -27979,14 +29638,6 @@ var SETDEX_SV = {
 			"ability": "",
 			"index": 1,
 			"item": "",
-			"ivs": {
-				"at": 12,
-				"df": 12,
-				"hp": 12,
-				"sa": 12,
-				"sd": 12,
-				"sp": 12
-			},
 			"level": 28,
 			"moves": [
 				"Bite",
@@ -27994,23 +29645,31 @@ var SETDEX_SV = {
 				"Feint Attack",
 				"Sand Tomb"
 			],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 12,
+				"at": 12,
+				"df": 12,
+				"sa": 12,
+				"sd": 12,
+				"sp": 12
+			}
 		},
 		"Youngster Jaylen": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 19,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 19,
-			"moves": [],
-			"nature": ""
+			}
 		}
 	},
 	"Tropius": {
@@ -28018,110 +29677,102 @@ var SETDEX_SV = {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 34,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 34,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Bird Keeper Darius": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 30,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 24,
 				"at": 24,
 				"df": 24,
-				"hp": 24,
 				"sa": 24,
 				"sd": 24,
 				"sp": 24
-			},
-			"level": 30,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Bird Keeper Hugh": {
 			"ability": "",
 			"index": 1,
 			"item": "",
+			"level": 25,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 25,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Bird Keeper Jared": {
 			"ability": "",
 			"index": 2,
 			"item": "",
+			"level": 27,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 12,
 				"at": 12,
 				"df": 12,
-				"hp": 12,
 				"sa": 12,
 				"sd": 12,
 				"sp": 12
-			},
-			"level": 27,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Bird Keeper Presley": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 33,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 33,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Cooltrainer Julie": {
 			"ability": "",
 			"index": 2,
 			"item": "",
+			"level": 42,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 12,
 				"at": 12,
 				"df": 12,
-				"hp": 12,
 				"sa": 12,
 				"sd": 12,
 				"sp": 12
-			},
-			"level": 42,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Leader Winona 1": {
 			"ability": "",
 			"index": 1,
 			"item": "",
-			"ivs": {
-				"at": 25,
-				"df": 25,
-				"hp": 25,
-				"sa": 25,
-				"sd": 25,
-				"sp": 25
-			},
 			"level": 29,
 			"moves": [
 				"Sunny Day",
@@ -28129,20 +29780,20 @@ var SETDEX_SV = {
 				"Solar Beam",
 				"Synthesis"
 			],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 25,
+				"at": 25,
+				"df": 25,
+				"sa": 25,
+				"sd": 25,
+				"sp": 25
+			}
 		},
 		"Leader Winona 2": {
 			"ability": "",
 			"index": 1,
 			"item": "",
-			"ivs": {
-				"at": 31,
-				"df": 31,
-				"hp": 31,
-				"sa": 31,
-				"sd": 31,
-				"sp": 31
-			},
 			"level": 38,
 			"moves": [
 				"Sunny Day",
@@ -28150,20 +29801,20 @@ var SETDEX_SV = {
 				"Solar Beam",
 				"Earthquake"
 			],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 31,
+				"at": 31,
+				"df": 31,
+				"sa": 31,
+				"sd": 31,
+				"sp": 31
+			}
 		},
 		"Leader Winona 3": {
 			"ability": "",
 			"index": 1,
 			"item": "",
-			"ivs": {
-				"at": 31,
-				"df": 31,
-				"hp": 31,
-				"sa": 31,
-				"sd": 31,
-				"sp": 31
-			},
 			"level": 43,
 			"moves": [
 				"Sunny Day",
@@ -28171,20 +29822,20 @@ var SETDEX_SV = {
 				"Solar Beam",
 				"Earthquake"
 			],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 31,
+				"at": 31,
+				"df": 31,
+				"sa": 31,
+				"sd": 31,
+				"sp": 31
+			}
 		},
 		"Leader Winona 4": {
 			"ability": "",
 			"index": 1,
 			"item": "",
-			"ivs": {
-				"at": 31,
-				"df": 31,
-				"hp": 31,
-				"sa": 31,
-				"sd": 31,
-				"sp": 31
-			},
 			"level": 49,
 			"moves": [
 				"Sunny Day",
@@ -28192,20 +29843,20 @@ var SETDEX_SV = {
 				"Solar Beam",
 				"Earthquake"
 			],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 31,
+				"at": 31,
+				"df": 31,
+				"sa": 31,
+				"sd": 31,
+				"sp": 31
+			}
 		},
 		"Leader Winona 5": {
 			"ability": "",
 			"index": 1,
 			"item": "",
-			"ivs": {
-				"at": 31,
-				"df": 31,
-				"hp": 31,
-				"sa": 31,
-				"sd": 31,
-				"sp": 31
-			},
 			"level": 54,
 			"moves": [
 				"Sunny Day",
@@ -28213,119 +29864,155 @@ var SETDEX_SV = {
 				"Solar Beam",
 				"Earthquake"
 			],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 31,
+				"at": 31,
+				"df": 31,
+				"sa": 31,
+				"sd": 31,
+				"sp": 31
+			}
 		},
 		"Pkmn Breeder Myles": {
 			"ability": "",
 			"index": 2,
 			"item": "",
+			"level": 25,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 1,
 				"at": 1,
 				"df": 1,
-				"hp": 1,
 				"sa": 1,
 				"sd": 1,
 				"sp": 1
-			},
-			"level": 25,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Rival Brendan Lilycove Mudkip": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 31,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 18,
 				"at": 18,
 				"df": 18,
-				"hp": 18,
 				"sa": 18,
 				"sd": 18,
 				"sp": 18
-			},
-			"level": 31,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Rival Brendan Lilycove Torchic": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 31,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 18,
 				"at": 18,
 				"df": 18,
-				"hp": 18,
 				"sa": 18,
 				"sd": 18,
 				"sp": 18
-			},
-			"level": 31,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Rival Brendan Lilycove Treecko": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 31,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 18,
 				"at": 18,
 				"df": 18,
-				"hp": 18,
 				"sa": 18,
 				"sd": 18,
 				"sp": 18
-			},
-			"level": 31,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Rival May Lilycove Mudkip": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 31,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 18,
 				"at": 18,
 				"df": 18,
-				"hp": 18,
 				"sa": 18,
 				"sd": 18,
 				"sp": 18
-			},
-			"level": 31,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Rival May Lilycove Torchic": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 31,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 18,
 				"at": 18,
 				"df": 18,
-				"hp": 18,
 				"sa": 18,
 				"sd": 18,
 				"sp": 18
-			},
-			"level": 31,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Rival May Lilycove Treecko": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 31,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 18,
 				"at": 18,
 				"df": 18,
-				"hp": 18,
 				"sa": 18,
 				"sd": 18,
 				"sp": 18
-			},
-			"level": 31,
-			"moves": [],
-			"nature": ""
+			}
+		}
+	},
+	"Typhlosion": {
+		"Rival Brendan Route 110 Treecko": {
+			"ability": "Adaptability",
+			"index": 4,
+			"item": "Expert Belt",
+			"level": 36,
+			"moves": [
+				"Heat Wave",
+				"Extrasensory",
+				"Scorching Sands",
+				"Thunder Punch"
+			],
+			"nature": "Hasty"
+		},
+		"Rival May Route 110 Treecko": {
+			"ability": "Adaptability",
+			"index": 4,
+			"item": "Expert Belt",
+			"level": 36,
+			"moves": [
+				"Heat Wave",
+				"Extrasensory",
+				"Scorching Sands",
+				"Thunder Punch"
+			],
+			"nature": "Hasty"
 		}
 	},
 	"Vigoroth": {
@@ -28333,97 +30020,89 @@ var SETDEX_SV = {
 			"ability": "",
 			"index": 0,
 			"item": "",
-			"ivs": {
-				"at": 31,
-				"df": 31,
-				"hp": 31,
-				"sa": 31,
-				"sd": 31,
-				"sp": 31
-			},
 			"level": 26,
 			"moves": [
 				"Focus Energy",
 				"Slash"
 			],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 31,
+				"at": 31,
+				"df": 31,
+				"sa": 31,
+				"sd": 31,
+				"sp": 31
+			}
 		},
 		"Cooltrainer Cristin 1": {
 			"ability": "",
 			"index": 1,
 			"item": "",
+			"level": 29,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 12,
 				"at": 12,
 				"df": 12,
-				"hp": 12,
 				"sa": 12,
 				"sd": 12,
 				"sp": 12
-			},
-			"level": 29,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Cooltrainer Cristin 2": {
 			"ability": "",
 			"index": 1,
 			"item": "",
+			"level": 35,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 13,
 				"at": 13,
 				"df": 13,
-				"hp": 13,
 				"sa": 13,
 				"sd": 13,
 				"sp": 13
-			},
-			"level": 35,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Cooltrainer Cristin 3": {
 			"ability": "",
 			"index": 2,
 			"item": "",
+			"level": 37,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 14,
 				"at": 14,
 				"df": 14,
-				"hp": 14,
 				"sa": 14,
 				"sd": 14,
 				"sp": 14
-			},
-			"level": 37,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Cooltrainer Cristin 4": {
 			"ability": "",
 			"index": 2,
 			"item": "",
+			"level": 39,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 12,
 				"at": 12,
 				"df": 12,
-				"hp": 12,
 				"sa": 12,
 				"sd": 12,
 				"sp": 12
-			},
-			"level": 39,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Leader Norman 1": {
 			"ability": "",
 			"index": 1,
 			"item": "",
-			"ivs": {
-				"at": 24,
-				"df": 24,
-				"hp": 24,
-				"sa": 24,
-				"sd": 24,
-				"sp": 24
-			},
 			"level": 27,
 			"moves": [
 				"Slash",
@@ -28431,20 +30110,59 @@ var SETDEX_SV = {
 				"Encore",
 				"Feint Attack"
 			],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 24,
+				"at": 24,
+				"df": 24,
+				"sa": 24,
+				"sd": 24,
+				"sp": 24
+			}
+		},
+		"Rival Brendan Route 110 Mudkip": {
+			"ability": "Vital Spirit",
+			"index": 0,
+			"item": "Life Orb",
+			"level": 34,
+			"moves": [
+				"Return",
+				"Drain Punch",
+				"Play Rough",
+				"Poison Jab"
+			],
+			"nature": "Jolly"
+		},
+		"Rival Brendan Route 110 Torchic": {
+			"ability": "Vital Spirit",
+			"index": 0,
+			"item": "Life Orb",
+			"level": 34,
+			"moves": [
+				"Return",
+				"Drain Punch",
+				"Play Rough",
+				"Poison Jab"
+			],
+			"nature": "Jolly"
+		},
+		"Rival Brendan Route 110 Treecko": {
+			"ability": "Vital Spirit",
+			"index": 0,
+			"item": "Life Orb",
+			"level": 34,
+			"moves": [
+				"Return",
+				"Drain Punch",
+				"Play Rough",
+				"Poison Jab"
+			],
+			"nature": "Jolly"
 		},
 		"Rival Brendan Rustboro Mudkip": {
 			"ability": "Vital Spirit",
 			"index": 1,
 			"item": "Lum Berry",
-			"ivs": {
-				"at": 31,
-				"df": 31,
-				"hp": 31,
-				"sa": 31,
-				"sd": 31,
-				"sp": 31
-			},
 			"level": 22,
 			"moves": [
 				"Body Slam",
@@ -28458,14 +30176,6 @@ var SETDEX_SV = {
 			"ability": "Vital Spirit",
 			"index": 1,
 			"item": "Lum Berry",
-			"ivs": {
-				"at": 31,
-				"df": 31,
-				"hp": 31,
-				"sa": 31,
-				"sd": 31,
-				"sp": 31
-			},
 			"level": 22,
 			"moves": [
 				"Body Slam",
@@ -28479,14 +30189,6 @@ var SETDEX_SV = {
 			"ability": "Vital Spirit",
 			"index": 1,
 			"item": "Lum Berry",
-			"ivs": {
-				"at": 31,
-				"df": 31,
-				"hp": 31,
-				"sa": 31,
-				"sd": 31,
-				"sp": 31
-			},
 			"level": 22,
 			"moves": [
 				"Body Slam",
@@ -28496,18 +30198,49 @@ var SETDEX_SV = {
 			],
 			"nature": "Jolly"
 		},
+		"Rival May Route 110 Mudkip": {
+			"ability": "Vital Spirit",
+			"index": 0,
+			"item": "Life Orb",
+			"level": 34,
+			"moves": [
+				"Return",
+				"Drain Punch",
+				"Play Rough",
+				"Poison Jab"
+			],
+			"nature": "Jolly"
+		},
+		"Rival May Route 110 Torchic": {
+			"ability": "Vital Spirit",
+			"index": 0,
+			"item": "Life Orb",
+			"level": 34,
+			"moves": [
+				"Return",
+				"Drain Punch",
+				"Play Rough",
+				"Poison Jab"
+			],
+			"nature": "Jolly"
+		},
+		"Rival May Route 110 Treecko": {
+			"ability": "Vital Spirit",
+			"index": 0,
+			"item": "Life Orb",
+			"level": 34,
+			"moves": [
+				"Return",
+				"Drain Punch",
+				"Play Rough",
+				"Poison Jab"
+			],
+			"nature": "Jolly"
+		},
 		"Rival May Rustboro Mudkip": {
 			"ability": "Vital Spirit",
 			"index": 1,
 			"item": "Lum Berry",
-			"ivs": {
-				"at": 31,
-				"df": 31,
-				"hp": 31,
-				"sa": 31,
-				"sd": 31,
-				"sp": 31
-			},
 			"level": 22,
 			"moves": [
 				"Body Slam",
@@ -28521,14 +30254,6 @@ var SETDEX_SV = {
 			"ability": "Vital Spirit",
 			"index": 1,
 			"item": "Lum Berry",
-			"ivs": {
-				"at": 31,
-				"df": 31,
-				"hp": 31,
-				"sa": 31,
-				"sd": 31,
-				"sp": 31
-			},
 			"level": 22,
 			"moves": [
 				"Body Slam",
@@ -28542,14 +30267,6 @@ var SETDEX_SV = {
 			"ability": "Vital Spirit",
 			"index": 1,
 			"item": "Lum Berry",
-			"ivs": {
-				"at": 31,
-				"df": 31,
-				"hp": 31,
-				"sa": 31,
-				"sd": 31,
-				"sp": 31
-			},
 			"level": 22,
 			"moves": [
 				"Body Slam",
@@ -28565,17 +30282,17 @@ var SETDEX_SV = {
 			"ability": "",
 			"index": 1,
 			"item": "",
+			"level": 40,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 4,
 				"at": 4,
 				"df": 4,
-				"hp": 4,
 				"sa": 4,
 				"sd": 4,
 				"sp": 4
-			},
-			"level": 40,
-			"moves": [],
-			"nature": ""
+			}
 		}
 	},
 	"Volbeat": {
@@ -28583,117 +30300,117 @@ var SETDEX_SV = {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 25,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 25,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Bug Maniac Angelo": {
 			"ability": "",
 			"index": 1,
 			"item": "",
-			"ivs": {
-				"at": 12,
-				"df": 12,
-				"hp": 12,
-				"sa": 12,
-				"sd": 12,
-				"sp": 12
-			},
 			"level": 17,
 			"moves": [
 				"Shock Wave",
 				"Quick Attack",
 				"Confuse Ray"
 			],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 12,
+				"at": 12,
+				"df": 12,
+				"sa": 12,
+				"sd": 12,
+				"sp": 12
+			}
 		},
-		"Young Couple Kira And Dan 1": {
+		"Young Couple Kira & Dan Kira And Dan 1": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 25,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 25,
-			"moves": [],
-			"nature": ""
+			}
 		},
-		"Young Couple Kira And Dan 2": {
+		"Young Couple Kira & Dan Kira And Dan 2": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 30,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 1,
 				"at": 1,
 				"df": 1,
-				"hp": 1,
 				"sa": 1,
 				"sd": 1,
 				"sp": 1
-			},
-			"level": 30,
-			"moves": [],
-			"nature": ""
+			}
 		},
-		"Young Couple Kira And Dan 3": {
+		"Young Couple Kira & Dan Kira And Dan 3": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 33,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 2,
 				"at": 2,
 				"df": 2,
-				"hp": 2,
 				"sa": 2,
 				"sd": 2,
 				"sp": 2
-			},
-			"level": 33,
-			"moves": [],
-			"nature": ""
+			}
 		},
-		"Young Couple Kira And Dan 4": {
+		"Young Couple Kira & Dan Kira And Dan 4": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 36,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 3,
 				"at": 3,
 				"df": 3,
-				"hp": 3,
 				"sa": 3,
 				"sd": 3,
 				"sp": 3
-			},
-			"level": 36,
-			"moves": [],
-			"nature": ""
+			}
 		},
-		"Young Couple Kira And Dan 5": {
+		"Young Couple Kira & Dan Kira And Dan 5": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 39,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 4,
 				"at": 4,
 				"df": 4,
-				"hp": 4,
 				"sa": 4,
 				"sd": 4,
 				"sp": 4
-			},
-			"level": 39,
-			"moves": [],
-			"nature": ""
+			}
 		}
 	},
 	"Voltorb": {
@@ -28701,82 +30418,74 @@ var SETDEX_SV = {
 			"ability": "",
 			"index": 1,
 			"item": "",
+			"level": 14,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 14,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Guitarist Kirk": {
 			"ability": "",
 			"index": 1,
 			"item": "",
-			"ivs": {
-				"at": 12,
-				"df": 12,
-				"hp": 12,
-				"sa": 12,
-				"sd": 12,
-				"sp": 12
-			},
 			"level": 17,
 			"moves": [
 				"Charge",
 				"Shock Wave",
 				"Screech"
 			],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 12,
+				"at": 12,
+				"df": 12,
+				"sa": 12,
+				"sd": 12,
+				"sp": 12
+			}
 		},
 		"Guitarist Marcos": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 15,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 12,
 				"at": 12,
 				"df": 12,
-				"hp": 12,
 				"sa": 12,
 				"sd": 12,
 				"sp": 12
-			},
-			"level": 15,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Guitarist Shawn": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 17,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 12,
 				"at": 12,
 				"df": 12,
-				"hp": 12,
 				"sa": 12,
 				"sd": 12,
 				"sp": 12
-			},
-			"level": 17,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Leader Wattson 1": {
 			"ability": "",
 			"index": 0,
 			"item": "",
-			"ivs": {
-				"at": 24,
-				"df": 24,
-				"hp": 24,
-				"sa": 24,
-				"sd": 24,
-				"sp": 24
-			},
 			"level": 20,
 			"moves": [
 				"Rollout",
@@ -28784,39 +30493,63 @@ var SETDEX_SV = {
 				"Self Destruct",
 				"Shock Wave"
 			],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 24,
+				"at": 24,
+				"df": 24,
+				"sa": 24,
+				"sd": 24,
+				"sp": 24
+			}
 		},
 		"Triathlete Jacob": {
 			"ability": "",
-			"index": 1,
+			"index": 0,
 			"item": "",
+			"level": 6,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 2,
 				"at": 2,
 				"df": 2,
-				"hp": 2,
 				"sa": 2,
 				"sd": 2,
 				"sp": 2
-			},
+			}
+		},
+		"Triathlete Jacob (2)": {
+			"ability": "",
+			"index": 1,
+			"item": "",
 			"level": 6,
 			"moves": [],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 2,
+				"at": 2,
+				"df": 2,
+				"sa": 2,
+				"sd": 2,
+				"sp": 2
+			}
 		},
 		"Triathlete Jasmine": {
 			"ability": "",
 			"index": 2,
 			"item": "",
+			"level": 6,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 6,
-			"moves": [],
-			"nature": ""
+			}
 		}
 	},
 	"Vulpix": {
@@ -28824,14 +30557,6 @@ var SETDEX_SV = {
 			"ability": "Flash Fire",
 			"index": 0,
 			"item": "Heat Rock",
-			"ivs": {
-				"at": 0,
-				"df": 31,
-				"hp": 31,
-				"sa": 31,
-				"sd": 31,
-				"sp": 31
-			},
 			"level": 11,
 			"moves": [
 				"Ember",
@@ -28839,7 +30564,27 @@ var SETDEX_SV = {
 				"Confuse Ray",
 				"Sunny Day"
 			],
-			"nature": "Gentle"
+			"nature": "Gentle",
+			"ivs": {
+				"at": 0
+			}
+		}
+	},
+	"Vulpix-Alola": {
+		"Rich Boy Harry School": {
+			"ability": "Snow Warning",
+			"index": 0,
+			"item": "Icy Rock",
+			"level": 16,
+			"moves": [
+				"Aurora Veil",
+				"Draining Kiss",
+				"Aurora Beam"
+			],
+			"nature": "Modest",
+			"ivs": {
+				"at": 0
+			}
 		}
 	},
 	"Wailmer": {
@@ -28847,78 +30592,70 @@ var SETDEX_SV = {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 25,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 25,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Beauty Thalia 2": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 34,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 1,
 				"at": 1,
 				"df": 1,
-				"hp": 1,
 				"sa": 1,
 				"sd": 1,
 				"sp": 1
-			},
-			"level": 34,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Beauty Thalia 3": {
 			"ability": "",
 			"index": 1,
 			"item": "",
+			"level": 36,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 2,
 				"at": 2,
 				"df": 2,
-				"hp": 2,
 				"sa": 2,
 				"sd": 2,
 				"sp": 2
-			},
-			"level": 36,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Beauty Thalia 4": {
 			"ability": "",
 			"index": 1,
 			"item": "",
+			"level": 38,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 3,
 				"at": 3,
 				"df": 3,
-				"hp": 3,
 				"sa": 3,
 				"sd": 3,
 				"sp": 3
-			},
-			"level": 38,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Cooltrainer Braxton": {
 			"ability": "",
 			"index": 2,
 			"item": "",
-			"ivs": {
-				"at": 12,
-				"df": 12,
-				"hp": 12,
-				"sa": 12,
-				"sd": 12,
-				"sp": 12
-			},
 			"level": 28,
 			"moves": [
 				"Rollout",
@@ -28926,394 +30663,418 @@ var SETDEX_SV = {
 				"Astonish",
 				"Water Pulse"
 			],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 12,
+				"at": 12,
+				"df": 12,
+				"sa": 12,
+				"sd": 12,
+				"sp": 12
+			}
 		},
 		"Cooltrainer Wilton 1": {
 			"ability": "",
 			"index": 1,
 			"item": "",
+			"level": 17,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 12,
 				"at": 12,
 				"df": 12,
-				"hp": 12,
 				"sa": 12,
 				"sd": 12,
 				"sp": 12
-			},
-			"level": 17,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Cooltrainer Wilton 2": {
 			"ability": "",
 			"index": 1,
 			"item": "",
+			"level": 26,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 13,
 				"at": 13,
 				"df": 13,
-				"hp": 13,
 				"sa": 13,
 				"sd": 13,
 				"sp": 13
-			},
-			"level": 26,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Cooltrainer Wilton 3": {
 			"ability": "",
 			"index": 1,
 			"item": "",
+			"level": 29,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 14,
 				"at": 14,
 				"df": 14,
-				"hp": 14,
 				"sa": 14,
 				"sd": 14,
 				"sp": 14
-			},
-			"level": 29,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Cooltrainer Wilton 4": {
 			"ability": "",
 			"index": 1,
 			"item": "",
+			"level": 32,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 15,
 				"at": 15,
 				"df": 15,
-				"hp": 15,
 				"sa": 15,
 				"sd": 15,
 				"sp": 15
-			},
-			"level": 32,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Cooltrainer Wilton 5": {
 			"ability": "",
 			"index": 1,
 			"item": "",
+			"level": 35,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 17,
 				"at": 17,
 				"df": 17,
-				"hp": 17,
 				"sa": 17,
 				"sd": 17,
 				"sp": 17
-			},
-			"level": 35,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Fisherman Carter": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 25,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 1,
 				"at": 1,
 				"df": 1,
-				"hp": 1,
 				"sa": 1,
 				"sd": 1,
 				"sp": 1
-			},
-			"level": 25,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Fisherman Dale": {
 			"ability": "",
-			"index": 3,
+			"index": 1,
 			"item": "",
+			"level": 14,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
+			}
+		},
+		"Fisherman Dale (2)": {
+			"ability": "",
+			"index": 3,
+			"item": "",
 			"level": 14,
 			"moves": [],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 0,
+				"at": 0,
+				"df": 0,
+				"sa": 0,
+				"sd": 0,
+				"sp": 0
+			}
 		},
 		"Fisherman Jonah": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 30,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 30,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Fisherman Wayne": {
 			"ability": "",
 			"index": 2,
 			"item": "",
+			"level": 36,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 36,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Hiker Lucas 2": {
 			"ability": "",
 			"index": 0,
 			"item": "",
-			"ivs": {
-				"at": 0,
-				"df": 0,
-				"hp": 0,
-				"sa": 0,
-				"sd": 0,
-				"sp": 0
-			},
 			"level": 9,
 			"moves": [
 				"Splash",
 				"Water Gun"
 			],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 0,
+				"at": 0,
+				"df": 0,
+				"sa": 0,
+				"sd": 0,
+				"sp": 0
+			}
 		},
 		"Lass Crissy": {
 			"ability": "",
 			"index": 1,
 			"item": "",
+			"level": 39,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 12,
 				"at": 12,
 				"df": 12,
-				"hp": 12,
 				"sa": 12,
 				"sd": 12,
 				"sp": 12
-			},
-			"level": 39,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Parasol Lady Clarissa": {
 			"ability": "",
 			"index": 1,
 			"item": "",
+			"level": 28,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 28,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Sailor Hudson": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 34,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 34,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Swimmer F Beverly": {
 			"ability": "",
 			"index": 1,
 			"item": "",
+			"level": 25,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 25,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Swimmer F Jenny 1": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 34,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 34,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Swimmer F Jenny 2": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 38,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 38,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Swimmer F Jenny 3": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 41,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 41,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Swimmer F Jenny 4": {
 			"ability": "",
 			"index": 1,
 			"item": "",
+			"level": 43,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 43,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Swimmer F Jenny 5": {
 			"ability": "",
 			"index": 1,
 			"item": "",
+			"level": 45,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 45,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Swimmer F Kyla": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 26,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 26,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Swimmer M Chad": {
 			"ability": "",
 			"index": 1,
 			"item": "",
+			"level": 33,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 33,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Swimmer M Santiago": {
 			"ability": "",
 			"index": 1,
 			"item": "",
+			"level": 33,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 33,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Team Aqua Grunt Mt Pyre 4": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 30,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 30,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Team Magma Grunt Unused": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 31,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 31,
-			"moves": [],
-			"nature": ""
+			}
 		}
 	},
 	"Wailord": {
@@ -29321,30 +31082,22 @@ var SETDEX_SV = {
 			"ability": "",
 			"index": 1,
 			"item": "",
+			"level": 40,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 4,
 				"at": 4,
 				"df": 4,
-				"hp": 4,
 				"sa": 4,
 				"sd": 4,
 				"sp": 4
-			},
-			"level": 40,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Champion Wallace": {
 			"ability": "",
 			"index": 0,
 			"item": "",
-			"ivs": {
-				"at": 31,
-				"df": 31,
-				"hp": 31,
-				"sa": 31,
-				"sd": 31,
-				"sp": 31
-			},
 			"level": 57,
 			"moves": [
 				"Rain Dance",
@@ -29352,23 +31105,31 @@ var SETDEX_SV = {
 				"Double Edge",
 				"Blizzard"
 			],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 31,
+				"at": 31,
+				"df": 31,
+				"sa": 31,
+				"sd": 31,
+				"sp": 31
+			}
 		},
 		"Cooltrainer Owen": {
 			"ability": "",
 			"index": 2,
 			"item": "",
+			"level": 42,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 12,
 				"at": 12,
 				"df": 12,
-				"hp": 12,
 				"sa": 12,
 				"sd": 12,
 				"sp": 12
-			},
-			"level": 42,
-			"moves": [],
-			"nature": ""
+			}
 		}
 	},
 	"Walrein": {
@@ -29376,14 +31137,6 @@ var SETDEX_SV = {
 			"ability": "",
 			"index": 4,
 			"item": "Sitrus Berry",
-			"ivs": {
-				"at": 31,
-				"df": 31,
-				"hp": 31,
-				"sa": 31,
-				"sd": 31,
-				"sp": 31
-			},
 			"level": 53,
 			"moves": [
 				"Surf",
@@ -29391,20 +31144,20 @@ var SETDEX_SV = {
 				"Ice Beam",
 				"Sheer Cold"
 			],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 31,
+				"at": 31,
+				"df": 31,
+				"sa": 31,
+				"sd": 31,
+				"sp": 31
+			}
 		},
 		"Leader Juan 2": {
 			"ability": "",
 			"index": 2,
 			"item": "",
-			"ivs": {
-				"at": 31,
-				"df": 31,
-				"hp": 31,
-				"sa": 31,
-				"sd": 31,
-				"sp": 31
-			},
 			"level": 48,
 			"moves": [
 				"Water Pulse",
@@ -29412,20 +31165,20 @@ var SETDEX_SV = {
 				"Protect",
 				"Ice Beam"
 			],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 31,
+				"at": 31,
+				"df": 31,
+				"sa": 31,
+				"sd": 31,
+				"sp": 31
+			}
 		},
 		"Leader Juan 3": {
 			"ability": "",
 			"index": 2,
 			"item": "",
-			"ivs": {
-				"at": 31,
-				"df": 31,
-				"hp": 31,
-				"sa": 31,
-				"sd": 31,
-				"sp": 31
-			},
 			"level": 53,
 			"moves": [
 				"Water Pulse",
@@ -29433,20 +31186,20 @@ var SETDEX_SV = {
 				"Protect",
 				"Ice Beam"
 			],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 31,
+				"at": 31,
+				"df": 31,
+				"sa": 31,
+				"sd": 31,
+				"sp": 31
+			}
 		},
 		"Leader Juan 4": {
 			"ability": "",
 			"index": 3,
 			"item": "",
-			"ivs": {
-				"at": 31,
-				"df": 31,
-				"hp": 31,
-				"sa": 31,
-				"sd": 31,
-				"sp": 31
-			},
 			"level": 58,
 			"moves": [
 				"Water Pulse",
@@ -29454,20 +31207,20 @@ var SETDEX_SV = {
 				"Protect",
 				"Ice Beam"
 			],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 31,
+				"at": 31,
+				"df": 31,
+				"sa": 31,
+				"sd": 31,
+				"sp": 31
+			}
 		},
 		"Leader Juan 5": {
 			"ability": "",
 			"index": 3,
 			"item": "",
-			"ivs": {
-				"at": 31,
-				"df": 31,
-				"hp": 31,
-				"sa": 31,
-				"sd": 31,
-				"sp": 31
-			},
 			"level": 63,
 			"moves": [
 				"Water Pulse",
@@ -29475,7 +31228,15 @@ var SETDEX_SV = {
 				"Protect",
 				"Sheer Cold"
 			],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 31,
+				"at": 31,
+				"df": 31,
+				"sa": 31,
+				"sd": 31,
+				"sp": 31
+			}
 		}
 	},
 	"Weezing": {
@@ -29483,20 +31244,20 @@ var SETDEX_SV = {
 			"ability": "",
 			"index": 3,
 			"item": "Smoke Ball",
-			"ivs": {
-				"at": 4,
-				"df": 4,
-				"hp": 4,
-				"sa": 4,
-				"sd": 4,
-				"sp": 4
-			},
 			"level": 35,
 			"moves": [
 				"Tackle",
 				"Sludge"
 			],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 4,
+				"at": 4,
+				"df": 4,
+				"sa": 4,
+				"sd": 4,
+				"sp": 4
+			}
 		}
 	},
 	"Whiscash": {
@@ -29504,14 +31265,6 @@ var SETDEX_SV = {
 			"ability": "",
 			"index": 3,
 			"item": "",
-			"ivs": {
-				"at": 31,
-				"df": 31,
-				"hp": 31,
-				"sa": 31,
-				"sd": 31,
-				"sp": 31
-			},
 			"level": 56,
 			"moves": [
 				"Earthquake",
@@ -29519,36 +31272,36 @@ var SETDEX_SV = {
 				"Amnesia",
 				"Hyper Beam"
 			],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 31,
+				"at": 31,
+				"df": 31,
+				"sa": 31,
+				"sd": 31,
+				"sp": 31
+			}
 		},
 		"Expert Mollie": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 33,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 33,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Leader Juan 1": {
 			"ability": "",
 			"index": 1,
 			"item": "",
-			"ivs": {
-				"at": 24,
-				"df": 24,
-				"hp": 24,
-				"sa": 24,
-				"sd": 24,
-				"sp": 24
-			},
 			"level": 41,
 			"moves": [
 				"Rain Dance",
@@ -29556,20 +31309,20 @@ var SETDEX_SV = {
 				"Amnesia",
 				"Earthquake"
 			],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 24,
+				"at": 24,
+				"df": 24,
+				"sa": 24,
+				"sd": 24,
+				"sp": 24
+			}
 		},
 		"Leader Juan 2": {
 			"ability": "",
 			"index": 1,
 			"item": "",
-			"ivs": {
-				"at": 31,
-				"df": 31,
-				"hp": 31,
-				"sa": 31,
-				"sd": 31,
-				"sp": 31
-			},
 			"level": 46,
 			"moves": [
 				"Rain Dance",
@@ -29577,20 +31330,20 @@ var SETDEX_SV = {
 				"Double Team",
 				"Fissure"
 			],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 31,
+				"at": 31,
+				"df": 31,
+				"sa": 31,
+				"sd": 31,
+				"sp": 31
+			}
 		},
 		"Leader Juan 3": {
 			"ability": "",
 			"index": 1,
 			"item": "",
-			"ivs": {
-				"at": 31,
-				"df": 31,
-				"hp": 31,
-				"sa": 31,
-				"sd": 31,
-				"sp": 31
-			},
 			"level": 51,
 			"moves": [
 				"Rain Dance",
@@ -29598,20 +31351,20 @@ var SETDEX_SV = {
 				"Double Team",
 				"Fissure"
 			],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 31,
+				"at": 31,
+				"df": 31,
+				"sa": 31,
+				"sd": 31,
+				"sp": 31
+			}
 		},
 		"Leader Juan 4": {
 			"ability": "",
 			"index": 1,
 			"item": "",
-			"ivs": {
-				"at": 31,
-				"df": 31,
-				"hp": 31,
-				"sa": 31,
-				"sd": 31,
-				"sp": 31
-			},
 			"level": 58,
 			"moves": [
 				"Rain Dance",
@@ -29619,20 +31372,20 @@ var SETDEX_SV = {
 				"Double Team",
 				"Fissure"
 			],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 31,
+				"at": 31,
+				"df": 31,
+				"sa": 31,
+				"sd": 31,
+				"sp": 31
+			}
 		},
 		"Leader Juan 5": {
 			"ability": "",
 			"index": 1,
 			"item": "",
-			"ivs": {
-				"at": 31,
-				"df": 31,
-				"hp": 31,
-				"sa": 31,
-				"sd": 31,
-				"sp": 31
-			},
 			"level": 63,
 			"moves": [
 				"Rain Dance",
@@ -29640,7 +31393,15 @@ var SETDEX_SV = {
 				"Double Team",
 				"Fissure"
 			],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 31,
+				"at": 31,
+				"df": 31,
+				"sa": 31,
+				"sd": 31,
+				"sp": 31
+			}
 		}
 	},
 	"Whismur": {
@@ -29648,81 +31409,81 @@ var SETDEX_SV = {
 			"ability": "",
 			"index": 1,
 			"item": "",
+			"level": 15,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 15,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Guitarist Dalton 2": {
 			"ability": "",
 			"index": 1,
 			"item": "",
+			"level": 25,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 1,
 				"at": 1,
 				"df": 1,
-				"hp": 1,
 				"sa": 1,
 				"sd": 1,
 				"sp": 1
-			},
-			"level": 25,
-			"moves": [],
-			"nature": ""
+			}
 		},
-		"Interviewer Gabby And Ty 1": {
+		"Interviewer Gabby & Ty Gabby And Ty 1": {
 			"ability": "",
 			"index": 1,
 			"item": "",
+			"level": 17,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 6,
 				"at": 6,
 				"df": 6,
-				"hp": 6,
 				"sa": 6,
 				"sd": 6,
 				"sp": 6
-			},
-			"level": 17,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Pkmn Breeder Isaac 1": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 11,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 11,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"School Kid Karen 2": {
 			"ability": "",
 			"index": 1,
 			"item": "",
+			"level": 26,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 2,
 				"at": 2,
 				"df": 2,
-				"hp": 2,
 				"sa": 2,
 				"sd": 2,
 				"sp": 2
-			},
-			"level": 26,
-			"moves": [],
-			"nature": ""
+			}
 		}
 	},
 	"Wigglytuff": {
@@ -29730,21 +31491,21 @@ var SETDEX_SV = {
 			"ability": "",
 			"index": 0,
 			"item": "",
-			"ivs": {
-				"at": 31,
-				"df": 31,
-				"hp": 31,
-				"sa": 31,
-				"sd": 31,
-				"sp": 31
-			},
 			"level": 26,
 			"moves": [
 				"Defense Curl",
 				"Double Edge",
 				"Shadow Ball"
 			],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 31,
+				"at": 31,
+				"df": 31,
+				"sa": 31,
+				"sd": 31,
+				"sp": 31
+			}
 		}
 	},
 	"Wingull": {
@@ -29752,577 +31513,465 @@ var SETDEX_SV = {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 28,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 28,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Bird Keeper Hugh": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 25,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 25,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Bird Keeper Josue": {
 			"ability": "",
 			"index": 1,
 			"item": "",
+			"level": 25,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 6,
 				"at": 6,
 				"df": 6,
-				"hp": 6,
 				"sa": 6,
 				"sd": 6,
 				"sp": 6
-			},
-			"level": 25,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Bird Keeper Perry": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 26,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 26,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Cooltrainer Brooke 1": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 17,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 12,
 				"at": 12,
 				"df": 12,
-				"hp": 12,
 				"sa": 12,
 				"sd": 12,
 				"sp": 12
-			},
-			"level": 17,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Cooltrainer Brooke 2": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 26,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 13,
 				"at": 13,
 				"df": 13,
-				"hp": 13,
 				"sa": 13,
 				"sd": 13,
 				"sp": 13
-			},
-			"level": 26,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Kindler Bernie 1": {
 			"ability": "",
 			"index": 1,
 			"item": "",
+			"level": 18,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 18,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Kindler Bernie 2": {
 			"ability": "",
 			"index": 1,
 			"item": "",
+			"level": 26,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 1,
 				"at": 1,
 				"df": 1,
-				"hp": 1,
 				"sa": 1,
 				"sd": 1,
 				"sp": 1
-			},
-			"level": 26,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Pkmn Breeder Lydia 1": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 11,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 11,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Pkmn Breeder Lydia 2": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 22,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 1,
 				"at": 1,
 				"df": 1,
-				"hp": 1,
 				"sa": 1,
 				"sd": 1,
 				"sp": 1
-			},
-			"level": 22,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Pkmn Breeder Myles": {
 			"ability": "",
 			"index": 1,
 			"item": "",
+			"level": 25,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 1,
 				"at": 1,
 				"df": 1,
-				"hp": 1,
 				"sa": 1,
 				"sd": 1,
 				"sp": 1
-			},
-			"level": 25,
-			"moves": [],
-			"nature": ""
-		},
-		"Rival Brendan Route 110 Mudkip": {
-			"ability": "",
-			"index": 1,
-			"item": "",
-			"ivs": {
-				"at": 6,
-				"df": 6,
-				"hp": 6,
-				"sa": 6,
-				"sd": 6,
-				"sp": 6
-			},
-			"level": 18,
-			"moves": [],
-			"nature": ""
-		},
-		"Rival Brendan Route 110 Treecko": {
-			"ability": "",
-			"index": 0,
-			"item": "",
-			"ivs": {
-				"at": 6,
-				"df": 6,
-				"hp": 6,
-				"sa": 6,
-				"sd": 6,
-				"sp": 6
-			},
-			"level": 18,
-			"moves": [],
-			"nature": ""
-		},
-		"Rival May Route 110 Mudkip": {
-			"ability": "",
-			"index": 0,
-			"item": "",
-			"ivs": {
-				"at": 6,
-				"df": 6,
-				"hp": 6,
-				"sa": 6,
-				"sd": 6,
-				"sp": 6
-			},
-			"level": 18,
-			"moves": [],
-			"nature": ""
-		},
-		"Rival May Route 110 Treecko": {
-			"ability": "",
-			"index": 0,
-			"item": "",
-			"ivs": {
-				"at": 6,
-				"df": 6,
-				"hp": 6,
-				"sa": 6,
-				"sd": 6,
-				"sp": 6
-			},
-			"level": 18,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Sailor Cory 1": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 24,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 24,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Sailor Cory 2": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 30,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 1,
 				"at": 1,
 				"df": 1,
-				"hp": 1,
 				"sa": 1,
 				"sd": 1,
 				"sp": 1
-			},
-			"level": 30,
-			"moves": [],
-			"nature": ""
-		},
-		"Sailor Dwayne": {
-			"ability": "",
-			"index": 0,
-			"item": "",
-			"ivs": {
-				"at": 0,
-				"df": 0,
-				"hp": 0,
-				"sa": 0,
-				"sd": 0,
-				"sp": 0
-			},
-			"level": 11,
-			"moves": [],
-			"nature": ""
-		},
-		"Sailor Edmond": {
-			"ability": "",
-			"index": 0,
-			"item": "",
-			"ivs": {
-				"at": 0,
-				"df": 0,
-				"hp": 0,
-				"sa": 0,
-				"sd": 0,
-				"sp": 0
-			},
-			"level": 13,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Sailor Ernest 1": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 33,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 33,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Sailor Ernest 2": {
 			"ability": "",
 			"index": 0,
 			"item": "",
-			"ivs": {
-				"at": 1,
-				"df": 1,
-				"hp": 1,
-				"sa": 1,
-				"sd": 1,
-				"sp": 1
-			},
 			"level": 36,
 			"moves": [],
-			"nature": ""
-		},
-		"Sailor Huey": {
-			"ability": "",
-			"index": 0,
-			"item": "",
+			"nature": "",
 			"ivs": {
+				"hp": 1,
 				"at": 1,
 				"df": 1,
-				"hp": 1,
 				"sa": 1,
 				"sd": 1,
 				"sp": 1
-			},
-			"level": 12,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"School Kid Paul": {
 			"ability": "",
 			"index": 2,
 			"item": "",
+			"level": 15,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 1,
 				"at": 1,
 				"df": 1,
-				"hp": 1,
 				"sa": 1,
 				"sd": 1,
 				"sp": 1
-			},
-			"level": 15,
-			"moves": [],
-			"nature": ""
+			}
 		},
-		"Sis And Bro Reli And Ian": {
+		"Sis And Bro Reli & Ian Reli And Ian": {
 			"ability": "",
 			"index": 1,
 			"item": "",
+			"level": 33,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 33,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Swimmer F Alice": {
 			"ability": "",
 			"index": 1,
 			"item": "",
+			"level": 24,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 24,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Swimmer F Beverly": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 25,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 25,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Swimmer F Denise": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 25,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 25,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Swimmer M Darrin": {
 			"ability": "",
 			"index": 1,
 			"item": "",
+			"level": 24,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 1,
 				"at": 1,
 				"df": 1,
-				"hp": 1,
 				"sa": 1,
 				"sd": 1,
 				"sp": 1
-			},
-			"level": 24,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Swimmer M Dean": {
 			"ability": "",
 			"index": 1,
 			"item": "",
+			"level": 31,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 31,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Swimmer M Dudley": {
 			"ability": "",
 			"index": 1,
 			"item": "",
+			"level": 33,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 33,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Swimmer M Herman": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 33,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 33,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Swimmer M Spencer": {
 			"ability": "",
 			"index": 1,
 			"item": "",
+			"level": 33,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 33,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Triathlete Allison": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 27,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 27,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Triathlete Chase": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 26,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 26,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Triathlete Donny": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 26,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 26,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Triathlete Pablo 3": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 39,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 2,
 				"at": 2,
 				"df": 2,
-				"hp": 2,
 				"sa": 2,
 				"sd": 2,
 				"sp": 2
-			},
-			"level": 39,
-			"moves": [],
-			"nature": ""
+			}
 		}
 	},
 	"Wishiwashi": {
@@ -30330,14 +31979,6 @@ var SETDEX_SV = {
 			"ability": "Schooling",
 			"index": 1,
 			"item": "Leftovers",
-			"ivs": {
-				"at": 31,
-				"df": 31,
-				"hp": 31,
-				"sa": 31,
-				"sd": 31,
-				"sp": 31
-			},
 			"level": 25,
 			"moves": [
 				"Water Gun",
@@ -30353,30 +31994,22 @@ var SETDEX_SV = {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 41,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 41,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Psychic Cedric": {
 			"ability": "",
 			"index": 0,
 			"item": "",
-			"ivs": {
-				"at": 0,
-				"df": 0,
-				"hp": 0,
-				"sa": 0,
-				"sd": 0,
-				"sp": 0
-			},
 			"level": 32,
 			"moves": [
 				"Destiny Bond",
@@ -30384,39 +32017,47 @@ var SETDEX_SV = {
 				"Counter",
 				"Mirror Coat"
 			],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 0,
+				"at": 0,
+				"df": 0,
+				"sa": 0,
+				"sd": 0,
+				"sp": 0
+			}
 		},
 		"Psychic Kayla": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 26,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 26,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Psychic Nicholas": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 36,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 36,
-			"moves": [],
-			"nature": ""
+			}
 		}
 	},
 	"Wurmple": {
@@ -30424,49 +32065,67 @@ var SETDEX_SV = {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 24,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 12,
 				"at": 12,
 				"df": 12,
-				"hp": 12,
 				"sa": 12,
 				"sd": 12,
 				"sp": 12
-			},
-			"level": 24,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Bug Maniac Jeffrey 4": {
 			"ability": "",
 			"index": 1,
 			"item": "",
+			"level": 36,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 3,
 				"at": 3,
 				"df": 3,
-				"hp": 3,
 				"sa": 3,
 				"sd": 3,
 				"sp": 3
-			},
-			"level": 36,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Bug Maniac Taylor": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 27,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 12,
 				"at": 12,
 				"df": 12,
-				"hp": 12,
 				"sa": 12,
 				"sd": 12,
 				"sp": 12
-			},
-			"level": 27,
-			"moves": [],
-			"nature": ""
+			}
+		}
+	},
+	"Wynaut": {
+		"Lass Fiona School": {
+			"ability": "Shadow Tag",
+			"index": 2,
+			"item": "Custap Berry",
+			"level": 16,
+			"moves": [
+				"Encore",
+				"Counter",
+				"Mirror Coat",
+				"Destiny Bond"
+			],
+			"nature": "Calm",
+			"ivs": {
+				"at": 0
+			}
 		}
 	},
 	"Xatu": {
@@ -30474,94 +32133,86 @@ var SETDEX_SV = {
 			"ability": "",
 			"index": 1,
 			"item": "",
+			"level": 30,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 30,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Bird Keeper Benny": {
 			"ability": "",
 			"index": 2,
 			"item": "",
+			"level": 36,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 36,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Bird Keeper Presley": {
 			"ability": "",
 			"index": 1,
 			"item": "",
+			"level": 33,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 33,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Bird Keeper Robert 5": {
 			"ability": "",
 			"index": 1,
 			"item": "",
+			"level": 41,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 4,
 				"at": 4,
 				"df": 4,
-				"hp": 4,
 				"sa": 4,
 				"sd": 4,
 				"sp": 4
-			},
-			"level": 41,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Camper Flint": {
 			"ability": "",
 			"index": 1,
 			"item": "",
+			"level": 29,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 18,
 				"at": 18,
 				"df": 18,
-				"hp": 18,
 				"sa": 18,
 				"sd": 18,
 				"sp": 18
-			},
-			"level": 29,
-			"moves": [],
-			"nature": ""
+			}
 		},
-		"Leader Tate And Liza 1": {
+		"Leader Tate&liza Tate And Liza 1": {
 			"ability": "",
 			"index": 1,
 			"item": "",
-			"ivs": {
-				"at": 30,
-				"df": 30,
-				"hp": 30,
-				"sa": 30,
-				"sd": 30,
-				"sp": 30
-			},
 			"level": 41,
 			"moves": [
 				"Psychic",
@@ -30569,20 +32220,20 @@ var SETDEX_SV = {
 				"Confuse Ray",
 				"Calm Mind"
 			],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 30,
+				"at": 30,
+				"df": 30,
+				"sa": 30,
+				"sd": 30,
+				"sp": 30
+			}
 		},
-		"Leader Tate And Liza 2": {
+		"Leader Tate&liza Tate And Liza 2": {
 			"ability": "",
 			"index": 2,
 			"item": "Chesto Berry",
-			"ivs": {
-				"at": 31,
-				"df": 31,
-				"hp": 31,
-				"sa": 31,
-				"sd": 31,
-				"sp": 31
-			},
 			"level": 49,
 			"moves": [
 				"Psychic",
@@ -30590,20 +32241,20 @@ var SETDEX_SV = {
 				"Confuse Ray",
 				"Calm Mind"
 			],
-			"nature": ""
-		},
-		"Leader Tate And Liza 3": {
-			"ability": "",
-			"index": 3,
-			"item": "Chesto Berry",
+			"nature": "",
 			"ivs": {
+				"hp": 31,
 				"at": 31,
 				"df": 31,
-				"hp": 31,
 				"sa": 31,
 				"sd": 31,
 				"sp": 31
-			},
+			}
+		},
+		"Leader Tate&liza Tate And Liza 3": {
+			"ability": "",
+			"index": 3,
+			"item": "Chesto Berry",
 			"level": 54,
 			"moves": [
 				"Psychic",
@@ -30611,20 +32262,20 @@ var SETDEX_SV = {
 				"Confuse Ray",
 				"Calm Mind"
 			],
-			"nature": ""
-		},
-		"Leader Tate And Liza 4": {
-			"ability": "",
-			"index": 3,
-			"item": "Chesto Berry",
+			"nature": "",
 			"ivs": {
+				"hp": 31,
 				"at": 31,
 				"df": 31,
-				"hp": 31,
 				"sa": 31,
 				"sd": 31,
 				"sp": 31
-			},
+			}
+		},
+		"Leader Tate&liza Tate And Liza 4": {
+			"ability": "",
+			"index": 3,
+			"item": "Chesto Berry",
 			"level": 59,
 			"moves": [
 				"Psychic",
@@ -30632,20 +32283,20 @@ var SETDEX_SV = {
 				"Confuse Ray",
 				"Calm Mind"
 			],
-			"nature": ""
-		},
-		"Leader Tate And Liza 5": {
-			"ability": "",
-			"index": 3,
-			"item": "Chesto Berry",
+			"nature": "",
 			"ivs": {
+				"hp": 31,
 				"at": 31,
 				"df": 31,
-				"hp": 31,
 				"sa": 31,
 				"sd": 31,
 				"sp": 31
-			},
+			}
+		},
+		"Leader Tate&liza Tate And Liza 5": {
+			"ability": "",
+			"index": 3,
+			"item": "Chesto Berry",
 			"level": 64,
 			"moves": [
 				"Psychic",
@@ -30653,39 +32304,47 @@ var SETDEX_SV = {
 				"Confuse Ray",
 				"Calm Mind"
 			],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 31,
+				"at": 31,
+				"df": 31,
+				"sa": 31,
+				"sd": 31,
+				"sp": 31
+			}
 		},
 		"Psychic Alexis": {
 			"ability": "",
 			"index": 1,
 			"item": "",
+			"level": 41,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 41,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Psychic Samantha": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 36,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 12,
 				"at": 12,
 				"df": 12,
-				"hp": 12,
 				"sa": 12,
 				"sd": 12,
 				"sp": 12
-			},
-			"level": 36,
-			"moves": [],
-			"nature": ""
+			}
 		}
 	},
 	"Yungoos": {
@@ -30693,14 +32352,6 @@ var SETDEX_SV = {
 			"ability": "Stakeout",
 			"index": 2,
 			"item": "",
-			"ivs": {
-				"at": 31,
-				"df": 31,
-				"hp": 31,
-				"sa": 31,
-				"sd": 31,
-				"sp": 31
-			},
 			"level": 10,
 			"moves": [
 				"Bite",
@@ -30716,68 +32367,68 @@ var SETDEX_SV = {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 30,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 30,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Collector Hector": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 18,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 18,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Cooltrainer Jody": {
 			"ability": "",
 			"index": 0,
 			"item": "",
-			"ivs": {
-				"at": 31,
-				"df": 31,
-				"hp": 31,
-				"sa": 31,
-				"sd": 31,
-				"sp": 31
-			},
 			"level": 26,
 			"moves": [
 				"Swords Dance",
 				"Slash"
 			],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 31,
+				"at": 31,
+				"df": 31,
+				"sa": 31,
+				"sd": 31,
+				"sp": 31
+			}
 		},
 		"Gentleman Thomas": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 45,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 45,
-			"moves": [],
-			"nature": ""
+			}
 		}
 	},
 	"Zigzagoon": {
@@ -30785,161 +32436,153 @@ var SETDEX_SV = {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 20,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 20,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Camper Ethan 2": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 26,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 1,
 				"at": 1,
 				"df": 1,
-				"hp": 1,
 				"sa": 1,
 				"sd": 1,
 				"sp": 1
-			},
-			"level": 26,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Lady Cindy 2": {
 			"ability": "",
 			"index": 0,
 			"item": "Nugget",
-			"ivs": {
-				"at": 0,
-				"df": 0,
-				"hp": 0,
-				"sa": 0,
-				"sd": 0,
-				"sp": 0
-			},
 			"level": 11,
 			"moves": [
 				"Tackle",
 				"Tail Whip"
 			],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 0,
+				"at": 0,
+				"df": 0,
+				"sa": 0,
+				"sd": 0,
+				"sp": 0
+			}
 		},
 		"Lady Sarah": {
 			"ability": "",
 			"index": 1,
 			"item": "Nugget",
+			"level": 8,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 8,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Pkmn Breeder Gabrielle 1": {
 			"ability": "",
 			"index": 2,
 			"item": "",
+			"level": 26,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 26,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Pkmn Breeder Gabrielle 2": {
 			"ability": "",
 			"index": 2,
 			"item": "",
+			"level": 31,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 1,
 				"at": 1,
 				"df": 1,
-				"hp": 1,
 				"sa": 1,
 				"sd": 1,
 				"sp": 1
-			},
-			"level": 31,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Pkmn Breeder Isaac 1": {
 			"ability": "",
 			"index": 1,
 			"item": "",
+			"level": 11,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 11,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Pkmn Breeder Myles": {
 			"ability": "",
 			"index": 3,
 			"item": "",
+			"level": 25,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 1,
 				"at": 1,
 				"df": 1,
-				"hp": 1,
 				"sa": 1,
 				"sd": 1,
 				"sp": 1
-			},
-			"level": 25,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Rich Boy Dawson": {
 			"ability": "",
 			"index": 0,
 			"item": "Nugget",
+			"level": 8,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 8,
-			"moves": [],
-			"nature": ""
+			}
 		},
-		"Sr And Jr Anna And Meg 1": {
+		"Sr And Jr Anna & Meg Anna And Meg 1": {
 			"ability": "",
 			"index": 0,
 			"item": "",
-			"ivs": {
-				"at": 0,
-				"df": 0,
-				"hp": 0,
-				"sa": 0,
-				"sd": 0,
-				"sp": 0
-			},
 			"level": 15,
 			"moves": [
 				"Growl",
@@ -30947,20 +32590,20 @@ var SETDEX_SV = {
 				"Headbutt",
 				"Odor Sleuth"
 			],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 0,
+				"at": 0,
+				"df": 0,
+				"sa": 0,
+				"sd": 0,
+				"sp": 0
+			}
 		},
-		"Sr And Jr Anna And Meg 2": {
+		"Sr And Jr Anna & Meg Anna And Meg 2": {
 			"ability": "",
 			"index": 0,
 			"item": "",
-			"ivs": {
-				"at": 1,
-				"df": 1,
-				"hp": 1,
-				"sa": 1,
-				"sd": 1,
-				"sp": 1
-			},
 			"level": 28,
 			"moves": [
 				"Growl",
@@ -30968,20 +32611,20 @@ var SETDEX_SV = {
 				"Headbutt",
 				"Odor Sleuth"
 			],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 1,
+				"at": 1,
+				"df": 1,
+				"sa": 1,
+				"sd": 1,
+				"sp": 1
+			}
 		},
-		"Sr And Jr Anna And Meg 3": {
+		"Sr And Jr Anna & Meg Anna And Meg 3": {
 			"ability": "",
 			"index": 0,
 			"item": "",
-			"ivs": {
-				"at": 2,
-				"df": 2,
-				"hp": 2,
-				"sa": 2,
-				"sd": 2,
-				"sp": 2
-			},
 			"level": 31,
 			"moves": [
 				"Growl",
@@ -30989,57 +32632,36 @@ var SETDEX_SV = {
 				"Headbutt",
 				"Odor Sleuth"
 			],
-			"nature": ""
-		},
-		"Tuber M Ricky 1": {
-			"ability": "",
-			"index": 0,
-			"item": "",
+			"nature": "",
 			"ivs": {
-				"at": 1,
-				"df": 1,
-				"hp": 1,
-				"sa": 1,
-				"sd": 1,
-				"sp": 1
-			},
-			"level": 13,
-			"moves": [
-				"Sand Attack",
-				"Headbutt",
-				"Tail Whip",
-				"Surf"
-			],
-			"nature": ""
+				"hp": 2,
+				"at": 2,
+				"df": 2,
+				"sa": 2,
+				"sd": 2,
+				"sp": 2
+			}
 		},
 		"Winstrate Victor": {
 			"ability": "",
 			"index": 1,
 			"item": "Oran Berry",
+			"level": 16,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 3,
 				"at": 3,
 				"df": 3,
-				"hp": 3,
 				"sa": 3,
 				"sd": 3,
 				"sp": 3
-			},
-			"level": 16,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Youngster Ben": {
 			"ability": "",
 			"index": 0,
 			"item": "",
-			"ivs": {
-				"at": 18,
-				"df": 18,
-				"hp": 18,
-				"sa": 18,
-				"sd": 18,
-				"sp": 18
-			},
 			"level": 17,
 			"moves": [
 				"Headbutt",
@@ -31047,55 +32669,79 @@ var SETDEX_SV = {
 				"Growl",
 				"Thunderbolt"
 			],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 18,
+				"at": 18,
+				"df": 18,
+				"sa": 18,
+				"sd": 18,
+				"sp": 18
+			}
 		},
 		"Youngster Deandre": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 14,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 14,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Youngster Demetrius": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 25,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 25,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Youngster Eddie": {
 			"ability": "",
-			"index": 1,
+			"index": 0,
 			"item": "",
+			"level": 14,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
+			}
+		},
+		"Youngster Eddie (2)": {
+			"ability": "",
+			"index": 1,
+			"item": "",
 			"level": 16,
 			"moves": [],
-			"nature": ""
+			"nature": "",
+			"ivs": {
+				"hp": 0,
+				"at": 0,
+				"df": 0,
+				"sa": 0,
+				"sd": 0,
+				"sp": 0
+			}
 		}
 	},
 	"Zubat": {
@@ -31103,369 +32749,353 @@ var SETDEX_SV = {
 			"ability": "",
 			"index": 2,
 			"item": "",
+			"level": 30,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 9,
 				"at": 9,
 				"df": 9,
-				"hp": 9,
 				"sa": 9,
 				"sd": 9,
 				"sp": 9
-			},
-			"level": 30,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Magma Admin Tabitha Mt Chimney": {
 			"ability": "",
 			"index": 3,
 			"item": "",
+			"level": 22,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 6,
 				"at": 6,
 				"df": 6,
-				"hp": 6,
 				"sa": 6,
 				"sd": 6,
 				"sp": 6
-			},
-			"level": 22,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Magma Leader Maxie Mt Chimney": {
 			"ability": "",
 			"index": 1,
 			"item": "",
+			"level": 24,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 18,
 				"at": 18,
 				"df": 18,
-				"hp": 18,
 				"sa": 18,
 				"sd": 18,
 				"sp": 18
-			},
-			"level": 24,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Team Aqua Grunt Aqua Hideout 2": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 31,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 31,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Team Aqua Grunt Aqua Hideout 3": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 32,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 32,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Team Aqua Grunt Aqua Hideout 6": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 32,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 32,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Team Aqua Grunt Aqua Hideout 7": {
 			"ability": "",
 			"index": 1,
 			"item": "",
+			"level": 31,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 31,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Team Aqua Grunt Mt Pyre 1": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 32,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 32,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Team Aqua Grunt Mt Pyre 4": {
 			"ability": "",
 			"index": 1,
 			"item": "",
-			"ivs": {
-				"at": 0,
-				"df": 0,
-				"hp": 0,
-				"sa": 0,
-				"sd": 0,
-				"sp": 0
-			},
 			"level": 30,
 			"moves": [],
-			"nature": ""
-		},
-		"Team Aqua Grunt Museum 2": {
-			"ability": "",
-			"index": 0,
-			"item": "",
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 14,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Team Aqua Grunt Seafloor Cavern 3": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 36,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 36,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Team Aqua Grunt Weather Inst 1": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 27,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 27,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Team Aqua Grunt Weather Inst 3": {
 			"ability": "",
 			"index": 1,
 			"item": "",
+			"level": 26,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 26,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Team Aqua Grunt Weather Inst 5": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 27,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 27,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Team Magma Grunt Magma Hideout 1": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 29,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 29,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Team Magma Grunt Magma Hideout 13": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 29,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 29,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Team Magma Grunt Magma Hideout 4": {
 			"ability": "",
 			"index": 1,
 			"item": "",
+			"level": 28,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 28,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Team Magma Grunt Magma Hideout 7": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 29,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 29,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Team Magma Grunt Magma Hideout 9": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 29,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 29,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Team Magma Grunt Mt Chimney 2": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 20,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 20,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Team Magma Grunt Space Center 3": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 31,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 31,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Team Magma Grunt Space Center 5": {
 			"ability": "",
 			"index": 0,
 			"item": "",
+			"level": 32,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 32,
-			"moves": [],
-			"nature": ""
+			}
 		},
 		"Team Magma Grunt Unused": {
 			"ability": "",
 			"index": 1,
 			"item": "",
+			"level": 31,
+			"moves": [],
+			"nature": "",
 			"ivs": {
+				"hp": 0,
 				"at": 0,
 				"df": 0,
-				"hp": 0,
 				"sa": 0,
 				"sd": 0,
 				"sp": 0
-			},
-			"level": 31,
-			"moves": [],
-			"nature": ""
+			}
 		}
 	}
 }
