@@ -171,7 +171,7 @@ var SETDEX_SV = {
 		"Gentleman Wilson School": {
 			"ability": "Skill Link",
 			"index": 1,
-			"item": "Kings Rock",
+			"item": "Normal Gem",
 			"level": 17,
 			"moves": [
 				"Fake Out",
@@ -2347,7 +2347,7 @@ var SETDEX_SV = {
 		"School Kid Ollie School": {
 			"ability": "Levitate",
 			"index": 0,
-			"item": "Eviolite",
+			"item": "Room Service",
 			"level": 16,
 			"moves": [
 				"Trick Room",
@@ -21580,7 +21580,7 @@ var SETDEX_SV = {
 		"Team Aqua Grunt Petalburg Woods": {
 			"ability": "Poison Point",
 			"index": 1,
-			"item": "Poison Barb",
+			"item": "Mystic Water",
 			"level": 15,
 			"moves": [
 				"Poison Tail",
