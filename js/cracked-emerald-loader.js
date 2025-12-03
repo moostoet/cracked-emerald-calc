@@ -57,12 +57,50 @@
     var moveData = loadJSON('./import/dist/cracked-emerald-moves.json');
     if (moveData) {
       calc.MOVES[9] = moveData;
-      if (typeof MOVES_BY_ID !== 'undefined' && typeof Move !== 'undefined') {
+      if (typeof MOVES_BY_ID !== 'undefined') {
         var moveMap = {};
         for (var moveName in moveData) {
           if (!Object.prototype.hasOwnProperty.call(moveData, moveName)) continue;
-          var moveDef = moveData[moveName];
-          moveMap[calc.toID(moveName)] = new Move(moveName, moveDef, 9);
+          var def = moveData[moveName] || {};
+          var obj = {
+            kind: 'Move',
+            id: calc.toID(moveName),
+            name: moveName,
+            flags: {},
+            basePower: def.bp,
+            type: def.type,
+            category: def.category || 'Status',
+            zMove: def.zp ? { basePower: def.zp } : undefined,
+            maxMove: def.maxPower ? { basePower: def.maxPower } : undefined,
+            multihit: def.multihit,
+            multiaccuracy: def.multiaccuracy,
+            drain: def.drain,
+            recoil: def.recoil,
+            hasCrashDamage: def.hasCrashDamage,
+            mindBlownRecoil: def.mindBlownRecoil,
+            struggleRecoil: def.struggleRecoil,
+            secondaries: def.secondaries,
+            target: def.target,
+            priority: def.priority || 0,
+            self: def.self,
+            ignoreDefensive: def.ignoreDefensive,
+            overrideOffensiveStat: def.overrideOffensiveStat,
+            overrideDefensiveStat: def.overrideDefensiveStat,
+            overrideOffensivePokemon: def.overrideOffensivePokemon,
+            overrideDefensivePokemon: def.overrideDefensivePokemon,
+            breaksProtect: def.breaksProtect,
+            isZ: def.isZ,
+            isMax: def.isMax,
+          };
+          if (def.makesContact) obj.flags.contact = 1;
+          if (def.isPunch) obj.flags.punch = 1;
+          if (def.isBite) obj.flags.bite = 1;
+          if (def.isBullet) obj.flags.bullet = 1;
+          if (def.isSound) obj.flags.sound = 1;
+          if (def.isPulse) obj.flags.pulse = 1;
+          if (def.isSlicing) obj.flags.slicing = 1;
+          if (def.isWind) obj.flags.wind = 1;
+          moveMap[obj.id] = obj;
         }
         MOVES_BY_ID[9] = moveMap;
       }
