@@ -1,44 +1,91 @@
-// Override the Gen 9 species list with Cracked Emerald data.
-(function loadCrackedEmeraldSpecies() {
-  var request = new XMLHttpRequest();
-  request.open('GET', './import/dist/cracked-emerald-species.json', false);
-  try {
+// Override Gen 9 data with Cracked Emerald species/moves and custom abilities.
+(function () {
+  function loadJSON(url) {
+    var request = new XMLHttpRequest();
+    request.open('GET', url, false);
     request.send(null);
-  } catch (err) {
-    console.warn('Cracked Emerald species load failed:', err);
-    return;
-  }
-
-  if (request.status < 200 || request.status >= 300) {
-    console.warn('Cracked Emerald species load failed with status:', request.status);
-    return;
-  }
-
-  var data;
-  try {
-    data = JSON.parse(request.responseText);
-  } catch (err) {
-    console.warn('Cracked Emerald species JSON parse failed:', err);
-    return;
-  }
-
-  if (!Array.isArray(calc.SPECIES)) {
-    console.warn('calc.SPECIES is not initialized; cannot apply Cracked Emerald data.');
-    return;
-  }
-
-  // Replace Gen 9 species list.
-  calc.SPECIES[9] = data;
-
-  // Rebuild the ID map used by the Species helper.
-  if (typeof SPECIES_BY_ID !== 'undefined' && typeof Specie !== 'undefined') {
-    var map = {};
-    for (var name in data) {
-      if (!Object.prototype.hasOwnProperty.call(data, name)) continue;
-      var def = data[name];
-      if (def && def.bs && def.bs.sl) delete def.bs.sl;
-      map[calc.toID(name)] = new Specie(name, def);
+    if (request.status < 200 || request.status >= 300) return null;
+    try {
+      return JSON.parse(request.responseText);
+    } catch (err) {
+      console.warn('Failed to parse JSON at', url, err);
+      return null;
     }
-    SPECIES_BY_ID[9] = map;
+  }
+
+  function rebuildIdMap(list, Ctor) {
+    var map = {};
+    for (var i = 0; i < list.length; i++) {
+      var obj = new Ctor(list[i]);
+      map[obj.id] = obj;
+    }
+    return map;
+  }
+
+  function applyOverrides() {
+    if (typeof calc === 'undefined' || !calc.SPECIES || !calc.MOVES) return;
+
+    // Species
+    var speciesData = loadJSON('./import/dist/cracked-emerald-species.json');
+    if (speciesData) {
+      calc.SPECIES[9] = speciesData;
+      if (typeof SPECIES_BY_ID !== 'undefined' && typeof Specie !== 'undefined') {
+        var speciesMap = {};
+        for (var name in speciesData) {
+          if (!Object.prototype.hasOwnProperty.call(speciesData, name)) continue;
+          var def = speciesData[name];
+          if (def && def.bs && def.bs.sl) delete def.bs.sl;
+          speciesMap[calc.toID(name)] = new Specie(name, def);
+        }
+        SPECIES_BY_ID[9] = speciesMap;
+      }
+    }
+
+    // Abilities
+    var customAbilities = ['Drunken Fist'];
+    if (Array.isArray(calc.ABILITIES)) {
+      if (!calc.ABILITIES[9]) calc.ABILITIES[9] = [];
+      customAbilities.forEach(function (name) {
+        if (!calc.ABILITIES[9].includes(name)) calc.ABILITIES[9].push(name);
+      });
+      if (typeof ABILITIES_BY_ID !== 'undefined' && typeof Ability !== 'undefined') {
+        ABILITIES_BY_ID[9] = rebuildIdMap(calc.ABILITIES[9], Ability);
+      }
+    }
+
+    // Moves
+    var moveData = loadJSON('./import/dist/cracked-emerald-moves.json');
+    if (moveData) {
+      calc.MOVES[9] = moveData;
+      if (typeof MOVES_BY_ID !== 'undefined' && typeof Move !== 'undefined') {
+        var moveMap = {};
+        for (var moveName in moveData) {
+          if (!Object.prototype.hasOwnProperty.call(moveData, moveName)) continue;
+          var moveDef = moveData[moveName];
+          moveMap[calc.toID(moveName)] = new Move(moveName, moveDef, 9);
+        }
+        MOVES_BY_ID[9] = moveMap;
+      }
+    }
+  }
+
+  if (document.readyState === 'complete') {
+    try {
+      applyOverrides();
+    } catch (err) {
+      console.warn('Cracked Emerald loader failed:', err);
+    }
+  } else {
+    window.addEventListener(
+      'load',
+      function () {
+        try {
+          applyOverrides();
+        } catch (err) {
+          console.warn('Cracked Emerald loader failed:', err);
+        }
+      },
+      { once: true }
+    );
   }
 })();
