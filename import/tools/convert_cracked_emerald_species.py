@@ -72,8 +72,21 @@ def build_species_data(entries: List[Dict[str, Any]], formatter) -> Dict[str, Di
         weightkg = (entry.get("weight") or 0) / 10.0
 
         ability_tokens = entry.get("abilities") or []
-        abilities = [entry["convert_ability"](a) for a in ability_tokens if a]
-        primary_ability = next((a for a in abilities if a and a.lower() != "none"), None)
+        abilities = [entry["convert_ability"](a) for a in ability_tokens]
+        # Filter out None/empty abilities but preserve positions
+        # Slot 0 = primary, Slot 1 = secondary, Slot 2 = hidden
+        abilities_dict: Dict[str, str] = {}
+        for i, ability in enumerate(abilities):
+            if ability and ability.lower() != "none":
+                if i == 0:
+                    abilities_dict["0"] = ability
+                elif i == 1:
+                    # Only add slot 1 if different from slot 0
+                    if ability != abilities_dict.get("0"):
+                        abilities_dict["1"] = ability
+                elif i == 2:
+                    # Hidden ability
+                    abilities_dict["H"] = ability
 
         is_nfe = entry.get("evolution") is not None
 
@@ -82,8 +95,8 @@ def build_species_data(entries: List[Dict[str, Any]], formatter) -> Dict[str, Di
             "bs": bs,
             "weightkg": weightkg,
         }
-        if primary_ability:
-            species_entry["abilities"] = {0: primary_ability}
+        if abilities_dict:
+            species_entry["abilities"] = abilities_dict
         if is_nfe:
             species_entry["nfe"] = True
 
