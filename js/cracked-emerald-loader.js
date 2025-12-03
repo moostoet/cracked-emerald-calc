@@ -63,8 +63,16 @@
     if (!moveData) {
       console.warn('Cracked Emerald moves JSON failed to load; using base move data.');
     }
+    // Preserve the "(No Move)" entry from original data before replacing
+    var noMoveEntry = calc.MOVES[9] && calc.MOVES[9]['(No Move)'];
     if (moveData) {
       calc.MOVES[9] = moveData;
+      // Restore "(No Move)" entry needed by UI controls
+      if (noMoveEntry) {
+        calc.MOVES[9]['(No Move)'] = noMoveEntry;
+      } else {
+        calc.MOVES[9]['(No Move)'] = { bp: 0, category: 'Status', type: 'Normal' };
+      }
     }
     if (calc.MOVES_BY_ID) {
       // Start from existing Gen 9 moves so we don't drop any vanilla entries the hack doesn't override.
@@ -128,6 +136,19 @@
       );
       moveMap['cut'].flags.contact = 1;
       moveMap['cut'].flags.slicing = 1;
+
+      // Ensure "(No Move)" is in the moveMap for MOVES_BY_ID lookups
+      if (!moveMap['nomove']) {
+        moveMap['nomove'] = {
+          kind: 'Move',
+          id: 'nomove',
+          name: '(No Move)',
+          basePower: 0,
+          type: 'Normal',
+          category: 'Status',
+          flags: {}
+        };
+      }
 
       calc.MOVES_BY_ID[9] = moveMap;
       // Keep calc.MOVES in sync so future reads of the plain table see the override too.

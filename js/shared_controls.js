@@ -260,8 +260,8 @@ $(".ability").bind("keyup change", function () {
 		var moveHits = 3;
 
 		var moveName = $(this).closest(".poke-info").find(moveSelector).find(".select2-chosen").text();
-		var move = moves[moveName] || moves['(No Move)'];
-		if (move.multiaccuracy) {
+		var move = moves && (moves[moveName] || moves['(No Move)']);
+		if (move && move.multiaccuracy) {
 			moveHits = move.multihit;
 		} else if (ability === 'Skill Link') {
 			moveHits = 5;
@@ -478,9 +478,9 @@ var lockerMove = "";
 // auto-update move details on select
 $(".move-selector").change(function () {
 	var moveName = $(this).val();
-	var move = moves[moveName] || moves['(No Move)'];
+	var move = moves && (moves[moveName] || moves['(No Move)']);
 	var moveGroupObj = $(this).parent();
-	moveGroupObj.children(".move-bp").val(moveName === 'Present' ? 40 : move.bp);
+	moveGroupObj.children(".move-bp").val(moveName === 'Present' ? 40 : (move ? move.bp : 0));
 	var m = moveName.match(HIDDEN_POWER_REGEX);
 	if (m) {
 		var pokeObj = $(this).closest(".poke-info");
@@ -521,6 +521,7 @@ $(".move-selector").change(function () {
 		}
 	}
 	$(this).attr('data-prev', moveName);
+	if (!move) return; // Guard against undefined move
 	moveGroupObj.children(".move-type").val(move.type);
 	moveGroupObj.children(".move-cat").val(move.category);
 	moveGroupObj.children(".move-crit").prop("checked", move.willCrit === true);
@@ -572,8 +573,8 @@ $(".item").change(function () {
 		var moveHits = 3;
 
 		var moveName = $(this).closest(".poke-info").find(moveSelector).find(".select2-chosen").text();
-		var move = moves[moveName] || moves['(No Move)'];
-		if (move.multiaccuracy) {
+		var move = moves && (moves[moveName] || moves['(No Move)']);
+		if (move && move.multiaccuracy) {
 			moveHits = move.multihit;
 		} else if ($(this).closest(".poke-info").find(".ability").val() === 'Skill Link') {
 			moveHits = 5;
