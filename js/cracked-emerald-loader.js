@@ -55,17 +55,22 @@
 
     // Moves
     var moveData = loadJSON('./import/dist/cracked-emerald-moves.json');
+    if (!moveData) {
+      console.warn('Cracked Emerald moves JSON failed to load; using base move data.');
+    }
     if (moveData) {
       calc.MOVES[9] = moveData;
-      if (typeof MOVES_BY_ID !== 'undefined') {
-        // Start from existing Gen 9 moves so we don't drop any vanilla entries the hack doesn't override.
-        var moveMap = {};
-        var base = MOVES_BY_ID[9] || {};
-        for (var k in base) {
-          if (Object.prototype.hasOwnProperty.call(base, k)) {
-            moveMap[k] = base[k];
-          }
+    }
+    if (typeof MOVES_BY_ID !== 'undefined') {
+      // Start from existing Gen 9 moves so we don't drop any vanilla entries the hack doesn't override.
+      var moveMap = {};
+      var base = MOVES_BY_ID[9] || {};
+      for (var k in base) {
+        if (Object.prototype.hasOwnProperty.call(base, k)) {
+          moveMap[k] = base[k];
         }
+      }
+      if (moveData) {
         for (var moveName in moveData) {
           if (!Object.prototype.hasOwnProperty.call(moveData, moveName)) continue;
           var def = moveData[moveName] || {};
@@ -104,7 +109,25 @@
           if (def.isWind) obj.flags.wind = 1;
           moveMap[obj.id] = obj;
         }
-        MOVES_BY_ID[9] = moveMap;
+      }
+      // Explicit fallback patch for Cut in case moves JSON is missing or cached.
+      moveMap['cut'] = moveMap['cut'] || {};
+      moveMap['cut'] = Object.assign(
+        { kind: 'Move', id: 'cut', name: 'Cut', flags: {} },
+        moveMap['cut'],
+        {
+          basePower: 60,
+          type: 'Grass',
+          category: 'Physical'
+        }
+      );
+      moveMap['cut'].flags.contact = 1;
+      moveMap['cut'].flags.slicing = 1;
+
+      MOVES_BY_ID[9] = moveMap;
+      // Keep calc.MOVES in sync so future reads of the plain table see the override too.
+      if (calc.MOVES && !calc.MOVES[9].Cut) {
+        calc.MOVES[9].Cut = { bp: 60, type: 'Grass', category: 'Physical', makesContact: true, isSlicing: true };
       }
     }
   }
