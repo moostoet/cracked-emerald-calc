@@ -3873,7 +3873,7 @@ var SETDEX_SV = {
 			"level": 18,
 			"moves": [
 				"Whirlpool",
-				"Strength Sap",
+				"Pain Split",
 				"Will-O-Wisp",
 				"Night Shade"
 			],
@@ -4169,7 +4169,7 @@ var SETDEX_SV = {
 			"ability": "Adaptability",
 			"index": 0,
 			"item": "",
-			"level": 6,
+			"level": 5,
 			"moves": [
 				"Smokescreen",
 				"Tackle"
@@ -4188,7 +4188,7 @@ var SETDEX_SV = {
 			"ability": "Adaptability",
 			"index": 0,
 			"item": "",
-			"level": 6,
+			"level": 5,
 			"moves": [
 				"Smokescreen",
 				"Tackle"
@@ -21479,7 +21479,7 @@ var SETDEX_SV = {
 			"ability": "Dazzling",
 			"index": 0,
 			"item": "",
-			"level": 6,
+			"level": 5,
 			"moves": [
 				"Growl",
 				"Pound"
@@ -21498,7 +21498,7 @@ var SETDEX_SV = {
 			"ability": "Dazzling",
 			"index": 0,
 			"item": "",
-			"level": 6,
+			"level": 5,
 			"moves": [
 				"Growl",
 				"Pound"
@@ -26205,7 +26205,7 @@ var SETDEX_SV = {
 			"ability": "Noble Aura",
 			"index": 0,
 			"item": "",
-			"level": 6,
+			"level": 5,
 			"moves": [
 				"Tackle",
 				"Leer"
@@ -26224,7 +26224,7 @@ var SETDEX_SV = {
 			"ability": "Noble Aura",
 			"index": 0,
 			"item": "",
-			"level": 6,
+			"level": 5,
 			"moves": [
 				"Tackle",
 				"Leer"
@@ -26822,7 +26822,7 @@ var SETDEX_SV = {
 	},
 	"Spinda-Drunken": {
 		"Leader Brawly 1": {
-			"ability": "Jumbled",
+			"ability": "Drunken Fist",
 			"index": 1,
 			"item": "Lum Berry",
 			"level": 25,
