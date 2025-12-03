@@ -61,30 +61,41 @@
         var moveMap = {};
         for (var moveName in moveData) {
           if (!Object.prototype.hasOwnProperty.call(moveData, moveName)) continue;
-          if (typeof Move === 'function') {
-            moveMap[calc.toID(moveName)] = new Move(moveName, moveData[moveName], 9);
-          } else {
-            // Fallback shape if Move constructor is unavailable.
-            var def = moveData[moveName] || {};
-            var obj = { kind: 'Move', id: calc.toID(moveName), name: moveName, flags: {} };
-            obj.basePower = def.bp;
-            obj.type = def.type;
-            obj.category = def.category || 'Status';
-            obj.multihit = def.multihit;
-            obj.multiaccuracy = def.multiaccuracy;
-            obj.drain = def.drain;
-            obj.recoil = def.recoil;
-            obj.priority = def.priority || 0;
-            if (def.makesContact) obj.flags.contact = 1;
-            if (def.isPunch) obj.flags.punch = 1;
-            if (def.isBite) obj.flags.bite = 1;
-            if (def.isBullet) obj.flags.bullet = 1;
-            if (def.isSound) obj.flags.sound = 1;
-            if (def.isPulse) obj.flags.pulse = 1;
-            if (def.isSlicing) obj.flags.slicing = 1;
-            if (def.isWind) obj.flags.wind = 1;
-            moveMap[obj.id] = obj;
-          }
+          var def = moveData[moveName] || {};
+          var obj = { kind: 'Move', id: calc.toID(moveName), name: moveName, flags: {} };
+          obj.basePower = def.bp;
+          obj.type = def.type;
+          obj.category = def.category || 'Status';
+          obj.zMove = def.zp ? { basePower: def.zp } : undefined;
+          obj.maxMove = def.maxPower ? { basePower: def.maxPower } : undefined;
+          obj.multihit = def.multihit;
+          obj.multiaccuracy = def.multiaccuracy;
+          obj.drain = def.drain;
+          obj.recoil = def.recoil;
+          obj.hasCrashDamage = def.hasCrashDamage;
+          obj.mindBlownRecoil = def.mindBlownRecoil;
+          obj.struggleRecoil = def.struggleRecoil;
+          obj.secondaries = def.secondaries;
+          obj.target = def.target;
+          obj.priority = def.priority || 0;
+          obj.self = def.self;
+          obj.ignoreDefensive = def.ignoreDefensive;
+          obj.overrideOffensiveStat = def.overrideOffensiveStat;
+          obj.overrideDefensiveStat = def.overrideDefensiveStat;
+          obj.overrideOffensivePokemon = def.overrideOffensivePokemon;
+          obj.overrideDefensivePokemon = def.overrideDefensivePokemon;
+          obj.breaksProtect = def.breaksProtect;
+          obj.isZ = def.isZ;
+          obj.isMax = def.isMax;
+          if (def.makesContact) obj.flags.contact = 1;
+          if (def.isPunch) obj.flags.punch = 1;
+          if (def.isBite) obj.flags.bite = 1;
+          if (def.isBullet) obj.flags.bullet = 1;
+          if (def.isSound) obj.flags.sound = 1;
+          if (def.isPulse) obj.flags.pulse = 1;
+          if (def.isSlicing) obj.flags.slicing = 1;
+          if (def.isWind) obj.flags.wind = 1;
+          moveMap[obj.id] = obj;
         }
         MOVES_BY_ID[9] = moveMap;
       }
