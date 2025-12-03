@@ -5,7 +5,10 @@ import/node_modules/
 
 # Build output
 calc/dist/
-import/dist/
+# Allow publishing the Cracked Emerald JSON artifacts while keeping other dist output ignored.
+import/dist/*
+!import/dist/cracked-emerald-species.json
+!import/dist/cracked-emerald-moves.json
 calc/.tsbuildinfo
 import/.tsbuildinfo
 
