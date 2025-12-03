@@ -96,9 +96,20 @@ def build_species_data(entries: List[Dict[str, Any]], formatter) -> Dict[str, Di
         species[formatted_name] = species_entry
 
     # Populate otherFormes on base species entries.
+    # If a base species doesn't exist, create a synthetic entry from the first forme.
     for base_name, forms in forms_by_base.items():
-        if base_name in species and forms:
-            species[base_name]["otherFormes"] = sorted(forms)
+        unique_forms = sorted(set(forms))  # Remove duplicates
+        if unique_forms:
+            if base_name not in species:
+                # Create synthetic base entry from the first forme
+                first_forme = unique_forms[0]
+                if first_forme in species:
+                    base_entry = dict(species[first_forme])
+                    base_entry.pop("baseSpecies", None)
+                    base_entry["otherFormes"] = unique_forms
+                    species[base_name] = base_entry
+            else:
+                species[base_name]["otherFormes"] = unique_forms
 
     return dict(sorted(species.items(), key=lambda item: item[0].lower()))
 

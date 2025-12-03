@@ -129,6 +129,28 @@
       "0": "Hydration"
     }
   },
+  "Aegislash": {
+    "types": [
+      "Steel",
+      "Ghost"
+    ],
+    "bs": {
+      "hp": 60,
+      "at": 140,
+      "df": 50,
+      "sa": 140,
+      "sd": 50,
+      "sp": 60
+    },
+    "weightkg": 53.0,
+    "abilities": {
+      "0": "Stance Change"
+    },
+    "otherFormes": [
+      "Aegislash-Blade",
+      "Aegislash-Shield"
+    ]
+  },
   "Aegislash-Blade": {
     "types": [
       "Steel",
@@ -301,6 +323,26 @@
       "0": "Trace"
     },
     "baseSpecies": "Alakazam"
+  },
+  "Alcremie": {
+    "types": [
+      "Fairy"
+    ],
+    "bs": {
+      "hp": 65,
+      "at": 60,
+      "df": 75,
+      "sa": 110,
+      "sd": 121,
+      "sp": 64
+    },
+    "weightkg": 0.5,
+    "abilities": {
+      "0": "Sweet Veil"
+    },
+    "otherFormes": [
+      "Alcremie-Strawberry-Vanilla-Cream"
+    ]
   },
   "Alcremie-Strawberry-Vanilla-Cream": {
     "types": [
@@ -634,6 +676,43 @@
       "0": "Intimidate"
     },
     "baseSpecies": "Arcanine"
+  },
+  "Arceus": {
+    "types": [
+      "Bug"
+    ],
+    "bs": {
+      "hp": 120,
+      "at": 120,
+      "df": 120,
+      "sa": 120,
+      "sd": 120,
+      "sp": 120
+    },
+    "weightkg": 320.0,
+    "abilities": {
+      "0": "Multitype"
+    },
+    "otherFormes": [
+      "Arceus-Bug",
+      "Arceus-Dark",
+      "Arceus-Dragon",
+      "Arceus-Electric",
+      "Arceus-Fairy",
+      "Arceus-Fighting",
+      "Arceus-Fire",
+      "Arceus-Flying",
+      "Arceus-Ghost",
+      "Arceus-Grass",
+      "Arceus-Ground",
+      "Arceus-Ice",
+      "Arceus-Normal",
+      "Arceus-Poison",
+      "Arceus-Psychic",
+      "Arceus-Rock",
+      "Arceus-Steel",
+      "Arceus-Water"
+    ]
   },
   "Arceus-Bug": {
     "types": [
@@ -1536,6 +1615,28 @@
       "0": "Swift Swim"
     }
   },
+  "Basculegion": {
+    "types": [
+      "Water",
+      "Ghost"
+    ],
+    "bs": {
+      "hp": 120,
+      "at": 92,
+      "df": 65,
+      "sa": 100,
+      "sd": 75,
+      "sp": 78
+    },
+    "weightkg": 110.0,
+    "abilities": {
+      "0": "Swift Swim"
+    },
+    "otherFormes": [
+      "Basculegion-F",
+      "Basculegion-M"
+    ]
+  },
   "Basculegion-F": {
     "types": [
       "Water",
@@ -1573,6 +1674,29 @@
       "0": "Swift Swim"
     },
     "baseSpecies": "Basculegion"
+  },
+  "Basculin": {
+    "types": [
+      "Water"
+    ],
+    "bs": {
+      "hp": 70,
+      "at": 92,
+      "df": 65,
+      "sa": 80,
+      "sd": 55,
+      "sp": 98
+    },
+    "weightkg": 18.0,
+    "abilities": {
+      "0": "Rock Head"
+    },
+    "nfe": true,
+    "otherFormes": [
+      "Basculin-Blue-Striped",
+      "Basculin-Red-Striped",
+      "Basculin-White-Striped"
+    ]
   },
   "Basculin-Blue-Striped": {
     "types": [
@@ -2511,6 +2635,29 @@
     },
     "nfe": true
   },
+  "Burmy": {
+    "types": [
+      "Bug"
+    ],
+    "bs": {
+      "hp": 40,
+      "at": 29,
+      "df": 45,
+      "sa": 29,
+      "sd": 45,
+      "sp": 36
+    },
+    "weightkg": 3.4,
+    "abilities": {
+      "0": "Shed Skin"
+    },
+    "nfe": true,
+    "otherFormes": [
+      "Burmy-Plant",
+      "Burmy-Sandy",
+      "Burmy-Trash"
+    ]
+  },
   "Burmy-Plant": {
     "types": [
       "Bug"
@@ -2866,6 +3013,29 @@
       "0": "Shed Skin"
     },
     "nfe": true
+  },
+  "Castform": {
+    "types": [
+      "Normal"
+    ],
+    "bs": {
+      "hp": 70,
+      "at": 70,
+      "df": 70,
+      "sa": 70,
+      "sd": 70,
+      "sp": 70
+    },
+    "weightkg": 0.8,
+    "abilities": {
+      "0": "Forecast"
+    },
+    "otherFormes": [
+      "Castform-Normal",
+      "Castform-Rainy",
+      "Castform-Snowy",
+      "Castform-Sunny"
+    ]
   },
   "Castform-Normal": {
     "types": [
@@ -3271,6 +3441,27 @@
     "abilities": {
       "0": "Keen Eye"
     }
+  },
+  "Cherrim": {
+    "types": [
+      "Grass"
+    ],
+    "bs": {
+      "hp": 70,
+      "at": 60,
+      "df": 70,
+      "sa": 87,
+      "sd": 78,
+      "sp": 85
+    },
+    "weightkg": 9.3,
+    "abilities": {
+      "0": "Flower Gift"
+    },
+    "otherFormes": [
+      "Cherrim-Overcast",
+      "Cherrim-Sunshine"
+    ]
   },
   "Cherrim-Overcast": {
     "types": [
@@ -4447,6 +4638,29 @@
       "0": "Bad Dreams"
     }
   },
+  "Darmanitan": {
+    "types": [
+      "Ice"
+    ],
+    "bs": {
+      "hp": 105,
+      "at": 140,
+      "df": 55,
+      "sa": 30,
+      "sd": 55,
+      "sp": 95
+    },
+    "weightkg": 120.0,
+    "abilities": {
+      "0": "Gorilla Tactics"
+    },
+    "otherFormes": [
+      "Darmanitan-Galar",
+      "Darmanitan-Galar-Zen",
+      "Darmanitan-Standard",
+      "Darmanitan-Zen"
+    ]
+  },
   "Darmanitan-Galar": {
     "types": [
       "Ice"
@@ -4638,6 +4852,31 @@
       "0": "Cheek Pouch"
     }
   },
+  "Deerling": {
+    "types": [
+      "Normal",
+      "Grass"
+    ],
+    "bs": {
+      "hp": 60,
+      "at": 60,
+      "df": 50,
+      "sa": 40,
+      "sd": 50,
+      "sp": 75
+    },
+    "weightkg": 19.5,
+    "abilities": {
+      "0": "Chlorophyll"
+    },
+    "nfe": true,
+    "otherFormes": [
+      "Deerling-Autumn",
+      "Deerling-Spring",
+      "Deerling-Summer",
+      "Deerling-Winter"
+    ]
+  },
   "Deerling-Autumn": {
     "types": [
       "Normal",
@@ -4811,6 +5050,29 @@
       "0": "Blaze"
     },
     "baseSpecies": "Delphox"
+  },
+  "Deoxys": {
+    "types": [
+      "Psychic"
+    ],
+    "bs": {
+      "hp": 50,
+      "at": 180,
+      "df": 20,
+      "sa": 180,
+      "sd": 20,
+      "sp": 150
+    },
+    "weightkg": 60.8,
+    "abilities": {
+      "0": "Pressure"
+    },
+    "otherFormes": [
+      "Deoxys-Attack",
+      "Deoxys-Defense",
+      "Deoxys-Normal",
+      "Deoxys-Speed"
+    ]
   },
   "Deoxys-Attack": {
     "types": [
@@ -5688,6 +5950,27 @@
     },
     "nfe": true
   },
+  "Dudunsparce": {
+    "types": [
+      "Normal"
+    ],
+    "bs": {
+      "hp": 125,
+      "at": 100,
+      "df": 80,
+      "sa": 85,
+      "sd": 75,
+      "sp": 55
+    },
+    "weightkg": 47.4,
+    "abilities": {
+      "0": "Serene Grace"
+    },
+    "otherFormes": [
+      "Dudunsparce-Three-Segment",
+      "Dudunsparce-Two-Segment"
+    ]
+  },
   "Dudunsparce-Three-Segment": {
     "types": [
       "Normal"
@@ -6019,6 +6302,27 @@
     },
     "baseSpecies": "Eevee"
   },
+  "Eiscue": {
+    "types": [
+      "Ice"
+    ],
+    "bs": {
+      "hp": 75,
+      "at": 80,
+      "df": 110,
+      "sa": 65,
+      "sd": 90,
+      "sp": 50
+    },
+    "weightkg": 89.0,
+    "abilities": {
+      "0": "Ice Face"
+    },
+    "otherFormes": [
+      "Eiscue-Ice",
+      "Eiscue-Noice"
+    ]
+  },
   "Eiscue-Ice": {
     "types": [
       "Ice"
@@ -6293,6 +6597,28 @@
     "abilities": {
       "0": "Torrent"
     }
+  },
+  "Enamorus": {
+    "types": [
+      "Fairy",
+      "Flying"
+    ],
+    "bs": {
+      "hp": 74,
+      "at": 115,
+      "df": 70,
+      "sa": 135,
+      "sd": 80,
+      "sp": 106
+    },
+    "weightkg": 48.0,
+    "abilities": {
+      "0": "Cute Charm"
+    },
+    "otherFormes": [
+      "Enamorus-Incarnate",
+      "Enamorus-Therian"
+    ]
   },
   "Enamorus-Incarnate": {
     "types": [
@@ -7012,6 +7338,27 @@
       "0": "Swift Swim"
     }
   },
+  "Floette": {
+    "types": [
+      "Fairy"
+    ],
+    "bs": {
+      "hp": 74,
+      "at": 65,
+      "df": 67,
+      "sa": 125,
+      "sd": 128,
+      "sp": 92
+    },
+    "weightkg": 0.9,
+    "abilities": {
+      "0": "Flower Veil"
+    },
+    "otherFormes": [
+      "Floette-Eternal",
+      "Floette-Mega"
+    ]
+  },
   "Floette-Eternal": {
     "types": [
       "Fairy"
@@ -7065,6 +7412,26 @@
       "0": "Overgrow"
     },
     "nfe": true
+  },
+  "Florges": {
+    "types": [
+      "Fairy"
+    ],
+    "bs": {
+      "hp": 78,
+      "at": 65,
+      "df": 68,
+      "sa": 112,
+      "sd": 154,
+      "sp": 75
+    },
+    "weightkg": 10.0,
+    "abilities": {
+      "0": "Flower Veil"
+    },
+    "otherFormes": [
+      "Florges-Red"
+    ]
   },
   "Florges-Red": {
     "types": [
@@ -7343,6 +7710,26 @@
     },
     "nfe": true
   },
+  "Furfrou": {
+    "types": [
+      "Normal"
+    ],
+    "bs": {
+      "hp": 75,
+      "at": 80,
+      "df": 60,
+      "sa": 65,
+      "sd": 90,
+      "sp": 102
+    },
+    "weightkg": 28.0,
+    "abilities": {
+      "0": "Fur Coat"
+    },
+    "otherFormes": [
+      "Furfrou-Natural"
+    ]
+  },
   "Furfrou-Natural": {
     "types": [
       "Normal"
@@ -7588,6 +7975,28 @@
     },
     "nfe": true
   },
+  "Gastrodon": {
+    "types": [
+      "Water",
+      "Ground"
+    ],
+    "bs": {
+      "hp": 111,
+      "at": 83,
+      "df": 68,
+      "sa": 92,
+      "sd": 82,
+      "sp": 39
+    },
+    "weightkg": 29.9,
+    "abilities": {
+      "0": "Sticky Hold"
+    },
+    "otherFormes": [
+      "Gastrodon-East",
+      "Gastrodon-West"
+    ]
+  },
   "Gastrodon-East": {
     "types": [
       "Water",
@@ -7777,6 +8186,28 @@
       "0": "Sturdy"
     }
   },
+  "Gimmighoul": {
+    "types": [
+      "Ghost"
+    ],
+    "bs": {
+      "hp": 45,
+      "at": 30,
+      "df": 70,
+      "sa": 75,
+      "sd": 70,
+      "sp": 10
+    },
+    "weightkg": 5.0,
+    "abilities": {
+      "0": "Rattled"
+    },
+    "nfe": true,
+    "otherFormes": [
+      "Gimmighoul-Chest",
+      "Gimmighoul-Roaming"
+    ]
+  },
   "Gimmighoul-Chest": {
     "types": [
       "Ghost"
@@ -7833,6 +8264,28 @@
       "0": "Inner Focus"
     },
     "nfe": true
+  },
+  "Giratina": {
+    "types": [
+      "Ghost",
+      "Dragon"
+    ],
+    "bs": {
+      "hp": 150,
+      "at": 100,
+      "df": 120,
+      "sa": 100,
+      "sd": 120,
+      "sp": 90
+    },
+    "weightkg": 750.0,
+    "abilities": {
+      "0": "Pressure"
+    },
+    "otherFormes": [
+      "Giratina-Altered",
+      "Giratina-Origin"
+    ]
   },
   "Giratina-Altered": {
     "types": [
@@ -8382,6 +8835,30 @@
     "abilities": {
       "0": "Protosynthesis"
     }
+  },
+  "Gourgeist": {
+    "types": [
+      "Ghost",
+      "Grass"
+    ],
+    "bs": {
+      "hp": 65,
+      "at": 90,
+      "df": 122,
+      "sa": 58,
+      "sd": 75,
+      "sp": 84
+    },
+    "weightkg": 12.5,
+    "abilities": {
+      "0": "Pickup"
+    },
+    "otherFormes": [
+      "Gourgeist-Average",
+      "Gourgeist-Large",
+      "Gourgeist-Small",
+      "Gourgeist-Super"
+    ]
   },
   "Gourgeist-Average": {
     "types": [
@@ -9475,6 +9952,28 @@
     },
     "nfe": true
   },
+  "Hoopa": {
+    "types": [
+      "Psychic",
+      "Ghost"
+    ],
+    "bs": {
+      "hp": 80,
+      "at": 110,
+      "df": 60,
+      "sa": 150,
+      "sd": 130,
+      "sp": 70
+    },
+    "weightkg": 9.0,
+    "abilities": {
+      "0": "Magician"
+    },
+    "otherFormes": [
+      "Hoopa-Confined",
+      "Hoopa-Unbound"
+    ]
+  },
   "Hoopa-Confined": {
     "types": [
       "Psychic",
@@ -9787,6 +10286,28 @@
     "abilities": {
       "0": "Blaze"
     }
+  },
+  "Indeedee": {
+    "types": [
+      "Psychic",
+      "Normal"
+    ],
+    "bs": {
+      "hp": 70,
+      "at": 55,
+      "df": 65,
+      "sa": 95,
+      "sd": 105,
+      "sp": 85
+    },
+    "weightkg": 28.0,
+    "abilities": {
+      "0": "Own Tempo"
+    },
+    "otherFormes": [
+      "Indeedee-F",
+      "Indeedee-M"
+    ]
   },
   "Indeedee-F": {
     "types": [
@@ -10388,6 +10909,28 @@
       "0": "Color Change"
     }
   },
+  "Keldeo": {
+    "types": [
+      "Water",
+      "Fighting"
+    ],
+    "bs": {
+      "hp": 91,
+      "at": 72,
+      "df": 90,
+      "sa": 129,
+      "sd": 90,
+      "sp": 108
+    },
+    "weightkg": 48.5,
+    "abilities": {
+      "0": "Justified"
+    },
+    "otherFormes": [
+      "Keldeo-Ordinary",
+      "Keldeo-Resolute"
+    ]
+  },
   "Keldeo-Ordinary": {
     "types": [
       "Water",
@@ -10934,6 +11477,28 @@
       "0": "Flash Fire"
     },
     "nfe": true
+  },
+  "Landorus": {
+    "types": [
+      "Ground",
+      "Flying"
+    ],
+    "bs": {
+      "hp": 89,
+      "at": 125,
+      "df": 90,
+      "sa": 115,
+      "sd": 80,
+      "sp": 101
+    },
+    "weightkg": 68.0,
+    "abilities": {
+      "0": "Sand Force"
+    },
+    "otherFormes": [
+      "Landorus-Incarnate",
+      "Landorus-Therian"
+    ]
   },
   "Landorus-Incarnate": {
     "types": [
@@ -11753,6 +12318,28 @@
       "0": "Guts"
     }
   },
+  "Lycanroc": {
+    "types": [
+      "Rock"
+    ],
+    "bs": {
+      "hp": 75,
+      "at": 117,
+      "df": 65,
+      "sa": 55,
+      "sd": 65,
+      "sp": 110
+    },
+    "weightkg": 25.0,
+    "abilities": {
+      "0": "Tough Claws"
+    },
+    "otherFormes": [
+      "Lycanroc-Dusk",
+      "Lycanroc-Midday",
+      "Lycanroc-Midnight"
+    ]
+  },
   "Lycanroc-Dusk": {
     "types": [
       "Rock"
@@ -12470,6 +13057,27 @@
       "0": "Intimidate"
     }
   },
+  "Maushold": {
+    "types": [
+      "Normal"
+    ],
+    "bs": {
+      "hp": 74,
+      "at": 75,
+      "df": 70,
+      "sa": 65,
+      "sd": 75,
+      "sp": 111
+    },
+    "weightkg": 2.8,
+    "abilities": {
+      "0": "Friend Guard"
+    },
+    "otherFormes": [
+      "Maushold-Four",
+      "Maushold-Three"
+    ]
+  },
   "Maushold-Four": {
     "types": [
       "Normal"
@@ -12661,6 +13269,28 @@
       "0": "Iron Fist"
     }
   },
+  "Meloetta": {
+    "types": [
+      "Normal",
+      "Psychic"
+    ],
+    "bs": {
+      "hp": 100,
+      "at": 77,
+      "df": 77,
+      "sa": 128,
+      "sd": 128,
+      "sp": 90
+    },
+    "weightkg": 6.5,
+    "abilities": {
+      "0": "Serene Grace"
+    },
+    "otherFormes": [
+      "Meloetta-Aria",
+      "Meloetta-Pirouette"
+    ]
+  },
   "Meloetta-Aria": {
     "types": [
       "Normal",
@@ -12733,6 +13363,27 @@
     "abilities": {
       "0": "Overgrow"
     }
+  },
+  "Meowstic": {
+    "types": [
+      "Psychic"
+    ],
+    "bs": {
+      "hp": 74,
+      "at": 48,
+      "df": 76,
+      "sa": 83,
+      "sd": 81,
+      "sp": 104
+    },
+    "weightkg": 8.5,
+    "abilities": {
+      "0": "Keen Eye"
+    },
+    "otherFormes": [
+      "Meowstic-F",
+      "Meowstic-M"
+    ]
   },
   "Meowstic-F": {
     "types": [
@@ -13120,6 +13771,27 @@
       "0": "Soundproof"
     }
   },
+  "Mimikyu": {
+    "types": [
+      "Ghost",
+      "Fairy"
+    ],
+    "bs": {
+      "hp": 55,
+      "at": 90,
+      "df": 80,
+      "sa": 50,
+      "sd": 105,
+      "sp": 96
+    },
+    "weightkg": 0.7,
+    "abilities": {
+      "0": "Disguise"
+    },
+    "otherFormes": [
+      "Mimikyu-Disguised"
+    ]
+  },
   "Mimikyu-Disguised": {
     "types": [
       "Ghost",
@@ -13156,6 +13828,38 @@
       "0": "Cute Charm"
     },
     "nfe": true
+  },
+  "Minior": {
+    "types": [
+      "Rock",
+      "Flying"
+    ],
+    "bs": {
+      "hp": 60,
+      "at": 100,
+      "df": 60,
+      "sa": 100,
+      "sd": 60,
+      "sp": 120
+    },
+    "weightkg": 0.3,
+    "abilities": {
+      "0": "Shields Down"
+    },
+    "otherFormes": [
+      "Minior-Blue",
+      "Minior-Core-Green",
+      "Minior-Core-Indigo",
+      "Minior-Core-Orange",
+      "Minior-Core-Red",
+      "Minior-Core-Violet",
+      "Minior-Meteor-Green",
+      "Minior-Meteor-Indigo",
+      "Minior-Meteor-Orange",
+      "Minior-Meteor-Red",
+      "Minior-Meteor-Violet",
+      "Minior-Yellow"
+    ]
   },
   "Minior-Blue": {
     "types": [
@@ -13551,6 +14255,28 @@
       "0": "Prankster"
     },
     "nfe": true
+  },
+  "Morpeko": {
+    "types": [
+      "Electric",
+      "Dark"
+    ],
+    "bs": {
+      "hp": 58,
+      "at": 95,
+      "df": 58,
+      "sa": 70,
+      "sd": 58,
+      "sp": 97
+    },
+    "weightkg": 3.0,
+    "abilities": {
+      "0": "Hunger Switch"
+    },
+    "otherFormes": [
+      "Morpeko-Full-Belly",
+      "Morpeko-Hangry"
+    ]
   },
   "Morpeko-Full-Belly": {
     "types": [
@@ -14037,6 +14763,27 @@
       "0": "Poison Point"
     }
   },
+  "Nidoran♀": {
+    "types": [
+      "Poison"
+    ],
+    "bs": {
+      "hp": 55,
+      "at": 47,
+      "df": 52,
+      "sa": 40,
+      "sd": 40,
+      "sp": 41
+    },
+    "weightkg": 7.0,
+    "abilities": {
+      "0": "Poison Point"
+    },
+    "nfe": true,
+    "otherFormes": [
+      "Nidoran♀-F"
+    ]
+  },
   "Nidoran♀-F": {
     "types": [
       "Poison"
@@ -14386,6 +15133,30 @@
     },
     "nfe": true
   },
+  "Ogerpon": {
+    "types": [
+      "Grass",
+      "Rock"
+    ],
+    "bs": {
+      "hp": 80,
+      "at": 120,
+      "df": 84,
+      "sa": 60,
+      "sd": 96,
+      "sp": 110
+    },
+    "weightkg": 39.8,
+    "abilities": {
+      "0": "Sturdy"
+    },
+    "otherFormes": [
+      "Ogerpon-Cornerstone",
+      "Ogerpon-Hearthflame",
+      "Ogerpon-Teal",
+      "Ogerpon-Wellspring"
+    ]
+  },
   "Ogerpon-Cornerstone": {
     "types": [
       "Grass",
@@ -14461,6 +15232,27 @@
       "0": "Water Absorb"
     },
     "baseSpecies": "Ogerpon"
+  },
+  "Oinkologne": {
+    "types": [
+      "Normal"
+    ],
+    "bs": {
+      "hp": 115,
+      "at": 90,
+      "df": 70,
+      "sa": 59,
+      "sd": 90,
+      "sp": 65
+    },
+    "weightkg": 120.0,
+    "abilities": {
+      "0": "Aroma Veil"
+    },
+    "otherFormes": [
+      "Oinkologne-F",
+      "Oinkologne-M"
+    ]
   },
   "Oinkologne-F": {
     "types": [
@@ -14608,6 +15400,30 @@
       "0": "Swarm"
     }
   },
+  "Oricorio": {
+    "types": [
+      "Fire",
+      "Flying"
+    ],
+    "bs": {
+      "hp": 75,
+      "at": 70,
+      "df": 70,
+      "sa": 98,
+      "sd": 70,
+      "sp": 93
+    },
+    "weightkg": 3.4,
+    "abilities": {
+      "0": "Dancer"
+    },
+    "otherFormes": [
+      "Oricorio-Baile",
+      "Oricorio-Pa'u",
+      "Oricorio-Pom-Pom",
+      "Oricorio-Sensu"
+    ]
+  },
   "Oricorio-Baile": {
     "types": [
       "Fire",
@@ -14753,6 +15569,27 @@
     "abilities": {
       "0": "Run Away"
     }
+  },
+  "Palafin": {
+    "types": [
+      "Water"
+    ],
+    "bs": {
+      "hp": 100,
+      "at": 160,
+      "df": 97,
+      "sa": 106,
+      "sd": 87,
+      "sp": 100
+    },
+    "weightkg": 97.4,
+    "abilities": {
+      "0": "Zero To Hero"
+    },
+    "otherFormes": [
+      "Palafin-Hero",
+      "Palafin-Zero"
+    ]
   },
   "Palafin-Hero": {
     "types": [
@@ -15977,6 +16814,29 @@
       "0": "Water Absorb"
     }
   },
+  "Poltchageist": {
+    "types": [
+      "Grass",
+      "Ghost"
+    ],
+    "bs": {
+      "hp": 40,
+      "at": 45,
+      "df": 45,
+      "sa": 74,
+      "sd": 54,
+      "sp": 50
+    },
+    "weightkg": 1.1,
+    "abilities": {
+      "0": "Hospitality"
+    },
+    "nfe": true,
+    "otherFormes": [
+      "Poltchageist-Artisan",
+      "Poltchageist-Counterfeit"
+    ]
+  },
   "Poltchageist-Artisan": {
     "types": [
       "Grass",
@@ -16016,6 +16876,27 @@
     },
     "nfe": true,
     "baseSpecies": "Poltchageist"
+  },
+  "Polteageist": {
+    "types": [
+      "Ghost"
+    ],
+    "bs": {
+      "hp": 60,
+      "at": 65,
+      "df": 65,
+      "sa": 134,
+      "sd": 114,
+      "sp": 70
+    },
+    "weightkg": 0.4,
+    "abilities": {
+      "0": "Weak Armor"
+    },
+    "otherFormes": [
+      "Polteageist-Antique",
+      "Polteageist-Phony"
+    ]
   },
   "Polteageist-Antique": {
     "types": [
@@ -16271,6 +17152,30 @@
       "0": "Damp"
     },
     "nfe": true
+  },
+  "Pumpkaboo": {
+    "types": [
+      "Ghost",
+      "Grass"
+    ],
+    "bs": {
+      "hp": 49,
+      "at": 66,
+      "df": 70,
+      "sa": 44,
+      "sd": 55,
+      "sp": 51
+    },
+    "weightkg": 5.0,
+    "abilities": {
+      "0": "Pickup"
+    },
+    "otherFormes": [
+      "Pumpkaboo-Average",
+      "Pumpkaboo-Large",
+      "Pumpkaboo-Small",
+      "Pumpkaboo-Super"
+    ]
   },
   "Pumpkaboo-Average": {
     "types": [
@@ -17881,6 +18786,30 @@
       "0": "Sturdy"
     }
   },
+  "Sawsbuck": {
+    "types": [
+      "Normal",
+      "Grass"
+    ],
+    "bs": {
+      "hp": 80,
+      "at": 100,
+      "df": 70,
+      "sa": 60,
+      "sd": 70,
+      "sp": 95
+    },
+    "weightkg": 92.5,
+    "abilities": {
+      "0": "Chlorophyll"
+    },
+    "otherFormes": [
+      "Sawsbuck-Autumn",
+      "Sawsbuck-Spring",
+      "Sawsbuck-Summer",
+      "Sawsbuck-Winter"
+    ]
+  },
   "Sawsbuck-Autumn": {
     "types": [
       "Normal",
@@ -17956,6 +18885,27 @@
       "0": "Chlorophyll"
     },
     "baseSpecies": "Sawsbuck"
+  },
+  "Scatterbug": {
+    "types": [
+      "Bug"
+    ],
+    "bs": {
+      "hp": 38,
+      "at": 35,
+      "df": 40,
+      "sa": 27,
+      "sd": 25,
+      "sp": 35
+    },
+    "weightkg": 2.5,
+    "abilities": {
+      "0": "Shield Dust"
+    },
+    "nfe": true,
+    "otherFormes": [
+      "Scatterbug-Icy-Snow"
+    ]
   },
   "Scatterbug-Icy-Snow": {
     "types": [
@@ -18465,6 +19415,27 @@
     },
     "baseSpecies": "Sharpedo"
   },
+  "Shaymin": {
+    "types": [
+      "Grass"
+    ],
+    "bs": {
+      "hp": 100,
+      "at": 100,
+      "df": 100,
+      "sa": 100,
+      "sd": 100,
+      "sp": 100
+    },
+    "weightkg": 2.1,
+    "abilities": {
+      "0": "Natural Cure"
+    },
+    "otherFormes": [
+      "Shaymin-Land",
+      "Shaymin-Sky"
+    ]
+  },
   "Shaymin-Land": {
     "types": [
       "Grass"
@@ -18555,6 +19526,28 @@
       "0": "Shell Armor"
     },
     "nfe": true
+  },
+  "Shellos": {
+    "types": [
+      "Water"
+    ],
+    "bs": {
+      "hp": 76,
+      "at": 48,
+      "df": 48,
+      "sa": 57,
+      "sd": 62,
+      "sp": 34
+    },
+    "weightkg": 6.3,
+    "abilities": {
+      "0": "Sticky Hold"
+    },
+    "nfe": true,
+    "otherFormes": [
+      "Shellos-East",
+      "Shellos-West"
+    ]
   },
   "Shellos-East": {
     "types": [
@@ -18811,6 +19804,43 @@
       "0": "Sand Spit"
     },
     "nfe": true
+  },
+  "Silvally": {
+    "types": [
+      "Bug"
+    ],
+    "bs": {
+      "hp": 95,
+      "at": 95,
+      "df": 95,
+      "sa": 95,
+      "sd": 95,
+      "sp": 95
+    },
+    "weightkg": 100.5,
+    "abilities": {
+      "0": "Rks System"
+    },
+    "otherFormes": [
+      "Silvally-Bug",
+      "Silvally-Dark",
+      "Silvally-Dragon",
+      "Silvally-Electric",
+      "Silvally-Fairy",
+      "Silvally-Fighting",
+      "Silvally-Fire",
+      "Silvally-Flying",
+      "Silvally-Ghost",
+      "Silvally-Grass",
+      "Silvally-Ground",
+      "Silvally-Ice",
+      "Silvally-Normal",
+      "Silvally-Poison",
+      "Silvally-Psychic",
+      "Silvally-Rock",
+      "Silvally-Steel",
+      "Silvally-Water"
+    ]
   },
   "Silvally-Bug": {
     "types": [
@@ -19187,6 +20217,28 @@
       "0": "Primal Instinct"
     }
   },
+  "Sinistcha": {
+    "types": [
+      "Grass",
+      "Ghost"
+    ],
+    "bs": {
+      "hp": 71,
+      "at": 60,
+      "df": 106,
+      "sa": 121,
+      "sd": 80,
+      "sp": 70
+    },
+    "weightkg": 2.2,
+    "abilities": {
+      "0": "Hospitality"
+    },
+    "otherFormes": [
+      "Sinistcha-Masterpiece",
+      "Sinistcha-Unremarkable"
+    ]
+  },
   "Sinistcha-Masterpiece": {
     "types": [
       "Grass",
@@ -19224,6 +20276,28 @@
       "0": "Hospitality"
     },
     "baseSpecies": "Sinistcha"
+  },
+  "Sinistea": {
+    "types": [
+      "Ghost"
+    ],
+    "bs": {
+      "hp": 40,
+      "at": 45,
+      "df": 45,
+      "sa": 74,
+      "sd": 54,
+      "sp": 50
+    },
+    "weightkg": 0.2,
+    "abilities": {
+      "0": "Weak Armor"
+    },
+    "nfe": true,
+    "otherFormes": [
+      "Sinistea-Antique",
+      "Sinistea-Phony"
+    ]
   },
   "Sinistea-Antique": {
     "types": [
@@ -20081,6 +21155,27 @@
       "0": "Grim Neigh"
     }
   },
+  "Spewpa": {
+    "types": [
+      "Bug"
+    ],
+    "bs": {
+      "hp": 45,
+      "at": 22,
+      "df": 60,
+      "sa": 27,
+      "sd": 30,
+      "sp": 29
+    },
+    "weightkg": 8.4,
+    "abilities": {
+      "0": "Shed Skin"
+    },
+    "nfe": true,
+    "otherFormes": [
+      "Spewpa-Icy-Snow"
+    ]
+  },
   "Spewpa-Icy-Snow": {
     "types": [
       "Bug"
@@ -20265,6 +21360,30 @@
       "0": "Healer"
     },
     "nfe": true
+  },
+  "Squawkabilly": {
+    "types": [
+      "Normal",
+      "Flying"
+    ],
+    "bs": {
+      "hp": 82,
+      "at": 96,
+      "df": 51,
+      "sa": 45,
+      "sd": 51,
+      "sp": 92
+    },
+    "weightkg": 2.4,
+    "abilities": {
+      "0": "Intimidate"
+    },
+    "otherFormes": [
+      "Squawkabilly-Blue",
+      "Squawkabilly-Green",
+      "Squawkabilly-White",
+      "Squawkabilly-Yellow"
+    ]
   },
   "Squawkabilly-Blue": {
     "types": [
@@ -21169,6 +22288,29 @@
     },
     "nfe": true
   },
+  "Tatsugiri": {
+    "types": [
+      "Dragon",
+      "Water"
+    ],
+    "bs": {
+      "hp": 68,
+      "at": 50,
+      "df": 60,
+      "sa": 120,
+      "sd": 95,
+      "sp": 82
+    },
+    "weightkg": 8.0,
+    "abilities": {
+      "0": "Commander"
+    },
+    "otherFormes": [
+      "Tatsugiri-Curly",
+      "Tatsugiri-Droopy",
+      "Tatsugiri-Stretchy"
+    ]
+  },
   "Tatsugiri-Curly": {
     "types": [
       "Dragon",
@@ -21377,6 +22519,28 @@
     },
     "nfe": true
   },
+  "Terapagos": {
+    "types": [
+      "Normal"
+    ],
+    "bs": {
+      "hp": 90,
+      "at": 65,
+      "df": 85,
+      "sa": 65,
+      "sd": 85,
+      "sp": 60
+    },
+    "weightkg": 6.5,
+    "abilities": {
+      "0": "Tera Shift"
+    },
+    "otherFormes": [
+      "Terapagos-Normal",
+      "Terapagos-Stellar",
+      "Terapagos-Terastal"
+    ]
+  },
   "Terapagos-Normal": {
     "types": [
       "Normal"
@@ -21482,6 +22646,28 @@
     "abilities": {
       "0": "Guts"
     }
+  },
+  "Thundurus": {
+    "types": [
+      "Electric",
+      "Flying"
+    ],
+    "bs": {
+      "hp": 79,
+      "at": 115,
+      "df": 70,
+      "sa": 125,
+      "sd": 80,
+      "sp": 111
+    },
+    "weightkg": 61.0,
+    "abilities": {
+      "0": "Prankster"
+    },
+    "otherFormes": [
+      "Thundurus-Incarnate",
+      "Thundurus-Therian"
+    ]
   },
   "Thundurus-Incarnate": {
     "types": [
@@ -21795,6 +22981,27 @@
       "0": "White Smoke"
     }
   },
+  "Tornadus": {
+    "types": [
+      "Flying"
+    ],
+    "bs": {
+      "hp": 79,
+      "at": 115,
+      "df": 70,
+      "sa": 125,
+      "sd": 80,
+      "sp": 111
+    },
+    "weightkg": 63.0,
+    "abilities": {
+      "0": "Prankster"
+    },
+    "otherFormes": [
+      "Tornadus-Incarnate",
+      "Tornadus-Therian"
+    ]
+  },
   "Tornadus-Incarnate": {
     "types": [
       "Flying"
@@ -21957,6 +23164,28 @@
     "abilities": {
       "0": "Anticipation"
     }
+  },
+  "Toxtricity": {
+    "types": [
+      "Electric",
+      "Poison"
+    ],
+    "bs": {
+      "hp": 75,
+      "at": 98,
+      "df": 70,
+      "sa": 114,
+      "sd": 70,
+      "sp": 75
+    },
+    "weightkg": 40.0,
+    "abilities": {
+      "0": "Punk Rock"
+    },
+    "otherFormes": [
+      "Toxtricity-Amped",
+      "Toxtricity-Low-Key"
+    ]
   },
   "Toxtricity-Amped": {
     "types": [
@@ -22475,6 +23704,28 @@
       "0": "Guts"
     }
   },
+  "Urshifu": {
+    "types": [
+      "Fighting",
+      "Water"
+    ],
+    "bs": {
+      "hp": 100,
+      "at": 130,
+      "df": 100,
+      "sa": 63,
+      "sd": 60,
+      "sp": 97
+    },
+    "weightkg": 105.0,
+    "abilities": {
+      "0": "Unseen Fist"
+    },
+    "otherFormes": [
+      "Urshifu-Rapid-Strike",
+      "Urshifu-Single-Strike"
+    ]
+  },
   "Urshifu-Rapid-Strike": {
     "types": [
       "Fighting",
@@ -22899,6 +24150,27 @@
     "abilities": {
       "0": "Justified"
     }
+  },
+  "Vivillon": {
+    "types": [
+      "Bug",
+      "Flying"
+    ],
+    "bs": {
+      "hp": 80,
+      "at": 52,
+      "df": 50,
+      "sa": 90,
+      "sd": 50,
+      "sp": 89
+    },
+    "weightkg": 17.0,
+    "abilities": {
+      "0": "Shield Dust"
+    },
+    "otherFormes": [
+      "Vivillon-Icy-Snow"
+    ]
   },
   "Vivillon-Icy-Snow": {
     "types": [
@@ -23440,6 +24712,27 @@
     },
     "nfe": true
   },
+  "Wishiwashi": {
+    "types": [
+      "Water"
+    ],
+    "bs": {
+      "hp": 45,
+      "at": 140,
+      "df": 130,
+      "sa": 140,
+      "sd": 135,
+      "sp": 30
+    },
+    "weightkg": 78.6,
+    "abilities": {
+      "0": "Schooling"
+    },
+    "otherFormes": [
+      "Wishiwashi-School",
+      "Wishiwashi-Solo"
+    ]
+  },
   "Wishiwashi-School": {
     "types": [
       "Water"
@@ -23590,6 +24883,29 @@
     "nfe": true,
     "baseSpecies": "Wooper"
   },
+  "Wormadam": {
+    "types": [
+      "Bug",
+      "Grass"
+    ],
+    "bs": {
+      "hp": 60,
+      "at": 59,
+      "df": 85,
+      "sa": 79,
+      "sd": 105,
+      "sp": 36
+    },
+    "weightkg": 6.5,
+    "abilities": {
+      "0": "Anticipation"
+    },
+    "otherFormes": [
+      "Wormadam-Plant",
+      "Wormadam-Sandy",
+      "Wormadam-Trash"
+    ]
+  },
   "Wormadam-Plant": {
     "types": [
       "Bug",
@@ -23735,6 +25051,26 @@
     "abilities": {
       "0": "Synchronize"
     }
+  },
+  "Xerneas": {
+    "types": [
+      "Fairy"
+    ],
+    "bs": {
+      "hp": 126,
+      "at": 131,
+      "df": 95,
+      "sa": 131,
+      "sd": 98,
+      "sp": 99
+    },
+    "weightkg": 215.0,
+    "abilities": {
+      "0": "Fairy Aura"
+    },
+    "otherFormes": [
+      "Xerneas-Neutral"
+    ]
   },
   "Xerneas-Neutral": {
     "types": [
@@ -23903,6 +25239,28 @@
       "0": "Dark Aura"
     }
   },
+  "Zacian": {
+    "types": [
+      "Fairy",
+      "Steel"
+    ],
+    "bs": {
+      "hp": 92,
+      "at": 150,
+      "df": 115,
+      "sa": 80,
+      "sd": 115,
+      "sp": 148
+    },
+    "weightkg": 355.0,
+    "abilities": {
+      "0": "Intrepid Sword"
+    },
+    "otherFormes": [
+      "Zacian-Crowned",
+      "Zacian-Hero"
+    ]
+  },
   "Zacian-Crowned": {
     "types": [
       "Fairy",
@@ -23939,6 +25297,28 @@
       "0": "Intrepid Sword"
     },
     "baseSpecies": "Zacian"
+  },
+  "Zamazenta": {
+    "types": [
+      "Fighting",
+      "Steel"
+    ],
+    "bs": {
+      "hp": 92,
+      "at": 120,
+      "df": 140,
+      "sa": 80,
+      "sd": 140,
+      "sp": 128
+    },
+    "weightkg": 785.0,
+    "abilities": {
+      "0": "Dauntless Shield"
+    },
+    "otherFormes": [
+      "Zamazenta-Crowned",
+      "Zamazenta-Hero"
+    ]
   },
   "Zamazenta-Crowned": {
     "types": [
@@ -24284,6 +25664,30 @@
       "0": "Hustle"
     },
     "nfe": true
+  },
+  "Zygarde": {
+    "types": [
+      "Dragon",
+      "Ground"
+    ],
+    "bs": {
+      "hp": 54,
+      "at": 100,
+      "df": 71,
+      "sa": 61,
+      "sd": 85,
+      "sp": 115
+    },
+    "weightkg": 33.5,
+    "abilities": {
+      "0": "Aura Break"
+    },
+    "otherFormes": [
+      "Zygarde-10%",
+      "Zygarde-50",
+      "Zygarde-Complete",
+      "Zygarde-Mega"
+    ]
   },
   "Zygarde-10%": {
     "types": [
