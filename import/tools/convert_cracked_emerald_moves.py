@@ -42,6 +42,14 @@ def eval_int(expr: str) -> Optional[int]:
         return defaults.get(token, "0")
 
     expr = re.sub(r"\b[A-Z][A-Z0-9_]*\b", repl, expr)
+
+    # Convert C-style ternary "cond ? a : b" to Python "(a if cond else b)"
+    # This handles expressions like "9 >= 6 ? 60 : 50"
+    ternary_match = re.match(r"(.+?)\s*\?\s*(.+?)\s*:\s*(.+)", expr)
+    if ternary_match:
+        cond, true_val, false_val = ternary_match.groups()
+        expr = f"({true_val} if {cond} else {false_val})"
+
     try:
         return int(eval(expr))
     except Exception:

@@ -81,6 +81,7 @@
     "category": "Status"
   },
   "Air Cutter": {
+    "bp": 60,
     "type": "Flying",
     "category": "Special",
     "isSlicing": true,
@@ -106,7 +107,8 @@
   "Ally Switch": {
     "bp": 0,
     "type": "Psychic",
-    "category": "Status"
+    "category": "Status",
+    "priority": 2
   },
   "Amnesia": {
     "bp": 0,
@@ -190,6 +192,7 @@
     "category": "Status"
   },
   "Assurance": {
+    "bp": 60,
     "type": "Dark",
     "category": "Physical",
     "makesContact": true
@@ -216,6 +219,7 @@
     "category": "Status"
   },
   "Aura Sphere": {
+    "bp": 80,
     "type": "Fighting",
     "category": "Special",
     "isBullet": true,
@@ -261,6 +265,7 @@
     "priority": 1
   },
   "Baddy Bad": {
+    "bp": 80,
     "type": "Dark",
     "category": "Special"
   },
@@ -303,6 +308,7 @@
     "isBullet": true
   },
   "Beat Up": {
+    "bp": 1,
     "type": "Dark",
     "category": "Physical"
   },
@@ -338,6 +344,7 @@
     "bp": 1,
     "type": "Normal",
     "category": "Physical",
+    "priority": 1,
     "makesContact": true
   },
   "Bind": {
@@ -365,6 +372,7 @@
     ]
   },
   "Bitter Malice": {
+    "bp": 75,
     "type": "Ghost",
     "category": "Special"
   },
@@ -390,11 +398,13 @@
     "category": "Physical"
   },
   "Bleakwind Storm": {
+    "bp": 100,
     "type": "Flying",
     "category": "Special",
     "isWind": true
   },
   "Blizzard": {
+    "bp": 110,
     "type": "Ice",
     "category": "Special",
     "isWind": true
@@ -476,6 +486,7 @@
     "makesContact": true
   },
   "Bouncy Bubble": {
+    "bp": 60,
     "type": "Water",
     "category": "Special"
   },
@@ -524,6 +535,7 @@
     "makesContact": true
   },
   "Bubble": {
+    "bp": 40,
     "type": "Water",
     "category": "Special"
   },
@@ -563,6 +575,7 @@
     "isPunch": true
   },
   "Bullet Seed": {
+    "bp": 25,
     "type": "Grass",
     "category": "Physical",
     "isBullet": true,
@@ -588,6 +601,7 @@
     "category": "Special"
   },
   "Buzzy Buzz": {
+    "bp": 60,
     "type": "Electric",
     "category": "Special"
   },
@@ -639,6 +653,7 @@
     "category": "Status"
   },
   "Chatter": {
+    "bp": 65,
     "type": "Flying",
     "category": "Special",
     "isSound": true
@@ -660,6 +675,7 @@
     "makesContact": true
   },
   "Chloroblast": {
+    "bp": 150,
     "type": "Grass",
     "category": "Special"
   },
@@ -828,10 +844,12 @@
     "category": "Status"
   },
   "Covet": {
+    "bp": 60,
     "type": "Fairy",
     "category": "Physical"
   },
   "Crabhammer": {
+    "bp": 100,
     "type": "Water",
     "category": "Physical",
     "makesContact": true
@@ -936,7 +954,8 @@
   "Detect": {
     "bp": 0,
     "type": "Fighting",
-    "category": "Status"
+    "category": "Status",
+    "priority": 4
   },
   "Devastating Drake": {
     "bp": 1,
@@ -949,11 +968,13 @@
     "category": "Physical"
   },
   "Dig": {
+    "bp": 80,
     "type": "Ground",
     "category": "Physical",
     "makesContact": true
   },
   "Dire Claw": {
+    "bp": 80,
     "type": "Poison",
     "category": "Physical",
     "makesContact": true
@@ -975,6 +996,7 @@
     "category": "Special"
   },
   "Dive": {
+    "bp": 80,
     "type": "Water",
     "category": "Physical",
     "makesContact": true
@@ -992,6 +1014,7 @@
     "category": "Status"
   },
   "Doom Desire": {
+    "bp": 140,
     "type": "Steel",
     "category": "Special"
   },
@@ -1049,6 +1072,7 @@
     ]
   },
   "Draco Meteor": {
+    "bp": 130,
     "type": "Dragon",
     "category": "Special"
   },
@@ -1097,6 +1121,7 @@
     "makesContact": true
   },
   "Dragon Pulse": {
+    "bp": 85,
     "type": "Dragon",
     "category": "Special",
     "isPulse": true
@@ -1120,6 +1145,7 @@
     "makesContact": true
   },
   "Drain Punch": {
+    "bp": 75,
     "type": "Fighting",
     "category": "Physical",
     "makesContact": true,
@@ -1276,9 +1302,11 @@
   "Endure": {
     "bp": 0,
     "type": "Normal",
-    "category": "Status"
+    "category": "Status",
+    "priority": 4
   },
   "Energy Ball": {
+    "bp": 90,
     "type": "Grass",
     "category": "Special",
     "isBullet": true
@@ -1294,6 +1322,7 @@
     "category": "Special"
   },
   "Esper Wing": {
+    "bp": 80,
     "type": "Psychic",
     "category": "Special"
   },
@@ -1326,6 +1355,7 @@
     "bp": 80,
     "type": "Normal",
     "category": "Physical",
+    "priority": 2,
     "makesContact": true
   },
   "Facade": {
@@ -1348,7 +1378,8 @@
   "Fake Out": {
     "bp": 40,
     "type": "Normal",
-    "category": "Physical"
+    "category": "Physical",
+    "priority": 3
   },
   "Fake Tears": {
     "bp": 0,
@@ -1373,6 +1404,7 @@
     "category": "Status"
   },
   "Feint": {
+    "bp": 30,
     "type": "Normal",
     "category": "Physical",
     "priority": 2
@@ -1383,6 +1415,7 @@
     "category": "Physical"
   },
   "Fell Stinger": {
+    "bp": 50,
     "type": "Bug",
     "category": "Physical",
     "makesContact": true
@@ -1413,6 +1446,7 @@
     "category": "Special"
   },
   "Fire Blast": {
+    "bp": 110,
     "type": "Fire",
     "category": "Special"
   },
@@ -1430,6 +1464,7 @@
     "makesContact": true
   },
   "Fire Pledge": {
+    "bp": 80,
     "type": "Fire",
     "category": "Special"
   },
@@ -1441,6 +1476,7 @@
     "isPunch": true
   },
   "Fire Spin": {
+    "bp": 50,
     "type": "Fire",
     "category": "Special"
   },
@@ -1487,6 +1523,7 @@
     "makesContact": true
   },
   "Flamethrower": {
+    "bp": 90,
     "type": "Fire",
     "category": "Special"
   },
@@ -1553,11 +1590,13 @@
     "category": "Physical"
   },
   "Fly": {
+    "bp": 90,
     "type": "Flying",
     "category": "Physical",
     "makesContact": true
   },
   "Flying Press": {
+    "bp": 100,
     "type": "Fighting",
     "category": "Physical",
     "makesContact": true
@@ -1584,7 +1623,8 @@
   "Follow Me": {
     "bp": 0,
     "type": "Normal",
-    "category": "Status"
+    "category": "Status",
+    "priority": 2
   },
   "Force Palm": {
     "bp": 60,
@@ -1624,6 +1664,7 @@
     "category": "Special"
   },
   "Freezy Frost": {
+    "bp": 100,
     "type": "Ice",
     "category": "Special"
   },
@@ -1633,6 +1674,7 @@
     "category": "Special"
   },
   "Frost Breath": {
+    "bp": 60,
     "type": "Ice",
     "category": "Special"
   },
@@ -1877,6 +1919,7 @@
     "category": "Status"
   },
   "Giga Drain": {
+    "bp": 75,
     "type": "Grass",
     "category": "Special",
     "drain": [
@@ -1901,6 +1944,7 @@
     "category": "Physical"
   },
   "Glacial Lance": {
+    "bp": 120,
     "type": "Ice",
     "category": "Physical"
   },
@@ -1921,6 +1965,7 @@
     "category": "Status"
   },
   "Glitzy Glow": {
+    "bp": 80,
     "type": "Psychic",
     "category": "Special"
   },
@@ -1931,6 +1976,7 @@
     "makesContact": true
   },
   "Grass Pledge": {
+    "bp": 80,
     "type": "Grass",
     "category": "Special"
   },
@@ -1941,6 +1987,7 @@
     "isSound": true
   },
   "Grassy Glide": {
+    "bp": 55,
     "type": "Grass",
     "category": "Physical",
     "makesContact": true
@@ -2075,6 +2122,7 @@
     "makesContact": true
   },
   "Headlong Rush": {
+    "bp": 120,
     "type": "Ground",
     "category": "Physical",
     "makesContact": true,
@@ -2125,6 +2173,7 @@
     "makesContact": true
   },
   "Heat Wave": {
+    "bp": 95,
     "type": "Fire",
     "category": "Special",
     "isWind": true
@@ -2142,10 +2191,12 @@
     "priority": 5
   },
   "Hex": {
+    "bp": 65,
     "type": "Ghost",
     "category": "Special"
   },
   "Hidden Power": {
+    "bp": 1,
     "type": "Normal",
     "category": "Special"
   },
@@ -2205,6 +2256,7 @@
     "category": "Status"
   },
   "Hurricane": {
+    "bp": 110,
     "type": "Flying",
     "category": "Special",
     "isWind": true
@@ -2215,6 +2267,7 @@
     "category": "Special"
   },
   "Hydro Pump": {
+    "bp": 110,
     "type": "Water",
     "category": "Special"
   },
@@ -2275,6 +2328,7 @@
     "isBullet": true
   },
   "Ice Beam": {
+    "bp": 90,
     "type": "Ice",
     "category": "Special"
   },
@@ -2322,6 +2376,7 @@
     "category": "Physical"
   },
   "Icicle Spear": {
+    "bp": 25,
     "type": "Ice",
     "category": "Physical",
     "multihit": [
@@ -2341,6 +2396,7 @@
     "category": "Status"
   },
   "Incinerate": {
+    "bp": 60,
     "type": "Fire",
     "category": "Special"
   },
@@ -2452,6 +2508,7 @@
     "priority": 4
   },
   "Knock Off": {
+    "bp": 65,
     "type": "Dark",
     "category": "Physical",
     "makesContact": true
@@ -2480,6 +2537,7 @@
     "makesContact": true
   },
   "Last Resort": {
+    "bp": 140,
     "type": "Normal",
     "category": "Physical",
     "makesContact": true
@@ -2495,12 +2553,14 @@
     "category": "Special"
   },
   "Leaf Blade": {
+    "bp": 90,
     "type": "Grass",
     "category": "Physical",
     "makesContact": true,
     "isSlicing": true
   },
   "Leaf Storm": {
+    "bp": 130,
     "type": "Grass",
     "category": "Special"
   },
@@ -2515,6 +2575,7 @@
     "category": "Physical"
   },
   "Leech Life": {
+    "bp": 80,
     "type": "Bug",
     "category": "Physical",
     "makesContact": true,
@@ -2539,6 +2600,7 @@
     "category": "Physical"
   },
   "Lick": {
+    "bp": 30,
     "type": "Ghost",
     "category": "Physical",
     "makesContact": true
@@ -2590,6 +2652,7 @@
     "makesContact": true
   },
   "Low Sweep": {
+    "bp": 65,
     "type": "Fighting",
     "category": "Physical",
     "makesContact": true
@@ -2621,6 +2684,7 @@
     "makesContact": true
   },
   "Luster Purge": {
+    "bp": 95,
     "type": "Psychic",
     "category": "Special"
   },
@@ -2659,6 +2723,7 @@
     "category": "Physical"
   },
   "Magma Storm": {
+    "bp": 100,
     "type": "Fire",
     "category": "Special"
   },
@@ -2889,6 +2954,7 @@
     "category": "Special"
   },
   "Meteor Mash": {
+    "bp": 90,
     "type": "Steel",
     "category": "Physical",
     "makesContact": true,
@@ -2958,6 +3024,7 @@
     "category": "Status"
   },
   "Mist Ball": {
+    "bp": 95,
     "type": "Psychic",
     "category": "Special",
     "isBullet": true
@@ -3025,15 +3092,18 @@
     "category": "Special"
   },
   "Muddy Water": {
+    "bp": 90,
     "type": "Water",
     "category": "Special"
   },
   "Multi-Attack": {
+    "bp": 120,
     "type": "Normal",
     "category": "Physical",
     "makesContact": true
   },
   "Mystical Fire": {
+    "bp": 75,
     "type": "Fire",
     "category": "Special"
   },
@@ -3170,6 +3240,7 @@
     "isPulse": true
   },
   "Outrage": {
+    "bp": 120,
     "type": "Dragon",
     "category": "Physical",
     "makesContact": true
@@ -3181,6 +3252,7 @@
     "isSound": true
   },
   "Overheat": {
+    "bp": 130,
     "type": "Fire",
     "category": "Special"
   },
@@ -3190,6 +3262,7 @@
     "category": "Status"
   },
   "Parabolic Charge": {
+    "bp": 65,
     "type": "Electric",
     "category": "Special",
     "drain": [
@@ -3255,6 +3328,7 @@
     "category": "Special"
   },
   "Pin Missile": {
+    "bp": 25,
     "type": "Bug",
     "category": "Physical",
     "multihit": [
@@ -3363,6 +3437,7 @@
     "category": "Special"
   },
   "Power Gem": {
+    "bp": 80,
     "type": "Rock",
     "category": "Special"
   },
@@ -3423,7 +3498,8 @@
   "Protect": {
     "bp": 0,
     "type": "Normal",
-    "category": "Status"
+    "category": "Status",
+    "priority": 4
   },
   "Psybeam": {
     "bp": 65,
@@ -3569,7 +3645,8 @@
   "Rage Powder": {
     "bp": 0,
     "type": "Bug",
-    "category": "Status"
+    "category": "Status",
+    "priority": 2
   },
   "Raging Bull": {
     "bp": 90,
@@ -3578,6 +3655,7 @@
     "makesContact": true
   },
   "Raging Fury": {
+    "bp": 120,
     "type": "Fire",
     "category": "Physical"
   },
@@ -3587,6 +3665,7 @@
     "category": "Status"
   },
   "Rapid Spin": {
+    "bp": 50,
     "type": "Normal",
     "category": "Physical",
     "makesContact": true
@@ -3723,6 +3802,7 @@
     "category": "Physical"
   },
   "Rock Smash": {
+    "bp": 40,
     "type": "Fighting",
     "category": "Physical",
     "makesContact": true
@@ -3733,6 +3813,7 @@
     "category": "Physical"
   },
   "Rock Tomb": {
+    "bp": 60,
     "type": "Rock",
     "category": "Physical"
   },
@@ -3808,10 +3889,12 @@
     "category": "Status"
   },
   "Sand Tomb": {
+    "bp": 35,
     "type": "Ground",
     "category": "Physical"
   },
   "Sandsear Storm": {
+    "bp": 100,
     "type": "Ground",
     "category": "Special",
     "isWind": true
@@ -3823,6 +3906,7 @@
     "isWind": true
   },
   "Sappy Seed": {
+    "bp": 100,
     "type": "Grass",
     "category": "Physical"
   },
@@ -4037,6 +4121,7 @@
     "category": "Physical"
   },
   "Sizzly Slide": {
+    "bp": 60,
     "type": "Fire",
     "category": "Physical",
     "makesContact": true
@@ -4058,6 +4143,7 @@
     "makesContact": true
   },
   "Skull Bash": {
+    "bp": 130,
     "type": "Normal",
     "category": "Physical",
     "makesContact": true
@@ -4136,11 +4222,13 @@
     "makesContact": true
   },
   "Smelling Salts": {
+    "bp": 70,
     "type": "Normal",
     "category": "Physical",
     "makesContact": true
   },
   "Smog": {
+    "bp": 30,
     "type": "Poison",
     "category": "Special"
   },
@@ -4173,6 +4261,7 @@
     "category": "Special"
   },
   "Snore": {
+    "bp": 50,
     "type": "Normal",
     "category": "Special",
     "isSound": true
@@ -4232,6 +4321,7 @@
     "isSound": true
   },
   "Sparkly Swirl": {
+    "bp": 120,
     "type": "Fairy",
     "category": "Special"
   },
@@ -4294,6 +4384,7 @@
     "category": "Physical"
   },
   "Spit Up": {
+    "bp": 1,
     "type": "Normal",
     "category": "Special"
   },
@@ -4329,6 +4420,7 @@
     "priority": 3
   },
   "Springtide Storm": {
+    "bp": 100,
     "type": "Fairy",
     "category": "Special",
     "isWind": true
@@ -4411,6 +4503,7 @@
     "category": "Special"
   },
   "Storm Throw": {
+    "bp": 60,
     "type": "Fighting",
     "category": "Physical",
     "makesContact": true
@@ -4447,6 +4540,7 @@
     ]
   },
   "Struggle Bug": {
+    "bp": 50,
     "type": "Bug",
     "category": "Special"
   },
@@ -4481,6 +4575,7 @@
     "category": "Physical"
   },
   "Sucker Punch": {
+    "bp": 70,
     "type": "Dark",
     "category": "Physical",
     "priority": 1,
@@ -4527,6 +4622,7 @@
     "category": "Physical"
   },
   "Surf": {
+    "bp": 90,
     "type": "Water",
     "category": "Special"
   },
@@ -4574,6 +4670,7 @@
     "category": "Status"
   },
   "Synchronoise": {
+    "bp": 120,
     "type": "Psychic",
     "category": "Special"
   },
@@ -4663,6 +4760,7 @@
     "category": "Status"
   },
   "Techno Blast": {
+    "bp": 120,
     "type": "Normal",
     "category": "Special"
   },
@@ -4710,6 +4808,7 @@
     "isPulse": true
   },
   "Thief": {
+    "bp": 60,
     "type": "Dark",
     "category": "Physical",
     "makesContact": true
@@ -4725,6 +4824,7 @@
     "category": "Physical"
   },
   "Thrash": {
+    "bp": 120,
     "type": "Normal",
     "category": "Physical",
     "makesContact": true
@@ -4736,6 +4836,7 @@
     "makesContact": true
   },
   "Thunder": {
+    "bp": 110,
     "type": "Electric",
     "category": "Special"
   },
@@ -4769,6 +4870,7 @@
     "category": "Status"
   },
   "Thunderbolt": {
+    "bp": 90,
     "type": "Electric",
     "category": "Special"
   },
@@ -4865,6 +4967,7 @@
     "category": "Status"
   },
   "Triple Arrows": {
+    "bp": 90,
     "type": "Fighting",
     "category": "Physical"
   },
@@ -4938,6 +5041,7 @@
     "makesContact": true
   },
   "Uproar": {
+    "bp": 90,
     "type": "Normal",
     "category": "Special",
     "isSound": true
@@ -4976,6 +5080,7 @@
     "category": "Status"
   },
   "Vine Whip": {
+    "bp": 45,
     "type": "Grass",
     "category": "Physical",
     "makesContact": true
@@ -5009,6 +5114,7 @@
     ]
   },
   "Wake-Up Slap": {
+    "bp": 70,
     "type": "Fighting",
     "category": "Physical",
     "makesContact": true
@@ -5019,6 +5125,7 @@
     "category": "Special"
   },
   "Water Pledge": {
+    "bp": 80,
     "type": "Water",
     "category": "Special"
   },
@@ -5055,6 +5162,7 @@
     "makesContact": true
   },
   "Wave Crash": {
+    "bp": 120,
     "type": "Water",
     "category": "Physical",
     "makesContact": true,
@@ -5070,6 +5178,7 @@
     "isBullet": true
   },
   "Whirlpool": {
+    "bp": 35,
     "type": "Water",
     "category": "Special"
   },
@@ -5081,6 +5190,7 @@
     "isWind": true
   },
   "Wicked Blow": {
+    "bp": 75,
     "type": "Dark",
     "category": "Physical",
     "makesContact": true,
@@ -5108,6 +5218,7 @@
     ]
   },
   "Wildbolt Storm": {
+    "bp": 100,
     "type": "Electric",
     "category": "Special",
     "isWind": true
@@ -5183,6 +5294,7 @@
     "category": "Status"
   },
   "Zap Cannon": {
+    "bp": 120,
     "type": "Electric",
     "category": "Special",
     "isBullet": true
@@ -5200,6 +5312,7 @@
     "makesContact": true
   },
   "Zippy Zap": {
+    "bp": 80,
     "type": "Electric",
     "category": "Physical",
     "priority": 2,
