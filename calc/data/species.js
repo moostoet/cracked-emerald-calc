@@ -10129,4 +10129,6 @@ finally {
     }
     finally { if (e_1) throw e_1.error; }
 }
+exports.SPECIES_BY_ID = SPECIES_BY_ID;
+exports.Specie = Specie;
 //# sourceMappingURL=species.js.map

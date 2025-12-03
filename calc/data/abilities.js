@@ -447,4 +447,6 @@ finally {
     }
     finally { if (e_1) throw e_1.error; }
 }
+exports.ABILITIES_BY_ID = ABILITIES_BY_ID;
+exports.Ability = Ability;
 //# sourceMappingURL=abilities.js.map

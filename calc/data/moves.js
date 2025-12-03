@@ -5011,4 +5011,6 @@ finally {
     }
     finally { if (e_2) throw e_2.error; }
 }
+exports.MOVES_BY_ID = MOVES_BY_ID;
+exports.Move = Move;
 //# sourceMappingURL=moves.js.map

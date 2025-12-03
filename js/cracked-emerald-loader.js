@@ -23,22 +23,27 @@
   }
 
   function applyOverrides() {
-    if (typeof calc === 'undefined' || !calc.SPECIES || !calc.MOVES) return;
+    if (typeof calc === 'undefined' || !calc.SPECIES || !calc.MOVES) {
+      console.warn('Cracked Emerald loader: calc object not ready');
+      return;
+    }
 
     // Species
     var speciesData = loadJSON('./import/dist/cracked-emerald-species.json');
     if (speciesData) {
       calc.SPECIES[9] = speciesData;
-      if (typeof SPECIES_BY_ID !== 'undefined' && typeof Specie !== 'undefined') {
+      if (calc.SPECIES_BY_ID && calc.Specie) {
         var speciesMap = {};
         for (var name in speciesData) {
           if (!Object.prototype.hasOwnProperty.call(speciesData, name)) continue;
           var def = speciesData[name];
           if (def && def.bs && def.bs.sl) delete def.bs.sl;
-          speciesMap[calc.toID(name)] = new Specie(name, def);
+          speciesMap[calc.toID(name)] = new calc.Specie(name, def);
         }
-        SPECIES_BY_ID[9] = speciesMap;
+        calc.SPECIES_BY_ID[9] = speciesMap;
       }
+    } else {
+      console.warn('Cracked Emerald species JSON failed to load');
     }
 
     // Abilities
@@ -48,8 +53,8 @@
       customAbilities.forEach(function (name) {
         if (!calc.ABILITIES[9].includes(name)) calc.ABILITIES[9].push(name);
       });
-      if (typeof ABILITIES_BY_ID !== 'undefined' && typeof Ability !== 'undefined') {
-        ABILITIES_BY_ID[9] = rebuildIdMap(calc.ABILITIES[9], Ability);
+      if (calc.ABILITIES_BY_ID && calc.Ability) {
+        calc.ABILITIES_BY_ID[9] = rebuildIdMap(calc.ABILITIES[9], calc.Ability);
       }
     }
 
@@ -61,10 +66,10 @@
     if (moveData) {
       calc.MOVES[9] = moveData;
     }
-    if (typeof MOVES_BY_ID !== 'undefined') {
+    if (calc.MOVES_BY_ID) {
       // Start from existing Gen 9 moves so we don't drop any vanilla entries the hack doesn't override.
       var moveMap = {};
-      var base = MOVES_BY_ID[9] || {};
+      var base = calc.MOVES_BY_ID[9] || {};
       for (var k in base) {
         if (Object.prototype.hasOwnProperty.call(base, k)) {
           moveMap[k] = base[k];
@@ -124,31 +129,20 @@
       moveMap['cut'].flags.contact = 1;
       moveMap['cut'].flags.slicing = 1;
 
-      MOVES_BY_ID[9] = moveMap;
+      calc.MOVES_BY_ID[9] = moveMap;
       // Keep calc.MOVES in sync so future reads of the plain table see the override too.
       if (calc.MOVES && !calc.MOVES[9].Cut) {
         calc.MOVES[9].Cut = { bp: 60, type: 'Grass', category: 'Physical', makesContact: true, isSlicing: true };
       }
     }
+
+    console.log('Cracked Emerald data loaded successfully');
   }
 
-  if (document.readyState === 'complete') {
-    try {
-      applyOverrides();
-    } catch (err) {
-      console.warn('Cracked Emerald loader failed:', err);
-    }
-  } else {
-    window.addEventListener(
-      'load',
-      function () {
-        try {
-          applyOverrides();
-        } catch (err) {
-          console.warn('Cracked Emerald loader failed:', err);
-        }
-      },
-      { once: true }
-    );
+  // Run immediately since this script is loaded after all calc data files
+  try {
+    applyOverrides();
+  } catch (err) {
+    console.warn('Cracked Emerald loader failed:', err);
   }
 })();
