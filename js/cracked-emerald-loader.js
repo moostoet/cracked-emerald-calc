@@ -58,7 +58,14 @@
     if (moveData) {
       calc.MOVES[9] = moveData;
       if (typeof MOVES_BY_ID !== 'undefined') {
+        // Start from existing Gen 9 moves so we don't drop any vanilla entries the hack doesn't override.
         var moveMap = {};
+        var base = MOVES_BY_ID[9] || {};
+        for (var k in base) {
+          if (Object.prototype.hasOwnProperty.call(base, k)) {
+            moveMap[k] = base[k];
+          }
+        }
         for (var moveName in moveData) {
           if (!Object.prototype.hasOwnProperty.call(moveData, moveName)) continue;
           var def = moveData[moveName] || {};
