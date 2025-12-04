@@ -51,7 +51,23 @@ function showPlayerTeamBox() {
 // Clear the Team/Box display
 function clearPlayerTeamBox() {
 	importedPokemonList = [];
+	localStorage.removeItem('importedTeamList');
 	showPlayerTeamBox();
+}
+
+// Save imported team list to localStorage
+function saveImportedTeamToStorage() {
+	localStorage.setItem('importedTeamList', JSON.stringify(importedPokemonList));
+}
+
+// Load imported team list from localStorage
+function loadImportedTeamFromStorage() {
+	var stored = localStorage.getItem('importedTeamList');
+	if (stored) {
+		importedPokemonList = JSON.parse(stored);
+		showPlayerTeamBox();
+		updateTeamBoxMatchupColors();
+	}
 }
 
 // Create a Pokemon object directly from imported set data
@@ -659,6 +675,9 @@ function addSets(pokes, name) {
 	// Update the Team/Box display
 	showPlayerTeamBox();
 
+	// Save team to localStorage for persistence
+	saveImportedTeamToStorage();
+
 	// Update matchup colors if opponent is selected
 	updateTeamBoxMatchupColors();
 
@@ -754,6 +773,9 @@ $(document).ready(function () {
 	} else {
 		loadDefaultLists();
 	}
+
+	// Load saved team list from localStorage
+	loadImportedTeamFromStorage();
 
 	// Update Team/Box matchup colors when opponent (P2) changes
 	$("#p2 .set-selector").bind("change", function() {
