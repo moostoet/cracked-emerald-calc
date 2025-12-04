@@ -1071,7 +1071,7 @@ $(".forme").change(function () {
 		$(this).parent().find(".ability");
 	} else if (chosenSet) {
 		if (!isRandoms) {
-			container.find(".abilities").val(chosenSet.ability);
+			container.find(".ability").val(chosenSet.ability);
 		} else {
 			container.find(".ability").val(chosenSet.abilities[0]);
 		}

@@ -12,9 +12,10 @@ Usage:
 import argparse
 import json
 import os
+import re
 import sys
 from collections import defaultdict
-from typing import Any, Dict, List
+from typing import Any, Dict, List, Set
 
 
 def with_unknown_suffix(identifier: str, raw_name: str, formatter) -> str:
@@ -39,7 +40,9 @@ def with_unknown_suffix(identifier: str, raw_name: str, formatter) -> str:
     return formatted
 
 
-def build_species_data(entries: List[Dict[str, Any]], formatter) -> Dict[str, Dict[str, Any]]:
+def build_species_data(
+    entries: List[Dict[str, Any]], formatter, species_with_evos: Set[str]
+) -> Dict[str, Dict[str, Any]]:
     """
     Transform parsed cracked-emerald entries into calc-style species data.
     Only the first listed ability is kept (calc format supports a single slot).
@@ -88,7 +91,10 @@ def build_species_data(entries: List[Dict[str, Any]], formatter) -> Dict[str, Di
                     # Hidden ability
                     abilities_dict["H"] = ability
 
-        is_nfe = entry.get("evolution") is not None
+        # Check if this species can evolve (NFE = Not Fully Evolved)
+        # Use both parsed evolution data AND direct scan for .evolutions field
+        identifier = entry.get("identifier", "")
+        is_nfe = entry.get("evolution") is not None or identifier in species_with_evos
 
         species_entry: Dict[str, Any] = {
             "types": types if len(types) == 2 else [types[0]] if types else [],
@@ -125,6 +131,61 @@ def build_species_data(entries: List[Dict[str, Any]], formatter) -> Dict[str, Di
                 species[base_name]["otherFormes"] = unique_forms
 
     return dict(sorted(species.items(), key=lambda item: item[0].lower()))
+
+
+def scan_species_with_evolutions(emerald_dir: str) -> Set[str]:
+    """
+    Directly scan header files for species that have .evolutions defined.
+    This catches complex evolution definitions that parse_species.py regex misses.
+    """
+    species_dir = os.path.join(emerald_dir, "src", "data", "pokemon", "species_info")
+    species_with_evos: Set[str] = set()
+
+    headers = [os.path.join(species_dir, f"gen_{gen}_families.h") for gen in range(1, 10)]
+    headers.append(os.path.join(emerald_dir, "src", "data", "pokemon", "species_info.h"))
+
+    for header in headers:
+        if not os.path.exists(header):
+            continue
+        with open(header, "r", encoding="utf-8") as f:
+            content = f.read()
+
+        # Find all species blocks and check if they contain .evolutions
+        # Pattern: [SPECIES_XXX] = { ... }
+        # The file structure has an outer array brace, so species are at depth 1
+        species_pattern = re.compile(r'\[\s*(SPECIES_[A-Z0-9_]+)\s*\]\s*=')
+        evolutions_pattern = re.compile(r'\.evolutions\s*=')
+
+        lines = content.split('\n')
+        current_species = None
+        brace_depth = 0
+        in_block = False
+
+        for line in lines:
+            # Track brace depth FIRST
+            prev_depth = brace_depth
+            brace_depth += line.count('{') - line.count('}')
+
+            # Check for new species definition (at array level, depth <= 1)
+            match = species_pattern.search(line)
+            if match and prev_depth <= 1:
+                current_species = match.group(1)
+                in_block = False  # Will become True when we enter the block
+
+            # Enter block when depth increases from 1 to 2
+            if current_species and not in_block and brace_depth > 1:
+                in_block = True
+
+            # Check for .evolutions in the current species block
+            if current_species and in_block and evolutions_pattern.search(line):
+                species_with_evos.add(current_species)
+
+            # Exit block when depth returns to 1 or less
+            if in_block and brace_depth <= 1:
+                current_species = None
+                in_block = False
+
+    return species_with_evos
 
 
 def parse_cracked_emerald_species(emerald_dir: str):
@@ -195,7 +256,8 @@ def main():
         raise SystemExit(f"emerald-dir does not exist: {emerald_dir}")
 
     entries, formatter = parse_cracked_emerald_species(emerald_dir)
-    species_data = build_species_data(entries, formatter)
+    species_with_evos = scan_species_with_evolutions(emerald_dir)
+    species_data = build_species_data(entries, formatter, species_with_evos)
 
     os.makedirs(os.path.dirname(out_path), exist_ok=True)
     with open(out_path, "w", encoding="utf-8") as f:

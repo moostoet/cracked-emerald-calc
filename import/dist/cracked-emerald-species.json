@@ -15,7 +15,8 @@
     "abilities": {
       "1": "Cursed Body",
       "H": "Damp"
-    }
+    },
+    "nfe": true
   },
   "Abomasnow": {
     "types": [
@@ -623,7 +624,8 @@
       "0": "Ripen",
       "1": "Gluttony",
       "H": "Bulletproof"
-    }
+    },
+    "nfe": true
   },
   "Araquanid": {
     "types": [
@@ -2392,7 +2394,8 @@
       "0": "Sturdy",
       "1": "Weak Armor",
       "H": "Sand Force"
-    }
+    },
+    "nfe": true
   },
   "Boltund": {
     "types": [
@@ -3521,7 +3524,8 @@
     "abilities": {
       "0": "Flash Fire",
       "1": "Flame Body"
-    }
+    },
+    "nfe": true
   },
   "Charizard": {
     "types": [
@@ -3947,7 +3951,8 @@
     "weightkg": 0.6,
     "abilities": {
       "0": "Levitate"
-    }
+    },
+    "nfe": true
   },
   "Cinccino": {
     "types": [
@@ -4858,7 +4863,8 @@
       "0": "Honey Gather",
       "1": "Shield Dust",
       "H": "Sweet Veil"
-    }
+    },
+    "nfe": true
   },
   "Cyclizar": {
     "types": [
@@ -5528,7 +5534,8 @@
     "abilities": {
       "0": "Water Bubble",
       "H": "Water Absorb"
-    }
+    },
+    "nfe": true
   },
   "Dhelmise": {
     "types": [
@@ -6466,7 +6473,8 @@
       "0": "Serene Grace",
       "1": "Run Away",
       "H": "Rattled"
-    }
+    },
+    "nfe": true
   },
   "Duosion": {
     "types": [
@@ -6698,6 +6706,7 @@
       "0": "Adaptability",
       "H": "Anticipation"
     },
+    "nfe": true,
     "otherFormes": [
       "Eevee-Starter"
     ]
@@ -8987,7 +8996,8 @@
       "0": "Hyper Cutter",
       "1": "Sand Veil",
       "H": "Immunity"
-    }
+    },
+    "nfe": true
   },
   "Glimmet": {
     "types": [
@@ -9065,7 +9075,8 @@
     "abilities": {
       "0": "Chlorophyll",
       "H": "Stench"
-    }
+    },
+    "nfe": true
   },
   "Gogoat": {
     "types": [
@@ -9614,6 +9625,7 @@
       "1": "Sturdy",
       "H": "Sand Veil"
     },
+    "nfe": true,
     "otherFormes": [
       "Graveler-Alola"
     ]
@@ -9637,6 +9649,7 @@
       "1": "Sturdy",
       "H": "Galvanize"
     },
+    "nfe": true,
     "baseSpecies": "Graveler"
   },
   "Great Tusk": {
@@ -10076,7 +10089,8 @@
       "0": "Guts",
       "1": "Sheer Force",
       "H": "Iron Fist"
-    }
+    },
+    "nfe": true
   },
   "Guzzlord": {
     "types": [
@@ -10156,7 +10170,8 @@
       "0": "Bulletproof",
       "1": "Soundproof",
       "H": "Overcoat"
-    }
+    },
+    "nfe": true
   },
   "Happiny": {
     "types": [
@@ -10175,7 +10190,8 @@
       "0": "Natural Cure",
       "1": "Serene Grace",
       "H": "Friend Guard"
-    }
+    },
+    "nfe": true
   },
   "Hariyama": {
     "types": [
@@ -10272,7 +10288,8 @@
     "weightkg": 0.1,
     "abilities": {
       "0": "Levitate"
-    }
+    },
+    "nfe": true
   },
   "Hawlucha": {
     "types": [
@@ -11531,7 +11548,8 @@
       "0": "Synchronize",
       "1": "Inner Focus",
       "H": "Magic Guard"
-    }
+    },
+    "nfe": true
   },
   "Kakuna": {
     "types": [
@@ -11807,7 +11825,8 @@
       "0": "Synchronize",
       "1": "Trace",
       "H": "Telepathy"
-    }
+    },
+    "nfe": true
   },
   "Klang": {
     "types": [
@@ -12115,7 +12134,8 @@
     "weightkg": 12.0,
     "abilities": {
       "0": "Inner Focus"
-    }
+    },
+    "nfe": true
   },
   "Kyogre": {
     "types": [
@@ -13296,7 +13316,8 @@
       "0": "Guts",
       "1": "No Guard",
       "H": "Steadfast"
-    }
+    },
+    "nfe": true
   },
   "Machop": {
     "types": [
@@ -14659,7 +14680,8 @@
     "abilities": {
       "0": "Sweet Veil",
       "H": "Aroma Veil"
-    }
+    },
+    "nfe": true
   },
   "Milotic": {
     "types": [
@@ -14717,7 +14739,8 @@
       "0": "Soundproof",
       "1": "Filter",
       "H": "Technician"
-    }
+    },
+    "nfe": true
   },
   "Mimikyu": {
     "types": [
@@ -15896,7 +15919,8 @@
     "abilities": {
       "0": "Compound Eyes",
       "H": "Run Away"
-    }
+    },
+    "nfe": true
   },
   "Ninetales": {
     "types": [
@@ -17171,7 +17195,8 @@
       "0": "Natural Cure",
       "1": "Frisk",
       "H": "Harvest"
-    }
+    },
+    "nfe": true
   },
   "Pheromosa": {
     "types": [
@@ -17928,7 +17953,8 @@
       "0": "Water Absorb",
       "1": "Damp",
       "H": "Swift Swim"
-    }
+    },
+    "nfe": true
   },
   "Poliwrath": {
     "types": [
@@ -18335,6 +18361,7 @@
       "1": "Frisk",
       "H": "Insomnia"
     },
+    "nfe": true,
     "otherFormes": [
       "Pumpkaboo-Average",
       "Pumpkaboo-Large",
@@ -18361,6 +18388,7 @@
       "1": "Frisk",
       "H": "Insomnia"
     },
+    "nfe": true,
     "baseSpecies": "Pumpkaboo"
   },
   "Pumpkaboo-Large": {
@@ -18382,6 +18410,7 @@
       "1": "Frisk",
       "H": "Insomnia"
     },
+    "nfe": true,
     "baseSpecies": "Pumpkaboo"
   },
   "Pumpkaboo-Small": {
@@ -18403,6 +18432,7 @@
       "1": "Frisk",
       "H": "Insomnia"
     },
+    "nfe": true,
     "baseSpecies": "Pumpkaboo"
   },
   "Pumpkaboo-Super": {
@@ -18424,6 +18454,7 @@
       "1": "Frisk",
       "H": "Insomnia"
     },
+    "nfe": true,
     "baseSpecies": "Pumpkaboo"
   },
   "Pupitar": {
@@ -19394,7 +19425,8 @@
       "0": "Steadfast",
       "1": "Inner Focus",
       "H": "Prankster"
-    }
+    },
+    "nfe": true
   },
   "Roaring Moon": {
     "types": [
@@ -20483,7 +20515,8 @@
       "0": "Swarm",
       "1": "Technician",
       "H": "Steadfast"
-    }
+    },
+    "nfe": true
   },
   "Seadra": {
     "types": [
@@ -22179,6 +22212,7 @@
       "1": "Own Tempo",
       "H": "Regenerator"
     },
+    "nfe": true,
     "otherFormes": [
       "Slowpoke-Galar"
     ]
@@ -22201,6 +22235,7 @@
       "1": "Own Tempo",
       "H": "Regenerator"
     },
+    "nfe": true,
     "baseSpecies": "Slowpoke"
   },
   "Slugma": {
@@ -22320,6 +22355,7 @@
       "1": "Keen Eye",
       "H": "Pickpocket"
     },
+    "nfe": true,
     "otherFormes": [
       "Sneasel-Hisui"
     ]
@@ -22343,6 +22379,7 @@
       "1": "Keen Eye",
       "H": "Pickpocket"
     },
+    "nfe": true,
     "baseSpecies": "Sneasel"
   },
   "Sneasler": {
@@ -22402,7 +22439,8 @@
     "abilities": {
       "0": "Shield Dust",
       "H": "Ice Scales"
-    }
+    },
+    "nfe": true
   },
   "Snorlax": {
     "types": [
@@ -22440,7 +22478,8 @@
       "0": "Inner Focus",
       "1": "Ice Body",
       "H": "Moody"
-    }
+    },
+    "nfe": true
   },
   "Snover": {
     "types": [
@@ -25336,7 +25375,8 @@
       "0": "Guts",
       "1": "Quick Feet",
       "H": "Unnerve"
-    }
+    },
+    "nfe": true
   },
   "Urshifu": {
     "types": [
