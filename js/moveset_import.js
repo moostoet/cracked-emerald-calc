@@ -1,3 +1,6 @@
+// Global array to track imported Pokemon for Team/Box display
+var importedPokemonList = [];
+
 function placeBsBtn() {
 	var importBtn = "<button id='import' class='bs-btn bs-btn-default'>Import</button>";
 	$("#import-1_wrapper").append(importBtn);
@@ -7,6 +10,48 @@ function placeBsBtn() {
 		var name = document.getElementsByClassName("import-name-text")[0].value.trim() === "" ? "Custom Set" : document.getElementsByClassName("import-name-text")[0].value;
 		addSets(pokes, name);
 	});
+}
+
+// Render the Team/Box display with imported Pokemon
+function showPlayerTeamBox() {
+	var teamContainer = document.querySelector("#player-team-list");
+	var boxContainer = document.querySelector("#player-box-list");
+
+	if (!teamContainer || !boxContainer) return;
+
+	teamContainer.innerHTML = "";
+	boxContainer.innerHTML = "";
+
+	for (var i = 0; i < importedPokemonList.length; i++) {
+		var pokemon = importedPokemonList[i];
+		var speciesName = pokemon.name;
+		var cleanSpecies = speciesName.replace("%", "%25");
+
+		var img = document.createElement("img");
+		img.className = "player-pok";
+		img.src = "https://raw.githubusercontent.com/May8th1995/sprites/master/" + cleanSpecies + ".png";
+		img.title = speciesName + (pokemon.setName ? " (" + pokemon.setName + ")" : "");
+		img.dataset.pokemonIndex = i;
+		img.dataset.setName = speciesName + " (" + (pokemon.setName || "Custom Set") + ")";
+
+		// On click, load this Pokemon into #p1's set-selector
+		img.addEventListener("click", function () {
+			$("#p1 .set-selector").val(this.dataset.setName).change();
+		});
+
+		// First 6 go to Team, rest go to Box
+		if (i < 6) {
+			teamContainer.appendChild(img);
+		} else {
+			boxContainer.appendChild(img);
+		}
+	}
+}
+
+// Clear the Team/Box display
+function clearPlayerTeamBox() {
+	importedPokemonList = [];
+	showPlayerTeamBox();
 }
 
 function ExportPokemon(pokeInfo) {
@@ -280,6 +325,10 @@ function addSets(pokes, name) {
 	var currentRow;
 	var currentPoke;
 	var addedpokes = 0;
+
+	// Clear the imported Pokemon list for fresh import
+	importedPokemonList = [];
+
 	for (var i = 0; i < rows.length; i++) {
 		currentRow = rows[i].split(/[()@]/);
 		for (var j = 0; j < currentRow.length; j++) {
@@ -299,10 +348,21 @@ function addSets(pokes, name) {
 				currentPoke = getStats(currentPoke, rows, i + 1);
 				currentPoke = getMoves(currentPoke, rows, i);
 				addToDex(currentPoke);
+
+				// Track this Pokemon for Team/Box display
+				importedPokemonList.push({
+					name: currentPoke.name,
+					setName: currentPoke.nameProp
+				});
+
 				addedpokes++;
 			}
 		}
 	}
+
+	// Update the Team/Box display
+	showPlayerTeamBox();
+
 	if (addedpokes == 1) {
 		alert("Successfully imported 1 set");
 		$(allPokemon("#importedSetsOptions")).css("display", "inline");
@@ -370,6 +430,8 @@ $(allPokemon("#clearSets")).click(function () {
 		alert("Custom Sets successfully cleared. Please refresh the page.");
 		$(allPokemon("#importedSetsOptions")).hide();
 		loadDefaultLists();
+		// Clear the Team/Box display
+		clearPlayerTeamBox();
 	}
 });
 
