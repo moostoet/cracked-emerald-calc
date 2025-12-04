@@ -15,7 +15,148 @@ import os
 import re
 import sys
 from collections import defaultdict
-from typing import Any, Dict, List, Set
+from typing import Any, Dict, List, Optional, Set
+
+
+def parse_gen_constants(emerald_dir: str) -> Dict[str, int]:
+    """
+    Parse GEN_* constants from include/config/general.h.
+    Returns a mapping like {"GEN_1": 0, "GEN_2": 1, ..., "GEN_LATEST": 8}.
+    """
+    general_h = os.path.join(emerald_dir, "include", "config", "general.h")
+    constants: Dict[str, int] = {}
+
+    if not os.path.exists(general_h):
+        # Fallback defaults if file doesn't exist
+        for i in range(1, 10):
+            constants[f"GEN_{i}"] = i - 1
+        constants["GEN_LATEST"] = 8
+        return constants
+
+    with open(general_h, "r", encoding="utf-8") as f:
+        content = f.read()
+
+    # Match patterns like: #define GEN_1 0
+    pattern = re.compile(r"#define\s+(GEN_\d+)\s+(\d+)")
+    for match in pattern.finditer(content):
+        constants[match.group(1)] = int(match.group(2))
+
+    # Match GEN_LATEST which references another constant
+    latest_pattern = re.compile(r"#define\s+(GEN_LATEST)\s+(GEN_\d+)")
+    match = latest_pattern.search(content)
+    if match:
+        ref = match.group(2)
+        constants["GEN_LATEST"] = constants.get(ref, 8)
+
+    return constants
+
+
+def parse_pokemon_config(emerald_dir: str, gen_constants: Dict[str, int]) -> Dict[str, int]:
+    """
+    Parse P_UPDATED_* config values from include/config/pokemon.h.
+    Resolves references like GEN_LATEST to their numeric values.
+    Returns a mapping like {"P_UPDATED_STATS": 8, "P_UPDATED_TYPES": 8, ...}.
+    """
+    pokemon_h = os.path.join(emerald_dir, "include", "config", "pokemon.h")
+    config: Dict[str, int] = {}
+
+    if not os.path.exists(pokemon_h):
+        # Fallback: assume all P_UPDATED_* are GEN_LATEST
+        latest = gen_constants.get("GEN_LATEST", 8)
+        for key in ["P_UPDATED_TYPES", "P_UPDATED_STATS", "P_UPDATED_ABILITIES",
+                    "P_UPDATED_EGG_GROUPS", "P_UPDATED_EXP_YIELDS"]:
+            config[key] = latest
+        return config
+
+    with open(pokemon_h, "r", encoding="utf-8") as f:
+        content = f.read()
+
+    # Match patterns like: #define P_UPDATED_STATS GEN_LATEST
+    pattern = re.compile(r"#define\s+(P_[A-Z_]+)\s+(GEN_\w+|\d+)")
+    for match in pattern.finditer(content):
+        key = match.group(1)
+        value_str = match.group(2)
+
+        if value_str.isdigit():
+            config[key] = int(value_str)
+        elif value_str in gen_constants:
+            config[key] = gen_constants[value_str]
+        # Skip non-numeric, non-GEN values (like TRUE/FALSE or species references)
+
+    return config
+
+
+def evaluate_condition(condition: str, config: Dict[str, int], gen_constants: Dict[str, int]) -> bool:
+    """
+    Evaluate a preprocessor condition like 'P_UPDATED_STATS >= GEN_7'.
+    Returns True if the condition is met, False otherwise.
+    """
+    # Handle simple truth checks like "P_GALARIAN_FORMS"
+    condition = condition.strip()
+
+    # Match comparison: P_UPDATED_X >= GEN_Y or P_UPDATED_X > GEN_Y, etc.
+    cmp_pattern = re.compile(
+        r"(P_[A-Z_]+)\s*(>=|<=|>|<|==|!=)\s*(GEN_\w+|\d+)"
+    )
+    match = cmp_pattern.match(condition)
+    if match:
+        left_name = match.group(1)
+        operator = match.group(2)
+        right_str = match.group(3)
+
+        left_val = config.get(left_name)
+        if left_val is None:
+            # Unknown config, assume true (modern)
+            return True
+
+        if right_str.isdigit():
+            right_val = int(right_str)
+        else:
+            right_val = gen_constants.get(right_str, 0)
+
+        if operator == ">=":
+            return left_val >= right_val
+        elif operator == "<=":
+            return left_val <= right_val
+        elif operator == ">":
+            return left_val > right_val
+        elif operator == "<":
+            return left_val < right_val
+        elif operator == "==":
+            return left_val == right_val
+        elif operator == "!=":
+            return left_val != right_val
+
+    # For unrecognized conditions (like P_GALARIAN_FORMS), assume true
+    return True
+
+
+def evaluate_ternary(
+    expr: str,
+    config: Dict[str, int],
+    gen_constants: Dict[str, int]
+) -> str:
+    """
+    Evaluate a ternary expression like 'P_UPDATED_STATS >= GEN_7 ? 65 : 55'.
+    Returns the appropriate value based on config.
+    """
+    # Match ternary pattern
+    ternary_pattern = re.compile(
+        r"(P_[A-Z_]+\s*(?:>=|<=|>|<|==|!=)\s*(?:GEN_\w+|\d+))\s*\?\s*([^:]+)\s*:\s*(.+)"
+    )
+    match = ternary_pattern.match(expr.strip())
+    if match:
+        condition = match.group(1)
+        true_val = match.group(2).strip()
+        false_val = match.group(3).strip()
+
+        if evaluate_condition(condition, config, gen_constants):
+            return true_val
+        else:
+            return false_val
+
+    # No ternary found, return original
+    return expr
 
 
 def with_unknown_suffix(identifier: str, raw_name: str, formatter) -> str:
@@ -41,12 +182,25 @@ def with_unknown_suffix(identifier: str, raw_name: str, formatter) -> str:
 
 
 def build_species_data(
-    entries: List[Dict[str, Any]], formatter, species_with_evos: Set[str]
+    entries: List[Dict[str, Any]],
+    formatter,
+    species_with_evos: Set[str],
+    config: Optional[Dict[str, int]] = None,
+    gen_constants: Optional[Dict[str, int]] = None,
 ) -> Dict[str, Dict[str, Any]]:
     """
     Transform parsed cracked-emerald entries into calc-style species data.
     Only the first listed ability is kept (calc format supports a single slot).
+
+    The config and gen_constants parameters are used for config-aware evaluation
+    of conditional expressions. When not provided, defaults to modern (GEN_LATEST) values.
     """
+    if config is None:
+        config = {}
+    if gen_constants is None:
+        gen_constants = {f"GEN_{i}": i - 1 for i in range(1, 10)}
+        gen_constants["GEN_LATEST"] = 8
+
     species: Dict[str, Dict[str, Any]] = {}
     forms_by_base: defaultdict[str, List[str]] = defaultdict(list)
 
@@ -199,15 +353,22 @@ def parse_cracked_emerald_species(emerald_dir: str):
     except ImportError as exc:  # pragma: no cover - runtime guard
         raise SystemExit(f"Could not import parse_species from {species_dir}: {exc}")
 
+    # Reset and initialize config from the emerald directory
+    ce.reset_config()
+    ce.get_config(emerald_dir)
+
     entries_by_id: Dict[str, Dict[str, Any]] = {}
+    first_file = True
     for gen in range(1, 10):
         header = os.path.join(species_dir, f"gen_{gen}_families.h")
         if not os.path.exists(header):
             continue
-        for entry in ce.parse_file(header):
+        # Pass emerald_dir on first file to ensure config is loaded
+        for entry in ce.parse_file(header, emerald_dir if first_file else None):
             ident = entry.get("identifier")
             if ident:
                 entries_by_id[ident] = entry
+        first_file = False
 
     # Capture any extra species defined directly in species_info.h (e.g., custom forms)
     root_header = os.path.join(emerald_dir, "src", "data", "pokemon", "species_info.h")
@@ -247,6 +408,11 @@ def main():
         default=os.path.join("import", "dist", "cracked-emerald-species.json"),
         help="Where to write the converted JSON (default: import/dist/cracked-emerald-species.json)",
     )
+    parser.add_argument(
+        "--quiet",
+        action="store_true",
+        help="Suppress config info output",
+    )
     args = parser.parse_args()
 
     emerald_dir = os.path.abspath(args.emerald_dir)
@@ -255,9 +421,27 @@ def main():
     if not os.path.isdir(emerald_dir):
         raise SystemExit(f"emerald-dir does not exist: {emerald_dir}")
 
+    # Parse configuration from cracked-emerald
+    gen_constants = parse_gen_constants(emerald_dir)
+    pokemon_config = parse_pokemon_config(emerald_dir, gen_constants)
+
+    if not args.quiet:
+        # Display detected configuration
+        print("Configuration detected from cracked-emerald:")
+        print(f"  GEN_LATEST = GEN_{gen_constants.get('GEN_LATEST', 8) + 1}")
+        for key in sorted(pokemon_config.keys()):
+            if key.startswith("P_UPDATED_"):
+                val = pokemon_config[key]
+                gen_name = f"GEN_{val + 1}" if val < 9 else f"GEN_{val + 1}"
+                print(f"  {key} = {gen_name} ({val})")
+        print()
+
     entries, formatter = parse_cracked_emerald_species(emerald_dir)
     species_with_evos = scan_species_with_evolutions(emerald_dir)
-    species_data = build_species_data(entries, formatter, species_with_evos)
+    species_data = build_species_data(
+        entries, formatter, species_with_evos,
+        config=pokemon_config, gen_constants=gen_constants
+    )
 
     os.makedirs(os.path.dirname(out_path), exist_ok=True)
     with open(out_path, "w", encoding="utf-8") as f:

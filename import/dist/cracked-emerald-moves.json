@@ -2196,7 +2196,7 @@
     "category": "Special"
   },
   "Hidden Power": {
-    "bp": 1,
+    "bp": 60,
     "type": "Normal",
     "category": "Special"
   },
@@ -4533,11 +4533,7 @@
     "bp": 50,
     "type": "Normal",
     "category": "Physical",
-    "makesContact": true,
-    "recoil": [
-      25,
-      100
-    ]
+    "makesContact": true
   },
   "Struggle Bug": {
     "bp": 50,
