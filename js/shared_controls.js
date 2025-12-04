@@ -886,6 +886,11 @@ $(".set-selector").change(function () {
 
 			// Show the images
 			showOpposingTrainerImages(sorted, fullSetName);
+
+			// Update Team/Box matchup colors based on new opponent
+			if (typeof updateTeamBoxMatchupColors === "function") {
+				updateTeamBoxMatchupColors();
+			}
 		}
 
 		// if (fullSetName.indexOf("(") !== -1 && fullSetName.indexOf(")") !== -1) {
@@ -1144,6 +1149,8 @@ function createPokemon(pokeInfo) {
 		var setName = pokeInfo.substring(pokeInfo.indexOf("(") + 1, pokeInfo.lastIndexOf(")"));
 		var isRandoms = $("#randoms").prop("checked");
 		var set = isRandoms ? randdex[name] : setdex[name][setName];
+		var ability = set.ability;
+		var item = set.item;
 
 		var ivs = {};
 		var evs = {};

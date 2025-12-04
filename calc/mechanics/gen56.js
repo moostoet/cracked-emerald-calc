@@ -610,6 +610,10 @@ function calculateAtModsBWXY(attacker, defender, move, field, desc) {
         atMods.push(2048);
         desc.defenderAbility = defender.ability;
     }
+    if (defender.hasAbility('Magma Core') && move.hasType('Water')) {
+        atMods.push(2048);
+        desc.defenderAbility = defender.ability;
+    }
     if ((attacker.hasAbility('Guts') && attacker.status && move.category === 'Physical') ||
         (attacker.curHP() <= attacker.maxHP() / 3 &&
             ((attacker.hasAbility('Overgrow') && move.hasType('Grass')) ||

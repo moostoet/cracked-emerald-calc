@@ -149,6 +149,9 @@ function getFinalSpeed(gen, pokemon, field, side) {
     else if (pokemon.hasAbility('Slow Start') && pokemon.abilityOn) {
         speedMods.push(2048);
     }
+    else if (pokemon.hasAbility('Primal Instincts') && pokemon.curHP() <= pokemon.maxHP() / 3) {
+        speedMods.push(6144);
+    }
     else if (isQPActive(pokemon, field) && getQPBoostedStat(pokemon, gen) === 'spe') {
         speedMods.push(6144);
     }
@@ -588,6 +591,12 @@ function getStabMod(pokemon, move, desc) {
     }
     if (pokemon.hasAbility('Adaptability') && pokemon.hasType(move.type)) {
         stabMod += teraType && pokemon.hasOriginalType(teraType) ? 1024 : 2048;
+        desc.attackerAbility = pokemon.ability;
+    }
+    if (pokemon.hasAbility('Primal Instincts') &&
+        pokemon.curHP() <= pokemon.maxHP() / 3 &&
+        pokemon.hasType(move.type)) {
+        stabMod += 2048;
         desc.attackerAbility = pokemon.ability;
     }
     return stabMod;

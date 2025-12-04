@@ -233,14 +233,159 @@ th {
     margin: 3px;
     cursor: pointer;
     transition: transform 0.1s ease;
+    width: 40px;
+    height: 40px;
+    object-fit: contain;
+    border: 3px solid transparent;
+    border-radius: 4px;
+    box-sizing: content-box;
 }
 
 .player-pok:hover {
     transform: scale(1.1);
 }
 
+/* Speed border colors */
+.speed-faster {
+    border-color: #3498db; /* Blue - outspeeds */
+}
+
+.speed-tie {
+    border-color: #9b59b6; /* Purple - speed tie */
+}
+
+.speed-slower {
+    border-color: #2c3e50; /* Black/Dark - outsped */
+}
+
+/* OHKO background colors - split left/right using gradients */
+/* Left side colors (what player does to opponent) */
+.ohko-left-hardcounter {
+    background: linear-gradient(to right, #87CEEB 50%, transparent 50%); /* Light Blue */
+}
+
+.ohko-left-walls {
+    background: linear-gradient(to right, #5DADE2 50%, transparent 50%); /* Blue */
+}
+
+.ohko-left-always {
+    background: linear-gradient(to right, #2ecc71 50%, transparent 50%); /* Green */
+}
+
+.ohko-left-might {
+    background: linear-gradient(to right, #f1c40f 50%, transparent 50%); /* Yellow */
+}
+
+.ohko-left-none {
+    background: linear-gradient(to right, transparent 50%, transparent 50%);
+}
+
+/* Right side colors (what opponent does to player) */
+.ohko-right-might {
+    background: linear-gradient(to right, transparent 50%, #e67e22 50%); /* Orange */
+}
+
+.ohko-right-always {
+    background: linear-gradient(to right, transparent 50%, #e74c3c 50%); /* Red */
+}
+
+.ohko-right-none {
+    background: linear-gradient(to right, transparent 50%, transparent 50%);
+}
+
+/* Combined left+right backgrounds */
+.ohko-green-red {
+    background: linear-gradient(to right, #2ecc71 50%, #e74c3c 50%);
+}
+
+.ohko-green-orange {
+    background: linear-gradient(to right, #2ecc71 50%, #e67e22 50%);
+}
+
+.ohko-yellow-red {
+    background: linear-gradient(to right, #f1c40f 50%, #e74c3c 50%);
+}
+
+.ohko-yellow-orange {
+    background: linear-gradient(to right, #f1c40f 50%, #e67e22 50%);
+}
+
+.ohko-lightblue-none {
+    background: linear-gradient(to right, #87CEEB 50%, transparent 50%);
+}
+
+.ohko-blue-none {
+    background: linear-gradient(to right, #5DADE2 50%, transparent 50%);
+}
+
+.ohko-green-none {
+    background: linear-gradient(to right, #2ecc71 50%, transparent 50%);
+}
+
+.ohko-yellow-none {
+    background: linear-gradient(to right, #f1c40f 50%, transparent 50%);
+}
+
+.ohko-none-orange {
+    background: linear-gradient(to right, transparent 50%, #e67e22 50%);
+}
+
+.ohko-none-red {
+    background: linear-gradient(to right, transparent 50%, #e74c3c 50%);
+}
+
+.ohko-lightblue-orange {
+    background: linear-gradient(to right, #87CEEB 50%, #e67e22 50%);
+}
+
+.ohko-lightblue-red {
+    background: linear-gradient(to right, #87CEEB 50%, #e74c3c 50%);
+}
+
+.ohko-blue-orange {
+    background: linear-gradient(to right, #5DADE2 50%, #e67e22 50%);
+}
+
+.ohko-blue-red {
+    background: linear-gradient(to right, #5DADE2 50%, #e74c3c 50%);
+}
+.ohko-green-red,
+.ohko-green-orange,
+.ohko-yellow-red,
+.ohko-yellow-orange,
+.ohko-lightblue-none,
+.ohko-blue-none,
+.ohko-green-none,
+.ohko-yellow-none,
+.ohko-none-orange,
+.ohko-none-red,
+.ohko-lightblue-orange,
+.ohko-lightblue-red,
+.ohko-blue-orange,
+.ohko-blue-red,
+.ohko-left-hardcounter,
+.ohko-left-walls,
+.ohko-left-always,
+.ohko-left-might,
+.ohko-left-none,
+.ohko-right-might,
+.ohko-right-always,
+.ohko-right-none {
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
 #player-team-box {
     width: 32em;
+}
+
+.left-column {
+    float: left;
+    display: inline-block;
+}
+
+[aria-label="player-team-box"] {
+    clear: both;
 }
 
 .big-text {

@@ -188,6 +188,10 @@ function calculateDPP(gen, attacker, defender, move, field) {
         else {
             stabMod = 1.5;
         }
+        if (attacker.hasAbility('Primal Instincts') && attacker.curHP() <= attacker.maxHP() / 3) {
+            stabMod *= 1.5;
+            desc.attackerAbility = attacker.ability;
+        }
     }
     var filterMod = 1;
     if (defender.hasAbility('Filter', 'Solid Rock') && typeEffectiveness > 1) {
@@ -394,6 +398,10 @@ function calculateBPModsDPP(attacker, defender, move, field, desc, basePower) {
     }
     if ((defender.hasAbility('Heatproof') && move.hasType('Fire')) ||
         (defender.hasAbility('Thick Fat') && (move.hasType('Fire', 'Ice')))) {
+        basePower = Math.floor(basePower * 0.5);
+        desc.defenderAbility = defender.ability;
+    }
+    if (defender.hasAbility('Magma Core') && move.hasType('Water')) {
         basePower = Math.floor(basePower * 0.5);
         desc.defenderAbility = defender.ability;
     }

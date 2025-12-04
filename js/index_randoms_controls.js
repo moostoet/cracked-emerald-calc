@@ -99,6 +99,11 @@ function performCalculations() {
 	bestResult.change();
 	$("#resultHeaderL").text(p1.name + "'s Moves (select one to show detailed results)");
 	$("#resultHeaderR").text(p2.name + "'s Moves (select one to show detailed results)");
+
+	// Refresh Team/Box matchup indicators after recalculations
+	if (typeof updateTeamBoxMatchupColors === "function") {
+		updateTeamBoxMatchupColors();
+	}
 }
 
 $(".result-move").change(function () {

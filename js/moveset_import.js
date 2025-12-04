@@ -54,6 +54,302 @@ function clearPlayerTeamBox() {
 	showPlayerTeamBox();
 }
 
+// Create a Pokemon object directly from imported set data
+// This bypasses the normal setdex lookup which can fail in randoms mode
+function createPokemonFromImportedSet(pokemonName, setName) {
+	// Look up the set directly in the current generation's setdex
+	// We use setdex (which is SETDEX[gen]) since custom sets are added there
+	var set = null;
+
+	// Try to find the set in setdex first (where custom sets are stored)
+	if (setdex && setdex[pokemonName] && setdex[pokemonName][setName]) {
+		set = setdex[pokemonName][setName];
+	}
+
+	// Fallback: check SETDEX_SV directly (custom sets are always added here)
+	if (!set && typeof SETDEX_SV !== 'undefined' && SETDEX_SV[pokemonName] && SETDEX_SV[pokemonName][setName]) {
+		set = SETDEX_SV[pokemonName][setName];
+	}
+
+	if (!set) {
+		console.warn("Could not find set for", pokemonName, setName);
+		return null;
+	}
+
+	var ability = set.ability;
+	var item = set.item;
+
+	// Build IVs and EVs
+	var ivs = {};
+	var evs = {};
+	var LEGACY_STATS_MAP = {hp: 'hp', at: 'atk', df: 'def', sa: 'spa', sd: 'spd', sp: 'spe'};
+
+	for (var legacyStat in LEGACY_STATS_MAP) {
+		var stat = LEGACY_STATS_MAP[legacyStat];
+		ivs[stat] = (set.ivs && typeof set.ivs[legacyStat] !== "undefined") ? set.ivs[legacyStat] : 31;
+		evs[stat] = (set.evs && typeof set.evs[legacyStat] !== "undefined") ? set.evs[legacyStat] : 0;
+	}
+
+	// Build moves
+	var moveNames = set.moves || [];
+	var pokemonMoves = [];
+	for (var i = 0; i < 4; i++) {
+		var moveName = moveNames[i];
+		var moveExists = moves && moves[moveName];
+		pokemonMoves.push(new calc.Move(gen, moveExists ? moveName : "(No Move)", { ability: ability, item: item }));
+	}
+
+	// Filter out mega stones (items ending in "ite" except "Eviolite")
+	var finalItem = "";
+	if (item && typeof item === "string") {
+		if (item === "Eviolite" || item.indexOf("ite") < 0) {
+			finalItem = item;
+		}
+	}
+
+	return new calc.Pokemon(gen, pokemonName, {
+		level: set.level || 100,
+		ability: ability,
+		abilityOn: true,
+		item: finalItem,
+		nature: set.nature || "Serious",
+		ivs: ivs,
+		evs: evs,
+		moves: pokemonMoves
+	});
+}
+
+// Calculate and apply matchup colors to Team/Box Pokemon
+function updateTeamBoxMatchupColors() {
+	// Check if we have imported Pokemon and an opponent selected
+	if (importedPokemonList.length === 0) return;
+
+	var opponentSetName = $("#p2 .set-selector").val();
+	if (!opponentSetName || opponentSetName.trim() === "") return;
+
+	// Get opponent Pokemon object
+	var opponent;
+	try {
+		opponent = createPokemon($("#p2"));
+	} catch (e) {
+		console.warn("Could not create opponent Pokemon for matchup calculation:", e);
+		return;
+	}
+
+	if (!opponent) return;
+
+	// Build field states so side conditions line up regardless of attacker/defender
+	var playerField = createField();
+	var opponentField = playerField.clone().swap();
+
+	// Get all player Pokemon images
+	var teamImages = document.querySelectorAll("#player-team-list .player-pok");
+	var boxImages = document.querySelectorAll("#player-box-list .player-pok");
+	var allImages = Array.prototype.slice.call(teamImages).concat(Array.prototype.slice.call(boxImages));
+
+	allImages.forEach(function(img, index) {
+		if (index >= importedPokemonList.length) return;
+
+		var pokemonData = importedPokemonList[index];
+		var setName = pokemonData.setName || "Custom Set";
+
+		// Create player Pokemon object using our direct lookup function
+		var playerPokemon;
+		try {
+			playerPokemon = createPokemonFromImportedSet(pokemonData.name, setName);
+		} catch (e) {
+			console.warn("Could not create player Pokemon:", pokemonData.name, e);
+			return;
+		}
+
+		if (!playerPokemon) return;
+
+		// Clear previous classes
+		img.className = "player-pok";
+
+		// Calculate best moves in both directions using the correct field sides
+		var playerToOpponentResult = getBestMoveResult(playerPokemon, opponent, playerField);
+		var opponentToPlayerResult = getBestMoveResult(opponent, playerPokemon, opponentField);
+
+		// Use computed final speeds (includes items, abilities, Tailwind, etc.) when available
+		var playerSpeed = playerToOpponentResult && playerToOpponentResult.attacker && playerToOpponentResult.attacker.stats
+			? playerToOpponentResult.attacker.stats.spe
+			: playerPokemon.stats.spe;
+
+		var opponentSpeed = playerToOpponentResult && playerToOpponentResult.defender && playerToOpponentResult.defender.stats
+			? playerToOpponentResult.defender.stats.spe
+			: opponent.stats.spe;
+
+		if (!playerToOpponentResult && opponentToPlayerResult && opponentToPlayerResult.attacker && opponentToPlayerResult.attacker.stats) {
+			opponentSpeed = opponentToPlayerResult.attacker.stats.spe;
+		}
+		if (!playerToOpponentResult && opponentToPlayerResult && opponentToPlayerResult.defender && opponentToPlayerResult.defender.stats) {
+			playerSpeed = opponentToPlayerResult.defender.stats.spe;
+		}
+
+		if (playerSpeed > opponentSpeed) {
+			img.classList.add("speed-faster");
+		} else if (playerSpeed === opponentSpeed) {
+			img.classList.add("speed-tie");
+		} else {
+			img.classList.add("speed-slower");
+		}
+
+		// Determine left color (what player does to opponent)
+		var leftColor = getLeftColorClass(playerToOpponentResult, opponentToPlayerResult);
+
+		// Determine right color (what opponent does to player)
+		var rightColor = getRightColorClass(opponentToPlayerResult);
+
+		// Apply combined OHKO class
+		var ohkoClass = getOhkoClass(leftColor, rightColor);
+		if (ohkoClass) {
+			img.classList.add(ohkoClass);
+		}
+	});
+}
+
+// Get the best offensive move result from attacker to defender
+function getBestMoveResult(attacker, defender, field) {
+	var bestResult = null;
+	var bestDamagePercent = 0;
+
+	// Default to current UI field state if none provided
+	var calcField = field || createField();
+
+	for (var i = 0; i < attacker.moves.length; i++) {
+		var move = attacker.moves[i];
+		if (!move || move.name === "(No Move)" || move.category === "Status") continue;
+
+		try {
+			var result = calc.calculate(gen, attacker, defender, move, calcField);
+			if (result && result.range) {
+				var range = result.range();
+				var maxDamage = range[1];
+				var damagePercent = (maxDamage / defender.maxHP()) * 100;
+
+				if (damagePercent > bestDamagePercent) {
+					bestDamagePercent = damagePercent;
+					bestResult = result;
+				}
+			}
+		} catch (e) {
+			// Skip moves that fail to calculate
+		}
+	}
+
+	return bestResult;
+}
+
+// Determine left color class based on what player does to opponent
+function getLeftColorClass(playerResult, opponentResult) {
+	if (!playerResult) return "none";
+
+	var ALWAYS_OHKO_THRESHOLD = 0.999; // treat 99.9%+ as guaranteed for coloring
+	var HAS_CHANCE_THRESHOLD = 0.0001;
+	var damageRange = playerResult.range ? playerResult.range() : null;
+	var playerMin = damageRange ? damageRange[0] : 0;
+	var playerMax = damageRange ? damageRange[damageRange.length - 1] : 0;
+	var defenderHP = playerResult.defender ? playerResult.defender.maxHP() : 1;
+
+	var koChance = playerResult.kochance();
+	var playerKoTurns = koChance ? koChance.n : 999;
+	var playerKoChance = koChance ? (koChance.chance || 0) : 0;
+
+	// Check opponent's KO potential for Hard Counter/Walls calculation
+	var opponentKoTurns = 999;
+	if (opponentResult) {
+		var oppKoChance = opponentResult.kochance();
+		opponentKoTurns = oppKoChance ? oppKoChance.n : 999;
+	}
+
+	// Hard Counter: Gets 4HKO'd at worst AND may OHKO
+	if (opponentKoTurns >= 4 && playerKoTurns === 1 && playerKoChance > HAS_CHANCE_THRESHOLD) {
+		return "lightblue";
+	}
+
+	// Walls: Gets 4HKO'd at worst AND does more damage (but doesn't OHKO)
+	if (opponentKoTurns >= 4 && playerKoTurns > 1) {
+		// Compare damage dealt vs received
+		var playerRange = playerResult.range();
+		var playerMaxDmgPercent = playerRange ? (playerRange[1] / playerResult.defender.maxHP()) * 100 : 0;
+
+		if (opponentResult) {
+			var oppRange = opponentResult.range();
+			var oppMaxDmgPercent = oppRange ? (oppRange[1] / opponentResult.defender.maxHP()) * 100 : 0;
+
+			if (playerMaxDmgPercent > oppMaxDmgPercent) {
+				return "blue";
+			}
+		}
+	}
+
+	// Always OHKOs (guaranteed)
+	if ((playerKoTurns === 1 && playerKoChance >= ALWAYS_OHKO_THRESHOLD) || playerMin >= defenderHP) {
+		return "green";
+	}
+
+	// Might OHKO (chance > 0 but not guaranteed)
+	if ((playerKoTurns === 1 && playerKoChance > HAS_CHANCE_THRESHOLD && playerKoChance < ALWAYS_OHKO_THRESHOLD) || (playerMax >= defenderHP && playerMin < defenderHP)) {
+		return "yellow";
+	}
+
+	return "none";
+}
+
+// Determine right color class based on what opponent does to player
+function getRightColorClass(opponentResult) {
+	if (!opponentResult) return "none";
+
+	var ALWAYS_OHKO_THRESHOLD = 0.999;
+	var HAS_CHANCE_THRESHOLD = 0.0001;
+	var damageRange = opponentResult.range ? opponentResult.range() : null;
+	var oppMin = damageRange ? damageRange[0] : 0;
+	var oppMax = damageRange ? damageRange[damageRange.length - 1] : 0;
+	var defenderHP = opponentResult.defender ? opponentResult.defender.maxHP() : 1;
+
+	var koChance = opponentResult.kochance();
+	var koTurns = koChance ? koChance.n : 999;
+	var koChanceValue = koChance ? (koChance.chance || 0) : 0;
+
+	// Always gets OHKO'd (guaranteed)
+	if ((koTurns === 1 && koChanceValue >= ALWAYS_OHKO_THRESHOLD) || oppMin >= defenderHP) {
+		return "red";
+	}
+
+	// Might get OHKO'd (chance > 0 but not guaranteed)
+	if ((koTurns === 1 && koChanceValue > HAS_CHANCE_THRESHOLD && koChanceValue < ALWAYS_OHKO_THRESHOLD) || (oppMax >= defenderHP && oppMin < defenderHP)) {
+		return "orange";
+	}
+
+	return "none";
+}
+
+// Get combined OHKO CSS class
+function getOhkoClass(leftColor, rightColor) {
+	if (leftColor === "none" && rightColor === "none") return null;
+
+	var classMap = {
+		"green-red": "ohko-green-red",
+		"green-orange": "ohko-green-orange",
+		"green-none": "ohko-green-none",
+		"yellow-red": "ohko-yellow-red",
+		"yellow-orange": "ohko-yellow-orange",
+		"yellow-none": "ohko-yellow-none",
+		"lightblue-red": "ohko-lightblue-red",
+		"lightblue-orange": "ohko-lightblue-orange",
+		"lightblue-none": "ohko-lightblue-none",
+		"blue-red": "ohko-blue-red",
+		"blue-orange": "ohko-blue-orange",
+		"blue-none": "ohko-blue-none",
+		"none-red": "ohko-none-red",
+		"none-orange": "ohko-none-orange"
+	};
+
+	var key = leftColor + "-" + rightColor;
+	return classMap[key] || null;
+}
+
 function ExportPokemon(pokeInfo) {
 	var pokemon = createPokemon(pokeInfo);
 	var EV_counter = 0;
@@ -363,6 +659,9 @@ function addSets(pokes, name) {
 	// Update the Team/Box display
 	showPlayerTeamBox();
 
+	// Update matchup colors if opponent is selected
+	updateTeamBoxMatchupColors();
+
 	if (addedpokes == 1) {
 		alert("Successfully imported 1 set");
 		$(allPokemon("#importedSetsOptions")).css("display", "inline");
@@ -455,4 +754,15 @@ $(document).ready(function () {
 	} else {
 		loadDefaultLists();
 	}
+
+	// Update Team/Box matchup colors when opponent (P2) changes
+	$("#p2 .set-selector").bind("change", function() {
+		updateTeamBoxMatchupColors();
+	});
+
+	// Also update when trainer list changes (for trainer battles)
+	$("#trainer-mon-list").bind("change", function() {
+		// Small delay to allow the P2 selector to update first
+		setTimeout(updateTeamBoxMatchupColors, 50);
+	});
 });

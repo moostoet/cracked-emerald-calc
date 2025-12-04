@@ -268,6 +268,10 @@ function calculateAttackADV(gen, attacker, defender, move, desc, isCritical) {
         at = Math.floor(at / 2);
         desc.defenderAbility = defender.ability;
     }
+    if (defender.hasAbility('Magma Core') && move.hasType('Water')) {
+        at = Math.floor(at / 2);
+        desc.defenderAbility = defender.ability;
+    }
     if ((isPhysical &&
         (attacker.hasAbility('Hustle') || (attacker.hasAbility('Guts') && attacker.status))) ||
         (!isPhysical && attacker.abilityOn && attacker.hasAbility('Plus', 'Minus'))) {
@@ -367,6 +371,10 @@ function calculateFinalModsADV(baseDamage, attacker, move, field, desc, isCritic
     }
     if (move.hasType.apply(move, __spreadArray([], __read(attacker.types), false))) {
         baseDamage = Math.floor(baseDamage * 1.5);
+        if (attacker.hasAbility('Primal Instincts') && attacker.curHP() <= attacker.maxHP() / 3) {
+            baseDamage = Math.floor(baseDamage * 1.5);
+            desc.attackerAbility = attacker.ability;
+        }
     }
     return baseDamage;
 }
