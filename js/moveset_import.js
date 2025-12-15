@@ -22,6 +22,19 @@ function showPlayerTeamBox() {
 	teamContainer.innerHTML = "";
 	boxContainer.innerHTML = "";
 
+	// Migrate old data: add section property if missing
+	var teamCount = 0;
+	for (var i = 0; i < importedPokemonList.length; i++) {
+		var pokemon = importedPokemonList[i];
+		if (!pokemon.section) {
+			// Backward compatibility: first 6 are team, rest are box
+			pokemon.section = (teamCount < 6) ? 'team' : 'box';
+		}
+		if (pokemon.section === 'team') {
+			teamCount++;
+		}
+	}
+
 	for (var i = 0; i < importedPokemonList.length; i++) {
 		var pokemon = importedPokemonList[i];
 		var speciesName = pokemon.name;
@@ -39,8 +52,8 @@ function showPlayerTeamBox() {
 			$("#p1 .set-selector").val(this.dataset.setName).change();
 		});
 
-		// First 6 go to Team, rest go to Box
-		if (i < 6) {
+		// Use section property to determine placement
+		if (pokemon.section === 'team') {
 			teamContainer.appendChild(img);
 		} else {
 			boxContainer.appendChild(img);
@@ -564,9 +577,17 @@ function swapPokemonPositions(sourceIndex, targetIndex) {
 	if (targetIndex < 0 || targetIndex >= importedPokemonList.length) return false;
 	if (sourceIndex === targetIndex) return false;
 
-	var temp = importedPokemonList[sourceIndex];
-	importedPokemonList[sourceIndex] = importedPokemonList[targetIndex];
-	importedPokemonList[targetIndex] = temp;
+	var sourcePokemon = importedPokemonList[sourceIndex];
+	var targetPokemon = importedPokemonList[targetIndex];
+
+	// Swap section properties (so they trade places in Team/Box)
+	var tempSection = sourcePokemon.section;
+	sourcePokemon.section = targetPokemon.section;
+	targetPokemon.section = tempSection;
+
+	// Swap array positions
+	importedPokemonList[sourceIndex] = targetPokemon;
+	importedPokemonList[targetIndex] = sourcePokemon;
 
 	saveImportedTeamToStorage();
 	showPlayerTeamBox();
@@ -578,34 +599,29 @@ function swapPokemonPositions(sourceIndex, targetIndex) {
 function movePokemonToSection(sourceIndex, targetSection) {
 	if (sourceIndex < 0 || sourceIndex >= importedPokemonList.length) return false;
 
-	var sourceInTeam = sourceIndex < 6;
+	var pokemon = importedPokemonList[sourceIndex];
+	var currentSection = pokemon.section || 'team';
 	var movingToTeam = targetSection === 'team';
 
 	// If already in target section, do nothing
-	if ((sourceInTeam && movingToTeam) || (!sourceInTeam && !movingToTeam)) {
+	if (currentSection === targetSection) {
 		return false;
 	}
 
 	// Check team capacity when moving to team
-	var currentTeamSize = Math.min(importedPokemonList.length, 6);
-	if (movingToTeam && currentTeamSize >= 6) {
-		// Team is full, cannot add more without swapping
-		console.log('Team is full (6 Pokemon). Use swap by dropping on a Pokemon instead.');
-		return false;
-	}
-
-	// Remove Pokemon from current position
-	var pokemon = importedPokemonList.splice(sourceIndex, 1)[0];
-
 	if (movingToTeam) {
-		// Moving to Team: insert at end of team (position 5 or less if team is smaller)
-		// Team is positions 0-5, so insert at min(6, array length) to be at end of team
-		var teamEndIndex = Math.min(5, importedPokemonList.length);
-		importedPokemonList.splice(teamEndIndex, 0, pokemon);
-	} else {
-		// Moving to Box: append to end of array
-		importedPokemonList.push(pokemon);
+		var currentTeamSize = importedPokemonList.filter(function(p) {
+			return p.section === 'team';
+		}).length;
+
+		if (currentTeamSize >= 6) {
+			console.log('Team is full (6 Pokemon). Use swap by dropping on a Pokemon instead.');
+			return false;
+		}
 	}
+
+	// Simply change the section property
+	pokemon.section = targetSection;
 
 	saveImportedTeamToStorage();
 	showPlayerTeamBox();
@@ -910,9 +926,15 @@ function addSets(pokes, name) {
 				addToDex(currentPoke);
 
 				// Track this Pokemon for Team/Box display
+				// Count current team size to determine section
+				var currentTeamSize = importedPokemonList.filter(function(p) {
+					return p.section === 'team';
+				}).length;
+
 				importedPokemonList.push({
 					name: currentPoke.name,
-					setName: currentPoke.nameProp
+					setName: currentPoke.nameProp,
+					section: currentTeamSize < 6 ? 'team' : 'box'
 				});
 
 				addedpokes++;
