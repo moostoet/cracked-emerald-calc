@@ -498,17 +498,20 @@ function handleDrop(e) {
 	e.preventDefault();
 	e.stopPropagation();
 
-	// Handle drops on Pokemon images
+	var sourceIndex = parseInt(e.dataTransfer.getData('text/plain'), 10);
+
+	// Validate source index
+	if (isNaN(sourceIndex)) {
+		console.error('Invalid source index from drag data');
+		cleanupDragStates();
+		return;
+	}
+
+	// Handle drops on Pokemon images (SWAP behavior)
 	if (e.target.classList.contains('player-pok')) {
-		var sourceIndex = parseInt(e.dataTransfer.getData('text/plain'), 10);
 		var targetIndex = parseInt(e.target.dataset.pokemonIndex, 10);
 
-		// Validate parsed indices
-		if (isNaN(sourceIndex)) {
-			console.error('Invalid source index from drag data');
-			cleanupDragStates();
-			return;
-		}
+		// Validate target index
 		if (isNaN(targetIndex)) {
 			console.error('Invalid target index:', e.target.dataset.pokemonIndex);
 			cleanupDragStates();
@@ -522,8 +525,21 @@ function handleDrop(e) {
 			swapPokemonPositions(sourceIndex, targetIndex);
 		}
 	} else {
-		// Handle drops on empty container space
+		// Handle drops on empty container space (MOVE behavior)
+		var targetContainer = e.currentTarget;
+		var targetSection = null;
+
+		if (targetContainer.id === 'player-team-list') {
+			targetSection = 'team';
+		} else if (targetContainer.id === 'player-box-list') {
+			targetSection = 'box';
+		}
+
 		cleanupDragStates();
+
+		if (targetSection) {
+			movePokemonToSection(sourceIndex, targetSection);
+		}
 	}
 }
 
@@ -551,6 +567,45 @@ function swapPokemonPositions(sourceIndex, targetIndex) {
 	var temp = importedPokemonList[sourceIndex];
 	importedPokemonList[sourceIndex] = importedPokemonList[targetIndex];
 	importedPokemonList[targetIndex] = temp;
+
+	saveImportedTeamToStorage();
+	showPlayerTeamBox();
+	updateTeamBoxMatchupColors();
+
+	return true;
+}
+
+function movePokemonToSection(sourceIndex, targetSection) {
+	if (sourceIndex < 0 || sourceIndex >= importedPokemonList.length) return false;
+
+	var sourceInTeam = sourceIndex < 6;
+	var movingToTeam = targetSection === 'team';
+
+	// If already in target section, do nothing
+	if ((sourceInTeam && movingToTeam) || (!sourceInTeam && !movingToTeam)) {
+		return false;
+	}
+
+	// Check team capacity when moving to team
+	var currentTeamSize = Math.min(importedPokemonList.length, 6);
+	if (movingToTeam && currentTeamSize >= 6) {
+		// Team is full, cannot add more without swapping
+		console.log('Team is full (6 Pokemon). Use swap by dropping on a Pokemon instead.');
+		return false;
+	}
+
+	// Remove Pokemon from current position
+	var pokemon = importedPokemonList.splice(sourceIndex, 1)[0];
+
+	if (movingToTeam) {
+		// Moving to Team: insert at end of team (position 5 or less if team is smaller)
+		// Team is positions 0-5, so insert at min(6, array length) to be at end of team
+		var teamEndIndex = Math.min(5, importedPokemonList.length);
+		importedPokemonList.splice(teamEndIndex, 0, pokemon);
+	} else {
+		// Moving to Box: append to end of array
+		importedPokemonList.push(pokemon);
+	}
 
 	saveImportedTeamToStorage();
 	showPlayerTeamBox();
