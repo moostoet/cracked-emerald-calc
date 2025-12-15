@@ -759,6 +759,9 @@ function buildDescription(description, attacker, defender) {
     if (description.isPowerSpot) {
         output += 'Power Spot boosted ';
     }
+    if (description.isRisingTide) {
+        output += 'Rising Tide boosted ';
+    }
     if (description.isSwitching) {
         output += 'switching boosted ';
     }

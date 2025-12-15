@@ -48,6 +48,7 @@ export declare namespace State {
         isSwordOfRuin?: boolean;
         isTabletsOfRuin?: boolean;
         isVesselOfRuin?: boolean;
+        isRisingTide?: boolean;
         attackerSide: Side;
         defenderSide: Side;
     }

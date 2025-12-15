@@ -33,6 +33,7 @@ var Field = (function () {
         this.isSwordOfRuin = field.isSwordOfRuin || false;
         this.isTabletsOfRuin = field.isTabletsOfRuin || false;
         this.isVesselOfRuin = field.isVesselOfRuin || false;
+        this.isRisingTide = !!field.isRisingTide;
         this.attackerSide = new Side(field.attackerSide || {});
         this.defenderSide = new Side(field.defenderSide || {});
     }
@@ -71,7 +72,8 @@ var Field = (function () {
             isBeadsOfRuin: this.isBeadsOfRuin,
             isSwordOfRuin: this.isSwordOfRuin,
             isTabletsOfRuin: this.isTabletsOfRuin,
-            isVesselOfRuin: this.isVesselOfRuin
+            isVesselOfRuin: this.isVesselOfRuin,
+            isRisingTide: this.isRisingTide
         });
     };
     return Field;

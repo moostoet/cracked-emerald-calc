@@ -839,6 +839,10 @@ function calculateBPModsSMSSSV(gen, attacker, defender, move, field, desc, baseP
                 desc.defenderAbility = defender.ability;
         }
     }
+    if (field.isRisingTide && move.hasType('Fighting')) {
+        bpMods.push(4506);
+        desc.isRisingTide = true;
+    }
     if ((attacker.hasAbility('Sheer Force') &&
         (move.secondaries || move.named('Order Up')) && !move.isMax) ||
         (attacker.hasAbility('Sand Force') &&

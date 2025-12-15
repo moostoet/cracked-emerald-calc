@@ -14,6 +14,7 @@ export declare class Field implements State.Field {
     isSwordOfRuin?: boolean;
     isTabletsOfRuin?: boolean;
     isVesselOfRuin?: boolean;
+    isRisingTide?: boolean;
     attackerSide: Side;
     defenderSide: Side;
     constructor(field?: Partial<State.Field>);

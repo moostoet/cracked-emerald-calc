@@ -1310,6 +1310,7 @@ function createField() {
 	var isTabletsOfRuin = $("#tablets").prop("checked");
 	var isSwordOfRuin = $("#sword").prop("checked");
 	var isVesselOfRuin = $("#vessel").prop("checked");
+	var isRisingTide = $("#risingtide").prop("checked");
 	var isMagicRoom = $("#magicroom").prop("checked");
 	var isWonderRoom = $("#wonderroom").prop("checked");
 	var isGravity = $("#gravity").prop("checked");
@@ -1377,6 +1378,7 @@ function createField() {
 		isTabletsOfRuin: isTabletsOfRuin,
 		isSwordOfRuin: isSwordOfRuin,
 		isVesselOfRuin: isVesselOfRuin,
+		isRisingTide: isRisingTide,
 		weather: weather,
 		isMagicRoom: isMagicRoom,
 		isWonderRoom: isWonderRoom,
