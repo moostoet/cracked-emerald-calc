@@ -46,6 +46,9 @@ function showPlayerTeamBox() {
 			boxContainer.appendChild(img);
 		}
 	}
+
+	// Initialize drag and drop functionality
+	initDragDrop();
 }
 
 // Clear the Team/Box display
@@ -364,6 +367,196 @@ function getOhkoClass(leftColor, rightColor) {
 
 	var key = leftColor + "-" + rightColor;
 	return classMap[key] || null;
+}
+
+// ============================================
+// DRAG AND DROP FUNCTIONALITY
+// ============================================
+
+var draggedPokemonIndex = null;
+
+function initDragDrop() {
+	var teamContainer = document.getElementById('player-team-list');
+	var boxContainer = document.getElementById('player-box-list');
+
+	if (!teamContainer || !boxContainer) return;
+
+	// Remove old event listeners by cloning containers (prevents memory leaks)
+	var newTeamContainer = teamContainer.cloneNode(false);
+	var newBoxContainer = boxContainer.cloneNode(false);
+
+	// Move children to new containers
+	while (teamContainer.firstChild) {
+		newTeamContainer.appendChild(teamContainer.firstChild);
+	}
+	while (boxContainer.firstChild) {
+		newBoxContainer.appendChild(boxContainer.firstChild);
+	}
+
+	// Replace old containers
+	teamContainer.parentNode.replaceChild(newTeamContainer, teamContainer);
+	boxContainer.parentNode.replaceChild(newBoxContainer, boxContainer);
+
+	// Update references
+	teamContainer = newTeamContainer;
+	boxContainer = newBoxContainer;
+
+	// Set draggable attribute on all Pokemon images
+	var allPokemon = document.querySelectorAll('.player-pok');
+	allPokemon.forEach(function(img) {
+		img.setAttribute('draggable', 'true');
+	});
+
+	// Use event delegation on containers instead of individual listeners
+	[teamContainer, boxContainer].forEach(function(container) {
+		container.addEventListener('dragstart', handleDragStart);
+		container.addEventListener('dragend', handleDragEnd);
+		container.addEventListener('dragover', handleDragOver);
+		container.addEventListener('dragenter', handleDragEnter);
+		container.addEventListener('dragleave', handleDragLeave);
+		container.addEventListener('drop', handleDrop);
+	});
+}
+
+function handleDragStart(e) {
+	// Only handle drag start on Pokemon images
+	if (!e.target.classList.contains('player-pok')) return;
+
+	var pokemonIndex = parseInt(e.target.dataset.pokemonIndex, 10);
+
+	// Validate parsed index
+	if (isNaN(pokemonIndex)) {
+		console.error('Invalid pokemon index:', e.target.dataset.pokemonIndex);
+		return;
+	}
+
+	draggedPokemonIndex = pokemonIndex;
+	e.dataTransfer.setData('text/plain', draggedPokemonIndex.toString());
+	e.dataTransfer.effectAllowed = 'move';
+
+	// Use requestAnimationFrame instead of setTimeout to avoid race conditions
+	requestAnimationFrame(function() {
+		e.target.classList.add('dragging');
+	});
+
+	document.getElementById('player-team-list').classList.add('drag-active');
+	document.getElementById('player-box-list').classList.add('drag-active');
+}
+
+function handleDragEnd(e) {
+	// Only handle drag end on Pokemon images
+	if (!e.target.classList.contains('player-pok')) return;
+
+	e.target.classList.remove('dragging');
+	cleanupDragStates();
+	draggedPokemonIndex = null;
+}
+
+function handleDragOver(e) {
+	e.preventDefault();
+	e.dataTransfer.dropEffect = 'move';
+
+	// Add visual feedback for valid drop targets
+	if (e.target.classList.contains('player-pok') ||
+	    e.target.id === 'player-team-list' ||
+	    e.target.id === 'player-box-list') {
+		e.currentTarget.classList.add('drag-valid');
+	}
+}
+
+function handleDragEnter(e) {
+	e.preventDefault();
+
+	// Only handle drag enter on Pokemon images
+	if (!e.target.classList.contains('player-pok')) return;
+
+	var targetIndex = parseInt(e.target.dataset.pokemonIndex, 10);
+
+	// Validate parsed index
+	if (isNaN(targetIndex)) {
+		console.error('Invalid target index:', e.target.dataset.pokemonIndex);
+		return;
+	}
+
+	if (targetIndex === draggedPokemonIndex) return;
+	e.target.classList.add('drag-over');
+}
+
+function handleDragLeave(e) {
+	// Only handle drag leave on Pokemon images
+	if (!e.target.classList.contains('player-pok')) return;
+
+	e.target.classList.remove('drag-over');
+
+	// Remove drag-valid class from container
+	if (e.currentTarget.id === 'player-team-list' || e.currentTarget.id === 'player-box-list') {
+		e.currentTarget.classList.remove('drag-valid');
+	}
+}
+
+function handleDrop(e) {
+	e.preventDefault();
+	e.stopPropagation();
+
+	// Handle drops on Pokemon images
+	if (e.target.classList.contains('player-pok')) {
+		var sourceIndex = parseInt(e.dataTransfer.getData('text/plain'), 10);
+		var targetIndex = parseInt(e.target.dataset.pokemonIndex, 10);
+
+		// Validate parsed indices
+		if (isNaN(sourceIndex)) {
+			console.error('Invalid source index from drag data');
+			cleanupDragStates();
+			return;
+		}
+		if (isNaN(targetIndex)) {
+			console.error('Invalid target index:', e.target.dataset.pokemonIndex);
+			cleanupDragStates();
+			return;
+		}
+
+		e.target.classList.remove('drag-over');
+		cleanupDragStates();
+
+		if (sourceIndex !== targetIndex) {
+			swapPokemonPositions(sourceIndex, targetIndex);
+		}
+	} else {
+		// Handle drops on empty container space
+		cleanupDragStates();
+	}
+}
+
+function cleanupDragStates() {
+	document.querySelectorAll('.player-pok').forEach(function(img) {
+		img.classList.remove('dragging', 'drag-over');
+	});
+
+	var teamContainer = document.getElementById('player-team-list');
+	var boxContainer = document.getElementById('player-box-list');
+
+	if (teamContainer) {
+		teamContainer.classList.remove('drag-active', 'drag-valid', 'drag-invalid');
+	}
+	if (boxContainer) {
+		boxContainer.classList.remove('drag-active', 'drag-valid', 'drag-invalid');
+	}
+}
+
+function swapPokemonPositions(sourceIndex, targetIndex) {
+	if (sourceIndex < 0 || sourceIndex >= importedPokemonList.length) return false;
+	if (targetIndex < 0 || targetIndex >= importedPokemonList.length) return false;
+	if (sourceIndex === targetIndex) return false;
+
+	var temp = importedPokemonList[sourceIndex];
+	importedPokemonList[sourceIndex] = importedPokemonList[targetIndex];
+	importedPokemonList[targetIndex] = temp;
+
+	saveImportedTeamToStorage();
+	showPlayerTeamBox();
+	updateTeamBoxMatchupColors();
+
+	return true;
 }
 
 function ExportPokemon(pokeInfo) {

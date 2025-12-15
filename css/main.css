@@ -840,3 +840,52 @@ table.field {
     margin: 5px 0 10px 0;
     font-style: italic;
 }
+
+/* =================================
+   Drag and Drop Styles
+   ================================= */
+
+.player-pok[draggable="true"] {
+    cursor: grab;
+    user-select: none;
+    -webkit-user-select: none;
+}
+
+.player-pok[draggable="true"]:active {
+    cursor: grabbing;
+}
+
+.player-pok.dragging {
+    opacity: 0.4;
+    transform: scale(0.9);
+    transition: opacity 0.2s ease, transform 0.2s ease;
+}
+
+.player-pok.drag-over {
+    border-color: #fff !important;
+    box-shadow: 0 0 10px 3px rgba(255, 255, 255, 0.7);
+    transform: scale(1.15);
+    z-index: 10;
+    position: relative;
+}
+
+.player-team-list.drag-active,
+.player-box-list.drag-active {
+    border-style: dashed;
+}
+
+.player-team-list.drag-valid,
+.player-box-list.drag-valid {
+    border-color: #6cf;
+    box-shadow: inset 0 0 15px rgba(102, 204, 255, 0.2);
+}
+
+.player-team-list.drag-invalid {
+    border-color: #e74c3c;
+    box-shadow: inset 0 0 15px rgba(231, 76, 60, 0.2);
+}
+
+.player-team-list,
+.player-box-list {
+    transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
