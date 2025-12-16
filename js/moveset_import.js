@@ -179,10 +179,12 @@ function updateTeamBoxMatchupColors() {
 	var boxImages = document.querySelectorAll("#player-box-list .player-pok");
 	var allImages = Array.prototype.slice.call(teamImages).concat(Array.prototype.slice.call(boxImages));
 
-	allImages.forEach(function(img, index) {
-		if (index >= importedPokemonList.length) return;
+	allImages.forEach(function(img) {
+		// Use stored pokemonIndex to get correct data regardless of DOM order
+		var pokemonIndex = parseInt(img.dataset.pokemonIndex, 10);
+		if (isNaN(pokemonIndex) || pokemonIndex >= importedPokemonList.length) return;
 
-		var pokemonData = importedPokemonList[index];
+		var pokemonData = importedPokemonList[pokemonIndex];
 		var setName = pokemonData.setName || "Custom Set";
 
 		// Create player Pokemon object using our direct lookup function
